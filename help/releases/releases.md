@@ -1,7 +1,7 @@
 ---
 description: Beskriver den kontinuerliga funktionsreleasestrategin för Adobe Mix Modeler
 title: Adobe Mix-modellreleaser
-source-git-commit: 827c25486bb56c80c52e663f391d60083e094f83
+source-git-commit: afe12371a1d5ac24377d67f4941ee14c8defd683
 workflow-type: tm+mt
 source-wordcount: '38'
 ht-degree: 0%
@@ -11,7 +11,6 @@ ht-degree: 0%
 # Adobe Mix-modellreleaser
 
 Modellreleaser för Adobe Mix fungerar enligt en kontinuerlig leveransmodell som möjliggör en skalbar, stegvis driftsättning av funktioner.
-
 
 <!--
 ## Release strategy

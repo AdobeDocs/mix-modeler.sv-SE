@@ -2,9 +2,9 @@
 title: Användningsexempel för Adobe Mix Modeler
 description: Användningsexempel för Adobe Mix Modeler.
 feature: Schemas, Datasets, Conversions, Harmonized Data, Marketing Touch Points, Models, Plans
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 5d86d07562deeb200d418000a73390616c916d7e
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '629'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Det här användningsexemplet hjälper er att mäta effekten av marknadsföring 
 
 ### Utmaningar
 
-Utmaningarna som detta användningsfall åtgärdar är:
+Utmaningarna med dessa användningsfall är:
 
 * Svårt att mäta inkrementella prestanda utifrån data om isolerade kundresor, signalförluster och förlamade trädgårdar.
 * Inkonsekventa insikter från separerade MMM- och MTA-metoder, vilket minskar förtroendet för resultaten.
@@ -30,13 +30,13 @@ Utmaningarna som detta användningsfall åtgärdar är:
 
 ### Metod
 
-Den stegbaserade metoden för det här användningsexemplet:
+Den stegbaserade metoden för det här användningsexemplet är:
 
 | Steg | Information |
 |---|---|
-| Ingest | Identifiera och importera datakällor under vanliga scheman. <br/>Utnyttja redan gjorda investeringar i Adobe Analytics eller Customer Journey Analytics för att snabbt komma igång. |
-| Konfigurera | Konfigurera flexibla modeller med AI-as-Service-ramverket för era specifika affärsmål<br/>Säkerställ automatiskt enhetlighet mellan kontaktpunkter och sammanfattningsnivå med dubbelriktad överföring. |
-| Analysera | Få en tydlig förståelse för avkastningen på den övergripande marknadsföringen och enskilda kanaler/underkanaler.<br/>Ta reda på vilka kontaktytor som är bäst för inkrementella konverteringar. |
+| Ingest | Identifiera och importera datakällor under vanliga scheman. <br/>Använd redan gjorda investeringar i Adobe Analytics eller Customer Journey Analytics för snabb driftsättning. |
+| Konfigurera | Konfigurera flexibla modeller med ett AI-as-Service-ramverk för era specifika affärsmål<br/>Säkerställ automatiskt enhetlighet mellan kontaktpunkter och sammanfattningsnivå med dubbelriktad överföring. |
+| Analysera | Få en tydlig förståelse för avkastningen på den övergripande marknadsföringen och de enskilda kanalerna/delkanalerna.<br/>Ta reda på vilka kontaktytor som är bäst för inkrementella konverteringar. |
 
 {style="table-layout:auto"}
 
@@ -46,7 +46,7 @@ Den stegbaserade metoden för det här användningsexemplet:
 Implementeringen av den här användningen kan ha följande effekt:
 
 * Lägg in sammanställda data, kontaktpunktsdata och exogena variabler för att få en mer detaljerad bild av mätningen.
-* Använd AI-as-a-Service-lösningen för att snabbt skapa modeller som ger framgång med tillgång till modellens genomskinlighet och som ger ett ökat förtroende.
+* Använd en AI-as-a-Service-lösning för att snabbt skapa modeller som ger framgång med tillgång till modellgenomskinlighet för tillförlitlighetsnivå.
 * Öka förtroendet för strategiskt och taktiskt beslutsfattande genom att anpassa resultaten på sammanfattningsnivå och kontaktpunktsnivå.
 
 +++
@@ -54,13 +54,13 @@ Implementeringen av den här användningen kan ha följande effekt:
 
 ## Bygg marknadsföringsplaner som optimerar avkastningen
 
-Det här användningsexemplet utnyttjar användarvänliga AI-aktiverade optimerings- och scenarioplaneringsverktyg för att maximera avkastningen.
+I det här användningsexemplet används användarvänliga AI-aktiverade optimerings- och scenarioplaneringsverktyg för att maximera avkastningen.
 
 +++ Information
 
 ### Utmaningar
 
-Utmaningarna som detta användningsfall åtgärdar är:
+Utmaningarna med dessa användningsfall är:
 
 * Skapa datadrivna investeringsstrategier för marknadsföring baserat på effektivitetskurvor, inte beroende på magkänslan.
 * Maximera resultatet för flera olika geografiska platser, affärsområden och kanaler samtidigt.
@@ -69,7 +69,7 @@ Utmaningarna som detta användningsfall åtgärdar är:
 
 ### Metod
 
-Den stegbaserade metoden för det här användningsexemplet:
+Den stegbaserade metoden för det här användningsexemplet är:
 
 | Steg | Information |
 |---|---|
@@ -90,44 +90,47 @@ Implementeringen av den här användningen kan ha följande effekt:
 
 +++
 
+<!-- This use case is not supported with initial release
 
-## Gör datadrivna informationsoptimeringar
+## Make data-driven inflight optimizations
 
-Det här användningsexemplet hjälper dig att förbättra avkastningen varje vecka genom att utvärdera den faktiska och prognostiserade prestandan för att förbättra resultatet.
+This use case helps you to improve ROI weekly by assessing actual and forecasted performance to make inflight improvements.
 
-+++ Information
++++ Details
 
-### Utmaningar
+### Challenges
 
-Utmaningarna som detta användningsfall åtgärdar är:
+The challenges this use case addresses are:
 
-* Kampanjernas prestanda är ofta långsam, eller så behöver detaljerna inte optimeras på ett säkert sätt.
-* Mjuka, icke-standardiserade data över dussintals kanaler och källor gör att det går långsamt att få insikt.
-* Ingen demokratiserad åtkomst till verktyg och överförtroende för utvalda experter eller externa leverantörer, vilket ökar handläggningstiderna.
+* Campaign performance is often slow, or lacks granularity need to confidently optimize.
+* Messy, non-standardized data across dozens of channels and sources drives slow time to insight.
+* No democratized access to tools and overreliance on select experts or external vendors, increasing turnaround times.
 
 
 
-### Metod
+### Approach
 
-Den stegbaserade metoden för det här användningsexemplet:
+The step based approach for this use case:
 
-| Steg | Information |
+| Step | Details |
 |---|---|
-| Ingest | Importera data i gemensamma scheman för enkel modelluppdatering och återanvändning mellan olika Experience Platform-program.<br/>Effektivisera datarörelser, rengöring och kvalitetssäkring med automatiserade harmoniseringsverktyg. |
-| Uppdatera | Skapa och uppdatera AI/ML-modeller med en användarvänlig självbetjäningsplattform.<br/>Få nya resultat, inklusive historiska och prognostiserade avkastningar per kanal, varje vecka eller månad. |
-| Optimera | Gör snabba informationsoptimeringar genom att flytta utgifter över olika kanaler baserat på uppmätta prestanda. |
+| Ingest | Ingest data in common schemas for easy model refreshes and reusability across Experience Platform applications.<br/>Streamline data piping, cleaning & QA with automated harmonization tools. |
+| Refresh | Build and refresh AI/ML  models using a user-friendly, self-service platform.<br/>Get new results, including historic and forecasted ROIs by channel, on a weekly or monthly basis. |
+| Optimize | Make rapid inflight optimizations by shifting spend across channels based on measured performance. |
 
 {style="table-layout:auto"}
 
 
-### Effekt
+### Impact 
 
-Implementeringen av den här användningen kan ha följande effekt:
+Successful implementation of this use can have the following impact:
 
-* Maximera hastighet, skalbarhet och användbarhet i alla mät- och analysanvändningsfall med standardiserade datascheman och gemensamma datamängder.
-* Optimera snabbt information varje vecka eller månad och maximera avkastningen med datadrivna utgiftsskift som återspeglar de bästa prognoserna för avkastning.
+* Maximize speed, scalability, and usability across measurement & analytic use cases with standardized data schemas and common data foundation.
+* Rapidly make weekly or monthly inflight optimizations and maximize ROI with data-driven spend shifts that reflect best forecasted ROIs.
 
 +++
+
+-->
 
 ## Aktivera taktiska insikter i olika Adobe-program
 
@@ -137,7 +140,7 @@ Det här användningsexemplet hjälper er att få strategiska inkrementella insi
 
 ### Utmaningar
 
-Utmaningarna som detta användningsfall åtgärdar är:
+Utmaningarna med dessa användningsfall är:
 
 * Enbart de populäraste lösningarna kan missa när det gäller att identifiera möjligheter till optimering av detaljrika nycklar.
 * Utdata från mätmodeller är överväldigande, alltför beskrivande och leder inte så lätt till insikter eller åtgärder.
@@ -146,11 +149,11 @@ Utmaningarna som detta användningsfall åtgärdar är:
 
 ### Metod
 
-Den stegbaserade metoden för det här användningsexemplet:
+Den stegbaserade metoden för det här användningsexemplet är:
 
 | Steg | Information |
 |---|---|
-| Modell | Konfigurera och utbilda AI/ML-modellen för att få enhetliga MTA-poäng och MMM-aggregeringsresultat. |
+| Modell | Konfigurera och utbilda en AI/ML-modell för att få enhetliga MTA-poäng och MMM-aggregeringsresultat. |
 | Analysera | Exportera inkrementella poängpoäng till Customer Journey Analytics eller externa BI-verktyg.<br/>Utför detaljerad analys och bygg avancerade kontrollpaneler med poäng för kontaktytor. |
 | Åtgärd | Skapa och aktivera lookalike till populära konsumentsegment med Real-time Customer Data Platform.<br/>Utveckla datadrivna marknadsföringsstrategier utifrån kundsegment för framtida kampanjer. |
 

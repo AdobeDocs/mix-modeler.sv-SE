@@ -2,10 +2,10 @@
 user-guide-title: Blandad modellerare
 breadcrumb-title: Blandad modellerare
 user-guide-description: Lär dig hur du använder blandad modellering.
-source-git-commit: cf4890eb9efc2cfc82f9d2761983a13ad5d730ee
+source-git-commit: 6b4744b1bd487b9e1c1b76f692bd86fbc236b6b1
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 19%
+source-wordcount: '65'
+ht-degree: 20%
 
 ---
 
@@ -49,16 +49,7 @@ ht-degree: 19%
 + Utgåvor {#releases}
    + [Senaste versionen](releases/latest.md)
    + [2023 års utgåvor](releases/2023.md)
-   + [Frisläppningsprocess](releases/releases.md)
 
 + [Ordlista](glossary.md)
 
 
-<!-- Admin integration with AEP not part of first release
-
-+ Administration {#administration}
-  + [Overview](administration/overview.md)
-  + [Policies](administration/policies.md)
-  + [Audits](administration/audits.md)
-  
--->

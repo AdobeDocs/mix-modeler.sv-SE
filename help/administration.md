@@ -1,10 +1,10 @@
 ---
-title: Jämför planer
-description: Lär dig hur du jämför planer i Adobe Mix-modelleraren.
-source-git-commit: 1eaebc6f6178270a9e8aebb6b250e0b0a6289f52
+title: Administrering
+description: Lär dig hur du administrerar Adobe Mix Modeler.
+source-git-commit: 4a6cbda1ff0a779ebf8a38a4de3f797ed9e54b00
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 6%
+source-wordcount: '158'
+ht-degree: 7%
 
 ---
 
@@ -17,11 +17,11 @@ För att Adobe Mix Modeler ska fungera på rätt sätt måste du ange rätt beh�
 
 I Adobe Experience Cloud-gränssnittet
 
-1. Välj **[!UICONTROL Permissions]** från den vänstra listen under **[!UICONTROL ADMINISTRATION]**.
+1. Välj **[!UICONTROL Permissions]** från den vänstra listen, under **[!UICONTROL ADMINISTRATION]**.
 
 1. Välj ![Person](assets/icons/User.svg) **[!UICONTROL Roles]** från den vänstra panelen.
 
-1. Välj en befintlig roll eller skapa en roll med **[!UICONTROL Create role]**. Om du har valt en befintlig roll väljer du ![Redigera](assets/icons/Edit.svg) **[!UICONTROL Edit]** om du vill redigera rollens behörigheter. Se [Hantera roller](https://helpx.adobe.com/se/enterprise/using/admin-console.html) för mer information.
+1. Välj en befintlig roll eller skapa en roll med **[!UICONTROL Create role]**. Om du väljer en befintlig roll väljer du ![Redigera](assets/icons/Edit.svg) **[!UICONTROL Edit]** om du vill redigera rollens behörigheter. Se [Hantera roller](https://helpx.adobe.com/se/enterprise/using/admin-console.html) för mer information.
 
 1. Se till att du väljer följande behörigheter för rollen:
 

@@ -1,11 +1,11 @@
 ---
-user-guide-title: Blandad modellerare
-breadcrumb-title: Blandad modellerare
-user-guide-description: Lär dig hur du använder blandad modellering.
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+user-guide-title: Adobe Mix Modeler Guide
+breadcrumb-title: Användarhandbok för Mix Modeler
+user-guide-description: Lär dig hur du använder Adobe Mix Modeler.
+source-git-commit: d02cfdf3ad5a0872a0f9c2c9f98973e79f1a9de8
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 31%
+source-wordcount: '67'
+ht-degree: 34%
 
 ---
 

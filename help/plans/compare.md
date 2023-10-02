@@ -1,10 +1,10 @@
 ---
 title: Jämför planer
-description: Lär dig hur du jämför planer i Adobe Mix-modelleraren.
+description: Lär dig hur du jämför planer i Mix Modeler.
 feature: Plans
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '100'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Jämför planer
 
-Så här jämför du planer i gränssnittet för Adobe Mix-modelleraren:
+Så här jämför du planer i gränssnittet för Mix Modeler-planer:
 
 * Välj ![Jämför](../assets/icons/Compare.svg) **[!UICONTROL Compare Plans]**. I Jämför planer väljer du en plan för varje **[!UICONTROL _Välj plan_]**.
 

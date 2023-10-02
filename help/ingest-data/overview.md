@@ -1,11 +1,11 @@
 ---
 title: Ingrediera data
-description: Lär dig hur du importerar data till Adobe Mix-modelleraren.
+description: Lär dig hur du importerar data till Mix Modeler.
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
-source-git-commit: b5b277e3476bdf6c0c0da85425bba19bea00c594
+source-git-commit: c145754ecd6a6d8f5aab333ced739c4053aeaae5
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 9%
+source-wordcount: '460'
+ht-degree: 10%
 
 ---
 
@@ -28,7 +28,7 @@ Ni kan använda vilken mekanism som helst, som stöds av Adobe Experience Platfo
 
 ## Riktlinjer
 
-Följ dessa riktlinjer när du vill importera data till Adobe Experience Platform för användning med Adobe Mix Modeler:
+Följ dessa riktlinjer när du vill importera data till Adobe Experience Platform för användning med Mix Modeler:
 
 * De inkrementella data som läggs till i datauppsättningarna får inte överlappa varandra.
 * Alla data från en enda källa ska vara av samma granularitet.
@@ -38,7 +38,7 @@ Följ dessa riktlinjer när du vill importera data till Adobe Experience Platfor
 
 ## Exempel
 
-Nedan finns några exempel på data som vanligtvis används i Adobe Mix Modeler utöver mer standarddata för upplevelsehändelser.
+Nedan finns några exempel på data som vanligtvis används i Mix Modeler utöver mer standarddata för upplevelsehändelser.
 
 +++ Sammanställd information om marknadsföringsinsats
 
@@ -80,7 +80,8 @@ Nedan finns några exempel på data som vanligtvis används i Adobe Mix Modeler 
 
 +++
 
-För att kunna arbeta med data i Adobe Mix-modelleraren behöver du data som samlats in i datauppsättningar och som modellerats efter scheman i Adobe Experience Platform. Gränssnittet i Adobe Mix Modeler ger enkel åtkomst till användargränssnittet för scheman och datauppsättningar i Experience Platform.
+För att kunna arbeta med data i Mix Modeler behöver du data som samlats in i datauppsättningar och modellerats efter scheman i Adobe Experience Platform. Gränssnittet i Mix Modeler ger enkel åtkomst till både schemat och datauppsättningsgränssnittet.
+
 
 >[!MORELIKETHIS]
 >

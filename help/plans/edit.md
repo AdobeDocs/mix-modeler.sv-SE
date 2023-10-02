@@ -1,10 +1,10 @@
 ---
 title: Redigera en plan
-description: Lär dig hur du redigerar en plan i Adobe Mix-modelleraren.
+description: Lär dig hur du redigerar en plan i Mix Modeler.
 feature: Plans
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Redigera en plan
 
-Redigera en plan i ![PLan](../assets/icons/FileChart.svg) **[!UICONTROL Plans]** i Adobe Mix-modelleraren väljer du din plan efter namn.
+Redigera en plan i ![PLan](../assets/icons/FileChart.svg) **[!UICONTROL Plans]** i Mix Modeler väljer du din plan efter namn.
 
 I [!UICONTROL Plan insights], dina planinsikter skapas och visar [!UICONTROL Model], [!UICONTROL Data range]och [!UICONTROL Total budget] som planen baseras på.
 

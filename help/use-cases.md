@@ -1,18 +1,18 @@
 ---
-title: Användningsexempel för Adobe Mix Modeler
-description: Användningsexempel för Adobe Mix Modeler.
+title: Användningsexempel i Mix Modeler
+description: Användningsexempel i Mix Modeler.
 feature: Schemas, Datasets, Conversions, Harmonized Data, Marketing Touch Points, Models, Plans
-source-git-commit: 5d86d07562deeb200d418000a73390616c916d7e
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '625'
 ht-degree: 0%
 
 ---
 
 
-# Användningsexempel för Adobe Mix Modeler
+# Användningsexempel i Mix Modeler
 
-Adobe Mix-modelleraren aktiverar följande viktiga användningsfall.
+Mix Modeler aktiverar följande viktiga användningsexempel.
 
 ## Förstå flerkanaliga inkrementella prestanda
 

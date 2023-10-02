@@ -1,10 +1,10 @@
 ---
 title: Konverteringar
-description: Lär dig hur du skapar konverteringar som du kan använda som en del av att harmonisera data i Adobe Mix-modelleraren.
+description: Lär dig hur du skapar konverteringar som du kan använda som en del av att harmonisera data i Mix Modeler.
 feature: Harmonized Data, Conversions
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '241'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ Ni definierar marknadsföringskonverteringar för attribueringsanalys.
 
 ## Hantera konverteringar
 
-Om du vill se en tabell över tillgängliga konverteringar i Adobe Mix-modellerargränssnittet:
+Om du vill se en tabell över tillgängliga konverteringar i gränssnittet Mix Modeler:
 
 1. Välj ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** från den vänstra listen.
 
@@ -38,7 +38,7 @@ Tabellkolumnerna anger information om konverteringen:
 
 ## Lägga till en konvertering
 
-Så här lägger du till en konvertering i ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Conversion]** gränssnitt i Adobe Mix-modelleraren:
+Så här lägger du till en konvertering i ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Conversion]** gränssnitt i Mix Modeler:
 
 1. Välj ![Lägg till](../assets/icons/AddCircle.svg) **[!UICONTROL Add a conversion]**.
 

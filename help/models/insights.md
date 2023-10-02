@@ -1,8 +1,8 @@
 ---
 title: Modellinsikter
-description: Lär dig mer om din modell, som historisk översikt, modellinsikter och modellkvalitet i Adobe Mix-modelleraren.
+description: Lär dig hur du får information om din modell, som historisk översikt, modellinsikter och modellkvalitet i Mix Modeler.
 feature: Models
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
 source-wordcount: '280'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Modellinsikter
 
-Visa modellinsikter i ![Models](../assets/icons/FileData.svg) **[!UICONTROL Models]** gränssnitt i Adobe Mix-modelleraren:
+Visa modellinsikter i ![Models](../assets/icons/FileData.svg) **[!UICONTROL Models]** gränssnitt i Mix Modeler:
 
 1. Markera namnet på en modell med en **[!UICONTROL Last run status]** av <span style="color:green">●</span> **[!UICONTROL Success]** från **[!UICONTROL Models]** tabell.
 
@@ -68,5 +68,7 @@ På fliken Modellkvalitet visas widgetar för mätning:
 * MAPE (medelvärde för absolut procentfel), som är en av de mest använda KPI:erna för att mäta prognosens exakthet och uttrycker prognosfelet som en procentandel av det faktiska värdet.
 
 * RMSE (Rot Mean Square Error): som visar det genomsnittliga felet, viktat enligt kvadraten på felet.
+
+![Modellkvalitet](../assets/model-quality.png)
 
 

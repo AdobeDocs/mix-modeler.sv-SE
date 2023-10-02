@@ -1,10 +1,10 @@
 ---
 title: Marknadsföringskontaktytor
-description: Lär dig hur du skapar kontaktytor för marknadsföring som kan användas för att harmonisera data i Adobe Mix-modelleraren.
+description: Lär dig hur du skapar kontaktytor för marknadsföring som en del av att harmonisera data i Mix Modeler.
 feature: Harmonized Data, Marketing Touch Points
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '259'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Ni definierar kontaktytor för marknadsföring för att hjälpa er med attribuer
 
 ## Hantera kontaktytor för marknadsföring
 
-Om du vill se en tabell över tillgängliga kontaktytor för marknadsföring i modellgränssnittet för Adobe Mix:
+Om du vill se en tabell över tillgängliga kontaktytor för marknadsföring i Mix Modeler-gränssnittet:
 
 1. Välj ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** från den vänstra listen.
 
@@ -38,7 +38,7 @@ Tabellkolumnerna anger information om kontaktytan för marknadsföring:
 
 ## Lägg till en kontaktyta för marknadsföring
 
-Om du vill lägga till en kontaktyta för marknadsföring går du till ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Marketing touchpoint]** gränssnitt i Adobe Mix-modelleraren:
+Om du vill lägga till en kontaktyta för marknadsföring går du till ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Marketing touchpoint]** gränssnitt i Mix Modeler:
 
 1. Välj ![Lägg till](../assets/icons/AddCircle.svg) Lägg till kontaktyta för marknadsföring.
 

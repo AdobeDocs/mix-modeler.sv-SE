@@ -1,18 +1,20 @@
 ---
-title: Visa aktuell versionsinformation för Adobe Mix Modeler
+title: Visa versionsinformation för Mix Modeler
 description: Versionskommentarer för den senaste blandningsmodellen
-source-git-commit: 592d85cf9b1dfde8a9ca087d14445339fb64ecc7
+feature-set: Experience Cloud
+feature: Release Notes
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '179'
 ht-degree: 1%
 
 ---
 
-# Versionsinformation för Adobe Mix Modeler
+# Versionsinformation för Mix Modeler
 
 **Senaste uppdatering**: 4 oktober 2023.
 
-Versionsinformationen gäller den första releasen av Adobe Mix Modeler. Adobe Mix Modeler-releaser fungerar enligt en kontinuerlig leveransmodell som möjliggör en ungefärlig månadsvis lanseringsgräns. Versionsinformationen uppdateras därför, så kontrollera dem regelbundet.
+Versionsinformationen gäller den första releasen av Mix Modeler. Mix Modeler-releaser fungerar enligt en kontinuerlig leveransmodell som möjliggör en ungefärlig månadsvis lanseringsgräns. Versionsinformationen uppdateras därför, så kontrollera dem regelbundet.
 
 
 ## Nya eller uppdaterade funktioner
@@ -29,8 +31,8 @@ Versionsinformationen gäller den första releasen av Adobe Mix Modeler. Adobe M
 
 >[!MORELIKETHIS]
 >
->* [Adobe Mix Modeler introduktion](https://business.adobe.com/products/experience-platform/planning-and-measurement.html)
->* [Dokumentation för Adobe Mix Modeler Experience League](https://experienceleague.adobe.com/docs/mix-modeler.html?lang=en)
+>* [Mix Modeler introduktion](https://business.adobe.com/products/experience-platform/planning-and-measurement.html)
+>* [Dokumentation för Mix Modeler Experience League](https://experienceleague.adobe.com/docs/mix-modeler.html?lang=en)
 
 
 

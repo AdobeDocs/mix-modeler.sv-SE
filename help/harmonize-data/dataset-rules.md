@@ -1,10 +1,10 @@
 ---
 title: Datauppsättningsregler
-description: Lär dig hur du definierar datauppsättningsregler som ska användas som en del av att harmonisera dina data i Adobe Mix-modelleraren.
+description: Lär dig hur du definierar datauppsättningsregler som ska användas som en del av att harmonisera data i Mix Modeler.
 feature: Harmonized Data, Dataset Rules
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '798'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Datauppsättningsregler
 
-Datauppsättningsreglerna hjälper dig att mappa dina harmoniserade fält till fält från data som du har infogat i Adobe Mix-modelleraren.
+Datauppsättningsreglerna hjälper dig att mappa dina harmoniserade fält till fält från data som du matat in i Mix Modeler.
 
 * För sammanställda data som du har kapslat i Adobe Experience Platform mappar du ett eller flera av de tillgängliga datamängdsfälten till lämpliga harmoniserade fält.
 * För händelsedata kan du mappa ett eller flera harmoniserade fält till fält från datauppsättningen, direkt eller med villkor.
@@ -20,7 +20,7 @@ Datauppsättningsreglerna hjälper dig att mappa dina harmoniserade fält till f
 
 ## Hantera datauppsättningsregler och mappningar
 
-Om du vill visa en tabell med tillgängliga datamängdsmappningar i modellgränssnittet för Adobe Mix:
+Om du vill visa en tabell med tillgängliga datamängdsmappningar i Mix Modeler-gränssnittet:
 
 1. Välj ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** från den vänstra listen.
 
@@ -32,7 +32,7 @@ Tabellkolumnerna anger information om datamängdsmappningarna:
 | ---------------------- | ----------|
 | Datauppsättning | Datauppsättningens namn. |
 | Källa | Källan till datauppsättningen, som kan vara Adobe Analytics, Experience Events, Summary (sammanställning) eller Consumer Experience Events. |
-| Schema | Schemat som datauppsättningen följer. Du kan snabbt välja schemanamnet för att öppna schemat på en ny flik i schemaredigeraren i Adobe Mix-modelleraren - Scheman. |
+| Schema | Schemat som datauppsättningen följer. Du kan snabbt välja schemanamnet för att öppna schemat på en ny flik i schemaredigeraren i Mix Modeler - Scheman. |
 | Kornighet | Detaljrikedomen för data i datauppsättningen. Möjliga värden är Daily, Weekly, Monthly eller Yearly. |
 | Veckostart | Anger vilken veckodag som betraktas som början av en ny vecka för den specifika datauppsättningen. |
 | Senast ändrad | Data och tid för den senaste ändringen av datamängdsmappningen. |
@@ -41,7 +41,7 @@ Tabellkolumnerna anger information om datamängdsmappningarna:
 
 ### Skapa en datamängdsmappning
 
-Skapa en datamängdsmappning i ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** gränssnitt i Adobe Mix-modelleraren väljer **[!UICONTROL Create Dataset Mapping]**.
+Skapa en datamängdsmappning i ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** i Mix Modeler väljer **[!UICONTROL Create Dataset Mapping]**.
 
 I **[!UICONTROL Create]** skärm,
 
@@ -107,7 +107,7 @@ När du är klar väljer du **[!UICONTROL Save]** för att spara mappningen, ell
 
 ### Redigera en datamängdsmappning
 
-Redigera en datamängdsmappning i ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** gränssnitt i Adobe Mix-modelleraren:
+Redigera en datamängdsmappning i ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** gränssnitt i Mix Modeler:
 
 1. Välj ![Mer](../assets/icons/More.svg) i **[!UICONTROL Dataset]** -kolumn för den datamängdsmappning som du vill redigera.
 1. Välj ![Redigera](../assets/icons/Edit.svg) **[!UICONTROL Edit]** för att börja redigera datamängdsmappningen. Se [Skapa en datamängdsmappning](#create-a-dataset-mapping) för mer information.
@@ -115,7 +115,7 @@ Redigera en datamängdsmappning i ![DataSearch](../assets/icons/DataCheck.svg) *
 
 ### Ta bort en datamängdsmappning
 
-Ta bort en datamängdsmappning i ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** gränssnitt i Adobe Mix-modelleraren:
+Ta bort en datamängdsmappning i ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** gränssnitt i Mix Modeler:
 
 1. Välj ![Mer](../assets/icons/More.svg) i **[!UICONTROL Dataset]** -kolumn för den datamängdsmappning som du vill ta bort.
 1. Välj ![Ta bort](../assets/icons/Delete.svg) **[!UICONTROL Delete]** för att ta bort datamängdsmappningen.

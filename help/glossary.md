@@ -1,15 +1,15 @@
 ---
-title: Adobe Mix Modeler-ordlista
-description: Adobe Mix Modeler-ordlista.
+title: Mix Modeler ordlista
+description: Mix Modeler ordlista.
 feature: Datasets, Conversions, Marketing Touch Points, Harmonized Data
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---
 
-# Adobe Mix Modeler-ordlista
+# Mix Modeler ordlista
 
 Följande terminologi och akronymer används i dokumentationen:
 

@@ -1,10 +1,10 @@
 ---
 title: Skapa en plan
-description: Lär dig hur du skapar en plan i Adobe Mix-modelleraren.
+description: Lär dig hur du skapar en plan i Mix Modeler.
 feature: Plans
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '318'
 ht-degree: 0%
 
 ---
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Skapa en plan
 
-I Adobe Mix-modelleraren kan du skapa en plan med hjälp av planarbetsytan. På planarbetsytan kan du ange information och budgetar för din plan och den underliggande modellen som ska användas för din plan. När du har angett detaljer, budget och modell kan du gå vidare med en AI-rekommenderad plan eller redigera utgiften per kanal.
+I Mix Modeler skapar du en plan med hjälp av planarbetsytan. På planarbetsytan kan du ange information och budgetar för din plan och den underliggande modellen som ska användas för din plan. När du har angett detaljer, budget och modell kan du gå vidare med en AI-rekommenderad plan eller redigera utgiften per kanal.
 
-Skapa en plan i ![PLan](../assets/icons/FileChart.svg) **[!UICONTROL Plans]** gränssnitt i Adobe Mix-modelleraren väljer **[!UICONTROL Open plan canvas]**.
+Skapa en plan i ![PLan](../assets/icons/FileChart.svg) **[!UICONTROL Plans]** i Mix Modeler väljer **[!UICONTROL Open plan canvas]**.
 
 1. Skärmen för att skapa plan:
 

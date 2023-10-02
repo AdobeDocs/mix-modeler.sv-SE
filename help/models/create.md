@@ -1,10 +1,10 @@
 ---
 title: Skapa en modell
-description: Lär dig hur du skapar en modell i Adobe Mix Modeler.
+description: Lär dig hur du skapar en modell i Mix Modeler.
 feature: Models
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '697'
 ht-degree: 0%
 
 ---
@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # Skapa en modell
 
-Skapa en modell i ![Models](../assets/icons/FileData.svg) **[!UICONTROL Models]** gränssnitt i Adobe Mix-modelleraren väljer **[!UICONTROL Guide me]**.
+Skapa en modell i ![Models](../assets/icons/FileData.svg) **[!UICONTROL Models]** i Mix Modeler väljer **[!UICONTROL Guide me]**.
 
 Gränssnittet ger ett stegvis guidat modellkonfigurationsflöde när du vill skapa anpassade AI-baserade modeller.
 
 1. I **[!UICONTROL Setup]** steg:
 
-   1. Ange din modell **[!UICONTROL Name]**, till exempel `Demo model`. Ange en **[!UICONTROL Description]**, till exempel `Demo model to explore AI featues of Adobe Mix Modeler`.
+   1. Ange din modell **[!UICONTROL Name]**, till exempel `Demo model`. Ange en **[!UICONTROL Description]**, till exempel `Demo model to explore AI featues of Mix Modeler`.
 
       ![Modellnamn och beskrivning](../assets/model-name-description.png)
 
@@ -113,7 +113,7 @@ Gränssnittet ger ett stegvis guidat modellkonfigurationsflöde när du vill ska
 
    1. I **[!UICONTROL Define training window]** avsnitt, välja mellan
 
-      * **[!UICONTROL Have Adobe Mix Modeler select a helpful training window]** och 
+      * **[!UICONTROL Have Mix Modeler select a helpful training window]** och 
 
       * **[!UICONTROL Manually input a training window]**. När du väljer det här alternativet anger du antalet år i **[!UICONTROL Include events the following years prior to a conversion]**.
 

@@ -1,10 +1,10 @@
 ---
 title: Planer
-description: Lär dig hur du visar, väljer ut och utför åtgärder på planer i Adobe Mix-modelleraren.
+description: Lär dig hur du visar, väljer och agerar på planer i Mix Modeler.
 feature: Plans
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '293'
 ht-degree: 0%
 
 ---
@@ -12,12 +12,12 @@ ht-degree: 0%
 
 # Planer
 
-Med planer i Adobe Mix-modelleraren kan du fördela budgetar efter affärsenhet och kanal. Planeringsfunktionen är integrerad med resultaten av de utbildade modellerna baserade på era harmoniserade data.
+Med planer i Mix Modeler kan ni fördela budgetar efter affärsenhet och kanal. Planeringsfunktionen är integrerad med resultaten av de utbildade modellerna baserade på era harmoniserade data.
 
 
 ## Visa planer
 
-Om du vill visa en tabell över dina aktuella planer går du till gränssnittet för modelleraren i Adobe Mix:
+Om du vill visa en tabell över dina aktuella planer går du till Mix Modeler:
 
 1. Välj ![](../assets/icons/FileChart.svg) **[!UICONTROL Plans]** från den vänstra listen.
 

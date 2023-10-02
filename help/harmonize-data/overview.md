@@ -1,27 +1,27 @@
 ---
 title: Harmonisera data
-description: Lär dig hur du harmoniserar data i Adobe Mix Modeler.
+description: Lär dig att harmonisera data i Mix Modeler.
 feature: Harmonized Data
-source-git-commit: b5b277e3476bdf6c0c0da85425bba19bea00c594
+source-git-commit: c145754ecd6a6d8f5aab333ced739c4053aeaae5
 workflow-type: tm+mt
-source-wordcount: '804'
-ht-degree: 9%
+source-wordcount: '798'
+ht-degree: 10%
 
 ---
 
 
 # Harmonisera data
 
-Data i Adobe Mix-modelleraren är av olika typ beroende på datakällan. Data kan vara:
+Data i Mix Modeler är av olika karaktär beroende på datakällan. Data kan vara:
 
 * aggregerade data, t.ex. insamlade från datakällor i trädgården eller offlinereklam som samlats in (t.ex. utgifter) från en reklamkampanj, en aktivitet eller en fysisk annonskampanj,
 * händelsedata, till exempel från datakällor från första part. Dessa händelsedata kan samlas in via Adobe Analytics källanslutning från Adobe Analytics, Adobe Experience Platform Web eller Mobile SDK eller Edge Network API, eller data som hämtas med hjälp av källanslutningar.
 
-Harmoniseringstjänsten i Adobe Mix Modeler likställer aggregat och händelsedata i en enhetlig datavy. Den här datavyn är källa för planerna och modellerna i Adobe Mix-modelleraren.
+Harmoniseringstjänsten i Mix Modeler likställer aggregat och händelsedata i en enhetlig datavy. Den här datavyn är källan för planerna och modellerna i Mix Modeler.
 
 ## Ett exempel på harmoniserade data
 
-Tänk dig att du har följande datauppsättningar tillgängliga för Adobe Mix Modeler.
+Tänk dig att du har följande datauppsättningar tillgängliga för Mix Modeler.
 
 **Datauppsättning 1**
 
@@ -114,7 +114,7 @@ Att bygga en harmoniserad datauppsättning, som i den förenklade [exempel](#an-
 
 ## Visa harmoniserade data
 
-Om du vill se harmoniserade data i gränssnittet för Adobe Mix-modelleraren:
+För att se harmoniserade data i Mix Modeler-gränssnittet:
 
 1. Välj ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]** från den vänstra listen.
 

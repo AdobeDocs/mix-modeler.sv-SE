@@ -1,19 +1,20 @@
 ---
-title: Adobe Mix-modelleraren - översikt
-description: Lär dig hur du mäter kampanjer och optimerar planeringen enhetligt i alla kanaler med Modeler för Adobe Mix.
-source-git-commit: 9e89d9820c28021e151ad31874ac3bcbaa008f9c
+title: Mix Modeler - översikt
+description: Lär dig hur ni mäter kampanjer och optimerar planeringen på ett enhetligt sätt i alla kanaler med Mix Modeler.
+feature: Harmonized Data, Models, Plans
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 2%
+source-wordcount: '96'
+ht-degree: 3%
 
 ---
 
 
-# Adobe Mix Modeler Guide
+# AdobeMix Modeler Guide
 
 ![Banderoll](assets/mix-modeler-banner.png)
 
-Den här tekniska handboken ger självhjälp för **Modeler för Adobe Mix**. Adobe Mix Modeler är en Adobe Experience Cloud-applikation som mäter kampanjer och optimerar planeringen helhetsbaserat på alla kanaler: betalda, förtjänade och ägda. Adobe Mix Modeler bygger på Adobe Experience Platform och Adobe Sensei.
+Den här tekniska handboken ger självhjälp för **Modeler för Adobe Mix**. Mix Modeler är en Adobe Experience Cloud-applikation som mäter kampanjer och optimerar planeringen holistiskt över alla kanaler: betalda, förtjänade och ägda. Mix Modeler ligger på Adobe Experience Platform och drivs av Adobe Sensei.
 
 >[!AVAILABILITY]
 >
@@ -21,7 +22,7 @@ Den här tekniska handboken ger självhjälp för **Modeler för Adobe Mix**. Ad
 
 ## Kom igång
 
-* Vad är [Modeler för Adobe Mix](get-started/about.md)?
+* Vad är [Blanda modellerare](get-started/about.md)?
 
 * Vad är ett typiskt [arbetsflöde](get-started/workflow.md)?
 

@@ -1,9 +1,10 @@
 ---
 title: Administrering
-description: Lär dig hur du administrerar Adobe Mix Modeler.
-source-git-commit: b5b277e3476bdf6c0c0da85425bba19bea00c594
+description: Lär dig hur du administrerar Mix Modeler.
+feature: Administration
+source-git-commit: c145754ecd6a6d8f5aab333ced739c4053aeaae5
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '154'
 ht-degree: 7%
 
 ---
@@ -11,9 +12,9 @@ ht-degree: 7%
 
 # Administrering
 
-Använd [Adobe Admin Console](https://helpx.adobe.com/se/enterprise/using/admin-console.html) för att hantera Adobe Mix Modeler-produkter och -användare.
+Använd [Adobe Admin Console](https://helpx.adobe.com/se/enterprise/using/admin-console.html) för att hantera Mix Modeler-produkter och -användare.
 
-För att Adobe Mix Modeler ska fungera på rätt sätt måste du ange rätt behörigheter.
+För att Mix Modeler ska fungera på rätt sätt måste du ange rätt behörigheter.
 
 I Adobe Experience Cloud-gränssnittet
 
@@ -47,4 +48,4 @@ I Adobe Experience Cloud-gränssnittet
 
    Välj **[!UICONTROL Save]** för att spara behörigheterna.
 
-1. I **[!UICONTROL Details]** inom **[!UICONTROL Role]**, lägg till lämpliga **[!UICONTROL Users]** och/eller **[!UICONTROL User groups]** för att ge användare tillgång till Adobe Mix Modeler.
+1. I **[!UICONTROL Details]** inom **[!UICONTROL Role]**, lägg till lämpliga **[!UICONTROL Users]** och/eller **[!UICONTROL User groups]** för att ge användare tillgång till Mix Modeler.

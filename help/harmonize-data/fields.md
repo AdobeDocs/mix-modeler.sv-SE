@@ -1,10 +1,10 @@
 ---
 title: Harmoniserade områden
-description: Lär dig hur du definierar fält som ska användas för att harmonisera data i Adobe Mix-modelleraren.
-feature: Harmonized Data
-source-git-commit: abbfc78e9fa774a240d000131f35d3dc257c15ea
+description: Lär dig hur du definierar fält som ska användas för att harmonisera data i Mix Modeler.
+feature: Harmonized Data, Harmonized Fields
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '655'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Med harmoniserade fält kan du definiera de fält som du vill använda som en de
 
 ## Globala harmoniseringsområden
 
-Standardvärdena för global harmonisering i Adobe Mix-modelleraren är:
+De standardiserade fälten för global harmonisering i Mix Modeler är följande:
 
 
 | Fältnamn | Visningsnamn | Kategori | Datatyp | Kommentar |
@@ -53,7 +53,7 @@ Du kan lägga till, redigera eller ta bort egna harmoniserade fält ovanpå dess
 
 ## Hantera harmoniserade fält
 
-En tabell över de tillgängliga harmoniserade fälten finns i Adobe Mix-modellerarens gränssnitt:
+En tabell över de tillgängliga harmoniserade fälten finns i Mix Modeler-gränssnittet:
 
 1. Välj ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** från den vänstra listen.
 
@@ -81,7 +81,7 @@ En tabell över de tillgängliga harmoniserade fälten finns i Adobe Mix-modelle
 
 ### Lägg till ett harmoniserat fält
 
-Lägga till ett harmoniserat fält i ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** gränssnitt i Adobe Mix-modelleraren:
+Lägga till ett harmoniserat fält i ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** i Mix Modeler:
 
 1. Välj ![Lägg till](../assets/icons/AddCircle.svg)Lägg till fält.
 
@@ -107,7 +107,7 @@ Lägga till ett harmoniserat fält i ![DataSearch](../assets/icons/DataCheck.svg
 
 Du kan bara redigera harmoniserade fält som du skapat tidigare. Du kan inte redigera ett globalt harmoniserat fält.
 
-Redigera ett harmoniserat fält i dialogrutan ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** gränssnitt i Adobe Mix-modelleraren:
+Redigera ett harmoniserat fält i dialogrutan ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** i Mix Modeler:
 
 1. Markera det harmoniserade fält som du vill redigera. Exempel, **[!UICONTROL Region]**.
 
@@ -121,7 +121,7 @@ Redigera ett harmoniserat fält i dialogrutan ![DataSearch](../assets/icons/Data
 
 Du kan bara ta bort harmoniserade fält som du skapat tidigare. Du kan inte ta bort ett globalt harmoniserat fält.
 
-Radera ett harmoniserat fält i dialogrutan ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** gränssnitt i Adobe Mix-modelleraren:
+Radera ett harmoniserat fält i dialogrutan ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** i Mix Modeler:
 
 1. Markera det harmoniserade fält som du vill ta bort, till exempel **[!UICONTROL Region]**.
 

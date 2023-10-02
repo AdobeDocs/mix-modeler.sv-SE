@@ -1,10 +1,10 @@
 ---
 title: Kontrollpanel för översikt över harmoniserade data
-description: Lär dig hur du använder kontrollpanelen för harmoniserad datapresentation i Adobe Mix-modelleraren.
+description: Lär dig hur du använder kontrollpanelen för den harmoniserade datapresentationen i Mix Modeler.
 feature: Dashboard, Harmonized Data
-source-git-commit: abbfc78e9fa774a240d000131f35d3dc257c15ea
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Översikt över harmoniserade data
 
-Fliken Harmonized Data i Adobe Mix Modeler Overview ger insikter i de harmoniserade data som du har konfigurerat för att användas som en del av de importerade data och harmoniserade datainställningarna.
+Fliken Harmonized Data i Mix Modeler Overview ger insikter om de harmoniserade data som du har konfigurerat för att användas som en del av de importerade data och harmoniserade datainställningarna.
 
 I översikten visas fyra KPI-statuskortswidgetar (översta raden) och sex andra konfigurerbara widgetar.
 

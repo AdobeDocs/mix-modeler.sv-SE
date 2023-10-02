@@ -1,10 +1,10 @@
 ---
 title: Models
-description: Lär dig hur du konfigurerar och använder modeller i Adobe Mix Modeler.
+description: Lär dig hur du konfigurerar och använder modeller i Mix Modeler.
 feature: Models
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '346'
 ht-degree: 0%
 
 ---
@@ -12,15 +12,15 @@ ht-degree: 0%
 
 # Models
 
-Med modellfunktionerna i Adobe Mix Modeler kan du konfigurera, utbilda och poängsätta AI/ML-modeller som är specifika för dina affärsmål och som stöds av AI-drivet överföringslärande mellan multitouch-attribuering och modellering av marknadsföringsmixar.
+Med modellfunktionerna i Mix Modeler kan ni konfigurera, utbilda och poängsätta AI/ML-modeller som är specifika för era affärsmål och som stöds av AI-drivet överföringslärande mellan multitouch-attribuering och marknadsmixmodellering.
 
-Modellerna bygger på de harmoniserade data som du skapar som en del av arbetsflödet för Adobe Mix-modelleraren.
+Modellerna bygger på de harmoniserade data som du skapar som en del av arbetsflödet i programmet Mix Modeler.
 
 Om du vill skapa en modell använder du det guidade modellkonfigurationsflöde för blandningsmodell som finns tillgängligt när du väljer **[!UICONTROL Guide me]**. Se [Skapa en modell](create.md) för mer information.
 
 ## Hantera modeller
 
-Om du vill visa en tabell över dina aktuella modeller i gränssnittet för modelleraren i Adobe Mix:
+Om du vill visa en tabell över dina aktuella modeller i gränssnittet Mix Modeler:
 
 1. Välj ![](../assets/icons/FileData.svg) **[!UICONTROL Models]** från den vänstra listen.
 
@@ -64,14 +64,14 @@ Så här visar du mer information om en modell:
 
 >[!NOTE]
 >
->Det här valet är endast tillgängligt för framgångsrika tränade modeller (modeller med statusen Senaste körning är Slutfört).
+>Det här valet är endast tillgängligt för färdiga, utbildade modeller.
 >
 
-Så här visar du insikter om en modell i gränssnittet för Adobe Mix-modelleraren:
+Så här visar du insikter om en modell i Mix Modeler-gränssnittet:
 
 1. Välj ![](../assets/icons/FileData.svg) **[!UICONTROL Models]** från den vänstra listen.
 
-1. Markera namnet på en modell med en **[!UICONTROL Last run status]** av <span style="color:green">●</span> **[!UICONTROL Success]** från **[!UICONTROL Models]** table
+1. Markera namnet på en modell med en **[!UICONTROL Last run status]** av <span style="color:green">●</span> **[!UICONTROL Success]** från **[!UICONTROL Models]** tabell.
 
 1. Välj **[!UICONTROL Model Insights]**. Du omdirigeras till [Modellinsikter](insights.md).
 

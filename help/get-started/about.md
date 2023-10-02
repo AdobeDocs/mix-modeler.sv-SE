@@ -1,28 +1,28 @@
 ---
-title: Adobe Mix-modelleraren - översikt
-description: Få en översikt över funktionaliteten och funktionerna i Adobe Mix Modeler.
+title: Mix Modeler - översikt
+description: Få en översikt över funktionaliteten och funktionerna i Mix Modeler.
 feature: Plans, Harmonized Data, Models
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
 
 
-# Adobe Mix-modelleraren - översikt
+# Mix Modeler - översikt
 
-Adobe Mix Modeler, som drivs av Adobe Sensei, gör det möjligt för marknadsförare att mäta kampanjer och optimera planeringen holistiskt i alla kanaler: betalda, förtjänade och ägda. Dess enhetliga metod mäter stegvis både vid kontaktytor för marknadsföring och på aggregeringsnivå, samtidigt som man säkerställer fullständigt enhetliga resultat.
+Mix Modeler, som drivs av Adobe Sensei, gör det möjligt för marknadsförare att mäta kampanjer och optimera planeringen holistiskt i alla kanaler: betalda, förtjänade och ägda. Dess enhetliga metod mäter stegvis både vid kontaktytor för marknadsföring och på aggregeringsnivå, samtidigt som man säkerställer fullständigt enhetliga resultat.
 
-Adobe Mix Modeler ger den inkrementella effekten av alla marknadsföringsaktiviteter på affärsresultat och kampanjresultat genom en helhetsbaserad (från början till slut) mätningsapplikation för digital marknadsföring och marknadsföring offline.
+Mix Modeler ger den inkrementella effekten av alla marknadsföringsaktiviteter på affärsresultat och kampanjresultat genom en holistisk (från början till slut) mätapplikation för digital marknadsföring och marknadsföring offline.
 
-Adobe Mix-modelleraren innehåller följande typer av optimerade och åtgärdbara insikter på strategisk och taktisk nivå, så att du kan förstå dem bättre:
+Mix Modeler tillhandahåller följande typer av optimerade och åtgärdbara insikter på strategisk och taktisk nivå, så att ni kan förstå bättre:
 
 * marknadsföringsutgifter och resulterande resultat i olika kanaler, och
 * rekommenderade investeringsnivåer för att uppnå framtida affärsmål.
 
 
-För att uppnå den här funktionen kombinerar Adobe Mix Modeler:
+För att uppnå den här funktionaliteten kombinerar Mix Modeler:
 
 * data på bottennivå (händelsenivå) och data på högsta nivån (aggregeringsnivå),
 * yttre marknadsfaktorer och interna faktorer, och
@@ -35,7 +35,7 @@ AI/ML-inlärning av dubbelriktad överföring förenar resultaten av marknadsfö
 
 ## Funktioner
 
-Adobe Mix Modeler har följande funktioner:
+Mix Modeler har följande funktioner:
 
 | Funktion | Beskrivning |
 |---|---|

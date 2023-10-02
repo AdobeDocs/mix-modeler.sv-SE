@@ -1,10 +1,10 @@
 ---
 title: Scheman
-description: Lär dig hur du hanterar de scheman som behövs för att importera data till Adobe Mix-modelleraren.
+description: Lär dig hur du hanterar scheman som krävs för att importera data till Mix Modeler.
 feature: Schemas
-source-git-commit: b5b277e3476bdf6c0c0da85425bba19bea00c594
+source-git-commit: c145754ecd6a6d8f5aab333ced739c4053aeaae5
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '344'
 ht-degree: 2%
 
 ---
@@ -12,9 +12,9 @@ ht-degree: 2%
 
 # Scheman
 
-Så här hanterar du scheman och stöder de data du vill importera i Adobe Experience Platform och använda i Adobe Mix-modelleraren:
+Så här hanterar du scheman och stöder de data du vill importera i Adobe Experience Platform och använda i Mix Modeler:
 
-1. Gå till gränssnittet Adobe Mix Modeler.
+1. Gå till gränssnittet Mix Modeler.
 
 1. Välj ![Scheman](../assets/icons/Schemas.svg) **[!UICONTROL Schemas]**, under **[!UICONTROL DATA MANAGEMENT]**.
 
@@ -22,7 +22,7 @@ Se [Översikt över schemaanvändargränssnittet](https://experienceleague.adobe
 
 ## Sammanställd eller sammanfattad data
 
-Vi rekommenderar starkt att du använder klassen XDM Summary Metrics som bas för schemat som underliggande aggregerade data eller sammanfattningsdata som du vill importera i Experience Platform och använda i Adobe Mix Modeler.
+Vi rekommenderar starkt att du använder klassen XDM Summary Metrics som bas för schemat som underliggande för alla sammanställningsdata eller sammanfattningsdata som du vill importera i Experience Platform och använda i Mix Modeler.
 
 Använd klassen XDM Summary Metrics för:
 

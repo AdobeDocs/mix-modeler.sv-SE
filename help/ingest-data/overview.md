@@ -2,26 +2,28 @@
 title: Ingrediera data
 description: Lär dig hur du importerar data till Adobe Mix-modelleraren.
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
-source-git-commit: ae1c74ed2edf1e69e7ab77d16aba797921c14ad9
+source-git-commit: b5b277e3476bdf6c0c0da85425bba19bea00c594
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 10%
+source-wordcount: '466'
+ht-degree: 9%
 
 ---
 
 
 # Ingrediera data
 
-Adobe Mix Modeler arbetar med både händelsenivådata och aggregerade marknadsföringssatsdata från olika trädgårdar. Kunderna kan använda alla typer av data som är insamlade i Adobe Experience Platform som datauppsättningar och som är baserade på händelsebaserade XDM Experience-scheman.
+Adobe Mix Modeler arbetar med data på händelsenivå, aggregerade uppgifter om marknadsföringsinsatser från olika trädgårdar och samlar ihop eller sammanställer data från andra källor, som offlinereklam, interna faktorer eller externa faktorer.
+
+Kunderna kan använda alla typer av data som är inkapslade i Adobe Experience Platform som datauppsättningar och som är baserade på scheman med hjälp av XDM ExperienceEvent eller XDM Summary Metrics som basklass.
 
 Exempel:
 
 * data som samlats in med Adobe Analytics källanslutning och omvandlats till datauppsättningar som överensstämmer med standardversionen eller en anpassad version av Adobe Analytics-schemat, eller
 * data som samlats in med Adobe Experience Platform Web SDK, Mobile SDK eller Edge Network Server API för att samla in kundinteraktioner på webben, mobiler eller andra typer av enheter,
-* Sammanfattande data från olika vägrade trädgårdar/trafikkällor, baserat på ett schema som innehåller klassen XDM Summary Metrics med fältgruppen Traffic and Conversion Summary.
-* icke-marknadsföringsuppgifter (t.ex. makroekonomiska indikatorer) som är användbara för modelluppbyggnad,
+* aggregerade uppgifter från trädgårdar (som Facebook, YouTube), trafikkällor eller offlinereklam,
+* sammanställda eller sammanfattande data som inte är avsedda för marknadsföring och som innehåller interna eller externa faktorer som är användbara för modelluppbyggnad.
 
-Ni kan använda vilken mekanism som helst som stöds av Adobe Experience Platform för att importera era upplevelsehändelsenivåer och samla in data om era marknadsföringssatsningar. som Adobe Experience Platform SDK:er, API:er, källanslutningar samt strömning och batchförbrukning.
+Ni kan använda vilken mekanism som helst, som stöds av Adobe Experience Platform, för att importera er upplevelsehändelsenivå, samla in data om marknadsföringsinsatser och data från andra källor. som Adobe Experience Platform SDK:er, API:er, källanslutningar samt strömning och batchförbrukning.
 
 
 ## Riktlinjer
@@ -78,7 +80,7 @@ Nedan finns några exempel på data som vanligtvis används i Adobe Mix Modeler 
 
 +++
 
-För att kunna arbeta med data i Adobe Mix-modelleraren behöver du data som samlats in i datauppsättningar och som modellerats efter scheman i Adobe Experience Platform. Adobe Mix-modellgränssnittet ger enkel åtkomst till både schemat och datauppsättningsgränssnittet.
+För att kunna arbeta med data i Adobe Mix-modelleraren behöver du data som samlats in i datauppsättningar och som modellerats efter scheman i Adobe Experience Platform. Gränssnittet i Adobe Mix Modeler ger enkel åtkomst till användargränssnittet för scheman och datauppsättningar i Experience Platform.
 
 >[!MORELIKETHIS]
 >

@@ -1,7 +1,7 @@
 ---
 title: Administrering
 description: Lär dig hur du administrerar Adobe Mix Modeler.
-source-git-commit: 4a6cbda1ff0a779ebf8a38a4de3f797ed9e54b00
+source-git-commit: b5b277e3476bdf6c0c0da85425bba19bea00c594
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 7%
@@ -35,9 +35,15 @@ I Adobe Experience Cloud-gränssnittet
 
    * **[!UICONTROL Data Ingestion]**: se till att du väljer **[!UICONTROL View Sources]** och **[!UICONTROL Manage Sources]**.
 
+   <!--
+    * **[!UICONTROL Data Governance]**: ensure you select **[!UICONTROL View User Activity Log]** and **[!UICONTROL View Data Usage Policies]**.
+    -->
+
    De behörigheter som har angetts för rollen ska se ut så här:
 
    ![Behörigheter](assets/permissions.png)
+
+   <!--![Permissions](assets/permissions-including-privacy.png)-->
 
    Välj **[!UICONTROL Save]** för att spara behörigheterna.
 

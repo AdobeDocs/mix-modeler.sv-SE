@@ -2,10 +2,10 @@
 title: Harmonisera data
 description: Lär dig hur du harmoniserar data i Adobe Mix Modeler.
 feature: Harmonized Data
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: b5b277e3476bdf6c0c0da85425bba19bea00c594
 workflow-type: tm+mt
-source-wordcount: '785'
-ht-degree: 10%
+source-wordcount: '804'
+ht-degree: 9%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 10%
 
 Data i Adobe Mix-modelleraren är av olika typ beroende på datakällan. Data kan vara:
 
-* aggregerade uppgifter, t.ex. insamlade från datakällor i trädgården,
+* aggregerade data, t.ex. insamlade från datakällor i trädgården eller offlinereklam som samlats in (t.ex. utgifter) från en reklamkampanj, en aktivitet eller en fysisk annonskampanj,
 * händelsedata, till exempel från datakällor från första part. Dessa händelsedata kan samlas in via Adobe Analytics källanslutning från Adobe Analytics, Adobe Experience Platform Web eller Mobile SDK eller Edge Network API, eller data som hämtas med hjälp av källanslutningar.
 
 Harmoniseringstjänsten i Adobe Mix Modeler likställer aggregat och händelsedata i en enhetlig datavy. Den här datavyn är källa för planerna och modellerna i Adobe Mix-modelleraren.

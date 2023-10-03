@@ -2,17 +2,17 @@
 title: Datauppsättningar
 description: Lär dig hur du hanterar de datauppsättningar som krävs för att importera data till Mix Modeler.
 feature: Datasets
-source-git-commit: c145754ecd6a6d8f5aab333ced739c4053aeaae5
+exl-id: 788de24d-9021-48f8-87ab-09252b91276a
+source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
 workflow-type: tm+mt
-source-wordcount: '63'
+source-wordcount: '62'
 ht-degree: 4%
 
 ---
 
-
 # Datauppsättningar
 
-Så här hanterar du datauppsättningar som innehåller de data du vill importera i Adobe Experience Platform och använda i Mix Modeler:
+Så här hanterar du datauppsättningar som innehåller de data du vill importera i Experience Platform och använda i Mix Modeler:
 
 1. Gå till gränssnittet Mix Modeler.
 

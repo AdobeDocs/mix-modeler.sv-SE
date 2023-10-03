@@ -1,20 +1,21 @@
 ---
 title: Mix Modeler - översikt
 description: Få en översikt över funktionaliteten och funktionerna i Mix Modeler.
+short-description: Få en översikt över funktionaliteten och funktionerna i Mix Modeler.
 feature: Plans, Harmonized Data, Models
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: aa1018d5-b073-4dfb-b40c-ca16a8970b2f
+source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 0%
+source-wordcount: '270'
+ht-degree: 8%
 
 ---
-
 
 # Mix Modeler - översikt
 
 Mix Modeler, som drivs av Adobe Sensei, gör det möjligt för marknadsförare att mäta kampanjer och optimera planeringen holistiskt i alla kanaler: betalda, förtjänade och ägda. Dess enhetliga metod mäter stegvis både vid kontaktytor för marknadsföring och på aggregeringsnivå, samtidigt som man säkerställer fullständigt enhetliga resultat.
 
-Mix Modeler ger den inkrementella effekten av alla marknadsföringsaktiviteter på affärsresultat och kampanjresultat genom en holistisk (från början till slut) mätapplikation för digital marknadsföring och marknadsföring offline.
+Mix Modeler ger den inkrementella effekten av alla marknadsföringsaktiviteter på affärsresultat och kampanjresultat genom en holistisk (från början till slut) mätningsapplikation för digital och offline marknadsföring.
 
 Mix Modeler tillhandahåller följande typer av optimerade och åtgärdbara insikter på strategisk och taktisk nivå, så att ni kan förstå bättre:
 
@@ -45,12 +46,3 @@ Mix Modeler har följande funktioner:
 | **Skapa och jämföra budgetscenarier** | Utveckla olika budgetplaner och jämför deras effekt för att fatta optimala beslut för ert företag. |
 
 {style="table-layout:auto"}
-
-
-
-
-
-
-
-
-

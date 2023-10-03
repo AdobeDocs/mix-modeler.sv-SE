@@ -2,17 +2,17 @@
 title: Scheman
 description: Lär dig hur du hanterar scheman som krävs för att importera data till Mix Modeler.
 feature: Schemas
-source-git-commit: c145754ecd6a6d8f5aab333ced739c4053aeaae5
+exl-id: 08289581-5af9-4422-b049-8c24105e2a8e
+source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '345'
 ht-degree: 2%
 
 ---
 
-
 # Scheman
 
-Så här hanterar du scheman och stöder de data du vill importera i Adobe Experience Platform och använda i Mix Modeler:
+Så här hanterar du scheman och stöder de data du vill importera i Experience Platform och använda i Mix Modeler:
 
 1. Gå till gränssnittet Mix Modeler.
 
@@ -40,7 +40,7 @@ Ett schema som använder **[!DNL XDM Summary Metrics]** basklassen kan vara enke
 
 ![Schema för externa faktorer](../assets/external-factors-schema.png)
 
-Det här enkla schemat kan användas för att importera datauppsättningar som innehåller data för:
+Det här enkla schemat kan användas för att importera datauppsättningar som innehåller data, till exempel:
 
 - Konkurrentindexdata
 

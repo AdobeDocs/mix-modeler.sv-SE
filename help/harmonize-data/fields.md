@@ -2,19 +2,19 @@
 title: Harmoniserade områden
 description: Lär dig hur du definierar fält som ska användas för att harmonisera data i Mix Modeler.
 feature: Harmonized Data, Harmonized Fields
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: f051279a-1ae9-49bd-a946-abfc34c90413
+source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
 workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 0%
 
 ---
 
-
 # Harmoniserade områden
 
 Med harmoniserade fält kan du definiera fält för i princip samma data, som kommer från olika källor, där vart och ett har en egen definition av dessa data. En klickmätare kan till exempel definieras och namnges på olika sätt beroende på datakällan. Med ett klickharmoniserat fält kan du definiera en gemensam nomenklatur för ett klickmått baserat på de olika källorna med klickdata.
 
-Med harmoniserade fält kan du definiera de fält som du vill använda som en del av arbetsflödet för att harmonisera data. De fält du definierar kan användas för att definiera datauppsättningsregler, marknadsföringskontaktytor och konvertering.
+Med harmoniserade fält kan du definiera de fält som du vill använda som en del av arbetsflödet för att harmonisera data. De fält du definierar kan användas för att definiera datauppsättningsregler, marknadsföringskontaktytor och konverteringar.
 
 ## Globala harmoniseringsområden
 
@@ -126,5 +126,3 @@ Radera ett harmoniserat fält i dialogrutan ![DataSearch](../assets/icons/DataCh
 1. Markera det harmoniserade fält som du vill ta bort, till exempel **[!UICONTROL Region]**.
 
 1. Välj ![Ta bort](../assets/icons/Delete.svg) **[!UICONTROL Delete]** från **[!UICONTROL Edit harmonization values]** vänster ruta.
-
-

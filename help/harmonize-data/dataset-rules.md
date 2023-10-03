@@ -2,13 +2,13 @@
 title: Datauppsättningsregler
 description: Lär dig hur du definierar datauppsättningsregler som ska användas som en del av att harmonisera data i Mix Modeler.
 feature: Harmonized Data, Dataset Rules
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
+source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 0%
 
 ---
-
 
 # Datauppsättningsregler
 
@@ -61,7 +61,7 @@ I **[!UICONTROL Create]** skärm,
 
       ![Skapa datauppsättningsregler](../assets/dataset-create-summary.png)
 
-1. När du har valt en händelsetyp i den skuggade rutan under **[!UICONTROL Map to harmonized fields]**:
+1. När du har valt en händelsetyp (**[!UICONTROL Experience Events]**, **[!UICONTROL Adobe Analytics]**, **[!UICONTROL Consumer Experience Events]**), i den skuggade rutan under **[!UICONTROL Map to harmonized fields]**:
 
    1. Välj ett harmoniserat fält från **[!UICONTROL Standard harmonized field]**.
 
@@ -132,4 +132,3 @@ Om du vill synkronisera data mellan harmoniserade data och sammanfattningar och/
 1. Välj **[!UICONTROL Sync]** att starta synkroniseringen baserat på definierade datauppsättningsregler mellan harmoniserade data och data i datauppsättningar. Om du vill avbryta synkroniseringen väljer du **[!UICONTROL Cancel]**.
 
    ![Synkronisera data](../assets/sync-data.png)
-

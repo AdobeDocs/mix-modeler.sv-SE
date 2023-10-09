@@ -1,13 +1,13 @@
 ---
 title: Visa versionsinformation för Mix Modeler
-description: Versionskommentarer för den senaste blandningsmodellen
+description: Versionsinformation för den senaste Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
 source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
 workflow-type: tm+mt
 source-wordcount: '178'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 

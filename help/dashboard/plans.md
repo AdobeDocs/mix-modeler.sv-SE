@@ -2,13 +2,13 @@
 title: Planer - översikt
 description: Lär dig hur du använder planöversikten i Mix Modeler.
 feature: Dashboard, Plans, Models
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: 930fc1d5-8e28-4610-af7b-c4ec91f86a8a
+source-git-commit: eab3818b97bf65164eb586bc443a970794583b55
 workflow-type: tm+mt
 source-wordcount: '70'
 ht-degree: 0%
 
 ---
-
 
 # Planer - översikt
 
@@ -24,5 +24,3 @@ Vilka data som visas för widgetarna avgörs av:
 * Den angivna datumperioden. Om du vill ändra datumperioden anger du ett startdatum och ett slutdatum manuellt eller väljer en datumperiod med ![Kalender](../assets/icons/Calendar.svg).
 
 * Planen. Välj en plan från **[!UICONTROL Plan name]** med **[!UICONTROL _Välj ett alternativ..._]**.
-
-

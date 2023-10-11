@@ -2,13 +2,13 @@
 title: Skapa en modell
 description: Lär dig hur du skapar en modell i Mix Modeler.
 feature: Models
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
+source-git-commit: eab3818b97bf65164eb586bc443a970794583b55
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '690'
 ht-degree: 0%
 
 ---
-
 
 # Skapa en modell
 
@@ -127,9 +127,9 @@ Gränssnittet ger ett stegvis guidat modellkonfigurationsflöde när du vill ska
 
       1. Välj **[!UICONTROL Rule type]**.
 
-      1. Fördela procentandelar för var och en av kanalerna som listas under **[!UICONTROL Name]**, med **[!UICONTROL Contribution proportion]** kolumn. Se till att den totala fördelningen av procentandelar blir upp till 100 %.
+      1. Ange procentsatser för bidrag för någon av kanalerna som listas under **[!UICONTROL Name]**, med **[!UICONTROL Contribution proportion]** kolumn.
 
-      1. Du kan lägga till en **[!UICONTROL Level of confidence]** procent.
+      1. Om det behövs kan du lägga till en **[!UICONTROL Level of confidence]** procent.
 
       1. Använd vid behov **[!UICONTROL Clear all]** för att rensa alla indatavärden för **[!UICONTROL Contribution proportion]** och **[!UICONTROL Level of confidence]** kolumner.
 
@@ -146,4 +146,3 @@ Gränssnittet ger ett stegvis guidat modellkonfigurationsflöde när du vill ska
    Välj **[!UICONTROL Back]** för att gå tillbaka till föregående steg.
 
    Välj **[!UICONTROL Cancel]** för att avbryta modellkonfigurationen.
-

@@ -4,14 +4,18 @@ description: Få en översikt över funktionaliteten och funktionerna i Mix Mode
 short-description: Få en översikt över funktionaliteten och funktionerna i Mix Modeler.
 feature: Plans, Harmonized Data, Models
 exl-id: aa1018d5-b073-4dfb-b40c-ca16a8970b2f
-source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
+source-git-commit: 512cc28a9fab81438d54e30bb6e20f05da5265d1
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '282'
 ht-degree: 8%
 
 ---
 
 # Mix Modeler - översikt
+
+I den här videon får du en snabb överblick över Mix Modeler.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3424872/?learn=on)
 
 Mix Modeler, som drivs av Adobe Sensei, gör det möjligt för marknadsförare att mäta kampanjer och optimera planeringen holistiskt i alla kanaler: betalda, förtjänade och ägda. Dess enhetliga metod mäter stegvis både vid kontaktytor för marknadsföring och på aggregeringsnivå, samtidigt som man säkerställer fullständigt enhetliga resultat.
 

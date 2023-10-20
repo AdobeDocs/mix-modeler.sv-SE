@@ -3,9 +3,9 @@ title: Planer
 description: Lär dig hur du visar, väljer och agerar på planer i Mix Modeler.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: eab3818b97bf65164eb586bc443a970794583b55
+source-git-commit: f445cb2b1ec04ffe9247e858c048587802bffe9c
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '422'
 ht-degree: 0%
 
 ---
@@ -14,8 +14,22 @@ ht-degree: 0%
 
 Med planer i Mix Modeler kan ni fördela budgetar efter affärsenhet och kanal. Planeringsfunktionen är integrerad med resultaten av de utbildade modellerna baserade på era harmoniserade data.
 
+I en plan beskrivs de diskonära investeringar (t.ex. budgetar) som ett företag avser att spendera på marknadsrelaterade projekt under en viss tidsram i tjänsten för gemensamma nyckeltal (t.ex. order, intäkter). Planer kan innehålla kostnader från kanaler som betald annonsering, sponsrat webbinnehåll och evenemang.
 
-## Visa planer
+En plan kräver:
+
+- en modell,
+- ett dataområde,
+- en budget.
+
+En plan kan även innehålla:
+
+- ett konfigurerat igenkänningsfönster,
+- flera flygdatum där var och en har en målbudget,
+- minsta och högsta budgetbegränsningar per kanal och flygdatum.
+
+
+## Hantera planer
 
 Om du vill visa en tabell över dina aktuella planer går du till Mix Modeler:
 
@@ -40,6 +54,14 @@ Om du vill visa en tabell över dina aktuella planer går du till Mix Modeler:
 
 1. Använd ![Sök](../assets/icons/Search.svg) om du vill söka efter och filtrera tabellen efter en eller flera specifika planer.
 
+## Skapa en plan
+
+Om du vill skapa en plan använder du guiden Skapa plan för Mix Modeler. Se [Skapa en plan](create.md) för mer information.
+
+
+## Redigera en plan
+
+Om du vill redigera en plan väljer du namnet på planen i tabellen. Se [Redigera en plan](edit.md) för mer information.
 
 ## Välj och vidta åtgärder för planer
 

@@ -2,13 +2,13 @@
 title: Models
 description: Lär dig hur du konfigurerar och använder modeller i Mix Modeler.
 feature: Models
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
+source-git-commit: f445cb2b1ec04ffe9247e858c048587802bffe9c
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
-
 
 # Models
 
@@ -16,7 +16,26 @@ Med modellfunktionerna i Mix Modeler kan ni konfigurera, utbilda och poängsätt
 
 Modellerna bygger på de harmoniserade data som du skapar som en del av arbetsflödet i programmet Mix Modeler.
 
-Om du vill skapa en modell använder du det guidade modellkonfigurationsflöde för blandningsmodell som finns tillgängligt när du väljer **[!UICONTROL Guide me]**. Se [Skapa en modell](create.md) för mer information.
+En modell i Mix Modeler är en maskininlärningsmodell som används för att mäta och/eller förutsäga ett visst resultat baserat på en marknadsförares investeringar. Marknadsföringskontaktytor och data på sammanfattningsnivå kan användas som indata. Med Mix Modeler kan ni skapa olika modeller baserade på olika uppsättningar av variabler, dimensioner och utfall, till exempel intäkter, sålda enheter, leads.
+
+En modell kräver:
+
+* en konvertering,
+* en eller flera kontaktytor för marknadsföring (kanaler) som består av data på sammanfattningsnivå, data om kontaktytor för marknadsföring (händelsedata) eller båda,
+* ett konfigurerbart uppslagsfönster för
+* ett konfigurerbart utbildningsfönster.
+
+En modell kan även innehålla:
+
+* yttre faktorer,
+* interna faktorer,
+* s.k.&quot;priors&quot; (sannolikhetsfördelning som representerar kunskap eller osäkerhet om data före eller innan dessa data observeras), som indexerar tidigare konverteringar per kanal,
+* utgiftsresurs, som använder relativ utgiftsresurs som proxy när marknadsföringsdata är glesare.
+
+
+## Skapa en modell
+
+Om du vill skapa en modell använder du det guidade modellkonfigurationsflöde för Mix Modeler steg som är tillgängligt när du väljer **[!UICONTROL Guide me]**. Se [Skapa en modell](create.md) för mer information.
 
 ## Hantera modeller
 
@@ -64,7 +83,7 @@ Så här visar du mer information om en modell:
 
 >[!NOTE]
 >
->Det här valet är endast tillgängligt för färdiga, utbildade modeller.
+>Det här valet är endast tillgängligt för modeller som har tränats.
 >
 
 Så här visar du insikter om en modell i Mix Modeler-gränssnittet:
@@ -74,5 +93,3 @@ Så här visar du insikter om en modell i Mix Modeler-gränssnittet:
 1. Markera namnet på en modell med en **[!UICONTROL Last run status]** av <span style="color:green">●</span> **[!UICONTROL Success]** från **[!UICONTROL Models]** tabell.
 
 1. Välj **[!UICONTROL Model Insights]**. Du omdirigeras till [Modellinsikter](insights.md).
-
-

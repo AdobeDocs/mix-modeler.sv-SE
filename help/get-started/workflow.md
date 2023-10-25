@@ -3,9 +3,9 @@ title: Mix Modeler arbetsflöde
 description: Förstå det typiska arbetsflödet för Mix Modeler.
 feature: Ingest Data, Plans, Harmonized Data, Models
 exl-id: 200ff846-5d78-4b25-a425-bfd558b88c88
-source-git-commit: 512cc28a9fab81438d54e30bb6e20f05da5265d1
+source-git-commit: 1dbdee00f518d98241fc042e2aabc0e40d5a9153
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ I den här videon visas en introduktion till användararbetsflödet i Mix Modele
 >[!VIDEO](https://video.tv.adobe.com/v/3424854/?learn=on)
 
 
-Ur en funktionell synvinkel består ett typiskt arbetsflöde i Mix Modeler av följande aktiviteter:
+Ett typiskt arbetsflöde i Mix Modeler består av följande aktiviteter:
 
 ![Alt-text](../assets/ApplicationWorkflow.svg)
 
@@ -25,9 +25,26 @@ Ur en funktionell synvinkel består ett typiskt arbetsflöde i Mix Modeler av f�
 |---|---|---|
 | ![Data](../assets/icons/Data.svg){width="100"} | [**Ingrediera data**](../ingest-data/overview.md) | Ingest event data from Experience Platform (t.ex. Adobe Analytics, Web SDK, andra källor), aggregerad data från marknadsföringskanaler (t.ex. TV, trädgårdar, e-post, ägda och drivna aktiviteter), externa faktordata från kunder (t.ex. prisförändringar i prenumerationstjänster) och interna faktordata (t.ex. semesterplaner). |
 | ![DataCheck](../assets/icons/DataCheck.svg){width="100"} | [**Harmonisera data**](../harmonize-data/overview.md) | Konfigurera mappningsregler och konfliktlösningsregler för att sammanfoga de olika marknadsföringsdatauppsättningar som behövs för att mäta och planera kampanjprestanda i Mix Modeler. |
-| ![FileConfig](../assets/icons/FileGear.svg){width="100"} | [**Konfigurera modeller**](../models/create.md) | Konfigurera modellinstanser med marknadsföringskontaktytor (till exempel kanaler) och konverteringsdefinitioner. |
+| ![FileConfig](../assets/icons/FileGear.svg){width="100"} | [**Konfigurera modeller**](../models/create.md) | Konfigurera modellinstanser med marknadsföringskontaktytor (t.ex. kanaler), konverteringsdefinitioner samt interna och externa faktorer. |
 | ![FileData](../assets/icons/FileData.svg){width="100"} | [**Tåg- och poängmodeller**](../models/overview.md) | Skapa bakgrundsmusik och poäng på händelsenivå med maskininlärning och poängsättning. |
 | ![FileChart](../assets/icons/FileChart.svg){width="100"} | [**Skapa planer**](../plans/overview.md) | Bestäm den bästa fördelningen av marknadsföringsmedel för att uppnå ett affärsmål genom att använda produktionen från Mix Modeler-modeller. |
 | ![Kontrollpanel](../assets/icons/Dashboard.svg){width="100"} | [**Översikt över instrumentpanel**](../dashboard/overview.md) | Få insikter om harmoniserade data, modeller och planer med olika konfigurerbara widgetar. |
 
 {style="table-layout:auto"}
+
+Det detaljerade dataorienterade flödesschemat nedan visar hur:
+
+* harmoniserade uppgifter bygger på
+
+   * upplevelsehändelsedata (som kommer från Analytics-källkopplingen, samlas in via Experience Platform SDK:er och API:er, hämtas via källanslutningar eller med direktuppspelningsinmatning),
+   * sammanställda eller sammanfattande data från trädgårdar (som Facebook, YouTube), trafikkällor eller offlinereklam, och
+   * definitioner av harmoniserade fält och datauppsättningsregler.
+
+* en modell baseras på:
+
+   * de konverterings- och marknadsdefinitioner som följer av harmoniserade data och
+   * sammanställda eller sammanfattande data som inte är marknadsför och som innehåller interna eller externa faktorer.
+
+* poäng för attribueringshändelser med flera beröringspunkter kan eventuellt matas tillbaka till Experience Platform datasjön för användning i efterföljande modellkonfiguration, utbildning och poängsättning.
+
+![Omfattande arbetsflöde](../assets/comprehensive-workflow.svg)

@@ -3,16 +3,16 @@ title: Ingrediera data
 description: Lär dig hur du importerar data till Mix Modeler.
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
 exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
-source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
+source-git-commit: 1dbdee00f518d98241fc042e2aabc0e40d5a9153
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '457'
 ht-degree: 10%
 
 ---
 
 # Ingrediera data
 
-Mix Modeler arbetar med data på händelsenivå, aggregerade uppgifter om marknadsföringsinsatser från olika trädgårdar och samlar ihop eller sammanställer data från andra källor, som offlinereklam, interna faktorer eller externa faktorer.
+Mix Modeler arbetar med data på händelsenivå, sammanställer en sammanfattning av uppgifter om marknadsföringsinsatser från olika trädgårdar och samlar ihop eller sammanställer data från andra källor, som offlinereklam, interna faktorer eller externa faktorer.
 
 Kunderna kan använda alla typer av data som är inkapslade i Experience Platform som datauppsättningar och som är baserade på scheman med hjälp av XDM ExperienceEvent eller XDM Summary Metrics som basklass.
 
@@ -20,8 +20,8 @@ Exempel:
 
 * data som samlats in med Adobe Analytics källanslutning och omvandlats till datauppsättningar som överensstämmer med standardversionen eller en anpassad version av Adobe Analytics-schemat, eller
 * data som samlats in med Experience Platform Web SDK, Mobile SDK eller Edge Network Server API för att samla in kundinteraktioner på webben, mobiler eller andra typer av enheter,
-* aggregerade uppgifter från trädgårdar (som Facebook, YouTube), trafikkällor eller offlinereklam,
-* sammanställda eller sammanfattande data som inte är avsedda för marknadsföring och som innehåller interna eller externa faktorer som är användbara för modelluppbyggnad.
+* aggregerade eller sammanfattande data från trädgårdar (som Facebook, YouTube), trafikkällor eller offlinereklam,
+* sammanfattande eller sammanfattande data som inte är avsedda för marknadsföring och som innehåller interna eller externa faktorer som är användbara för modelluppbyggnad.
 
 Ni kan använda vilken mekanism som helst, som stöds av Experience Platform, för att importera era upplevelsehändelsenivåer, sammanställda marknadsföringssatsdata och data från andra källor. som Experience Platform SDK:er, API:er, källkopplingar samt strömning och batchförbrukning.
 

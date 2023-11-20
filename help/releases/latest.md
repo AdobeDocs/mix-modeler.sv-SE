@@ -4,28 +4,30 @@ description: Versionsinformation för den senaste Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
+source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '190'
 ht-degree: 3%
 
 ---
 
 # Versionsinformation för Mix Modeler
 
-**Senaste uppdatering**: 4 oktober 2023.
+**Senaste uppdatering**: 16 november 2023.
 
-Versionsinformationen gäller den första releasen av Mix Modeler. Mix Modeler-releaser fungerar enligt en kontinuerlig leveransmodell som möjliggör en ungefärlig månadsvis lanseringsgräns. Versionsinformationen uppdateras därför, så kontrollera dem regelbundet.
+Versionsinformationen innehåller den senaste versionen av Mix Modeler. Mix Modeler-releaser fungerar enligt en kontinuerlig leveransmodell som möjliggör en ungefärlig månadsvis lanseringsgräns. Versionsinformationen uppdateras därför, så kontrollera dem regelbundet.
 
 
 ## Nya eller uppdaterade funktioner
 
 | Funktion | Beskrivning | Allmän tillgänglighet |
 |---|---|---|
-| **Sammanfattad dataöverföring** | [Intag av summerade data](../ingest-data/overview.md) (t.ex. trädgårdsutgiftsdata, teveflygscheman) med den nya klassen Summary i Experience Platform. | 4 oktober 2023 |
-| **Mät den inkrementella effekten av marknadsföringsinvesteringar** | [Förstå](../dashboard/overview.md) den inkrementella avkastningen och effekten av marknadsföring över affärsmål eller taktiska kampanjmål. | 4 oktober 2023 |
-| **Multitouch attribution (MTA) och Marketing mix modeling (MMM) transfer learning** | Fatta säkrare beslut genom att förena MMM och MTA [modeller](../models/overview.md) via internutbildning. | 4 oktober 2023 |
-| **Planering av marknadsföringsscenarier** | Utveckla flera budgetar [planer](../plans/overview.md) och jämföra deras inverkan för att fatta optimala beslut för ert företag. | 4 oktober 2023 |
+| **Hämta CSV-knappar** | Hämtningsknappar för CSV är nu tillgängliga som en del av [Planera insikter](../plans/edit.md) och [Modellinsikter](../models/insights.md#model-insights). | 16 november 2023 |
+| **CPA-kolumn i uppdelningstabell för dataområde** | Kolumnen i CPA ska läggas till [Uppdelning av dataområde](../plans/edit.md) i Plan Insights. | 16 november 2023 |
+| **Prognostiserad visning av avkastning på investering i betalningskanal** | [Prognostiserad avkastning på betald kanal](../plans/edit.md) visualisering läggs till i planinsikter. | 16 november 2023 |
+| **Modeöversikt - användargränssnitt har uppdaterats** | [Översikt över modeller](../models/overview.md) Gränssnittet uppdateras i enlighet med användargränssnittet för planöversikt. | 16 november 2023 |
+| **Posta om en modell** | Lagt till möjlighet att utlösa [ompoängtering av nya data med hjälp av en befintlig modell](../models/overview.md#re-score). | 16 november 2023 |
+| **Uppdaterad visualisering av bidrag** | The [Bidrag per datum och basmedievisualisering](../models/insights.md#model-insights) uppdateras till ett ordnat skiktat diagram. | 16 november 2023 |
 
 {style="table-layout:auto"}
 

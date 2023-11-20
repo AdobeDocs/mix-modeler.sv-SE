@@ -3,7 +3,7 @@ title: Skapa en modell
 description: Lär dig hur du skapar en modell i Mix Modeler.
 feature: Models
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: eab3818b97bf65164eb586bc443a970794583b55
+source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Skapa en modell
 
-Skapa en modell i ![Models](../assets/icons/FileData.svg) **[!UICONTROL Models]** i Mix Modeler väljer **[!UICONTROL Guide me]**.
+Skapa en modell i ![Models](../assets/icons/FileData.svg) **[!UICONTROL Models]** i Mix Modeler väljer **[!UICONTROL Open model canvas]**.
 
 Gränssnittet ger ett stegvis guidat modellkonfigurationsflöde när du vill skapa anpassade AI-baserade modeller.
 
@@ -24,7 +24,7 @@ Gränssnittet ger ett stegvis guidat modellkonfigurationsflöde när du vill ska
 
    1. Välj **[!UICONTROL Next]** fortsätta till nästa steg. Välj **[!UICONTROL Cancel]** för att avbryta modellkonfigurationen.
 
-1. I **[!UICONTROL Configure]** steg:
+1. I **[!UICONTROL Configured]** steg:
 
    1. I **[!UICONTROL Conversion goal]** i behållaren:
 
@@ -48,7 +48,7 @@ Gränssnittet ger ett stegvis guidat modellkonfigurationsflöde när du vill ska
 
       * Om du vill lägga till en kontaktpunktsbehållare för marknadsföring väljer du ![Lägg till](../assets/icons/AddCircle.svg) **[!UICONTROL Add marketing touchpoint]**.
 
-      * Om du vill ta bort en kontaktpunktsbehållare för marknadsföring, i behållaren, väljer du ![Mer](../assets/icons/More.svg) och markera **[!UICONTROL Remove container]** på snabbmenyn.
+      * Om du vill ta bort en kontaktpunktsbehållare för marknadsföring, i behållaren, väljer du ![Mer](../assets/icons/More.svg)och markera **[!UICONTROL Remove container]** på snabbmenyn.
 
         ![Modell - kontaktyta för marknadsföring](../assets/model-marketing-touchpoint-step.png)
 
@@ -72,7 +72,7 @@ Gränssnittet ger ett stegvis guidat modellkonfigurationsflöde när du vill ska
 
       * Om du vill lägga till en giltig behållare för ifyllning av data väljer du ![Lägg till](../assets/icons/AddCircle.svg) **[!UICONTROL Add eligible population]**.
 
-      * Om du vill ta bort en lämplig behållare för ifyllning av data i behållaren väljer du ![Mer](../assets/icons/More.svg) och markera **[!UICONTROL Remove container]** på snabbmenyn.
+      * Om du vill ta bort en lämplig behållare för ifyllning av data i behållaren väljer du ![Mer](../assets/icons/More.svg)och markera **[!UICONTROL Remove container]** på snabbmenyn.
 
         ![Modell - Berättigad datapopulation](../assets/model-eligible-data-population-step.png)
 
@@ -86,7 +86,7 @@ Gränssnittet ger ett stegvis guidat modellkonfigurationsflöde när du vill ska
 
       * Om du vill lägga till ytterligare en datauppsättningsbehållare för externa faktorer väljer du ![Lägg till](../assets/icons/AddCircle.svg) **[!UICONTROL Add external factor]**.
 
-      * Om du vill ta bort en datauppsättningsbehållare för externa faktorer i behållaren väljer du ![Mer](../assets/icons/More.svg) och markera **[!UICONTROL Remove container]** på snabbmenyn.
+      * Om du vill ta bort en datauppsättningsbehållare för externa faktorer i behållaren väljer du ![Mer](../assets/icons/More.svg)och markera **[!UICONTROL Remove container]** på snabbmenyn.
 
         ![Modell - datamängd för externa faktorer](../assets/model-external-factors-dataset-step.png)
 
@@ -101,7 +101,7 @@ Gränssnittet ger ett stegvis guidat modellkonfigurationsflöde när du vill ska
 
       * Om du vill lägga till ytterligare en datauppsättningsbehållare för interna faktorer väljer du ![Lägg till](../assets/icons/AddCircle.svg) **[!UICONTROL Add internal factor]**.
 
-      * Om du vill ta bort ytterligare en datauppsättningsbehållare för interna faktorer, i behållaren, väljer du ![Mer](../assets/icons/More.svg) och **[!UICONTROL Remove container]** på snabbmenyn.
+      * Om du vill ta bort ytterligare en datauppsättningsbehållare för interna faktorer, i behållaren, väljer du ![Mer](../assets/icons/More.svg)och **[!UICONTROL Remove container]** på snabbmenyn.
 
         ![Modell - intern faktordatauppsättning](../assets/model-internal-factors-dataset-step.png)
 

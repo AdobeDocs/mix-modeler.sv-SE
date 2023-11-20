@@ -2,13 +2,13 @@
 title: Modellinsikter
 description: Lär dig hur du får information om din modell, som historisk översikt, modellinsikter och modellkvalitet i Mix Modeler.
 feature: Models
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
+source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '336'
 ht-degree: 0%
 
 ---
-
 
 # Modellinsikter
 
@@ -27,36 +27,37 @@ Du kan ändra den datumperiod som widgetarna på varje flik baseras på. Ange en
 
 På fliken Historik visas widgetar för:
 
-* Konvertering och utgifter per kv och produkt
+* Konvertering och utgifter per kv och produkt.
 
-* Utgift per kanal
+* Utgift per kanal.
 
-* Utgift för kontaktpunkt
+* Utlägg för kontaktpunkt.
 
   Du kan välja en alternativ utgiftsbaserad kanal att visa för den här widgeten. Välj en kanal från **[!UICONTROL Channels]**.
 
-* Pekpunktsvolym
+* Pekpunktsvolym.
 
   Du kan välja en alternativ volymbaserad kanal att visa för den här widgeten. Välj en kanal från **[!UICONTROL Channels]**.
 
-
-
 ![Modell - historisk översikt](../assets/model-historical-overview.png)
-
 
 ## Modellinsikter
 
 På fliken Modellinsikter visas widgetar för:
 
-* Bidrag per datum och basmedia
+* Bidrag per datum och basmedia. Det staplade diagrammet ordnas: Bas längst ned, Kanaler utan utgifter i mitten och Utläggskanaler överst.
 
-* Bidrag per kanal
+* Bidrag per kanal.
 
-* Sammanfattning av marknadsföringsprestanda
-
-Du kan hovra över enskilda diagramelement i varje widget för att se en pover med mer information.
+* Sammanfattning av marknadsföringsprestanda.
 
 ![Modell - modellinsikter](../assets/model-model-insights.png)
+
+Du kan hovra över enskilda diagramelement i varje widget för att visa en pover med mer information.
+
+Om du vill hämta en CSV-fil som innehåller data för widgeten väljer du ![Ladda ned](../assets/icons/Download.svg).
+
+
 
 
 ## Modellkvalitet
@@ -71,4 +72,4 @@ På fliken Modellkvalitet visas widgetar för mätning:
 
 ![Modellkvalitet](../assets/model-quality.png)
 
-
+Om du vill hämta en CSV-fil som innehåller data för widgeten väljer du ![Mer](../assets/icons/More.svg) i widgeten och på snabbmenyn väljer ![Ladda ned](../assets/icons/Download.svg) **[!UICONTROL Download as CSV]**.

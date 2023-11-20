@@ -3,9 +3,9 @@ title: Planer
 description: Lär dig hur du visar, väljer och agerar på planer i Mix Modeler.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: f445cb2b1ec04ffe9247e858c048587802bffe9c
+source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,6 @@ Om du vill visa en tabell över dina aktuella planer går du till Mix Modeler:
    | Kolumnnamn | Information |
    |---|---|
    | Namn | Namn på planen |
-   | Beskrivning | Beskrivning av modellen |
    | Modell | Modellen som används som bas för planen. |
    | Datumintervall | Det fullständiga datumintervallet för en plan. |
    | Budget | Den totala budgeten för en plan. |
@@ -62,6 +61,7 @@ Om du vill skapa en plan använder du guiden Skapa plan för Mix Modeler. Se [Sk
 ## Redigera en plan
 
 Om du vill redigera en plan väljer du namnet på planen i tabellen. Se [Redigera en plan](edit.md) för mer information.
+
 
 ## Välj och vidta åtgärder för planer
 

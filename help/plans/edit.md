@@ -2,13 +2,13 @@
 title: Redigera en plan
 description: Lär dig hur du redigerar en plan i Mix Modeler.
 feature: Plans
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: 91385595-284f-4fcb-b54b-9539905e552b
+source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
-
 
 # Redigera en plan
 
@@ -16,13 +16,24 @@ Redigera en plan i ![PLan](../assets/icons/FileChart.svg) **[!UICONTROL Plans]**
 
 I [!UICONTROL Plan insights], dina planinsikter skapas och visar [!UICONTROL Model], [!UICONTROL Data range]och [!UICONTROL Total budget] som planen baseras på.
 
-När hämtningen är klar visas en översikt över din plan med visualiseringar för [!UICONTROL Forecasted ROI] och [!UICONTROL Forecasted revenue].
+När hämtningen är klar visas en översikt över din plan, som består av:
+
+- [!UICONTROL Forecasted paid channel ROI] visualisering
+- [!UICONTROL Forecasted revenue] visualisering
+- [!UICONTROL Data range breakdown] plantabell, visa kolumner för
+
+   - Kanal
+   - avkastning
+   - CPA
+   - Intäkter
+   - Konverteringsmål
+   - Utgift
+
+![Översikt över en plan](../assets/overview-plan.png)
 
 1. Välj **[!UICONTROL Close]** för att återgå till gränssnittet Planer.
 
-1. (valfritt) Välj **[!UICONTROL Plan breakdown]** om du vill se en detaljtabell över din plan.
-
-   ![Översikt över en plan](../assets/overview-plan.png)
+1. Om du vill hämta en CSV-fil som innehåller data för datumintervallet väljer du ![Ladda ned](../assets/icons/Download.svg) **[!UICONTROL Download CSV]**.
 
 1. Om du vill redigera planen väljer du **[!UICONTROL Edit plan]**:
 
@@ -65,4 +76,3 @@ När hämtningen är klar visas en översikt över din plan med visualiseringar 
 1. Om du vill avbryta dina planuppdateringar väljer du **[!UICONTROL Cancel]**.
 
    I **[!UICONTROL No work will be saved]** dialogruta, välja **[!UICONTROL Cancel]** för att fortsätta arbeta med din plan eller välja **[!UICONTROL OK]** för att återgå till gränssnittet Planer.
-

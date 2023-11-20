@@ -3,9 +3,9 @@ title: Models
 description: Lär dig hur du konfigurerar och använder modeller i Mix Modeler.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: f445cb2b1ec04ffe9247e858c048587802bffe9c
+source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '501'
 ht-degree: 0%
 
 ---
@@ -51,11 +51,10 @@ Om du vill visa en tabell över dina aktuella modeller i gränssnittet Mix Model
    |---|---|
    | Namn | Modellens namn |
    | Beskrivning | Beskrivning av modellen |
-   | Konverteringshändelser | Den konvertering du har valt för modellen. |
-   | Datauppsättning | Den datamängd som modellen använder för att träna och poängsätta. Detta är som standard den harmoniserade datauppsättningen. |
+   | Konverteringshändelse | Den konvertering du har valt för modellen. |
    | Körningsfrekvens | Körfrekvensen för utbildningen av modellen. |
    | Senaste körning | Datum och tid för modellens senaste utbildning. |
-   | Senaste körningsstatus | Status för den senaste kursen av modellen. <br/><span style="color:green">●</span> Lyckades<br/><span style="color:orange">●</span> Utbildningsproblem<br/> <span style="color:orange">●</span> Väntar på utbildning <br/><span style="color:red">●</span> Misslyckades |
+   | Status | Status för den senaste kursen av modellen. <br/><span style="color:green">●</span> Lyckades<br/><span style="color:orange">●</span> Utbildningsproblem<br/> <span style="color:orange">●</span> Väntar på utbildning <br/><span style="color:red">●</span> Misslyckades |
 
    {style="table-layout:auto"}
 
@@ -73,9 +72,7 @@ Ta bort en modell:
 
 Så här visar du mer information om en modell:
 
-1. Markera namnet på modellen som du vill visa mer information om.
-
-1. Välj **[!UICONTROL More]**. Information om den valda modellen visas i den högra rutan.
+1. Välj ![Info](../assets/icons/Info.svg) för en modell för att visa ett popup-fönster med information.
 
 
 
@@ -93,3 +90,20 @@ Så här visar du insikter om en modell i Mix Modeler-gränssnittet:
 1. Markera namnet på en modell med en **[!UICONTROL Last run status]** av <span style="color:green">●</span> **[!UICONTROL Success]** från **[!UICONTROL Models]** tabell.
 
 1. Välj **[!UICONTROL Model Insights]**. Du omdirigeras till [Modellinsikter](insights.md).
+
+
+### Poäng igen
+
+>[!NOTE]
+>
+>Det här valet är endast tillgängligt för modeller som har tränats.
+>
+
+Så här gör du om en modell i gränssnittet för Mix Modeler:
+
+1. Välj ![](../assets/icons/FileData.svg) **[!UICONTROL Models]** från den vänstra listen.
+
+1. Markera namnet på en modell med en **[!UICONTROL Last run status]** av <span style="color:green">●</span> **[!UICONTROL Success]** från **[!UICONTROL Models]** tabell.
+
+1. Välj **[!UICONTROL Re-score]**. Det kan ta några minuter att visa en uppdaterad status för modellen.
+

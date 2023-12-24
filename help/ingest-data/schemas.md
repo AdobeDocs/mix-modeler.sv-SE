@@ -3,9 +3,9 @@ title: Scheman
 description: Lär dig hur du hanterar scheman som krävs för att importera data till Mix Modeler.
 feature: Schemas
 exl-id: 08289581-5af9-4422-b049-8c24105e2a8e
-source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
+source-git-commit: e40d1eb484f3ee6d289adbe1355455bbb202825a
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '377'
 ht-degree: 2%
 
 ---
@@ -46,20 +46,20 @@ Det här enkla schemat kan användas för att importera datauppsättningar som i
 
   | tidsstämpel | date_type | faktor | value |
   |---|---|---|--:|
-  | 2020-11-28T00:00:00,000Z | vecka | konkurrent_index | 289.8 |
-  | 2020-12-05T00:00:00,000Z | vecka | konkurrent_index | 291.2 |
-  | 2020-12-12T00:00:00,000Z | vecka | konkurrent_index | 280.07 |
+  | 2020-11-28T00:00:00,000Z | vecka | konkurrent_index | 289,8 |
+  | 2020-12-05T00:00:00,000Z | vecka | konkurrent_index | 291,2 |
+  | 2020-12-12T00:00:00,000Z | vecka | konkurrent_index | 280,07 |
   | ... | ... | ... | ... |
 
 - Offentliga semesterdata
 
   | tidsstämpel | date_type | faktor | value |
   |---|---|---|--:|
-  | 2020-11-28T00:00:00,000Z | vecka | all_holidays_flag | 0.0 |
-  | 2020-12-05T00:00:00,000Z | vecka | all_holidays_flag | 0.0 |
-  | 2020-12-12T00:00:00,000Z | vecka | all_holidays_flag | 0.0 |
-  | 2020-12-19T00:00:00,000Z | vecka | all_holidays_flag | 0.0 |
-  | 2020-12-26T00:00:00,000Z | vecka | all_holidays_flag | 1.0 |
+  | 2020-11-28T00:00:00,000Z | vecka | all_holidays_flag | 0,0 |
+  | 2020-12-05T00:00:00,000Z | vecka | all_holidays_flag | 0,0 |
+  | 2020-12-12T00:00:00,000Z | vecka | all_holidays_flag | 0,0 |
+  | 2020-12-19T00:00:00,000Z | vecka | all_holidays_flag | 0,0 |
+  | 2020-12-26T00:00:00,000Z | vecka | all_holidays_flag | 1,0 |
   | ... | ... | ... | ... |
 
 
@@ -68,3 +68,18 @@ Nedan finns ett mer omfattande exempel på **[!DNL LumaPaidMarketingSchema]** me
 ![Sammanfattningsschema](../assets/summary-schema.png)
 
 Med tanke på den asynkrona typen av profilinmatning bör du använda fältgruppen Granskningsdetaljer för externt källsystem som en del av ett schema när du samlar in sammanställda eller sammanfattningsdata från externa källor. Den här fältgruppen definierar en uppsättning granskningsegenskaper för externa källor.
+
+
+## Datatyper som stöds
+
+För närvarande stöder Mix Modeler en delmängd av datatyperna Experience Platform. Följande grundläggande datatyper (fält) som nämns i [Grunderna för schemakomposition](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#data-type), stöds:
+
+- Sträng
+- Heltal
+- Dubbel
+- Boolean
+- Lång
+- Kort
+- Byte
+- Datum
+- Datum-tid

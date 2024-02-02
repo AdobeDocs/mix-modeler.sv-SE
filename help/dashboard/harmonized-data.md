@@ -2,13 +2,13 @@
 title: Kontrollpanel för översikt över harmoniserade data
 description: Lär dig hur du använder kontrollpanelen för den harmoniserade datapresentationen i Mix Modeler.
 feature: Dashboard, Harmonized Data
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: fbb01613-d648-4db1-a782-a7720b7a03ad
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%
 
 ---
-
 
 # Översikt över harmoniserade data
 
@@ -20,9 +20,9 @@ Om du vill ändra datumperioden för data som ska visas i widgetarna anger du et
 
 ## Datafilter
 
-Du kan filtrera data som visas för alla widgetar med ![Filter](../assets/icons/Filter.svg) **[!UICONTROL Data Filters]** fönster.
+Du kan filtrera data som visas för alla widgetar med ![Filter](../assets/icons/Filter.svg) **[!UICONTROL Category Filters]** fönster.
 
-Välj ett eller flera filter för varje kategori (**[!UICONTROL Channel]**, **[!UICONTROL Brand]**, **[!UICONTROL Source Type]** och **[!UICONTROL Traffic Source]**).
+Välj ett eller flera filter för varje kategori (**[!UICONTROL Brands]**, **[!UICONTROL Campaigns]**, **[!UICONTROL Cannels Type]**, **[!UICONTROL Conversion types]**, **[!UICONTROL Datasets]**, **[!UICONTROL Media types]**, **[!UICONTROL Source types]** och **[!UICONTROL Traffic Source]**).
 
 De valda filtren visas ovanpå widgetarna på **[!UICONTROL FILTERING BY:]**.
 
@@ -39,7 +39,7 @@ Du kan konfigurera varje widget.
 
 * På KPI-statuskortwidgeten:
 
-   1. Välj ![Redigera](../assets/icons/Edit.svg) och ![Redigera](../assets/icons/Edit.svg) **[!UICONTROL Edit Data]** på snabbmenyn.
+   1. Välj ![Redigera](../assets/icons/Edit.svg) och ![Redigera](../assets/icons/Edit.svg) **[!UICONTROL Edit data]** på snabbmenyn.
 
    1. I **[!UICONTROL KPI status card]** dialog:
 
@@ -49,13 +49,13 @@ Du kan konfigurera varje widget.
 
 * På andra konfigurerbara widgetar:
 
-   1. Välj ![Redigera](../assets/icons/Edit.svg) och ![Redigera](../assets/icons/Edit.svg) **[!UICONTROL Edit Data]** på snabbmenyn.
+   1. Välj ![Redigera](../assets/icons/Edit.svg) och ![Redigera](../assets/icons/Edit.svg) **[!UICONTROL Edit data]** på snabbmenyn.
 
    1. I **[!UICONTROL Edit Data]** dialog:
 
       1. Välj ett mått från **[!UICONTROL Select a metric]**, till exempel **[!UICONTROL Impressions]**.
-      1. Välj en kategori från **[!UICONTROL Select category]**, till exempel **[!UICONTROL Media Type]**.
-      1. (valfritt) välj en andra kategori från **[!UICONTROL Select second category (optional)]**, till exempel **[!UICONTROL Traffic Source]**.
+      1. Välj en kategori från **[!UICONTROL Select category]**, till exempel **[!UICONTROL Media types]**.
+      1. (valfritt) välj en andra kategori från **[!UICONTROL Select second category (optional)]**, till exempel **[!UICONTROL Traffic sources]**.
       1. Välj ![Klocka](../assets/icons/Clock.svg) **[!UICONTROL Time]** eller ![Beräkna](../assets/icons/Calculator.svg) **[!UICONTROL Total]** som analystyp vid **[!UICONTROL Select analysis type]**.
 
          Om du väljer ![Klocka](../assets/icons/Clock.svg) **[!UICONTROL Time]** kan du ange tidsintervall. Välj **[!UICONTROL Daily]**, **[!UICONTROL Weekly]**, **[!UICONTROL Monthly]** eller **[!UICONTROL Quarterly]** från **[!UICONTROL Select time frequency]**.
@@ -67,4 +67,3 @@ Du kan konfigurera varje widget.
          Om förhandsgranskningen inte kan återges på grund av att data inte är tillgängliga visas ![Datafel](../assets/icons/DataUnavailable.svg) [!UICONTROL Insights Not Available] - [!UICONTROL Harmonized fields are not available].
 
       1. Välj **[!UICONTROL Apply]** för att tillämpa ändringarna på widgeten. Välj **[!UICONTROL Cancel]** om du vill avbryta ändringar som gjorts i den aktuella widgeten.
-

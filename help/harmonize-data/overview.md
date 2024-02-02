@@ -3,10 +3,10 @@ title: Harmonisera data
 description: Lär dig att harmonisera data i Mix Modeler.
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 9%
+source-wordcount: '854'
+ht-degree: 5%
 
 ---
 
@@ -17,7 +17,7 @@ Data i Mix Modeler är av olika karaktär beroende på datakällan. Data kan var
 * Sammanlagda eller sammanfattande data, t.ex. insamlade från datakällor i trädgården eller offlinereklam som samlats in (t.ex. utgifter) från en reklamkampanj, ett evenemang eller en fysisk annonskampanj.
 * händelsedata, till exempel från datakällor från första part. Dessa händelsedata kan samlas in via Adobe Analytics källanslutning från Adobe Analytics, via Experience Platform Web eller Mobile SDK eller Edge Network API, eller data som hämtas via källanslutningar.
 
-Harmoniseringstjänsten i Mix Modeler likställer aggregat och händelsedata i en enhetlig datavy. Den här datavyn är källan för planerna och modellerna i Mix Modeler.
+Harmoniseringstjänsten i Mix Modeler likställer aggregat och händelsedata i en enhetlig datavy. Den här datavyn, tillsammans med interna och externa faktordata, är källan för modellerna i Mix Modeler.
 
 ## Ett exempel på harmoniserade data
 
@@ -71,10 +71,10 @@ Ett exempel på en upplevelsehändelsedatamängd (Web SDK-händelser) från kund
 
 | Tidsstämpel | Identitetsnamnutrymme | Identitets-ID | Kanal | Klickningar |
 |--- |--- |--- |--- |---:|
-| 01-01-2022 00:01:01.000 | ECID | 64fd46ff-8c63-43b4-85a7-92b953113ba0 | ÄRENDE | 1 |
-| 01-01-2022 00:01:01.000 | ECID | 64fd46ff-8c63-43b4-85a7-92b953113ba0 | ÄRENDE | 1 |
-| 01-08-2022 00:01:01.000 | ECID | 2ca2a16e-caf0-4fa9-9a8b-9774b39547c4 | ÄRENDE | 1 |
-| 01-08-2022 00:01:01.000 | ECID | 5ce99bfb-e44a-40d9-b8cd-c5408bda7cdc | ÄRENDE | 1 |
+| 01-01-2022 00:01:01,000 | ECID | 64fd46ff-8c63-43b4-85a7-92b953113ba0 | ÄRENDE | 1 |
+| 01-01-2022 00:01:01,000 | ECID | 64fd46ff-8c63-43b4-85a7-92b953113ba0 | ÄRENDE | 1 |
+| 01-08-2022 00:01:01,000 | ECID | 2ca2a16e-caf0-4fa9-9a8b-9774b39547c4 | ÄRENDE | 1 |
+| 01-08-2022 00:01:01,000 | ECID | 5ce99bfb-e44a-40d9-b8cd-c5408bda7cdc | ÄRENDE | 1 |
 
 {style="table-layout:auto"}
 
@@ -122,7 +122,7 @@ För att se harmoniserade data i Mix Modeler-gränssnittet:
 
    1. För att omdefiniera den period på vilken sammanfattningen av harmoniserade uppgifter baseras, ange ett datumintervall för **[!UICONTROL Date range]** eller använda ![Kalender](../assets/icons/Calendar.svg) för att markera ett dataområde.
 
-   1. Om du vill ändra de harmoniserade fältkolumnerna som visas för tabellen Harmoniserade data använder du ![Inställningar](../assets/icons/Setting.svg) för att öppna **[!UICONTROL Column settings]** -dialogrutan.
+   1. Om du vill ändra de harmoniserade fältkolumnerna som visas för den harmoniserade datatabellen använder du ![Inställningar](../assets/icons/Setting.svg) för att öppna **[!UICONTROL Column settings]** -dialogrutan.
 
       1. Välj ![SelectBox](../assets/icons/SelectBox.svg) en eller flera kolumner från **[!UICONTROL AVAILABLE COLUMNS]** och använda ![Sparr höger](../assets/icons/ChevronRight.svg) för att lägga till de här kolumnerna i **[!UICONTROL SELECTED COLUMNS]**.
 
@@ -133,3 +133,5 @@ För att se harmoniserade data i Mix Modeler-gränssnittet:
       1. Om du vill ändra visningsordningen för kolumner kan du flytta en kolumn i **[!UICONTROL SELECTED COLUMNS]** upp och ned genom att dra och släppa.
 
    1. Välj **[!UICONTROL Submit]** om du vill skicka in ändringar av kolumninställningen. Välj **[!UICONTROL Close]** om du vill avbryta alla ändringar du har gjort.
+
+1. Om det finns fler tillgängliga sidor använder du ![Pil vänster](../assets/icons/ChevronLeft.svg) eller ![Högerpil](../assets/icons/ChevronRight.svg) på **[!UICONTROL Page _x _av_x_]** för att flytta mellan sidor.

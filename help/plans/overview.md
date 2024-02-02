@@ -3,9 +3,9 @@ title: Planer
 description: Lär dig hur du visar, väljer och agerar på planer i Mix Modeler.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Om du vill visa en tabell över dina aktuella planer går du till Mix Modeler:
    | Budget | Den totala budgeten för en plan. |
    | Prognostiserad avkastning | Prognostiserad avkastning för en plan |
    | Prognostiserad avkastning | Den prognostiserade avkastningen på en plan. |
-   | Status | Status för en plan. |
+   | Status | Status för en plan: <p><span style="color:red">●</span> Misslyckades, <p><span style="color:blue">●</span> Bearbetar, eller <p><span style="color:green">●</span> Slutförd. |
 
    {style="table-layout:auto"}
 
@@ -78,6 +78,11 @@ Så här duplicerar du en plan:
 1. Välj en plan i tabellen.
 1. Välj ![Kopiera](../assets/icons/Copy.svg) **[!UICONTROL Duplicate]** i åtgärdsfältet. En ny plan med ett namn som består av den ursprungliga planens namn, utökat med **[!UICONTROL (Copy)]** läggs till högst upp i tabellen.
 
+Alternativt:
+
+1. Välj ![Mer](../assets/icons/More.svg) för en plan i tabellen.
+1. Välj **[!UICONTROL Duplicate]** på snabbmenyn. En ny plan med ett namn som består av den ursprungliga planens namn, utökat med **[!UICONTROL (Copy)]** läggs till högst upp i tabellen.
+
 ### Jämför planer
 
 Så här jämför du planer:
@@ -92,6 +97,11 @@ Så här tar du bort planer:
 
 1. Markera en eller flera planer i tabellen.
 1. Välj ![Ta bort](../assets/icons/Delete.svg) **[!UICONTROL Delete]** i åtgärdsfältet.
+
+Alternativt:
+
+1. Välj ![Mer](../assets/icons/More.svg) för en plan i tabellen.
+1. Välj **[!UICONTROL Delete]** på snabbmenyn. En ny plan med ett namn som består av den ursprungliga planens namn, utökat med **[!UICONTROL (Copy)]** läggs till högst upp i tabellen.
 
    >[!WARNING]
    >

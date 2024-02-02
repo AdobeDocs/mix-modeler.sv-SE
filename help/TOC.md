@@ -2,10 +2,10 @@
 user-guide-title: Användarhandbok för Mix Modeler
 breadcrumb-title: Användarhandbok för Mix Modeler
 user-guide-description: Lär dig hur du använder Mix Modeler.
-source-git-commit: a16438f55c0f819c63a3252dbf1de7297ea23b35
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 44%
+source-wordcount: '75'
+ht-degree: 40%
 
 ---
 
@@ -41,6 +41,7 @@ ht-degree: 44%
    + [Datauppsättningsregler](harmonize-data/dataset-rules.md)
    + [Marknadsföringskontaktytor](harmonize-data/marketing-touchpoints.md)
    + [Konverteringar](harmonize-data/conversions.md)
+   + [Användningsrapport](harmonize-data/usage-report.md)
 
 + Ingrediera data {#ingest-data}
    + [Översikt](ingest-data/overview.md)

@@ -3,9 +3,9 @@ title: Redigera en plan
 description: Lär dig hur du redigerar en plan i Mix Modeler.
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
+source-git-commit: cbe4b4bf17773a42e4a13d4777443e5f1f50dc6e
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,11 @@ När hämtningen är klar visas en översikt över din plan, som består av:
 
 1. Välj **[!UICONTROL Close]** för att återgå till gränssnittet Planer.
 
+1. Välj **[!UICONTROL X]** eller **[!UICONTROL  %]** om hur **[!UICONTROL View ROI]**.
+
 1. Om du vill hämta en CSV-fil som innehåller data för datumintervallet väljer du ![Ladda ned](../assets/icons/Download.svg) **[!UICONTROL Download CSV]**.
+
+1. Om du vill visa datumintervallen efter kanalkategori väljer du **[!UICONTROL All channels]**, **[!UICONTROL Paid channels]**, eller **[!UICONTROL Non-paid channels]** från **[!UICONTROL View]** markering.
 
 1. Om du vill redigera planen väljer du **[!UICONTROL Edit plan]**:
 
@@ -53,7 +57,7 @@ När hämtningen är klar visas en översikt över din plan, som består av:
 
          1. Ändra **[!UICONTROL Date range]** för ett eller flera av datumintervallen i din plan, antingen genom att ange datum eller genom att välja ett datumintervall med ![Kalender](../assets/icons/Calendar.svg).
 
-         1. Ändra **[!UICONTROL Budget]** ett eller flera av datumintervallen i din plan.
+         1. Ändra **[!UICONTROL Budget]** för ett eller flera av datumintervallen i din plan.
 
          Om du vill lägga till ytterligare datumintervall väljer du ![KalenderLägg till](../assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**.
 

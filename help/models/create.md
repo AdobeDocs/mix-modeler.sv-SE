@@ -3,9 +3,9 @@ title: Skapa en modell
 description: Lär dig hur du skapar en modell i Mix Modeler.
 feature: Models
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '691'
 ht-degree: 0%
 
 ---
@@ -24,13 +24,13 @@ Gränssnittet ger ett stegvis guidat modellkonfigurationsflöde när du vill ska
 
    1. Välj **[!UICONTROL Next]** fortsätta till nästa steg. Välj **[!UICONTROL Cancel]** för att avbryta modellkonfigurationen.
 
-1. I **[!UICONTROL Configured]** steg:
+1. I **[!UICONTROL Configure]** steg:
 
    1. I **[!UICONTROL Conversion goal]** i behållaren:
 
       1. Ange en **[!UICONTROL Conversion name]** för konverteringen, till exempel `Conversion`
 
-      1. Välj en konvertering från **[!UICONTROL *Välj harmoniserat fält *]**, som innehåller de konverteringar du definierat som en del av [Konverteringar](../harmonize-data/conversions.md) in [!UICONTROL Harmonized datasets]. Exempel,**[!UICONTROL Online Conversion]**.
+      1. Välj en konvertering från **[!UICONTROL *Välj harmoniserat fält *]**, som innehåller de konverteringar du definierat som en del av [Konverteringar](../harmonize-data/conversions.md) in [!UICONTROL Harmonized datasets]. Till exempel:**[!UICONTROL Online Conversion]**.
 
       1. Du kan välja ![Svara](../assets/icons/Reply.svg) **[!UICONTROL Create new conversion]** för att skapa en konvertering direkt från modellkonfigurationen.
 
@@ -72,7 +72,7 @@ Gränssnittet ger ett stegvis guidat modellkonfigurationsflöde när du vill ska
 
       * Om du vill lägga till en giltig behållare för ifyllning av data väljer du ![Lägg till](../assets/icons/AddCircle.svg) **[!UICONTROL Add eligible population]**.
 
-      * Om du vill ta bort en lämplig behållare för ifyllning av data i behållaren väljer du ![Mer](../assets/icons/More.svg)och markera **[!UICONTROL Remove container]** på snabbmenyn.
+      * Om du vill ta bort en lämplig behållare för ifyllning av data i behållaren väljer du ![Mer](../assets/icons/More.svg)och markera **[!UICONTROL Remove marketing touchpoint]** på snabbmenyn.
 
         ![Modell - Berättigad datapopulation](../assets/model-eligible-data-population-step.png)
 
@@ -86,7 +86,7 @@ Gränssnittet ger ett stegvis guidat modellkonfigurationsflöde när du vill ska
 
       * Om du vill lägga till ytterligare en datauppsättningsbehållare för externa faktorer väljer du ![Lägg till](../assets/icons/AddCircle.svg) **[!UICONTROL Add external factor]**.
 
-      * Om du vill ta bort en datauppsättningsbehållare för externa faktorer i behållaren väljer du ![Mer](../assets/icons/More.svg)och markera **[!UICONTROL Remove container]** på snabbmenyn.
+      * Om du vill ta bort en datauppsättningsbehållare för externa faktorer i behållaren väljer du ![Mer](../assets/icons/More.svg)och markera **[!UICONTROL Remove external factor]** på snabbmenyn.
 
         ![Modell - datamängd för externa faktorer](../assets/model-external-factors-dataset-step.png)
 
@@ -101,7 +101,7 @@ Gränssnittet ger ett stegvis guidat modellkonfigurationsflöde när du vill ska
 
       * Om du vill lägga till ytterligare en datauppsättningsbehållare för interna faktorer väljer du ![Lägg till](../assets/icons/AddCircle.svg) **[!UICONTROL Add internal factor]**.
 
-      * Om du vill ta bort ytterligare en datauppsättningsbehållare för interna faktorer, i behållaren, väljer du ![Mer](../assets/icons/More.svg)och **[!UICONTROL Remove container]** på snabbmenyn.
+      * Om du vill ta bort ytterligare en datauppsättningsbehållare för interna faktorer, i behållaren, väljer du ![Mer](../assets/icons/More.svg)och **[!UICONTROL Remove internal factor]** på snabbmenyn.
 
         ![Modell - intern faktordatauppsättning](../assets/model-internal-factors-dataset-step.png)
 
@@ -113,7 +113,7 @@ Gränssnittet ger ett stegvis guidat modellkonfigurationsflöde när du vill ska
 
    1. I **[!UICONTROL Define training window]** avsnitt, välja mellan
 
-      * **[!UICONTROL Have Mix Modeler select a helpful training window]** och 
+      * **[!UICONTROL Have Mix Modeler select a helpful training window]** och
 
       * **[!UICONTROL Manually input a training window]**. När du väljer det här alternativet anger du antalet år i **[!UICONTROL Include events the following years prior to a conversion]**.
 

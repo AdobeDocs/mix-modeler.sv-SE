@@ -3,9 +3,9 @@ title: Skapa en plan
 description: Lär dig hur du skapar en plan i Mix Modeler.
 feature: Plans
 exl-id: 6d61d0b2-5871-4d00-9a35-73fff0a1c3e5
-source-git-commit: f445cb2b1ec04ffe9247e858c048587802bffe9c
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '338'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Skapa en plan i ![PLan](../assets/icons/FileChart.svg) **[!UICONTROL Plans]** i 
 
       1. Ange en **[!UICONTROL Plan name]**, till exempel `Demo plan`. Ange en **[!UICONTROL Description]**, till exempel `Demo plan for Luma company`.
       1. Välj en **[!UICONTROL Model]** från **[!UICONTROL _Välj ett alternativ.._.]**.
-      1. Du kan välja ![LinkOut](../assets/icons/LinkOut.svg) **[!UICONTROL Create model]** för att skapa en modell direkt från när du skapar en plan.
+      1. Du kan välja ![LinkOut](../assets/icons/LinkOut.svg) **[!UICONTROL Create model]** för att skapa en modell direkt från när du skapar en plan. Då öppnas en ny flik i webbläsaren och [Models](../models/overview.md) gränssnitt.
 
          ![Planinställningar](../assets/plan-setup.png)
 
@@ -70,4 +70,4 @@ Skapa en plan i ![PLan](../assets/icons/FileChart.svg) **[!UICONTROL Plans]** i 
 
    1. När du är klar väljer du **[!UICONTROL Create]**.
 
-   1. I **[!UICONTROL Create plan]** dialogruta, välja **[!UICONTROL Create plan]** för att skapa en plan. Välj **[!UICONTROL Cancel]** för att avbryta skapandet av din plan.
+   1. I **[!UICONTROL Create plan]** dialogruta, välja **[!UICONTROL Create plan]** för att skapa en plan. Välj **[!UICONTROL Cancel]** för att avbryta skapandet av din plan. A **[!UICONTROL No work is saved]** visas för att bekräfta.

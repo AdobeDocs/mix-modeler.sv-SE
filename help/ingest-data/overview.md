@@ -3,10 +3,10 @@ title: Ingrediera data
 description: Lär dig hur du importerar data till Mix Modeler.
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
 exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
-source-git-commit: 1dbdee00f518d98241fc042e2aabc0e40d5a9153
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 10%
+source-wordcount: '459'
+ht-degree: 6%
 
 ---
 
@@ -58,10 +58,10 @@ Nedan finns några exempel på data som vanligtvis används i Mix Modeler utöve
 
 | Geo | Datum | Datumtyp | Produkt | Sålda enheter | Intäkter |
 |---|:---|:---:|---|--:|--:|
-| EMEA | 2021-09-13 | dag | Skapare av ekonomi | 603 | 36537.68 |
-| EMEA | 2021-09-13 | dag | Metaverse | 55 | 21704.37 |
-| JPN | 2022-05-30 | dag | Pro Imaging | 487 | 64469.60 |
-| JPN | 2022-05-30 | dag | Document Cloud | 642 | 100509.07 |
+| EMEA | 2021-09-13 | dag | Skapare av ekonomi | 603 | 36537,68 |
+| EMEA | 2021-09-13 | dag | Metaverse | 55 | 21704,37 |
+| JPN | 2022-05-30 | dag | Pro Imaging | 487 | 64469,60 |
+| JPN | 2022-05-30 | dag | Document Cloud | 642 | 100509,07 |
 
 {style="table-layout:auto"}
 
@@ -71,16 +71,16 @@ Nedan finns några exempel på data som vanligtvis används i Mix Modeler utöve
 
 | Data | Datumtyp | Faktor | Värde |
 |---|:---:|:---:|:---|
-| 2020-08-02 | vecka | SPX | 3325.866 |
-| 2020-08-09 | vecka | SPX | 3364.158 |
-| 2020-08-16 | vecka | SPX | 3385.858 |
-| 2020-08-23 | vecka | SPX | 3497.965 |
+| 2020-08-02 | vecka | SPX | 3325,866 |
+| 2020-08-09 | vecka | SPX | 3364,158 |
+| 2020-08-16 | vecka | SPX | 3385,858 |
+| 2020-08-23 | vecka | SPX | 3497,965 |
 
 {style="table-layout:auto"}
 
 +++
 
-För att kunna arbeta med data i Mix Modeler behöver du data som samlats in i datauppsättningar och som modellerats efter scheman i Experience Platform. Gränssnittet i Mix Modeler ger enkel åtkomst till både schemat och datauppsättningsgränssnittet.
+För att kunna arbeta med data i Mix Modeler behöver du data som samlats in i datauppsättningar och som modellerats efter scheman i Experience Platform. Gränssnittet i Mix Modeler ger enkel åtkomst till både Experience Platform Scheman och datauppsättningsgränssnittet.
 
 
 >[!MORELIKETHIS]

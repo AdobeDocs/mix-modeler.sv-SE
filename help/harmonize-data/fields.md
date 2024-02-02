@@ -3,9 +3,9 @@ title: Harmoniserade områden
 description: Lär dig hur du definierar fält som ska användas för att harmonisera data i Mix Modeler.
 feature: Harmonized Data, Harmonized Fields
 exl-id: f051279a-1ae9-49bd-a946-abfc34c90413
-source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '685'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ En tabell över de tillgängliga harmoniserade fälten finns i Mix Modeler-grän
 
 1. Välj ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** från den vänstra listen.
 
-1. Välj **[!UICONTROL Fields]** i det övre fältet. En tabell över de harmoniserade fälten visas.
+1. Välj **[!UICONTROL Fields]** i det övre fältet. En tabell över de harmoniserade fälten visas. Om det finns fler tillgängliga sidor använder du ![Pil vänster](../assets/icons/ChevronLeft.svg) eller ![Högerpil](../assets/icons/ChevronRight.svg) på **[!UICONTROL Page _x _av_x_]** för att flytta mellan sidor i tabellen.
 
    Tabellkolumnerna anger information om de harmoniserade fälten
 
@@ -66,10 +66,10 @@ En tabell över de tillgängliga harmoniserade fälten finns i Mix Modeler-grän
    | Fältnamn | Namnet på det harmoniserade fältet. |
    | Visningsnamn | Det harmoniserade fältets visningsnamn. Det här visningsnamnet används när du definierar datauppsättningsregler, kontaktpunkter för marknadsföring och konverteringsdefinitioner. |
    | Kategori | Anger om ett harmoniserat datafält är ett [!UICONTROL Dimension], a [!UICONTROL Metric] eller [!UICONTROL Derived]. En härledd kategori är ett harmoniserat fält som använder en metrisk formeldefinition. |
-   | Ägare | Anger om ett harmoniserat fält är standardfält ([!UICONTROL Global]) eller definieras av dig ([!UICONTROL Client]). |
    | Datatyp | Anger datatypen ([!UICONTROL Number], [!UICONTROL String], [!UICONTROL Currency], [!UICONTROL DateTime]). |
-   | Skapad | Datum och tid då det harmoniserade fältet skapades. |
-   | Senast ändrat datum/tid | Uppgifter och tid för den senaste ändringen av det harmoniserade fältet. |
+   | Skapad den | Datum och tid då det harmoniserade fältet skapades. |
+   | Ägare | Anger om ett harmoniserat fält är standardfält ([!UICONTROL Global]) eller definieras av dig ([!UICONTROL Client]). |
+   | Senast ändrat den | Uppgifter och tid för den senaste ändringen av det harmoniserade fältet. |
    | Formel | Anger formeln för ett harmoniserat fält baserat på en härledd kategori. |
 
    {style="table-layout:auto"}
@@ -77,13 +77,11 @@ En tabell över de tillgängliga harmoniserade fälten finns i Mix Modeler-grän
 1. Om du vill söka efter ett visst harmoniserat fält använder du ![Sök](../assets/icons/Search.svg) **[!UICONTROL *Sök i harmoniserat fält *]**.
 
 
-
-
 ### Lägg till ett harmoniserat fält
 
 Lägga till ett harmoniserat fält i ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** i Mix Modeler:
 
-1. Välj ![Lägg till](../assets/icons/AddCircle.svg)Lägg till fält.
+1. Välj ![Lägg till](../assets/icons/AddCircle.svg) **[!UICONTROL Add field]**.
 
 1. I **[!UICONTROL Create]** dialog:
 
@@ -105,13 +103,13 @@ Lägga till ett harmoniserat fält i ![DataSearch](../assets/icons/DataCheck.svg
 
 ### Redigera ett harmoniserat fält
 
-Du kan bara redigera harmoniserade fält som du skapat tidigare. Du kan inte redigera ett globalt harmoniserat fält.
+Du kan bara redigera harmoniserade fält som du skapat tidigare (ägaren är klienten). Du kan inte redigera ett globalt harmoniserat fält.
 
 Redigera ett harmoniserat fält i dialogrutan ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** i Mix Modeler:
 
-1. Markera det harmoniserade fält som du vill redigera. Exempel, **[!UICONTROL Region]**.
+1. Markera det harmoniserade fält som du vill redigera. Till exempel: **[!UICONTROL Region]**.
 
-1. I **[!UICONTROL Edit harmonization values]** ruta, ändra värden för **[!UICONTROL Display name]**, **[!UICONTROL Category]** och **[!UICONTROL Data type]**.
+1. I **[!UICONTROL Edit harmonization values]** ruta, ändra värden för **[!UICONTROL Display name]**, **[!UICONTROL Category]** och **[!UICONTROL Data type]**. Se [Lägg till ett harmoniserat fält](#add-a-harmonized-field) för mer information.
 
 1. Välj **[!UICONTROL Submit]** tillämpa ändringarna på det harmoniserade fältet.
 
@@ -119,10 +117,15 @@ Redigera ett harmoniserat fält i dialogrutan ![DataSearch](../assets/icons/Data
 
 ### Radera ett harmoniserat fält
 
-Du kan bara ta bort harmoniserade fält som du skapat tidigare. Du kan inte ta bort ett globalt harmoniserat fält.
+Du kan bara ta bort harmoniserade fält som du skapat tidigare (ägaren är klienten). Du kan inte ta bort ett globalt harmoniserat fält.
 
 Radera ett harmoniserat fält i dialogrutan ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** i Mix Modeler:
 
 1. Markera det harmoniserade fält som du vill ta bort, till exempel **[!UICONTROL Region]**.
 
 1. Välj ![Ta bort](../assets/icons/Delete.svg) **[!UICONTROL Delete]** från **[!UICONTROL Edit harmonization values]** vänster ruta.
+
+   >[!WARNING]
+   >
+   >   Fältet raderas omedelbart.
+

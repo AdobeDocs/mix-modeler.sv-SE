@@ -2,13 +2,13 @@
 title: Jämför planer
 description: Lär dig hur du jämför planer i Mix Modeler.
 feature: Plans
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: 40f6ade5-77eb-4ef7-ba60-4a2d2fcf1a60
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '102'
 ht-degree: 0%
 
 ---
-
 
 # Jämför planer
 
@@ -23,9 +23,9 @@ Gränssnittet Jämför planer visar information och widgetar om:
 * Plan
 * Datumintervall
 * Modell
-* Budget
-* Blandningstyp
-* Utgiftsfördelning
+* Total budget
+* Kanalbuökning: **[!UICONTROL AI automated]** eller **[!UICONTROL Custom + AI]**
+* Planerade utgifter
 * Prognostiserad avkastning
 * avkastningsgrad
 * Prognostiserad avkastning

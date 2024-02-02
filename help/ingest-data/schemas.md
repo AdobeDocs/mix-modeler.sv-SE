@@ -3,7 +3,7 @@ title: Scheman
 description: Lär dig hur du hanterar scheman som krävs för att importera data till Mix Modeler.
 feature: Schemas
 exl-id: 08289581-5af9-4422-b049-8c24105e2a8e
-source-git-commit: e40d1eb484f3ee6d289adbe1355455bbb202825a
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 2%
@@ -16,7 +16,7 @@ Så här hanterar du scheman och stöder de data du vill importera i Experience 
 
 1. Gå till gränssnittet Mix Modeler.
 
-1. Välj ![Scheman](../assets/icons/Schemas.svg) **[!UICONTROL Schemas]**, under **[!UICONTROL DATA MANAGEMENT]**.
+1. Välj ![Scheman](../assets/icons/Schemas.svg) **[!UICONTROL Schemas]**, under **[!UICONTROL SETUP]**.
 
 Se [Översikt över schemaanvändargränssnittet](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en) för mer information.
 

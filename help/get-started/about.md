@@ -4,16 +4,16 @@ description: Få en översikt över funktionaliteten och funktionerna i Mix Mode
 short-description: Få en översikt över funktionaliteten och funktionerna i Mix Modeler.
 feature: Plans, Harmonized Data, Models
 exl-id: aa1018d5-b073-4dfb-b40c-ca16a8970b2f
-source-git-commit: 512cc28a9fab81438d54e30bb6e20f05da5265d1
+source-git-commit: 18bb0bb50d5045536a58cb36cc9b99ccb9b17e25
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '287'
 ht-degree: 8%
 
 ---
 
 # Mix Modeler - översikt
 
-I den här videon får du en snabb överblick över Mix Modeler.
+I den här videon får du en snabb översikt över Mix Modeler.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3424872/?learn=on)
 
@@ -50,3 +50,7 @@ Mix Modeler har följande funktioner:
 | **Skapa och jämföra budgetscenarier** | Utveckla olika budgetplaner och jämför deras effekt för att fatta optimala beslut för ert företag. |
 
 {style="table-layout:auto"}
+
+>[!MORELIKETHIS]
+>
+>[Förstå arbetsflödet i Mix Modeler](workflow.md)

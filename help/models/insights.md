@@ -3,9 +3,9 @@ title: Modellinsikter
 description: Lär dig hur du får information om din modell, som historisk översikt, modellinsikter och modellkvalitet i Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
+source-git-commit: 17d4609f251808f68372185ac90530e164024b5f
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
@@ -51,11 +51,15 @@ På fliken Modellinsikter visas widgetar för:
 
 * Sammanfattning av marknadsföringsprestanda.
 
+* Marginalkurvor.
+
 ![Modell - modellinsikter](../assets/model-model-insights.png)
 
 Du kan hovra över enskilda diagramelement i varje widget för att visa en pover med mer information.
 
 Om du vill hämta en CSV-fil som innehåller data för widgeten väljer du ![Ladda ned](../assets/icons/Download.svg).
+
+Om du vill hämta fullständiga data om modellinsikter i Microsoft® Excel-format väljer du ![Ladda ned](../assets/icons/Download.svg) **[!UICONTROL Download data]**.
 
 
 

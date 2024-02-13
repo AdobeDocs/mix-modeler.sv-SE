@@ -4,10 +4,10 @@ description: Versionsinformation för den senaste Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 4fa5798dd6b51cc44ac9bb063c87765e6d1c85e0
+source-git-commit: 17d4609f251808f68372185ac90530e164024b5f
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 5%
+source-wordcount: '166'
+ht-degree: 4%
 
 ---
 
@@ -22,6 +22,8 @@ Versionsinformationen innehåller den senaste versionen av Mix Modeler. Mix Mode
 
 | Funktion | Beskrivning | Allmän tillgänglighet |
 |---|---|---|
+| **Förbättrade nedladdningar** | Nu kan du [ladda ned fullständiga modellinsikter](../models/insights.md) i Microsoft® Excel | 31 januari 2024 |
+| **Marginalkurvor** | [Modellinsikter](../models/insights.md) innehåller en extra widget som visar marginella kurvor. | 31 januari 2024 |
 | **Inställningar för datasammanfogning** | Du kan definiera [inställningar för datasammanfogning](../harmonize-data/dataset-rules.md#data-merge-preferences) för datauppsättningsregler för harmoniserade datauppsättningar. | 31 januari 2024 |
 | **Användningsrapport** | Gränssnittet för harmoniserade datamängder har ytterligare [Användningsrapport](../harmonize-data/usage-report.md) som ger ytterligare insikter om hur modeller och konverteringar används. | 31 januari 2012 |
 | **Uppdaterat gränssnitt för planinsikter** | Gränssnittet för planinsikter uppdateras så att du kan välja vilken avkastning och vilka kanaler som ska rapporteras. | 31 januari 2024 |

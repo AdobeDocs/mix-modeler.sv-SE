@@ -3,9 +3,9 @@ title: Modellinsikter
 description: Lär dig hur du får information om din modell, som historisk översikt, modellinsikter och modellkvalitet i Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 17d4609f251808f68372185ac90530e164024b5f
+source-git-commit: 4f4c7f05e90d73a0ab4865150b1ec4c2af88fc12
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ På fliken Historik visas widgetar för:
 
 På fliken Modellinsikter visas widgetar för:
 
-* Bidrag per datum och basmedia. Det staplade diagrammet ordnas: Bas längst ned, Kanaler utan utgifter i mitten och Utläggskanaler överst.
+* Bidrag per datum och basmedia. Det staplade diagrammet ordnas: Bas längst ned, Ej använda kanaler i mitten och Utläggskanaler överst.
 
 * Bidrag per kanal.
 
@@ -62,18 +62,29 @@ Om du vill hämta en CSV-fil som innehåller data för widgeten väljer du ![Lad
 Om du vill hämta fullständiga data om modellinsikter i Microsoft® Excel-format väljer du ![Ladda ned](../assets/icons/Download.svg) **[!UICONTROL Download data]**.
 
 
-
-
 ## Modellkvalitet
 
-På fliken Modellkvalitet visas widgetar för mätning:
+![Modellkvalitetsbedömning](/help/assets/model-quality-assessment.png)
+På fliken för modellkvalitet visas en
 
-* R2 (R-fyrkantig), som anger hur väl data passar in i regressionsmodellen (godheten i passform).
+* [!UICONTROL Model Assessment] visualisering, som du kan bryta ned på faktiska kontra förväntade eller kvarstående konverteringar.
 
-* MAPE (medelvärde för absolut procentfel), som är en av de mest använda KPI:erna för att mäta prognosens exakthet och uttrycker prognosfelet som en procentandel av det faktiska värdet.
+  Om du vill bryta ned visualiseringen väljer du **[!UICONTROL Actual vs. Predicted]** eller **[!UICONTROL Residuals]** från **[!UICONTROL Breakdown]** lista.
 
-* RMSE (Rot Mean Square Error): som visar det genomsnittliga felet, viktat enligt kvadraten på felet.
+* [!UICONTROL Model fitting metrics] tabell, med följande kolumner för varje konverteringsmått:
 
-![Modellkvalitet](../assets/model-quality.png)
+   * Faktisk konvertering
 
-Om du vill hämta en CSV-fil som innehåller data för widgeten väljer du ![Mer](../assets/icons/More.svg) i widgeten och på snabbmenyn väljer ![Ladda ned](../assets/icons/Download.svg) **[!UICONTROL Download as CSV]**.
+   * Modellerad konvertering
+
+   * Restkonvertering (skillnad mellan faktisk konvertering och modellkonvertering)
+
+   * Värden för modellkvalitetsskala:
+
+      * R2 (R-fyrkantig), som anger hur väl data passar in i regressionsmodellen (godheten i passform).
+
+      * MAPE (medelvärde för absolut procentfel), som är en av de mest använda KPI:erna för att mäta prognosens exakthet och uttrycker prognosfelet som en procentandel av det faktiska värdet.
+
+      * RMSE (Rot Mean Square Error): som visar det genomsnittliga felet, viktat enligt kvadraten på felet.
+
+  Om du vill hämta en CSV-fil som innehåller data för tabellen väljer du ![Ladda ned](../assets/icons/Download.svg).

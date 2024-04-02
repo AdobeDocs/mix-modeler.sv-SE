@@ -3,9 +3,9 @@ title: Datauppsättningsregler
 description: Lär dig hur du definierar datauppsättningsregler som ska användas som en del av att harmonisera data i Mix Modeler.
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
+source-git-commit: 4f4c7f05e90d73a0ab4865150b1ec4c2af88fc12
 workflow-type: tm+mt
-source-wordcount: '980'
+source-wordcount: '998'
 ht-degree: 0%
 
 ---
@@ -54,11 +54,13 @@ I **[!UICONTROL Create]** skärm,
 
 1. När du har valt en datauppsättning med **[!UICONTROL Summary]** kategori:
 
+   1. Om du vill definiera om data för datauppsättningen måste aggregeras eller om befintliga data ska ersättas väljer du **[!UICONTROL Aggregation]** eller **[!UICONTROL Replacement]** for **[!UICONTROL Data restatement is by]**.
+
    1. Avbilda var och en av **[!UICONTROL Available dataset fields]** motsvarar **[!UICONTROL Standard harmonized fields]** in **[!UICONTROL Map to harmonized fields]**. Om du inte vill mappa ett datamängdsfält till ett harmoniserat fält väljer du uttryckligen **[!UICONTROL -- None --]**.
 
    1. Om du behöver ett nytt harmoniserat fält, som inte är tillgängligt i listan, väljer du **[!UICONTROL Create New]** skapa ett nytt harmoniserat fält. Dialogrutan visas enligt [Lägg till ett nytt harmoniserat fält](fields.md#add-a-harmonized-field) för att snabbt kunna lägga till ett nytt harmoniserat fält.
 
-   1. När mappningen är klar för alla fält för regeln väljer du **[!UICONTROL Save as draft]** om du vill spara ett utkast av regeln eller **[!UICONTROL Save]** för att spara och aktivera regeln.  Välj **[!UICONTROL Cancel]** om du vill avbryta regelkonfigurationen.
+   1. När mappningen är klar för alla fält för regeln väljer du **[!UICONTROL Save as draft]** om du vill spara ett utkast av regeln eller **[!UICONTROL Save]** för att spara och aktivera regeln. Välj **[!UICONTROL Cancel]** om du vill avbryta regelkonfigurationen.
 
       ![Skapa datauppsättningsregler](../assets/dataset-create-summary.png)
 
@@ -103,7 +105,7 @@ I **[!UICONTROL Create]** skärm,
 
 1. Välj ![Lägg till](../assets/icons/AddCircle.svg) **[!UICONTROL Add field]** för att definiera ytterligare fält.
 
-När du är klar väljer du **[!UICONTROL Save as draft]** om du vill spara ett utkast av regeln eller **[!UICONTROL Save]** för att spara och aktivera regeln.  Välj **[!UICONTROL Cancel]** om du vill avbryta regelkonfigurationen.
+När du är klar väljer du **[!UICONTROL Save as draft]** om du vill spara ett utkast av regeln eller **[!UICONTROL Save]** för att spara och aktivera regeln. Välj **[!UICONTROL Cancel]** om du vill avbryta regelkonfigurationen.
 
 
 ### Redigera en datauppsättningsregel
@@ -130,7 +132,7 @@ Om du vill synkronisera data mellan harmoniserade data och sammanfattningar och/
 
 1. Från **[!UICONTROL Sync data for dataset rules]** väljer du antingen **[!UICONTROL Refresh harmonized data for summary datasets]**, **[!UICONTROL Refresh harmonized data for event datasets]**, eller **[!UICONTROL Refresh harmonized data for both summary + event datasets]**.
 
-1. Välj **[!UICONTROL Sync]** att starta synkroniseringen baserat på definierade datauppsättningsregler mellan harmoniserade data och data i datauppsättningar. Om du vill avbryta synkroniseringen väljer du **[!UICONTROL Cancel]**.
+1. Om du vill starta synkroniseringen baserat på definierade datauppsättningsregler mellan harmoniserade data och data i datauppsättningar väljer du **[!UICONTROL Sync]**. Om du vill avbryta synkroniseringen väljer du **[!UICONTROL Cancel]**.
 
    ![Synkronisera data](../assets/sync-data.png)
 

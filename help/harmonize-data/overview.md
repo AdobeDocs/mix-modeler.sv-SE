@@ -3,9 +3,9 @@ title: Harmonisera data
 description: Lär dig att harmonisera data i Mix Modeler.
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
+source-git-commit: 4f4c7f05e90d73a0ab4865150b1ec4c2af88fc12
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '893'
 ht-degree: 5%
 
 ---
@@ -17,7 +17,7 @@ Data i Mix Modeler är av olika karaktär beroende på datakällan. Data kan var
 * Sammanlagda eller sammanfattande data, t.ex. insamlade från datakällor i trädgården eller offlinereklam som samlats in (t.ex. utgifter) från en reklamkampanj, ett evenemang eller en fysisk annonskampanj.
 * händelsedata, till exempel från datakällor från första part. Dessa händelsedata kan samlas in via Adobe Analytics källanslutning från Adobe Analytics, via Experience Platform Web eller Mobile SDK eller Edge Network API, eller data som hämtas via källanslutningar.
 
-Harmoniseringstjänsten i Mix Modeler likställer aggregat och händelsedata i en enhetlig datavy. Den här datavyn, tillsammans med interna och externa faktordata, är källan för modellerna i Mix Modeler.
+Harmoniseringstjänsten i Mix Modeler likställer aggregat och händelsedata i en enhetlig datavy. Den här datavyn, tillsammans med interna och externa faktordata, är källan för modellerna i Mix Modeler. Tjänsten använder den högsta granulariteten för de olika datauppsättningarna. Om en datauppsättning till exempel har en kornighet på månatliga och återstående datauppsättningar som har en kornighet varje vecka och dag, skapar harmoniseringstjänsten en datavy med hjälp av månatlig granularitet.
 
 ## Ett exempel på harmoniserade data
 
@@ -118,7 +118,7 @@ För att se harmoniserade data i Mix Modeler-gränssnittet:
 
 1. Välj ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]** från den vänstra listen.
 
-1. Välj **[!UICONTROL Harmonized Data]** i det övre fältet. Ni ser en sammanfattning av era harmoniserade data baserat på de fält, datamängdsregler, kontaktytor och konverteringar ni har definierat.
+1. Välj **[!UICONTROL Harmonized Data]** i det övre fältet. En sammanfattning av dina harmoniserade data visas baserat på de fält, datamängdsregler, kontaktytor för marknadsföring och konverteringar du har definierat.
 
    1. För att omdefiniera den period på vilken sammanfattningen av harmoniserade uppgifter baseras, ange ett datumintervall för **[!UICONTROL Date range]** eller använda ![Kalender](../assets/icons/Calendar.svg) för att markera ett dataområde.
 

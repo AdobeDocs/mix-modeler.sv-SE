@@ -3,9 +3,9 @@ title: Redigera en plan
 description: Lär dig hur du redigerar en plan i Mix Modeler.
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-source-git-commit: b2719da8b49441c00d86f47596546fd7341f16bd
+source-git-commit: 3e2330ffe0337c4ac9ef09fda3cd611656179d29
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,12 @@ När hämtningen är klar visas en översikt över din plan, som består av:
 
 1. Välj **[!UICONTROL X]** eller **[!UICONTROL  %]** om hur **[!UICONTROL View ROI]**.
 
-1. Om du vill hämta en CSV-fil som innehåller data för datumintervallet väljer du ![Ladda ned](../assets/icons/Download.svg) **[!UICONTROL Download CSV]**. Välj ![Ladda ned](../assets/icons/Download.svg) **[!UICONTROL Detailed CSV]** för detaljerade data i CSV-format, eller ![Ladda ned](../assets/icons/Download.svg) **[!UICONTROL Summary CSV]** för sammanfattningsdata i CSV-format.
+1. Om du vill hämta en CSV-fil som innehåller data för datumintervallet väljer du ![Ladda ned](../assets/icons/Download.svg) **[!UICONTROL Download CSV]**. På snabbmenyn:
+
+   - Välj ![Ladda ned](../assets/icons/Download.svg) **[!UICONTROL Detailed CSV]** för detaljerade data i CSV-format, eller
+   - Välj ![Ladda ned](../assets/icons/Download.svg) **[!UICONTROL Summary CSV]** för sammanfattningsdata i CSV-format.
+
+   Detaljerade data är data insamlade per vecka. Sammanfattningsdata är data som lagras i det modellgivna datumintervallet.
 
 1. Om du vill visa datumintervallen efter kanalkategori väljer du **[!UICONTROL All channels]**, **[!UICONTROL Paid channels]**, eller **[!UICONTROL Non-paid channels]** från **[!UICONTROL View]** markering.
 

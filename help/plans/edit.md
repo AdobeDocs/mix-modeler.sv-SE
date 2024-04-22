@@ -3,9 +3,9 @@ title: Redigera en plan
 description: Lär dig hur du redigerar en plan i Mix Modeler.
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-source-git-commit: 3e2330ffe0337c4ac9ef09fda3cd611656179d29
+source-git-commit: 128a548af9b22e6b14794b1ba94def6431e97c51
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ När hämtningen är klar visas en översikt över din plan, som består av:
 
 1. Om du vill hämta en CSV-fil som innehåller data för datumintervallet väljer du ![Ladda ned](../assets/icons/Download.svg) **[!UICONTROL Download CSV]**. På snabbmenyn:
 
-   - Välj ![Ladda ned](../assets/icons/Download.svg) **[!UICONTROL Detailed CSV]** för detaljerade data i CSV-format, eller
+   - Välj ![Ladda ned](../assets/icons/Download.svg) **[!UICONTROL Detailed CSV]** för detaljerade data i CSV-format.
    - Välj ![Ladda ned](../assets/icons/Download.svg) **[!UICONTROL Summary CSV]** för sammanfattningsdata i CSV-format.
 
    Detaljerade data är data insamlade per vecka. Sammanfattningsdata är data som lagras i det modellgivna datumintervallet.

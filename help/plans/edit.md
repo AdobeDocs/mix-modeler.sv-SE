@@ -3,9 +3,9 @@ title: Redigera en plan
 description: Lär dig hur du redigerar en plan i Mix Modeler.
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-source-git-commit: cbe4b4bf17773a42e4a13d4777443e5f1f50dc6e
+source-git-commit: b2719da8b49441c00d86f47596546fd7341f16bd
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ När hämtningen är klar visas en översikt över din plan, som består av:
 
 1. Välj **[!UICONTROL X]** eller **[!UICONTROL  %]** om hur **[!UICONTROL View ROI]**.
 
-1. Om du vill hämta en CSV-fil som innehåller data för datumintervallet väljer du ![Ladda ned](../assets/icons/Download.svg) **[!UICONTROL Download CSV]**.
+1. Om du vill hämta en CSV-fil som innehåller data för datumintervallet väljer du ![Ladda ned](../assets/icons/Download.svg) **[!UICONTROL Download CSV]**. Välj ![Ladda ned](../assets/icons/Download.svg) **[!UICONTROL Detailed CSV]** för detaljerade data i CSV-format, eller ![Ladda ned](../assets/icons/Download.svg) **[!UICONTROL Summary CSV]** för sammanfattningsdata i CSV-format.
 
 1. Om du vill visa datumintervallen efter kanalkategori väljer du **[!UICONTROL All channels]**, **[!UICONTROL Paid channels]**, eller **[!UICONTROL Non-paid channels]** från **[!UICONTROL View]** markering.
 

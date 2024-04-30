@@ -2,7 +2,7 @@
 title: Granskning
 description: Lär dig hur du granskar Mix Modeler.
 feature: Administration
-source-git-commit: 44e37f385241d90da87e1fd85fb4ce9024b67250
+source-git-commit: e1ef6f2b54ae7c80cb115b417909b154b6153ce2
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 0%
@@ -50,3 +50,4 @@ Så här inspekterar du granskningsloggen i Mix Modeler-gränssnittet:
 1. Om du vill ändra kolumnerna som visas i aktivitetsloggen väljer du ![Kolumner](../assets/icons/ColumnSetting.svg) och i **[!UICONTROL Customize table]** markerar de kolumner som ska visas. Välj **[!UICONTROL Apply]** för att använda markeringen, **[!UICONTROL Cancel]** om du vill avbryta markeringen.
 
 1. Om du vill hämta granskningsloggen väljer du ![Ladda ned](../assets/icons/Download.svg) **[!UICONTROL Download log]**. I **[!UICONTROL Download log]** välj antingen **[!UICONTROL CSV]** eller **[!UICONTROL JSON]** som format och välj **[!UICONTROL Download]**.
+

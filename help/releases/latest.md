@@ -4,18 +4,25 @@ description: Versionsinformation för den senaste Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 4f4c7f05e90d73a0ab4865150b1ec4c2af88fc12
+source-git-commit: e90ddd25ba7b78bd360096dda4e3af80304a5176
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '260'
 ht-degree: 6%
 
 ---
 
 # Versionsinformation för Mix Modeler
 
-**Senaste uppdatering**: 1 april 2024.
+**Senaste uppdatering**: 29 maj 2024.
 
 Versionsinformationen innehåller den senaste versionen av Mix Modeler. Mix Modeler-releaser fungerar enligt en kontinuerlig leveransmodell som möjliggör en ungefärlig månadsvis lanseringsgräns. Versionsinformationen uppdateras därför, så kontrollera dem regelbundet.
+
+## Maj 2024
+
+| Funktion | Beskrivning | Allmän tillgänglighet |
+|---|---|---|
+| **Inställningar för datasammanfogning** [!BADGE beta] | [Inställningar för datasammanfogning](../harmonize-data/dataset-rules.md#data-merge-preferences) hjälper till att lösa konflikter när data från sammanfattade källor och händelsedatakällor sammanfogas. | 29 maj 2024 |
+| **Åtkomstkontroll på fältnivå** | När du definierar datauppsättningsregler, Experience Platform [attributbaserad åtkomstkontroll](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) verkställs på en [fältnivå](../harmonize-data/dataset-rules.md#field-level-access-control). | 29 maj 2024 |
 
 
 ## April 2024

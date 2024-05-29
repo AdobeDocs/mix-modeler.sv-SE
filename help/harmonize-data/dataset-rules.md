@@ -3,9 +3,9 @@ title: Datauppsättningsregler
 description: Lär dig hur du definierar datauppsättningsregler som ska användas som en del av att harmonisera data i Mix Modeler.
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: e86e0d64db01eb98c68c3f6877f5a7cc8b855b88
+source-git-commit: 8b2939a84e8f20f775663f2c46184504e44216aa
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1094'
 ht-degree: 0%
 
 ---
@@ -144,7 +144,7 @@ Om du vill synkronisera data mellan harmoniserade data och sammanfattningar och/
 
 >[!NOTE]
 >
->[!BADGE Beta]{type=Informative}
+>[!BADGE beta]{type=Informative}
 
 Inställningarna för datasammanfogning hjälper till att lösa konflikter när data från sammanfogade data och händelsesdatakällor sammanfogas. Användningsexempel:
 
@@ -153,9 +153,9 @@ Inställningarna för datasammanfogning hjälper till att lösa konflikter när 
 
 För att få korrekta modellprognoser kan du definiera inställningar för datasammanfogning:
 
-1. Välj ![Inställningar för datasammanfogning](../assets/icons/Merge.svg) [!BADGE beta] **Inställningar för datasammanfogning**.
+1. Välj ![Inställningar för datasammanfogning](../assets/icons/Merge.svg) [!BADGE beta].
 
-1. I **[!UICONTROL Data merge preferences]** dialog:
+1. I **[!UICONTROL Data merge preferences]** [!BADGE beta]{type=Informative}
 
    ![Inställningar för datasammanfogning](../assets/data-merge-preferences.png)
 
@@ -168,12 +168,12 @@ För att få korrekta modellprognoser kan du definiera inställningar för datas
          1. Välj **[!UICONTROL CHANNELS]** eller **[!UICONTROL CONVERSION TYPES]**. Välj **[!UICONTROL All]** eller en viss kanal eller konverteringstyp.
          1. Välj **[!UICONTROL Summary]** eller **[!UICONTROL Event]** om du vill ange om sammanfattningsdata eller händelsedata ska prioriteras för måttet (och för alla eller valda kanaler) när data sammanfogas.
 
-Så här lägger du till en eller flera ytterligare kanal- eller konverteringstyper:
+         Så här lägger du till en eller flera ytterligare kanal- eller konverteringstyper:
 
          1. Välj ![Plus](../assets/icons/AddCircle.svg) **[!UICONTROL Add a channel]** eller ![Plus](../assets/icons/AddCircle.svg) **[!UICONTROL Add a conversion type]**.
          1. Välj **[!UICONTROL Summary]** eller **[!UICONTROL Event]**.
 
-Ta bort en kanal eller konverteringstyp select ![Kryss](../assets/icons/Close.svg).
+         Om du vill ta bort en kanal eller konverteringstyp väljer du ![Kryss](../assets/icons/Close.svg).
 
       1. Om du vill lägga till mer specifika måttbaserade inställningar upprepar du föregående steg.
 
@@ -181,10 +181,13 @@ Ta bort en kanal eller konverteringstyp select ![Kryss](../assets/icons/Close.sv
 
 1. Välj **[!UICONTROL Save]** om du vill spara inställningarna för datasammanfogning. En omsynkronisering av data initieras. <br/>Välj **[!UICONTROL Cancel]** för att avbryta.
 
-## Åtkomstkontroll på fältnivå
+<!--
+## Field-level access control
 
-När datauppsättningsregler konfigureras för harmoniserade datauppsättningar, Experience Platform [attributbaserad åtkomstkontroll](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) används på fältnivå. Ett fält är begränsat när en etikett är kopplad till ett schemafält och en aktiv princip är aktiverad som nekar dig åtkomst till det fältet. Resultatet blir:
+When configuring dataset rules for harmonized datasets, Experience Platform's [attribute based access control](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) is enforced on a field-level. A field is restricted when a label is attached to a schema field and an active policy is enabled that denies access for you to that field. As a result:
 
-* du inte ser de schemafält som är begränsade för dig när du skapar en datauppsättningsregel,
-* du inte kan visa eller redigera mappningen av ett eller flera schemafält som är begränsade för dig. När du redigerar eller visar en datauppsättningsregel som innehåller sådana begränsade fält visas följande skärm.
-  ![Åtgärden tillåts inte](../assets/action-not-permitted.png)
+* you do not see the schema fields that are restricted for you when you create a dataset rule, 
+* you are not able to view or edit the mapping of one or more schema fields that are restricted for you. When you edit or view a dataset rule containing such restricted fields, you see the following screen.
+  ![Action not permitted](../assets/action-not-permitted.png)
+
+-->

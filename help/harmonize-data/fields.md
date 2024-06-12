@@ -3,9 +3,9 @@ title: Harmoniserade områden
 description: Lär dig hur du definierar fält som ska användas för att harmonisera data i Mix Modeler.
 feature: Harmonized Data, Harmonized Fields
 exl-id: f051279a-1ae9-49bd-a946-abfc34c90413
-source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
+source-git-commit: fecb122f6e2e8ae532babd0e2964ad200174a032
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '687'
 ht-degree: 0%
 
 ---
@@ -35,10 +35,10 @@ De standardiserade fälten för global harmonisering i Mix Modeler är följande
 | datauppsättning | Datauppsättning | Dimension | Sträng |           |
 | date_type | Datumtyp | Dimension | Sträng | dag, vecka |
 | e-postmeddelande | Skickade e-postmeddelanden | Mått | Nummer |           |
-| event_date | Datum | Dimension | DateTime |           |
+| event_date | Datum | Dimension | Datum och tid |           |
 | bruttoefterfrågan | Bruttoefterfrågan | Mått | Valuta |           |
 | visningar | Besvingar | Mått | Nummer |           |
-| last_updated_date | Senast uppdaterat | Dimension | DateTime |           |
+| last_updated_date | Senast uppdaterat | Dimension | Datum och tid |           |
 | länkbesök | Länka besök | Mått | Nummer |           |
 | mediatyp | Medietyp | Dimension | Sträng |           |
 | net_sales | Nettoförsäljning | Mått | Valuta |           |
@@ -66,7 +66,7 @@ En tabell över de tillgängliga harmoniserade fälten finns i Mix Modeler-grän
    | Fältnamn | Namnet på det harmoniserade fältet. |
    | Visningsnamn | Det harmoniserade fältets visningsnamn. Det här visningsnamnet används när du definierar datauppsättningsregler, kontaktpunkter för marknadsföring och konverteringsdefinitioner. |
    | Kategori | Anger om ett harmoniserat datafält är ett [!UICONTROL Dimension], a [!UICONTROL Metric] eller [!UICONTROL Derived]. En härledd kategori är ett harmoniserat fält som använder en metrisk formeldefinition. |
-   | Datatyp | Anger datatypen ([!UICONTROL Number], [!UICONTROL String], [!UICONTROL Currency], [!UICONTROL DateTime]). |
+   | Datatyp | Anger datatypen ([!UICONTROL Number], [!UICONTROL String], [!UICONTROL Currency], [!UICONTROL Date time]). |
    | Skapad den | Datum och tid då det harmoniserade fältet skapades. |
    | Ägare | Anger om ett harmoniserat fält är standardfält ([!UICONTROL Global]) eller definieras av dig ([!UICONTROL Client]). |
    | Senast ändrat den | Uppgifter och tid för den senaste ändringen av det harmoniserade fältet. |
@@ -93,7 +93,7 @@ Lägga till ett harmoniserat fält i ![DataSearch](../assets/icons/DataCheck.svg
 
    1. Välj en **[!UICONTROL Data type]**.
 
-      - **[!UICONTROL String]** eller **[!UICONTROL DateTime]**, när markerad kategori är Dimension.
+      - **[!UICONTROL String]** eller **[!UICONTROL Date time]**, när markerad kategori är Dimension.
       - **[!UICONTROL Number]** eller **[!UICONTROL Currency]** när den valda kategorin är Metrisk eller Härledd.
 
    1. Välj **[!UICONTROL Submit]** att lägga till det harmoniserade fältet. Välj **[!UICONTROL Close]** att stänga dialogen utan att lägga till det harmoniserade fältet.

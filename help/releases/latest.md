@@ -4,9 +4,9 @@ description: Versionsinformation för den senaste Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 8b2939a84e8f20f775663f2c46184504e44216aa
+source-git-commit: cefa5ccc8850e4931b2d0acffe9ca5e8c3f92e00
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '285'
 ht-degree: 7%
 
 ---
@@ -17,6 +17,15 @@ ht-degree: 7%
 
 Versionsinformationen innehåller den senaste versionen av Mix Modeler. Mix Modeler-releaser fungerar enligt en kontinuerlig leveransmodell som möjliggör en ungefärlig månadsvis lanseringsgräns. Versionsinformationen uppdateras därför, så kontrollera dem regelbundet.
 
+## Juni 2024
+
+| Funktion | Beskrivning | Allmän tillgänglighet |
+|---|---|---|
+| **Åtkomstkontroll på fältnivå** | När du definierar datauppsättningsregler, Experience Platform [attributbaserad åtkomstkontroll](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) verkställs på en [fältnivå](../harmonize-data/dataset-rules.md#field-level-access-control). | 12 juni 2024 |
+| P **viktiga kontaktytor** | Endast kontaktytor för marknadsföring, angivna i [!UICONTROL Configure] är tillgängliga för markering i [[!UICONTROL Prior Knowledge]](../models/create.md) -avsnitt. | 12 juni 2024 |
+
+{style="table-layout:auto"}
+
 ## Maj 2024
 
 | Funktion | Beskrivning | Allmän tillgänglighet |
@@ -25,9 +34,7 @@ Versionsinformationen innehåller den senaste versionen av Mix Modeler. Mix Mode
 
 {style="table-layout:auto"}
 
-<!--
-| **Field-level access control** | When defining dataset rules, Experience Platform's [attribute based access control](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) is enforced on a [field-level](../harmonize-data/dataset-rules.md#field-level-access-control). | May 29, 2024 |
--->
+
 
 
 ## April 2024

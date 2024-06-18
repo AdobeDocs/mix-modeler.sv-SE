@@ -3,9 +3,9 @@ title: Jämför planer
 description: Lär dig hur du jämför planer i Mix Modeler.
 feature: Plans
 exl-id: 40f6ade5-77eb-4ef7-ba60-4a2d2fcf1a60
-source-git-commit: 18bb0bb50d5045536a58cb36cc9b99ccb9b17e25
+source-git-commit: eb7e964b96c87e74809d1e6182e45351a71ed13c
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '134'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,15 @@ Gränssnittet Jämför planer visar information och widgetar om:
 * Total budget
 * Kanalbudgetering: **[!UICONTROL AI automated]** eller **[!UICONTROL Custom + AI]**
 * Planerade utgifter
+* Prognostiserad avkastning på investering eller CPA (kostnad per åtgärd)
+* Uppdelning av avkastning på investering eller CPA (kostnad per åtgärd)
 * Prognostiserad avkastning
-* avkastningsgrad
-* Prognostiserad avkastning
+
+Där:
+
+* ROI definieras som (Inkrementell omsättning - Utgift) / Utgift.
+* CPA definieras som Utgift/inkrementell konvertering.
+
 
 ![Jämför planer](../assets/compare-plans.png)
 

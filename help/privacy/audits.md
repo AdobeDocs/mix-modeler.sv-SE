@@ -3,9 +3,9 @@ title: Granskningar
 description: Lär dig hur du får åtkomst till granskningar från Mix Modeler.
 feature: Administration
 exl-id: aa65aac5-bea4-43ff-b0d0-9e8a6a97d3ca
-source-git-commit: 28ab9273c1f606c8b685225f412d51ee305b5f31
+source-git-commit: c45f4e4412258f959726c49129c6b9b6fff48f4a
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '315'
 ht-degree: 0%
 
 ---
@@ -22,21 +22,30 @@ Så här inspekterar du granskningsloggen i Mix Modeler-gränssnittet:
 
    | Kategori | Åtgärd | Status |
    |---|---|---|
-   | Mix Modeler datauppsättningsregel | Skapa | Tillåt eller neka |
-   | Mix Modeler datauppsättningsregel | Uppdatera | Tillåt eller neka |
-   | Mix Modeler datauppsättningsregel | Ta bort | Tillåt eller neka |
-   | Mix Modeler | Skapa | Tillåt eller neka |
-   | Mix Modeler | Uppdatera | Tillåt eller neka |
-   | Mix Modeler | Ta bort | Tillåt eller neka |
-   | Mix Modeler Marketing Touch Point | Skapa | Tillåt eller neka |
-   | Mix Modeler Marketing Touch Point | Uppdatera | Tillåt eller neka |
-   | Mix Modeler Marketing Touch Point | Ta bort | Tillåt eller neka |
-   | Konvertering av Mix Modeler | Skapa | Tillåt eller neka |
-   | Konvertering av Mix Modeler | Uppdatera | Tillåt eller neka |
-   | Konvertering av Mix Modeler | Ta bort | Tillåt eller neka |
-   | Mix Modeler Model | Skapa | Tillåt eller neka |
-   | Mix Modeler Model | Uppdatera | Tillåt eller neka |
-   | Mix Modeler Model | Ta bort | Tillåt eller neka |
+   | Mix Modeler datauppsättningsregel | Skapa | Tillåt eller Neka |
+   | Mix Modeler datauppsättningsregel | Uppdatera | Tillåt eller Neka |
+   | Mix Modeler datauppsättningsregel | Ta bort | Tillåt eller Neka |
+   | Mix Modeler | Skapa | Tillåt eller Neka |
+   | Mix Modeler | Uppdatera | Tillåt eller Neka |
+   | Mix Modeler | Ta bort | Tillåt eller Neka |
+   | Mix Modeler Marketing Touch Point | Skapa | Tillåt eller Neka |
+   | Mix Modeler Marketing Touch Point | Uppdatera | Tillåt eller Neka |
+   | Mix Modeler Marketing Touch Point | Ta bort | Tillåt eller Neka |
+   | Konvertering av Mix Modeler | Skapa | Tillåt eller Neka |
+   | Konvertering av Mix Modeler | Uppdatera | Tillåt eller Neka |
+   | Konvertering av Mix Modeler | Ta bort | Tillåt eller Neka |
+   | Mix Modeler Model | Skapa | Tillåt eller Neka |
+   | Mix Modeler Model | Uppdatera | Tillåt eller Neka |
+   | Mix Modeler Model | Ta bort | Tillåt eller Neka |
+   | Mix Modeler Model | Poäng igen | Tillåt eller Neka |
+   | Mix Modeler Model | Klona | Tillåt eller Neka |
+   | Mix Modeler Model | Tåg/tåg | Tillåt eller Neka |
+   | Mix Modeler Model | Hämta/spara metadata | Tillåt eller Neka |
+   | Mix Modeler | Skapa | Tillåt eller Neka |
+   | Mix Modeler | Uppdatera | Tillåt eller Neka |
+   | Mix Modeler | Ändra associerad modell | Tillåt eller Neka |
+   | Mix Modeler Data Harmonization | Utlösarsynkronisering | Tillåt eller Neka |
+
 
 1. Välj en post i aktivitetsloggen om du vill öppna en panel med mer information.
 

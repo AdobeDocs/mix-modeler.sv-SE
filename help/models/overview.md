@@ -3,7 +3,7 @@ title: Models
 description: Lär dig hur du konfigurerar och använder modeller i Mix Modeler.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
+source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Om du vill skapa en modell använder du det guidade modellkonfigurationsflöde f
 
 Om du vill visa en tabell över dina aktuella modeller i gränssnittet Mix Modeler:
 
-1. Välj ![](../assets/icons/FileData.svg) **[!UICONTROL Models]** från den vänstra listen.
+1. Välj ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** från den vänstra listen.
 
 1. En tabell över de aktuella modellerna visas.
 
@@ -58,14 +58,14 @@ Om du vill visa en tabell över dina aktuella modeller i gränssnittet Mix Model
 
    {style="table-layout:auto"}
 
-1. Om du vill ändra kolumnerna som visas för listan väljer du ![Kolumninställningar](../assets/icons/ColumnSetting.svg) och aktivera/inaktivera kolumner ![Kontrollera](../assets/icons/Checkmark.svg) eller inte.
+1. Om du vill ändra kolumnerna som visas för listan väljer du ![Kolumninställningar](/help/assets//icons/ColumnSetting.svg) och aktivera/inaktivera kolumner ![Kontrollera](/help/assets//icons/Checkmark.svg) eller inte.
 
 
 ### Visa information om en modell
 
 Så här visar du mer information om en modell:
 
-1. Välj ![Info](../assets/icons/Info.svg) för en modell för att visa ett popup-fönster med information.
+1. Välj ![Info](/help/assets//icons/Info.svg) för en modell för att visa ett popup-fönster med information.
 
 
 
@@ -73,7 +73,7 @@ Så här visar du mer information om en modell:
 
 Så här visar du insikter om en modell i Mix Modeler-gränssnittet:
 
-1. Välj ![](../assets/icons/FileData.svg) **[!UICONTROL Models]** från den vänstra listen.
+1. Välj ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** från den vänstra listen.
 
 1. Markera namnet på en modell med en **[!UICONTROL Last run status]** av <span style="color:green">●</span> **[!UICONTROL Success]** från **[!UICONTROL Models]** tabell. Modellinsikter är bara tillgängliga för framgångsrika modeller.
 
@@ -85,7 +85,7 @@ Så här visar du insikter om en modell i Mix Modeler-gränssnittet:
 
 Så här gör du om en modell i gränssnittet för Mix Modeler:
 
-1. Välj ![](../assets/icons/FileData.svg) **[!UICONTROL Models]** från den vänstra listen.
+1. Välj ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** från den vänstra listen.
 
 1. Markera namnet på en modell med en **[!UICONTROL Last run status]** av <span style="color:green">●</span> **[!UICONTROL Success]** från **[!UICONTROL Models]** tabell. Ompoängen är endast tillgängliga för korrekt utbildade modeller.
 

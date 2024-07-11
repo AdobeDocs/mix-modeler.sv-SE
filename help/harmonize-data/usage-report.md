@@ -4,19 +4,19 @@ description: Upptäck hur era harmoniserade data används i modeller (för utbil
 feature: Harmonized Data
 hide: true
 hidefromtoc: true
-source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
+exl-id: 6c32f978-8a3e-4878-bb6b-550f1750d6b7
+source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
 workflow-type: tm+mt
 source-wordcount: '73'
 ht-degree: 0%
 
 ---
 
-
 # Användningsrapport
 
 Så här visar du en användningsrapport om dina harmoniserade data:
 
-1. Välj ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** från den vänstra listen.
+1. Välj ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** från den vänstra listen.
 
 1. Välj **[!UICONTROL Usage report]** i det övre fältet.
 

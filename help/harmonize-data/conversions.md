@@ -3,7 +3,7 @@ title: Konverteringar
 description: Lär dig hur du skapar konverteringar som du kan använda som en del av att harmonisera data i Mix Modeler.
 feature: Harmonized Data, Conversions
 exl-id: a8559426-452a-43e8-9a60-0c0bc97d863c
-source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
+source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Ni definierar marknadsföringskonverteringar för attribueringsanalys.
 
 Om du vill se en tabell över tillgängliga konverteringar i gränssnittet Mix Modeler:
 
-1. Välj ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** från den vänstra listen.
+1. Välj ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** från den vänstra listen.
 
 1. Välj **[!UICONTROL Conversions]** i det övre fältet. En tabell över konverteringarna visas.
 
@@ -39,9 +39,9 @@ Tabellkolumnerna anger information om konverteringen:
 
 ## Lägga till en konvertering
 
-Så här lägger du till en konvertering i ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Conversion]** gränssnitt i Mix Modeler:
+Så här lägger du till en konvertering i ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Conversion]** gränssnitt i Mix Modeler:
 
-1. Välj ![Lägg till](../assets/icons/AddCircle.svg) **[!UICONTROL Add a conversion]**.
+1. Välj ![Lägg till](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add a conversion]**.
 
 1. I **[!UICONTROL Create conversion]** dialog:
 
@@ -51,7 +51,7 @@ Så här lägger du till en konvertering i ![DataSearch](../assets/icons/DataChe
 
       1. Välj ett värde från **[!UICONTROL *Välj harmonisera...*]**, till exempel `Conversion types`.
 
-      1. Välj ett värde för operatorn ![Chevron](../assets/icons/ChevronDown.svg), till exempel **[!UICONTROL is]**.
+      1. Välj ett värde för operatorn ![Chevron](/help/assets//icons/ChevronDown.svg), till exempel **[!UICONTROL is]**.
 
       1. Välj ett värde från **[!UICONTROL *Välj värde *]**eller ange ett värde, till exempel **[!UICONTROL Store]**.
 
@@ -61,7 +61,7 @@ Så här lägger du till en konvertering i ![DataSearch](../assets/icons/DataChe
 
    1. Om du vill skapa konverteringen väljer du **[!UICONTROL Create]**. Om du vill avbryta skapandet av en konvertering väljer du **[!UICONTROL Cancel]**.
 
-      ![Alt-text](../assets/create-conversion.png)
+      ![Alt-text](/help/assets//create-conversion.png)
 
 1. När konverteringen skapas läggs den till i konverteringstabellen.
 
@@ -70,14 +70,14 @@ Så här lägger du till en konvertering i ![DataSearch](../assets/icons/DataChe
 
 Visa en konvertering:
 
-1. Välj ![Mer](../assets/icons/More.svg) när du hovrar över ett konverteringsnamn i tabellen.
+1. Välj ![Mer](/help/assets//icons/More.svg) när du hovrar över ett konverteringsnamn i tabellen.
 
-1. Välj ![Visa](../assets/icons/ViewDetail.svg) **Visa**. En dialogruta med information om konverteringen. Se [Lägga till en konvertering](#add-a-conversion) för mer information. Välj **[!UICONTROL Cancel]** för att stänga dialogrutan.
+1. Välj ![Visa](/help/assets//icons/ViewDetail.svg) **Visa**. En dialogruta med information om konverteringen. Se [Lägga till en konvertering](#add-a-conversion) för mer information. Välj **[!UICONTROL Cancel]** för att stänga dialogrutan.
 
 
 ## Ta bort en konvertering
 
 Ta bort en konvertering:
 
-1. Välj ![Ta bort](../assets/icons/Delete.svg) **Ta bort** när du hovrar över ett konverteringsnamn i tabellen.
+1. Välj ![Ta bort](/help/assets//icons/Delete.svg) **Ta bort** när du hovrar över ett konverteringsnamn i tabellen.
 1. I **[!UICONTROL Delete conversion]** dialogrutans bekräftelsedialogruta **[!UICONTROL Delete]** om du vill ta bort konverteringen permanent.

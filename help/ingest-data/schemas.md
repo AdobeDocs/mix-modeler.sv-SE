@@ -3,7 +3,7 @@ title: Scheman
 description: Lär dig hur du hanterar scheman som krävs för att importera data till Mix Modeler.
 feature: Schemas
 exl-id: 08289581-5af9-4422-b049-8c24105e2a8e
-source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
+source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 2%
@@ -16,7 +16,7 @@ Så här hanterar du scheman och stöder de data du vill importera i Experience 
 
 1. Gå till gränssnittet Mix Modeler.
 
-1. Välj ![Scheman](../assets/icons/Schemas.svg) **[!UICONTROL Schemas]**, under **[!UICONTROL SETUP]**.
+1. Välj ![Scheman](/help/assets//icons/Schemas.svg) **[!UICONTROL Schemas]**, under **[!UICONTROL SETUP]**.
 
 Se [Översikt över schemaanvändargränssnittet](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en) för mer information.
 
@@ -38,7 +38,7 @@ Använd klassen XDM Summary Metrics för:
 
 Ett schema som använder **[!DNL XDM Summary Metrics]** basklassen kan vara enkel, vilket visas i **[!DNL ExternalFactorSummarySchema]** nedan.
 
-![Schema för externa faktorer](../assets/external-factors-schema.png)
+![Schema för externa faktorer](/help/assets//external-factors-schema.png)
 
 Det här enkla schemat kan användas för att importera datauppsättningar som innehåller data, till exempel:
 
@@ -65,9 +65,9 @@ Det här enkla schemat kan användas för att importera datauppsättningar som i
 
 Nedan finns ett mer omfattande exempel på **[!DNL LumaPaidMarketingSchema]** med **[!DNL XDM Summary Metrics]** som basklass. Schemat använder dedikerade fältgrupper (kommenterade med färger) för mått (**[!DNL AMMMetrics]**), dimensioner (**[!DNL AMMDimensions]**) och annan kundspecifik information (**[!DNL CustomerSpecific]**).
 
-![Sammanfattningsschema](../assets/summary-schema.png)
+![Sammanfattningsschema](/help/assets//summary-schema.png)
 
-Med tanke på den asynkrona typen av profilinmatning bör du använda fältgruppen Granskningsdetaljer för externt källsystem som en del av ett schema när du samlar in sammanställda eller sammanfattningsdata från externa källor. Den här fältgruppen definierar en uppsättning granskningsegenskaper för externa källor.
+Med tanke på den asynkrona typen av profilinmatning uppmuntras det att använda fältgruppen Extern Source System Audit Details som en del av ett schema när aggregerade data eller sammanfattningsdata samlas in från externa källor. Den här fältgruppen definierar en uppsättning granskningsegenskaper för externa källor.
 
 
 ## Datatyper som stöds

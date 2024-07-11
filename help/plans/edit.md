@@ -3,7 +3,7 @@ title: Redigera en plan
 description: Lär dig hur du redigerar en plan i Mix Modeler.
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-source-git-commit: 128a548af9b22e6b14794b1ba94def6431e97c51
+source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
 workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Redigera en plan
 
-Redigera en plan i ![PLan](../assets/icons/FileChart.svg) **[!UICONTROL Plans]** i Mix Modeler väljer du din plan efter namn.
+Redigera en plan i ![PLan](/help/assets//icons/FileChart.svg) **[!UICONTROL Plans]** i Mix Modeler väljer du din plan efter namn.
 
 I [!UICONTROL Plan insights], dina planinsikter skapas och visar [!UICONTROL Model], [!UICONTROL Data range]och [!UICONTROL Total budget] som planen baseras på.
 
@@ -29,16 +29,16 @@ När hämtningen är klar visas en översikt över din plan, som består av:
    - Konverteringsmål
    - Utgift
 
-![Översikt över en plan](../assets/overview-plan.png)
+![Översikt över en plan](/help/assets//overview-plan.png)
 
 1. Välj **[!UICONTROL Close]** för att återgå till gränssnittet Planer.
 
 1. Välj **[!UICONTROL X]** eller **[!UICONTROL  %]** om hur **[!UICONTROL View ROI]**.
 
-1. Om du vill hämta en CSV-fil som innehåller data för datumintervallet väljer du ![Ladda ned](../assets/icons/Download.svg) **[!UICONTROL Download CSV]**. På snabbmenyn:
+1. Om du vill hämta en CSV-fil som innehåller data för datumintervallet väljer du ![Ladda ned](/help/assets//icons/Download.svg) **[!UICONTROL Download CSV]**. På snabbmenyn:
 
-   - Välj ![Ladda ned](../assets/icons/Download.svg) **[!UICONTROL Detailed CSV]** för detaljerade data i CSV-format.
-   - Välj ![Ladda ned](../assets/icons/Download.svg) **[!UICONTROL Summary CSV]** för sammanfattningsdata i CSV-format.
+   - Välj ![Ladda ned](/help/assets//icons/Download.svg) **[!UICONTROL Detailed CSV]** för detaljerade data i CSV-format.
+   - Välj ![Ladda ned](/help/assets//icons/Download.svg) **[!UICONTROL Summary CSV]** för sammanfattningsdata i CSV-format.
 
    Detaljerade data är data insamlade per vecka. Sammanfattningsdata är data som lagras i det modellgivna datumintervallet.
 
@@ -46,13 +46,13 @@ När hämtningen är klar visas en översikt över din plan, som består av:
 
 1. Om du vill redigera planen väljer du **[!UICONTROL Edit plan]**:
 
-   1. I **[!UICONTROL Spend selection]** för varje datumintervall i budgeten använder du ![Chevron](../assets/icons/ChevronRight.svg) för att öppna kanaldistributionsvyn för det dataintervallet.
+   1. I **[!UICONTROL Spend selection]** för varje datumintervall i budgeten använder du ![Chevron](/help/assets//icons/ChevronRight.svg) för att öppna kanaldistributionsvyn för det dataintervallet.
 
    1. Om du vill ändra budgeten för varje kanal ändrar du värdena för **[!UICONTROL Min]** och **[!UICONTROL Max]** eller använda skjutreglagen.
 
    1. Om du vill växla mellan valuta- eller procentindata väljer du **[!UICONTROL $]** eller **[!UICONTROL %]** for **[!UICONTROL View spend by]**.
 
-      ![Utgiftsval](../assets/spend-selection.png)
+      ![Utgiftsval](/help/assets//spend-selection.png)
 
    1. Om du vill redigera information om din plan väljer du **[!UICONTROL Edit details]**:
 
@@ -60,13 +60,13 @@ När hämtningen är klar visas en översikt över din plan, som består av:
 
       1. I **[!UICONTROL Budget]** avsnitt:
 
-         1. Ändra **[!UICONTROL Date range]** för ett eller flera av datumintervallen i din plan, antingen genom att ange datum eller genom att välja ett datumintervall med ![Kalender](../assets/icons/Calendar.svg).
+         1. Ändra **[!UICONTROL Date range]** för ett eller flera av datumintervallen i din plan, antingen genom att ange datum eller genom att välja ett datumintervall med ![Kalender](/help/assets//icons/Calendar.svg).
 
          1. Ändra **[!UICONTROL Budget]** för ett eller flera av datumintervallen i din plan.
 
-         Om du vill lägga till ytterligare datumintervall väljer du ![KalenderLägg till](../assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**.
+         Om du vill lägga till ytterligare datumintervall väljer du ![KalenderLägg till](/help/assets//icons/CalendarAdd.svg) **[!UICONTROL Add row]**.
 
-         Om du vill ta bort ett datumintervall och en associerad budget väljer du ![Stäng](../assets/icons/Close.svg).
+         Om du vill ta bort ett datumintervall och en associerad budget väljer du ![Stäng](/help/assets//icons/Close.svg).
 
          Så här definierar du en maximal budget:
 
@@ -75,7 +75,7 @@ När hämtningen är klar visas en översikt över din plan, som består av:
 
       1. Välj **[!UICONTROL Next]** för att gå tillbaka till **[!UICONTROL Spend]** -avsnitt. Välj **[!UICONTROL Cancel]** för att återgå till en översikt över dina planer.
 
-         ![Planinformation](../assets/plan-details.png)
+         ![Planinformation](/help/assets//plan-details.png)
 
 
 1. När du är klar med redigeringen av din plan väljer du **[!UICONTROL Edit]**.

@@ -3,7 +3,7 @@ title: Datauppsättningsregler
 description: Lär dig hur du definierar datauppsättningsregler som ska användas som en del av att harmonisera data i Mix Modeler.
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: a066cdff03eade86b09f03209a08ebfa2ab32e8e
+source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
 workflow-type: tm+mt
 source-wordcount: '1210'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Datauppsättningsreglerna hjälper dig att mappa dina harmoniserade fält till f
 
 Om du vill visa en tabell med tillgängliga datauppsättningsregler i gränssnittet Mix Modeler:
 
-1. Välj ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** från den vänstra listen.
+1. Välj ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** från den vänstra listen.
 
 1. Välj **[!UICONTROL Dataset rules]** i det övre fältet. Du ser en tabell med datauppsättningsreglerna.
 
@@ -31,8 +31,8 @@ Tabellkolumnerna anger information om datauppsättningsreglerna:
 | Kolumnnamn | Information |
 | ---------------------- | ----------|
 | Datauppsättning | Datauppsättningens namn. |
-| Källa | Källan till datauppsättningen: Adobe Analytics, Experience Events, Summary (sammanställd) eller Consumer Experience Events. |
-| Schema | Schemat som datauppsättningen följer. Du kan snabbt välja schemanamnet för att öppna schemat på en ny flik i schemaredigeraren i ![Schema](../assets/icons/Schemas.svg) [Scheman](../ingest-data/schemas.md). |
+| Source | Källan till datauppsättningen: Adobe Analytics, Experience Events, Summary (sammanställd) eller Consumer Experience Events. |
+| Schema | Schemat som datauppsättningen följer. Du kan snabbt välja schemanamnet för att öppna schemat på en ny flik i schemaredigeraren i ![Schema](/help/assets//icons/Schemas.svg) [Scheman](../ingest-data/schemas.md). |
 | Kornighet | Detaljrikedomen för data i datauppsättningen. Möjliga värden är Daily, Weekly, Monthly eller Yearly. |
 | Veckostart | Anger vilken veckodag som betraktas som början av en ny vecka för den specifika datauppsättningen. |
 | Status | Fältets status: <p><span style="color:gray">●</span> Utkast eller <p><span style="color:green">●</span> Aktiv |
@@ -42,7 +42,7 @@ Tabellkolumnerna anger information om datauppsättningsreglerna:
 
 ### Skapa en datauppsättningsregel
 
-Skapa en datauppsättningsregel i ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** i Mix Modeler väljer **[!UICONTROL Create a dataset rule]** i **[!UICONTROL Dataset rules configuration]** guide.
+Skapa en datauppsättningsregel i ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** i Mix Modeler väljer **[!UICONTROL Create a dataset rule]** i **[!UICONTROL Dataset rules configuration]** guide.
 
 I **[!UICONTROL Create]** skärm,
 
@@ -62,7 +62,7 @@ I **[!UICONTROL Create]** skärm,
 
    1. När mappningen är klar för alla fält för regeln väljer du **[!UICONTROL Save as draft]** om du vill spara ett utkast av regeln eller **[!UICONTROL Save]** för att spara och aktivera regeln. Välj **[!UICONTROL Cancel]** om du vill avbryta regelkonfigurationen.
 
-      ![Skapa datauppsättningsregler](../assets/dataset-create-summary.png)
+      ![Skapa datauppsättningsregler](/help/assets//dataset-create-summary.png)
 
 1. När du har valt en händelsekategoridatauppsättning (**[!UICONTROL Experience Events]**, **[!UICONTROL Adobe Analytics]**, **[!UICONTROL Consumer Experience Events]**), i rutan under **[!UICONTROL Map to harmonized fields]**:
 
@@ -84,9 +84,9 @@ I **[!UICONTROL Create]** skärm,
 
          1. Om du vill ange värden explicit definierar du ett eller flera fall som består av ett eller flera villkor. Varje villkor kan söka efter en specifik **[!UICONTROL *AEP-datamängdsfält *]**om **[!UICONTROL Exists]**eller **[!UICONTROL Not Exists]**eller om **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**, eller **[!UICONTROL Ends With]**ett värde angivet på**[!UICONTROL * Ange indatavärde *]**.
 
-         1. Om du vill lägga till ytterligare ett ärende väljer du ![Lägg till](../assets/icons/AddCircle.svg) **[!UICONTROL Add case]**, om du vill lägga till ytterligare ett villkor väljer du ![Lägg till](../assets/icons/AddCircle.svg) **[!UICONTROL Add condition]**.
+         1. Om du vill lägga till ytterligare ett ärende väljer du ![Lägg till](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add case]**, om du vill lägga till ytterligare ett villkor väljer du ![Lägg till](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add condition]**.
 
-         1. Om du vill ta bort ett ärende eller villkor väljer du ![Stäng](../assets/icons/Close.svg) i motsvarande behållare.
+         1. Om du vill ta bort ett ärende eller villkor väljer du ![Stäng](/help/assets//icons/Close.svg) i motsvarande behållare.
 
          1. Välj om något eller alla villkor ska gälla för ett ärende **[!UICONTROL Any of]** eller **[!UICONTROL All of]**.
 
@@ -101,27 +101,27 @@ I **[!UICONTROL Create]** skärm,
          * `Black Friday` när **[!UICONTROL marketing.campaignName]** är `_black_friday` eller `BlackFriday`.
          * till värdet av **[!UICONTROL marketing.campaignName]** i alla andra fall.
 
-        ![Datauppsättningsregelhändelse](../assets/dataset-create-event.png)
+        ![Datauppsättningsregelhändelse](/help/assets//dataset-create-event.png)
 
-1. Välj ![Lägg till](../assets/icons/AddCircle.svg) **[!UICONTROL Add field]** för att definiera ytterligare fält.
+1. Välj ![Lägg till](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add field]** för att definiera ytterligare fält.
 
 När du är klar väljer du **[!UICONTROL Save as draft]** om du vill spara ett utkast av regeln eller **[!UICONTROL Save]** för att spara och aktivera regeln. Välj **[!UICONTROL Cancel]** om du vill avbryta regelkonfigurationen.
 
 
 ### Redigera en datauppsättningsregel
 
-Redigera en datauppsättningsregel i ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** gränssnitt i Mix Modeler:
+Redigera en datauppsättningsregel i ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** gränssnitt i Mix Modeler:
 
-1. Välj ![Mer](../assets/icons/More.svg) i **[!UICONTROL Dataset]** -kolumn för den datauppsättningsregel som du vill redigera.
-1. Välj ![Redigera](../assets/icons/Edit.svg) **[!UICONTROL Edit]** för att börja redigera datauppsättningsregeln. Se [Skapa en datauppsättningsregel](#create-a-dataset-rule) för mer information.
+1. Välj ![Mer](/help/assets//icons/More.svg) i **[!UICONTROL Dataset]** -kolumn för den datauppsättningsregel som du vill redigera.
+1. Välj ![Redigera](/help/assets//icons/Edit.svg) **[!UICONTROL Edit]** för att börja redigera datauppsättningsregeln. Se [Skapa en datauppsättningsregel](#create-a-dataset-rule) för mer information.
 
 
 ### Ta bort en datauppsättningsregel
 
-Ta bort en datauppsättningsregel i ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** gränssnitt i Mix Modeler:
+Ta bort en datauppsättningsregel i ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** gränssnitt i Mix Modeler:
 
-1. Välj ![Mer](../assets/icons/More.svg) i **[!UICONTROL Dataset]** kolumn för datauppsättningsregeln som du vill ta bort.
-1. Välj ![Ta bort](../assets/icons/Delete.svg) **[!UICONTROL Delete]** för att ta bort datauppsättningsregeln. Du uppmanas att bekräfta åtgärden. Välj **[!UICONTROL Delete]** om du vill ta bort den markerade datauppsättningsregeln permanent.
+1. Välj ![Mer](/help/assets//icons/More.svg) i **[!UICONTROL Dataset]** kolumn för datauppsättningsregeln som du vill ta bort.
+1. Välj ![Ta bort](/help/assets//icons/Delete.svg) **[!UICONTROL Delete]** för att ta bort datauppsättningsregeln. Du uppmanas att bekräfta åtgärden. Välj **[!UICONTROL Delete]** om du vill ta bort den markerade datauppsättningsregeln permanent.
 
 
 ## Synkronisera data
@@ -137,7 +137,7 @@ Om du vill synkronisera data mellan harmoniserade data och sammanfattningar och/
 
 1. Om du vill starta synkroniseringen baserat på definierade datauppsättningsregler mellan harmoniserade data och data i datauppsättningar väljer du **[!UICONTROL Sync]**. Om du vill avbryta synkroniseringen väljer du **[!UICONTROL Cancel]**.
 
-   ![Synkronisera data](../assets/sync-data.png)
+   ![Synkronisera data](/help/assets//sync-data.png)
 
 
 ## Inställningar för datasammanfogning
@@ -153,31 +153,31 @@ Inställningarna för datasammanfogning hjälper till att lösa konflikter när 
 
 För att få korrekta modellprognoser kan du definiera inställningar för datasammanfogning:
 
-1. Välj ![Inställningar för datasammanfogning](../assets/icons/Merge.svg) [!BADGE beta].
+1. Välj ![Inställningar för datasammanfogning](/help/assets//icons/Merge.svg) [!BADGE beta].
 
 1. I **[!UICONTROL Data merge preferences]** [!BADGE beta]{type=Informative}
 
-   ![Inställningar för datasammanfogning](../assets/data-merge-preferences.png)
+   ![Inställningar för datasammanfogning](/help/assets//data-merge-preferences.png)
 
    * Välj en **[!UICONTROL Default metric preference]**. Den valda standardinställningen för mätvärden används när flera datakällor uppdaterar ett mätfält för en viss kanal under harmonisering. Inställningen används på sandlådenivå, såvida den inte åsidosätts för specifika måttbaserade inställningar. Du kan välja mellan **[!UICONTROL Summary data]**, **[!UICONTROL Event data]** och **[!UICONTROL Sum of summmary and event data]**.
 
    * Så här lägger du till specifika måttbaserade inställningar:
 
-      1. Välj ![Plus](../assets/icons/AddCircle.svg) **[!UICONTROL Add a metric]**.
+      1. Välj ![Plus](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add a metric]**.
          1. Välj ett mått på menyn **[!UICONTROL *Val av mått *]**lista.
          1. Välj **[!UICONTROL CHANNELS]** eller **[!UICONTROL CONVERSION TYPES]**. Välj **[!UICONTROL All]** eller en viss kanal eller konverteringstyp.
          1. Välj **[!UICONTROL Summary]** eller **[!UICONTROL Event]** om du vill ange om sammanfattningsdata eller händelsedata ska prioriteras för måttet (och för alla eller valda kanaler) när data sammanfogas.
 
          Så här lägger du till en eller flera ytterligare kanal- eller konverteringstyper:
 
-         1. Välj ![Plus](../assets/icons/AddCircle.svg) **[!UICONTROL Add a channel]** eller ![Plus](../assets/icons/AddCircle.svg) **[!UICONTROL Add a conversion type]**.
+         1. Välj ![Plus](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add a channel]** eller ![Plus](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add a conversion type]**.
          1. Välj **[!UICONTROL Summary]** eller **[!UICONTROL Event]**.
 
-         Om du vill ta bort en kanal eller konverteringstyp väljer du ![Kryss](../assets/icons/Close.svg).
+         Om du vill ta bort en kanal eller konverteringstyp väljer du ![Kryss](/help/assets//icons/Close.svg).
 
       1. Om du vill lägga till mer specifika måttbaserade inställningar upprepar du föregående steg.
 
-   * Om du vill ta bort en befintlig specifik måttbaserad inställning väljer du ![Ta bort](../assets/icons/Delete.svg).
+   * Om du vill ta bort en befintlig specifik måttbaserad inställning väljer du ![Ta bort](/help/assets//icons/Delete.svg).
 
 1. Välj **[!UICONTROL Save]** om du vill spara inställningarna för datasammanfogning. En omsynkronisering av data initieras. <br/>Välj **[!UICONTROL Cancel]** för att avbryta.
 
@@ -188,4 +188,4 @@ När datauppsättningsregler konfigureras för harmoniserade datauppsättningar,
 
 * du inte ser de schemafält som är begränsade för dig när du skapar en datauppsättningsregel,
 * du inte kan visa eller redigera mappningen av ett eller flera schemafält som är begränsade för dig. När du redigerar eller visar en datauppsättningsregel som innehåller sådana begränsade fält visas följande skärm.
-  ![Åtgärden tillåts inte](../assets/action-not-permitted.png)
+  ![Åtgärden tillåts inte](/help/assets//action-not-permitted.png)

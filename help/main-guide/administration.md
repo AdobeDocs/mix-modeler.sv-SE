@@ -3,9 +3,9 @@ title: Administrering
 description: Lär dig hur du administrerar Mix Modeler.
 feature: Administration
 exl-id: 76d6d15d-a838-4ee2-9929-e55ea8946b80
-source-git-commit: 995f15b6d2dd99d5304a4cda7b1fa5f8a1d00023
+source-git-commit: 4d84c93121fc476cc6610ad572bab161bbacfc23
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '184'
 ht-degree: 2%
 
 ---
@@ -20,9 +20,9 @@ I Adobe Experience Cloud-gränssnittet:
 
 1. Välj **[!UICONTROL Permissions]** från den vänstra listen, under **[!UICONTROL ADMINISTRATION]**.
 
-1. Välj {{user}} **[!UICONTROL Roles]** från den vänstra panelen.
+1. Välj ![Användare](/help/assets/icons/User.svg) **[!UICONTROL Roles]** från den vänstra panelen.
 
-1. Välj en befintlig roll eller skapa en roll med **[!UICONTROL Create role]** (till exempel **Mix Modeler**). Om du väljer en befintlig roll väljer du {{edit}} **[!UICONTROL Edit]** om du vill redigera rollens behörigheter. Se [Hantera roller](https://helpx.adobe.com/se/enterprise/using/admin-console.html) för mer information.
+1. Välj en befintlig roll eller skapa en roll med **[!UICONTROL Create role]** (till exempel **Mix Modeler**). Om du väljer en befintlig roll väljer du ![Redigera](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]** om du vill redigera rollens behörigheter. Se [Hantera roller](https://helpx.adobe.com/se/enterprise/using/admin-console.html) för mer information.
 
 1. Kontrollera att du har valt en eller flera sandlådor för rollen.
 

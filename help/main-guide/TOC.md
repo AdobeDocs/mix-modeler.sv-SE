@@ -2,10 +2,10 @@
 user-guide-title: Användarhandbok för Mix Modeler
 breadcrumb-title: Användarhandbok för Mix Modeler
 user-guide-description: Lär dig hur du använder Mix Modeler.
-source-git-commit: 20d1fe74bfcdaca9ed994002f18011ce73042eb1
+source-git-commit: 63e57b6a9d48281691f9f2951ab1d6156ae5ed0b
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 39%
+source-wordcount: '80'
+ht-degree: 38%
 
 ---
 
@@ -18,12 +18,12 @@ ht-degree: 39%
    + [Vad är Mix Modeler?](/help/get-started/about.md)
    + [Programarbetsflöde](/help/get-started/workflow.md)
 
-+ Kontrollpanel {#dashboard}
++ Instrumentpanel {#dashboard}
    + [Översikt](/help/dashboard/overview.md)
    + [Harmoniserade data](/help/dashboard/harmonized-data.md)
    + [Planer](/help/dashboard/plans.md)
 
-+ Models {#models}
++ Modeller {#models}
    + [Översikt](/help/models/overview.md)
    + [Skapa en modell](/help/models/create.md)
    + [Modellinsikter](/help/models/insights.md)
@@ -43,12 +43,12 @@ ht-degree: 39%
    + [Konverteringar](/help/harmonize-data/conversions.md)
    + [Användningsrapport](/help/harmonize-data/usage-report.md)
 
-+ Ingrediera data {#ingest-data}
++ Ingest data {#ingest-data}
    + [Översikt](/help/ingest-data/overview.md)
    + [Scheman](/help/ingest-data/schemas.md)
    + [Datauppsättningar](/help/ingest-data/datasets.md)
 
-+ Integritet {#privacy}
++ Sekretess {#privacy}
    + [Policyer](/help/privacy/policies.md)
    + [Granskning](/help/privacy/audits.md)
 
@@ -59,6 +59,8 @@ ht-degree: 39%
 + Utgåvor {#releases}
    + [Senaste versionen](/help/releases/latest.md)
    + [2023 års utgåvor](/help/releases/2023.md)
+
++ [Testspektrum](/help/main-guide/test-spectrum.md)
 
 + [Ordlista](/help/main-guide/glossary.md)
 

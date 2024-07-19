@@ -20,13 +20,13 @@ Om du vill ändra datumperioden för data som ska visas i widgetarna anger du et
 
 ## Datafilter
 
-Du kan filtrera data som visas för alla widgetar med ![Filter](/help/assets//icons/Filter.svg) **[!UICONTROL Category Filters]** fönster.
+Du kan filtrera data som visas för alla widgetar med rutan ![Filter](/help/assets//icons/Filter.svg) **[!UICONTROL Category Filters]** .
 
 Välj ett eller flera filter för varje kategori (**[!UICONTROL Brands]**, **[!UICONTROL Campaigns]**, **[!UICONTROL Cannels Type]**, **[!UICONTROL Conversion types]**, **[!UICONTROL Datasets]**, **[!UICONTROL Media types]**, **[!UICONTROL Source types]** och **[!UICONTROL Traffic Source]**).
 
-De valda filtren visas ovanpå widgetarna på **[!UICONTROL FILTERING BY:]**.
+Markerade filter visas ovanpå widgetarna på **[!UICONTROL FILTERING BY:]**.
 
-1. Om du vill ta bort ett enskilt filter väljer du ![Stäng](/help/assets//icons/Close.svg) på filtret, se **[!UICONTROL FILTERING BY:]**.
+1. Om du vill ta bort ett enskilt filter väljer du ![Stäng](/help/assets//icons/Close.svg) på filtret, som visas på **[!UICONTROL FILTERING BY:]**.
 
 1. Du kan snabbt rensa alla filter med **[!UICONTROL Clear All]**.
 
@@ -41,9 +41,9 @@ Du kan konfigurera varje widget.
 
    1. Välj ![Redigera](/help/assets//icons/Edit.svg) och ![Redigera](/help/assets//icons/Edit.svg) **[!UICONTROL Edit data]** på snabbmenyn.
 
-   1. I **[!UICONTROL KPI status card]** dialog:
+   1. I dialogrutan **[!UICONTROL KPI status card]**:
 
-      1. Välj en **[!UICONTROL KPI]** från listan.
+      1. Välj en **[!UICONTROL KPI]** i listan.
 
       1. Välj **[!UICONTROL Apply]** om du vill använda ändringen på kortet. Välj **[!UICONTROL Cancel]** om du vill avbryta ändringen.
 
@@ -51,19 +51,19 @@ Du kan konfigurera varje widget.
 
    1. Välj ![Redigera](/help/assets//icons/Edit.svg) och ![Redigera](/help/assets//icons/Edit.svg) **[!UICONTROL Edit data]** på snabbmenyn.
 
-   1. I **[!UICONTROL Edit Data]** dialog:
+   1. I dialogrutan **[!UICONTROL Edit Data]**:
 
       1. Välj ett mått från **[!UICONTROL Select a metric]**, till exempel **[!UICONTROL Impressions]**.
       1. Välj en kategori från **[!UICONTROL Select category]**, till exempel **[!UICONTROL Media types]**.
       1. (valfritt) välj en andra kategori från **[!UICONTROL Select second category (optional)]**, till exempel **[!UICONTROL Traffic sources]**.
-      1. Välj ![Klocka](/help/assets//icons/Clock.svg) **[!UICONTROL Time]** eller ![Beräkna](/help/assets//icons/Calculator.svg) **[!UICONTROL Total]** som analystyp vid **[!UICONTROL Select analysis type]**.
+      1. Välj ![Clock](/help/assets//icons/Clock.svg) **[!UICONTROL Time]** eller ![Calculator](/help/assets//icons/Calculator.svg) **[!UICONTROL Total]** som analystyp på **[!UICONTROL Select analysis type]**.
 
-         Om du väljer ![Klocka](/help/assets//icons/Clock.svg) **[!UICONTROL Time]** kan du ange tidsintervall. Välj **[!UICONTROL Daily]**, **[!UICONTROL Weekly]**, **[!UICONTROL Monthly]** eller **[!UICONTROL Quarterly]** från **[!UICONTROL Select time frequency]**.
+         Om du väljer ![Klocka](/help/assets//icons/Clock.svg) **[!UICONTROL Time]** kan du ange tidsfrekvensen. Välj **[!UICONTROL Daily]**, **[!UICONTROL Weekly]**, **[!UICONTROL Monthly]** eller **[!UICONTROL Quarterly]** från **[!UICONTROL Select time frequency]**.
 
          Du ser en uppdaterad förhandsvisning av den aktuella markeringen i [!UICONTROL Preview Area] och din aktuella widget under [!UICONTROL Current].
 
-         ![Redigera widgeten för harmoniserade data](/help/assets//edit-harmonized-data-widget.png)
+         ![Redigera harmoniserad datwidget](/help/assets//edit-harmonized-data-widget.png)
 
          Om förhandsgranskningen inte kan återges på grund av att data inte är tillgängliga visas ![Datafel](/help/assets//icons/DataUnavailable.svg) [!UICONTROL Insights Not Available] - [!UICONTROL Harmonized fields are not available].
 
-      1. Välj **[!UICONTROL Apply]** för att tillämpa ändringarna på widgeten. Välj **[!UICONTROL Cancel]** om du vill avbryta ändringar som gjorts i den aktuella widgeten.
+      1. Välj **[!UICONTROL Apply]** om du vill tillämpa ändringarna på widgeten. Välj **[!UICONTROL Cancel]** om du vill avbryta alla ändringar som gjorts i den aktuella widgeten.

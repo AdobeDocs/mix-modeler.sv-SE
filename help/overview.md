@@ -25,16 +25,16 @@ Den här tekniska handboken ger självhjälp för Adobe **Mix Modeler**. Mix Mod
     </td>
     <td>
     <a href="/help/ingest-data/overview.md"><img src="assets/data-ingestion-mm.png"></a>
-    <div><strong>Ingrediera data</strong><br/>Lär dig hur du importerar händelser och samlar in eller sammanställer data i Mix Modeler.</div>
+    <div><strong>Infoga data</strong><br/>Lär dig hur du importerar händelser och samlar in eller sammanställer data i Mix Modeler.</div>
     </td>
     <td>
     <a href="/help/harmonize-data/overview.md"><img src="assets/plan-mm.png"/></a>
-    <div><strong>Harmonisera data</strong><br/>Lär dig hur du kan kombinera aggregerade data och händelsedata i en enhetlig datavy. 
+    <div><strong>Harmonisera data</strong><br/>Lär dig hur du integrerar sammanställd information och händelsedata i en konsekvent datavy. 
     </div>
     </td>
     <td>
     <a href="/help/models/overview.md"><img src="assets/models-mm.png"></a>
-    <div><strong>Modell och plan</strong><br/>Utbildning och poängsättning av era modeller och använd insikterna för era marknadsföringsplaner.</div>
+    <div><strong>Modell och plan</strong><br/>Utbilda och klassificera dina modeller och använd insikterna för dina marknadsföringsplaner.</div>
     </td>
   </tr>
   <tr style="border: 0;">
@@ -52,15 +52,15 @@ Den här tekniska handboken ger självhjälp för Adobe **Mix Modeler**. Mix Mod
   <tr style="border: 0;">
     <td>
       <img src="assets/Data.svg" width="35px"><br/>
-      <strong>Ingrediera data</strong><br/><a href="/help/ingest-data/overview.md">Ökning</a> - <a href="/help/ingest-data/schemas.md">Scheman</a> - <a href="/help/ingest-data/datasets.md">Datauppsättningar</a> 
+      <strong> Infoga data </strong><br/><a href="/help/ingest-data/overview.md">Översikt</a> - <a href="/help/ingest-data/schemas.md">Scheman</a> - <a href="/help/ingest-data/datasets.md">Datauppsättningar</a> 
     </td>
     <td>
       <img src="assets/DataCheck.svg" width="35px"><br/>
-      <strong>Harmonisera data</strong><br/><a href="/help/harmonize-data/overview.md">Ökning</a> - <a href="/help/harmonize-data/fields.md">Fält</a>  - <a href="/help/harmonize-data/dataset-rules.md">Datauppsättningsregler</a> - <a href="/help/harmonize-data/marketing-touchpoints.md">Marknadsföringskontaktytor</a> - <a href="/help/harmonize-data/conversions.md">Konverteringar</a> - <a href="/help/harmonize-data/usage-report.md">Användningsrapport</a>  
+      <strong> Harmonisera data </strong><br/><a href="/help/harmonize-data/overview.md">Översikt</a> - <a href="/help/harmonize-data/fields.md">Fält</a> - <a href="/help/harmonize-data/dataset-rules.md">Datauppsättningsregler</a> - <a href="/help/harmonize-data/marketing-touchpoints.md">Marknadsföringskontaktytor</a> - <a href="/help/harmonize-data/conversions.md">Konverteringar</a> - <a href="/help/harmonize-data/usage-report.md">Användningsrapport</a>  
     </td>
     <td>
       <img src="assets/FileGear.svg" width="35px"><br/>
-      <strong>Models</strong><br/><a href="/help/models/overview.md">Ökning</a> - <a href="/help/models/create.md">Skapa en modell</a> - <a href="/help/models/insights.md">Modellinsikter</a> - <a href="/help/models/scoring-data.md">Poängdata</a>
+      <strong> Modeller </strong><br/><a href="/help/models/overview.md">Översikt</a> - <a href="/help/models/create.md">Skapa en modell</a> - <a href="/help/models/insights.md">Modellinsikter</a> - <a href="/help/models/scoring-data.md">Värderingsdata</a>
     </td>
   </tr>
   <tr style="border: 0;">
@@ -70,11 +70,11 @@ Den här tekniska handboken ger självhjälp för Adobe **Mix Modeler**. Mix Mod
     </td>
     <td>
       <img src="assets/Dashboard.svg" width="35px"><br/>
-      <strong>Ökning</strong><br/><a href="/help/dashboard/overview.md">Scheman</a> - <a href="/help/dashboard/harmonized-data.md">Harmoniserade data</a> - <a href="/help/dashboard/plans.md">Planer</a>
+      <strong> Översikt </strong><br/><a href="/help/dashboard/overview.md">Scheman</a> - <a href="/help/dashboard/harmonized-data.md">Harmoniserade data</a> - <a href="/help/dashboard/plans.md">Planer</a>
     </td>
         <td>
       <img src="assets/Learn.svg" width="35px"><br/>
-      <strong>Tutorials</strong><br/><a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/overview.html?lang=en">Ökning</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/use-cases.html?lang=en">Användningsexempel</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-workflow.html?lang=en">Arbetsflöde</a>  - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-interface-tour.html?lang=en">Demo av användargränssnittet</a>
+      <strong> Tutorials </strong><br/><a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/overview.html?lang=en">Översikt</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/use-cases.html?lang=en">Användningsexempel</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-workflow.html?lang=en">Användararbetsflöde</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-interface-tour.html?lang=en">Demo av användargränssnittet</a>
     </td>
   </tr>
 </table>

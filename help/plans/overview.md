@@ -33,7 +33,7 @@ En plan kan även innehålla:
 
 Om du vill visa en tabell över dina aktuella planer går du till Mix Modeler:
 
-1. Välj ![](/help/assets//icons/FileChart.svg) **[!UICONTROL Plans]** från den vänstra listen.
+1. Välj ![](/help/assets//icons/FileChart.svg) **[!UICONTROL Plans]** i den vänstra listen.
 
 1. Du ser en tabell över aktuella planer och deras status.
 
@@ -47,7 +47,7 @@ Om du vill visa en tabell över dina aktuella planer går du till Mix Modeler:
    | Budget | Den totala budgeten för en plan. |
    | Prognostiserad avkastning | Prognostiserad avkastning för en plan |
    | Prognostiserad avkastning | Den prognostiserade avkastningen på en plan. |
-   | Status | Status för en plan: <p><span style="color:red">●</span> Misslyckades, <p><span style="color:blue">●</span> Bearbetar, eller <p><span style="color:green">●</span> Slutförd. |
+   | Status | Status för en plan: <p><span style="color:red"> ●</span> misslyckades, <p><span style="color:blue"> ●</span> bearbetar, eller <p><span style="color:green"> ●</span> har slutförts. |
 
    {style="table-layout:auto"}
 
@@ -55,12 +55,12 @@ Om du vill visa en tabell över dina aktuella planer går du till Mix Modeler:
 
 ## Skapa en plan
 
-Om du vill skapa en plan använder du guiden Skapa plan för Mix Modeler. Se [Skapa en plan](create.md) för mer information.
+Om du vill skapa en plan använder du guiden Skapa plan för Mix Modeler. Mer information finns i [Skapa en plan](create.md).
 
 
 ## Redigera en plan
 
-Om du vill redigera en plan väljer du namnet på planen i tabellen. Se [Redigera en plan](edit.md) för mer information.
+Om du vill redigera en plan väljer du namnet på planen i tabellen. Mer information finns i [Redigera en plan](edit.md).
 
 
 ## Välj och vidta åtgärder för planer
@@ -76,19 +76,19 @@ Om du vill ta bort alla markeringar i tabellen Planer väljer du ![Stäng](/help
 Så här duplicerar du en plan:
 
 1. Välj en plan i tabellen.
-1. Välj ![Kopiera](/help/assets//icons/Copy.svg) **[!UICONTROL Duplicate]** i åtgärdsfältet. En ny plan med ett namn som består av den ursprungliga planens namn, utökat med **[!UICONTROL (Copy)]** läggs till högst upp i tabellen.
+1. Välj ![Kopiera](/help/assets//icons/Copy.svg) **[!UICONTROL Duplicate]** i åtgärdsfältet. En ny plan, med ett namn som består av den ursprungliga planens namn som har lagts till med **[!UICONTROL (Copy)]**, läggs till högst upp i tabellen.
 
 Alternativt:
 
 1. Välj ![Mer](/help/assets//icons/More.svg) för en plan i tabellen.
-1. Välj **[!UICONTROL Duplicate]** på snabbmenyn. En ny plan med ett namn som består av den ursprungliga planens namn, utökat med **[!UICONTROL (Copy)]** läggs till högst upp i tabellen.
+1. Välj **[!UICONTROL Duplicate]** på snabbmenyn. En ny plan, med ett namn som består av den ursprungliga planens namn som har lagts till med **[!UICONTROL (Copy)]**, läggs till högst upp i tabellen.
 
 ### Jämför planer
 
 Så här jämför du planer:
 
 1. Välj två planer i tabellen.
-1. Välj ![Jämför](/help/assets//icons/Compare.svg) **[!UICONTROL Compare]** i åtgärdsfältet. Du ser **[!UICONTROL Compare plans]** Gränssnitt.
+1. Välj ![Jämför](/help/assets//icons/Compare.svg) **[!UICONTROL Compare]** i åtgärdsfältet. Du ser användargränssnittet för **[!UICONTROL Compare plans]**.
 
 
 ### Ta bort planer
@@ -101,7 +101,7 @@ Så här tar du bort planer:
 Alternativt:
 
 1. Välj ![Mer](/help/assets//icons/More.svg) för en plan i tabellen.
-1. Välj **[!UICONTROL Delete]** på snabbmenyn. En ny plan med ett namn som består av den ursprungliga planens namn, utökat med **[!UICONTROL (Copy)]** läggs till högst upp i tabellen.
+1. Välj **[!UICONTROL Delete]** på snabbmenyn. En ny plan, med ett namn som består av den ursprungliga planens namn som har lagts till med **[!UICONTROL (Copy)]**, läggs till högst upp i tabellen.
 
    >[!WARNING]
    >

@@ -13,7 +13,7 @@ ht-degree: 6%
 
 # Versionsinformation för Mix Modeler
 
-**Senaste uppdatering**: 29 maj 2024.
+**Senast uppdaterad**: 29 maj 2024.
 
 Versionsinformationen innehåller den senaste versionen av Mix Modeler. Mix Modeler-releaser fungerar enligt en kontinuerlig leveransmodell som möjliggör en ungefärlig månadsvis lanseringsgräns. Versionsinformationen uppdateras därför, så kontrollera dem regelbundet.
 
@@ -21,10 +21,10 @@ Versionsinformationen innehåller den senaste versionen av Mix Modeler. Mix Mode
 
 | Funktion | Beskrivning | Allmän tillgänglighet |
 |---|---|---|
-| **MTA-visualiseringar** | Model Insights uppdateras med omfattande [MTA-visualiseringar](../models/insights.md#attribution). | 18 juni 2024 |
+| **MTA-visualiseringar** | Modellinsikter uppdateras med omfattande [MTA-visualiseringar](../models/insights.md#attribution). | 18 juni 2024 |
 | **CPA-värden** | Mätvärden för CPA (kostnad per åtgärd) finns i [Jämför planer](../plans/compare.md). | 18 juni 2024 |
-| **Åtkomstkontroll på fältnivå** | När du definierar datauppsättningsregler, Experience Platform [attributbaserad åtkomstkontroll](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) verkställs på en [fältnivå](../harmonize-data/dataset-rules.md#field-level-access-control). | 12 juni 2024 |
-| **Kontaktpunkter för tidigare kunskap** | Endast kontaktytor för marknadsföring, angivna i [!UICONTROL Configure] är tillgängliga för markering i [[!UICONTROL Prior Knowledge]](../models/create.md) -avsnitt. | 12 juni 2024 |
+| **Åtkomstkontroll på fältnivå** | När du definierar datamängdsregler används Experience Platform [attributbaserad åtkomstkontroll](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) på [fältnivå](../harmonize-data/dataset-rules.md#field-level-access-control). | 12 juni 2024 |
+| **Kontaktpunkter för tidigare kunskap** | Det är bara kontaktytor för marknadsföring som anges i steget [!UICONTROL Configure] som är tillgängliga för markering i avsnittet [[!UICONTROL Prior Knowledge]](../models/create.md). | 12 juni 2024 |
 
 {style="table-layout:auto"}
 
@@ -32,7 +32,7 @@ Versionsinformationen innehåller den senaste versionen av Mix Modeler. Mix Mode
 
 | Funktion | Beskrivning | Allmän tillgänglighet |
 |---|---|---|
-| **Inställningar för datasammanfogning** [!BADGE beta] | [Inställningar för datasammanfogning](../harmonize-data/dataset-rules.md#data-merge-preferences) hjälper till att lösa konflikter när data från sammanfattade källor och händelsedatakällor sammanfogas. | 29 maj 2024 |
+| **Inställningar för datasammanfogning** [!BADGE beta] | [Inställningar för datasammanfogning](../harmonize-data/dataset-rules.md#data-merge-preferences) hjälper till att lösa konflikter när data från sammanfattade och händelsedatakällor sammanfogas. | 29 maj 2024 |
 
 {style="table-layout:auto"}
 
@@ -43,18 +43,18 @@ Versionsinformationen innehåller den senaste versionen av Mix Modeler. Mix Mode
 
 | Funktion | Beskrivning | Allmän tillgänglighet |
 |---|---|---|
-| **Alternativ för datumomräkning** | För sammansatta datauppsättningar, vid definition [regler](../harmonize-data/dataset-rules.md)kan du definiera om omräkning av data ska ske genom aggregering eller ersättning. | 1 april 2024 |
-| **Uppdatering av modellkvalitet** | [Modellkvalitet](/help/models/insights.md) i modellinsikter visar nu en visualisering för modellbedömningen och en tabell med modellpassningsvärden. | 1 april 2024 |
+| **Alternativ för omkontoutdrag av datum** | När du definierar [regler](../harmonize-data/dataset-rules.md) för sammansatta datauppsättningar kan du definiera om dataomsatsen är genom aggregering eller ersättning. | 1 april 2024 |
+| **Uppdatering av modellkvalitet** | [Modellkvalitet](/help/models/insights.md) i modellinsikter visar nu en visualisering för modellbedömningen och en tabell med modellpassningsmått. | 1 april 2024 |
 
 
 ## Januari 2024
 
 | Funktion | Beskrivning | Allmän tillgänglighet |
 |---|---|---|
-| **Förbättrade nedladdningar** | Du kan [ladda ned fullständiga modellinsikter](../models/insights.md) i Microsoft® Excel | 31 januari 2024 |
-| **Marginalkurvor** | [Modellinsikter](../models/insights.md) har en extra widget som visar marginella kurvor. | 31 januari 2024 |
+| **Förbättrade hämtningar** | Du kan [hämta fullständiga modellinsikter](../models/insights.md) i Microsoft® Excel-format | 31 januari 2024 |
+| **Marginalkurvor** | [Modellinsikter](../models/insights.md) innehåller en extra widget som visar marginella svarskurvor. | 31 januari 2024 |
 | **Inställningar för datasammanfogning** | Du kan definiera [inställningar för datasammanfogning](../harmonize-data/dataset-rules.md#data-merge-preferences) för datauppsättningsregler för harmoniserade datauppsättningar. | 31 januari 2024 |
-| **Användningsrapport** | Gränssnittet för harmoniserade datamängder har ytterligare [Användningsrapport](../harmonize-data/usage-report.md) som ger ytterligare insikter om hur modeller och konverteringar används. | 31 januari 2024 |
+| **Användningsrapport** | Gränssnittet för harmoniserade datamängder har en extra flik för [användningsrapport](../harmonize-data/usage-report.md) som ger ytterligare insikter om hur modeller och konverteringar används. | 31 januari 2024 |
 | **Uppdaterat gränssnitt för planinsikter** | Gränssnittet för planinsikter uppdateras så att du kan välja vilken avkastning och vilka kanaler som ska rapporteras. | 31 januari 2024 |
 
 {style="table-layout:auto"}
@@ -63,4 +63,4 @@ Versionsinformationen innehåller den senaste versionen av Mix Modeler. Mix Mode
 >[!MORELIKETHIS]
 >
 >* [Mix Modeler introduktion](https://business.adobe.com/products/experience-platform/planning-and-measurement.html)
->* [Dokumentation för Mix Modeler Experience League](https://experienceleague.adobe.com/en/docs/mix-modeler)
+>* [Mix Modeler Experience League-dokumentation](https://experienceleague.adobe.com/en/docs/mix-modeler)

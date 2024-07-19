@@ -12,23 +12,23 @@ ht-degree: 2%
 
 # Administrering
 
-Använd [Adobe Admin Console](https://helpx.adobe.com/se/enterprise/using/admin-console.html) för att hantera Mix Modeler-produkter och -användare.
+Använd [Adobe Admin Console](https://helpx.adobe.com/se/enterprise/using/admin-console.html) för att hantera Mix Modeler-produkter och användare.
 
 För att Mix Modeler ska fungera på rätt sätt måste du ange rätt behörigheter.
 
 I Adobe Experience Cloud-gränssnittet:
 
-1. Välj **[!UICONTROL Permissions]** från den vänstra listen, under **[!UICONTROL ADMINISTRATION]**.
+1. Välj **[!UICONTROL Permissions]** från den vänstra listen under **[!UICONTROL ADMINISTRATION]**.
 
-1. Välj ![Användare](/help/assets/icons/User.svg) **[!UICONTROL Roles]** från den vänstra panelen.
+1. Välj ![Användare](/help/assets/icons/User.svg) **[!UICONTROL Roles]** i den vänstra panelen.
 
-1. Välj en befintlig roll eller skapa en roll med **[!UICONTROL Create role]** (till exempel **Mix Modeler**). Om du väljer en befintlig roll väljer du ![Redigera](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]** om du vill redigera rollens behörigheter. Se [Hantera roller](https://helpx.adobe.com/se/enterprise/using/admin-console.html) för mer information.
+1. Välj en befintlig roll eller skapa en roll med **[!UICONTROL Create role]** (till exempel **Mix Modeler**). Om du väljer en befintlig roll väljer du ![Redigera](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]** för att redigera behörigheterna för rollen. Mer information finns i [Hantera roller](https://helpx.adobe.com/se/enterprise/using/admin-console.html).
 
 1. Kontrollera att du har valt en eller flera sandlådor för rollen.
 
-1. Lägg till **Adobe Mix Modeler** resurs i listan över resurser för rollen.
+1. Lägg till **Adobe Mix Modeler**-resursen i listan över resurser för rollen.
 
-1. Se till att du väljer rätt **[!UICONTROL Adobe Mix Modeler]** behörigheter för rollen som du konfigurerar. Du kan välja en eller flera av följande roller:
+1. Kontrollera att du har valt rätt **[!UICONTROL Adobe Mix Modeler]**-behörighet för rollen som du konfigurerar. Du kan välja en eller flera av följande roller:
 
    - **[!UICONTROL View Adobe Mix Modeler Harmonized Data]**
    - **[!UICONTROL Manage Adobe Mix Modeler Harmonized Data]**
@@ -52,6 +52,6 @@ I Adobe Experience Cloud-gränssnittet:
 
    <!--![Permissions](assets/permissions-including-privacy.png)-->
 
-   Välj **[!UICONTROL Save]** för att spara behörigheterna.
+   Välj **[!UICONTROL Save]** om du vill spara behörigheterna.
 
-1. I **[!UICONTROL Details]** inom **[!UICONTROL Role]**, lägg till lämpliga **[!UICONTROL Users]** eller **[!UICONTROL User groups]** för att ge användare tillgång till Mix Modeler.
+1. I **[!UICONTROL Details]** inom **[!UICONTROL Role]** lägger du till lämplig **[!UICONTROL Users]** eller **[!UICONTROL User groups]** för att ge användare åtkomst till Mix Modeler.

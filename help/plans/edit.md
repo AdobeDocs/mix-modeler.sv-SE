@@ -12,15 +12,15 @@ ht-degree: 0%
 
 # Redigera en plan
 
-Redigera en plan i ![PLan](/help/assets//icons/FileChart.svg) **[!UICONTROL Plans]** i Mix Modeler väljer du din plan efter namn.
+Om du vill redigera en plan väljer du planen efter namn i gränssnittet ![PLan](/help/assets//icons/FileChart.svg) **[!UICONTROL Plans]** i Mix Modeler.
 
-I [!UICONTROL Plan insights], dina planinsikter skapas och visar [!UICONTROL Model], [!UICONTROL Data range]och [!UICONTROL Total budget] som planen baseras på.
+I [!UICONTROL Plan insights] skapas dina planinsikter och visar [!UICONTROL Model], [!UICONTROL Data range] och [!UICONTROL Total budget] som planen baseras på.
 
 När hämtningen är klar visas en översikt över din plan, som består av:
 
-- [!UICONTROL Forecasted paid channel ROI] visualisering
-- [!UICONTROL Forecasted revenue] visualisering
-- [!UICONTROL Data range breakdown] plantabell, visa kolumner för
+- [!UICONTROL Forecasted paid channel ROI]-visualisering
+- [!UICONTROL Forecasted revenue]-visualisering
+- tabellen [!UICONTROL Data range breakdown] i planen, med kolumner för
 
    - Kanal
    - avkastning
@@ -31,57 +31,57 @@ När hämtningen är klar visas en översikt över din plan, som består av:
 
 ![Översikt över en plan](/help/assets//overview-plan.png)
 
-1. Välj **[!UICONTROL Close]** för att återgå till gränssnittet Planer.
+1. Välj **[!UICONTROL Close]** om du vill återgå till gränssnittet Planer.
 
-1. Välj **[!UICONTROL X]** eller **[!UICONTROL  %]** om hur **[!UICONTROL View ROI]**.
+1. Välj **[!UICONTROL X]** eller **[!UICONTROL  %]** om hur du **[!UICONTROL View ROI]** ska användas.
 
-1. Om du vill hämta en CSV-fil som innehåller data för datumintervallet väljer du ![Ladda ned](/help/assets//icons/Download.svg) **[!UICONTROL Download CSV]**. På snabbmenyn:
+1. Välj ![Hämta](/help/assets//icons/Download.svg) **[!UICONTROL Download CSV]** om du vill hämta en CSV-fil som innehåller data för datumintervallet. På snabbmenyn:
 
-   - Välj ![Ladda ned](/help/assets//icons/Download.svg) **[!UICONTROL Detailed CSV]** för detaljerade data i CSV-format.
-   - Välj ![Ladda ned](/help/assets//icons/Download.svg) **[!UICONTROL Summary CSV]** för sammanfattningsdata i CSV-format.
+   - Välj ![Hämta](/help/assets//icons/Download.svg) **[!UICONTROL Detailed CSV]** om du vill ha detaljerade data i CSV-format.
+   - Välj ![Hämta](/help/assets//icons/Download.svg) **[!UICONTROL Summary CSV]** om du vill visa sammanfattningsdata i CSV-format.
 
    Detaljerade data är data insamlade per vecka. Sammanfattningsdata är data som lagras i det modellgivna datumintervallet.
 
-1. Om du vill visa datumintervallen efter kanalkategori väljer du **[!UICONTROL All channels]**, **[!UICONTROL Paid channels]**, eller **[!UICONTROL Non-paid channels]** från **[!UICONTROL View]** markering.
+1. Välj **[!UICONTROL All channels]**, **[!UICONTROL Paid channels]** eller **[!UICONTROL Non-paid channels]** från markeringen **[!UICONTROL View]** om du vill visa datumintervallfördelningen per kanalkategori.
 
-1. Om du vill redigera planen väljer du **[!UICONTROL Edit plan]**:
+1. Om du vill redigera din plan väljer du **[!UICONTROL Edit plan]**:
 
-   1. I **[!UICONTROL Spend selection]** för varje datumintervall i budgeten använder du ![Chevron](/help/assets//icons/ChevronRight.svg) för att öppna kanaldistributionsvyn för det dataintervallet.
+   1. I avsnittet **[!UICONTROL Spend selection]** använder du ![Chevron](/help/assets//icons/ChevronRight.svg) för att öppna kanaldistributionsvyn för det dataintervallet för varje datumintervall.
 
-   1. Om du vill ändra budgeten för varje kanal ändrar du värdena för **[!UICONTROL Min]** och **[!UICONTROL Max]** eller använda skjutreglagen.
+   1. Om du vill ändra budgeten för varje kanal ändrar du värdena för **[!UICONTROL Min]** och **[!UICONTROL Max]** eller använder reglagen.
 
-   1. Om du vill växla mellan valuta- eller procentindata väljer du **[!UICONTROL $]** eller **[!UICONTROL %]** for **[!UICONTROL View spend by]**.
+   1. Om du vill växla mellan valuta- eller procentindata väljer du **[!UICONTROL $]** eller **[!UICONTROL %]** för **[!UICONTROL View spend by]**.
 
-      ![Utgiftsval](/help/assets//spend-selection.png)
+      ![Utgiftsmarkering](/help/assets//spend-selection.png)
 
    1. Om du vill redigera information om din plan väljer du **[!UICONTROL Edit details]**:
 
-      1. I **[!UICONTROL Setup]** om tillämpligt, ändra **[!UICONTROL Plan name]** och **[!UICONTROL Description]**.
+      1. I avsnittet **[!UICONTROL Setup]** ändrar du **[!UICONTROL Plan name]** och **[!UICONTROL Description]**, om tillämpligt.
 
-      1. I **[!UICONTROL Budget]** avsnitt:
+      1. I avsnittet **[!UICONTROL Budget]**:
 
-         1. Ändra **[!UICONTROL Date range]** för ett eller flera av datumintervallen i din plan, antingen genom att ange datum eller genom att välja ett datumintervall med ![Kalender](/help/assets//icons/Calendar.svg).
+         1. Ändra **[!UICONTROL Date range]** för ett eller flera av din plans datumintervall, antingen genom att ange datum eller välja ett datumintervall med ![Kalender](/help/assets//icons/Calendar.svg).
 
-         1. Ändra **[!UICONTROL Budget]** för ett eller flera av datumintervallen i din plan.
+         1. Ändra **[!UICONTROL Budget]** för ett eller flera av din plans datumintervall.
 
-         Om du vill lägga till ytterligare datumintervall väljer du ![KalenderLägg till](/help/assets//icons/CalendarAdd.svg) **[!UICONTROL Add row]**.
+         Om du vill lägga till ytterligare datumintervall, var och en med sin budget, väljer du ![CalendarAdd](/help/assets//icons/CalendarAdd.svg) **[!UICONTROL Add row]**.
 
          Om du vill ta bort ett datumintervall och en associerad budget väljer du ![Stäng](/help/assets//icons/Close.svg).
 
          Så här definierar du en maximal budget:
 
-         1. Byt **[!UICONTROL Maximize budget]** på.
+         1. Aktivera **[!UICONTROL Maximize budget]**.
          1. Ange det maximala budgetbeloppet. Beloppet ska vara lika med eller högre än det totala budgetbeloppet som angetts för datumintervallen.
 
-      1. Välj **[!UICONTROL Next]** för att gå tillbaka till **[!UICONTROL Spend]** -avsnitt. Välj **[!UICONTROL Cancel]** för att återgå till en översikt över dina planer.
+      1. Välj **[!UICONTROL Next]** om du vill återgå till avsnittet **[!UICONTROL Spend]**. Välj **[!UICONTROL Cancel]** om du vill återgå till din planöversikt.
 
-         ![Planinformation](/help/assets//plan-details.png)
+         ![Avtalsinformation](/help/assets//plan-details.png)
 
 
 1. När du är klar med redigeringen av din plan väljer du **[!UICONTROL Edit]**.
 
-   I **[!UICONTROL All changes are final]** dialogruta, välja **[!UICONTROL OK]** för att uppdatera planens aktuella utgiftsallokering och prognoser för avkastning och intäkter. Välj **[!UICONTROL Cancel]** om du vill avbryta uppdateringen av din plan.
+   I dialogrutan **[!UICONTROL All changes are final]** väljer du **[!UICONTROL OK]** för att uppdatera planens aktuella utgiftsallokering och prognoser för avkastning och intäkter. Välj **[!UICONTROL Cancel]** om du vill avbryta uppdateringen av din plan.
 
-1. Om du vill avbryta dina planuppdateringar väljer du **[!UICONTROL Cancel]**.
+1. Om du vill avbryta dina avtalsuppdateringar väljer du **[!UICONTROL Cancel]**.
 
-   I **[!UICONTROL No work will be saved]** dialogruta, välja **[!UICONTROL Cancel]** för att fortsätta arbeta med din plan eller välja **[!UICONTROL OK]** för att återgå till gränssnittet Planer.
+   I dialogrutan **[!UICONTROL No work will be saved]** väljer du **[!UICONTROL Cancel]** för att fortsätta arbeta med din plan eller **[!UICONTROL OK]** för att återgå till gränssnittet för planer.

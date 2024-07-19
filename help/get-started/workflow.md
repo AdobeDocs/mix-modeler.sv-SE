@@ -23,12 +23,12 @@ Ett typiskt arbetsflöde i Mix Modeler består av följande aktiviteter:
 
 |  | Aktivitet | Beskrivning |
 |---|---|---|
-| ![Data](/help/assets//icons/Data.svg){width="100"} | [**Ingrediera data**](../ingest-data/overview.md) | Ingest event data from Experience Platform (t.ex. Adobe Analytics, Web SDK, andra källor), aggregerad data från marknadsföringskanaler (t.ex. TV, trädgårdar, e-post, ägda och drivna aktiviteter), externa faktordata från kunder (t.ex. prisförändringar i prenumerationstjänster) och interna faktordata (t.ex. semesterplaner). |
+| ![Data](/help/assets//icons/Data.svg){width="100"} | [**Ingest data**](../ingest-data/overview.md) | Ingest event data from Experience Platform (t.ex. Adobe Analytics, Web SDK, andra källor), aggregerad data från marknadsföringskanaler (t.ex. TV, trädgårdar, e-post, ägda och drivna aktiviteter), externa faktordata från kunder (t.ex. prisförändringar i prenumerationstjänster) och interna faktordata (t.ex. semesterplaner). |
 | ![DataCheck](/help/assets//icons/DataCheck.svg){width="100"} | [**Harmonisera data**](../harmonize-data/overview.md) | Konfigurera mappningsregler och konfliktlösningsregler för att sammanfoga de olika marknadsföringsdatauppsättningar som behövs för att mäta och planera kampanjprestanda i Mix Modeler. |
 | ![FileConfig](/help/assets//icons/FileGear.svg){width="100"} | [**Konfigurera modeller**](../models/create.md) | Konfigurera modellinstanser med marknadsföringskontaktytor (t.ex. kanaler), konverteringsdefinitioner samt interna och externa faktorer. |
-| ![FileData](/help/assets//icons/FileData.svg){width="100"} | [**Tåg- och poängmodeller**](../models/overview.md) | Skapa bakgrundsmusik och poäng på händelsenivå med maskininlärning och poängsättning. |
+| ![FileData](/help/assets//icons/FileData.svg){width="100"} | [**Modeller för utbildning och bakgrundsmusik**](../models/overview.md) | Skapa bakgrundsmusik och poäng på händelsenivå med maskininlärning och poängsättning. |
 | ![FileChart](/help/assets//icons/FileChart.svg){width="100"} | [**Skapa planer**](../plans/overview.md) | Bestäm den bästa fördelningen av marknadsföringsmedel för att uppnå ett affärsmål genom att använda produktionen från Mix Modeler-modeller. |
-| ![Kontrollpanel](/help/assets//icons/Dashboard.svg){width="100"} | [**Översikt över instrumentpanel**](../dashboard/overview.md) | Få insikter om harmoniserade data, modeller och planer med olika konfigurerbara widgetar. |
+| ![Instrumentpanel](/help/assets//icons/Dashboard.svg){width="100"} | [**Översikt över instrumentpanel**](../dashboard/overview.md) | Få insikter om harmoniserade data, modeller och planer med olika konfigurerbara widgetar. |
 
 {style="table-layout:auto"}
 

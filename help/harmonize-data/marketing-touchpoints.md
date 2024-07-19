@@ -20,9 +20,9 @@ Ni definierar kontaktytor för marknadsföring för att hjälpa er med attribuer
 
 Om du vill se en tabell över tillgängliga kontaktytor för marknadsföring i Mix Modeler-gränssnittet:
 
-1. Välj ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** från den vänstra listen.
+1. Välj ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** i den vänstra listen.
 
-1. Välj **[!UICONTROL Marketing touchpoint]** i det övre fältet. En tabell över kontaktytorna kring marknadsföring visas. Om det finns fler tillgängliga sidor använder du ![Pil vänster](/help/assets//icons/ChevronLeft.svg) eller ![Högerpil](/help/assets//icons/ChevronRight.svg) på **[!UICONTROL Page _x _av_x_]** för att flytta mellan sidor i tabellen.
+1. Välj **[!UICONTROL Marketing touchpoint]** i det övre fältet. En tabell över kontaktytorna kring marknadsföring visas. Om fler sidor är tillgängliga använder du ![Vänsterpil](/help/assets//icons/ChevronLeft.svg) eller ![Högerpil](/help/assets//icons/ChevronRight.svg) vid **[!UICONTROL Page _x _av_x_]** för att flytta mellan sidor i tabellen.
 
 Tabellkolumnerna anger information om kontaktytan för marknadsföring:
 
@@ -39,11 +39,11 @@ Tabellkolumnerna anger information om kontaktytan för marknadsföring:
 
 ## Lägg till en kontaktyta för marknadsföring
 
-Om du vill lägga till en kontaktyta för marknadsföring går du till ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Marketing touchpoint]** gränssnitt i Mix Modeler:
+Om du vill lägga till en kontaktyta för marknadsföring går du till ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Marketing touchpoint]** i Mix Modeler:
 
 1. Välj ![Lägg till](/help/assets//icons/AddCircle.svg) Lägg till kontaktyta för marknadsföring.
 
-1. I **[!UICONTROL Marketing touchpoint]** -dialogrutan.
+1. I dialogrutan **[!UICONTROL Marketing touchpoint]**.
 
    1. Ange ett namn för **[!UICONTROL Touchpoint Name]**, till exempel `Luma Touchpoint`.
 
@@ -61,7 +61,7 @@ Om du vill lägga till en kontaktyta för marknadsföring går du till ![DataSea
 
       ![Marknadsföringskontaktyta](/help/assets//create-touchpoint.png)
 
-   1. Om du vill skapa en kontaktyta för marknadsföring väljer du **[!UICONTROL Create]**. Om du vill avbryta skapandet av en kontaktyta väljer du **[!UICONTROL Cancel]** .
+   1. Välj **[!UICONTROL Create]** om du vill skapa kontaktytan för marknadsföring. Om du vill avbryta skapandet av en kontaktyta för marknadsföring väljer du **[!UICONTROL Cancel]** .
 
 1. När kontaktytan skapas läggs den till i tabellen med kontaktytor för marknadsföring.
 
@@ -72,13 +72,13 @@ Så här visar du en kontaktyta:
 
 1. Välj ![Mer](/help/assets//icons/More.svg) när du hovrar över ett namn på en kontaktyta för marknadsföring i tabellen.
 
-1. Välj ![Visa](/help/assets//icons/ViewDetail.svg) **Visa**. En dialogruta visar detaljer om kontaktytan för marknadsföring. Se [Lägg till en kontaktyta för marknadsföring](#add-a-marketing-touchpoint) för mer information. Välj **[!UICONTROL Cancel]** för att stänga dialogrutan.
+1. Välj ![Visa](/help/assets//icons/ViewDetail.svg) **Visa**. En dialogruta visar detaljer om kontaktytan för marknadsföring. Mer information finns i [Lägg till en kontaktyta för marknadsföring](#add-a-marketing-touchpoint). Välj **[!UICONTROL Cancel]** för att stänga dialogrutan.
 
 
 ## Ta bort en kontaktyta för marknadsföring
 
 Så här tar du bort en kontaktyta för marknadsföring:
 
-1. Välj ![Ta bort](/help/assets//icons/Delete.svg) **Ta bort** när du hovrar över ett namn på en kontaktyta för marknadsföring i tabellen.
-1. I **[!UICONTROL Delete touchpoint]** dialogrutans bekräftelsedialogruta **[!UICONTROL Delete]** för att permanent ta bort kontaktytan för marknadsföring.
+1. Välj ![Ta bort](/help/assets//icons/Delete.svg) **Ta bort** när du hovrar över ett namn på en marknadsföringskontaktyta i tabellen.
+1. I bekräftelsedialogrutan i dialogrutan **[!UICONTROL Delete touchpoint]** väljer du **[!UICONTROL Delete]** om du vill ta bort kontaktytan för marknadsföring permanent.
 

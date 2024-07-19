@@ -49,11 +49,11 @@ Så här inspekterar du granskningsloggen i Mix Modeler-gränssnittet:
 
 1. Välj en post i aktivitetsloggen om du vill öppna en panel med mer information.
 
-   ![Mix Modeler granskning](/help/assets/mix-modeler-audit.png)
+   ![Mix Modeler-granskning](/help/assets/mix-modeler-audit.png)
 
-1. Filtrera på **[!UICONTROL Category]**, **[!UICONTROL Action]**, **[!UICONTROL Request ID]**, **[!UICONTROL User]**, **[!UICONTROL Status]** eller **[!UICONTROL Date]** område, markera ![Filter](/help/assets/icons/Filter.svg).
+1. Om du vill filtrera på intervallet **[!UICONTROL Category]**, **[!UICONTROL Action]**, **[!UICONTROL Request ID]**, **[!UICONTROL User]**, **[!UICONTROL Status]** eller **[!UICONTROL Date]** väljer du ![Filter](/help/assets/icons/Filter.svg).
 
-1. Om du vill ändra kolumnerna som visas i aktivitetsloggen väljer du ![Kolumner](/help/assets/icons/ColumnSetting.svg) och i **[!UICONTROL Customize table]** markerar de kolumner som ska visas. Välj **[!UICONTROL Apply]** för att använda markeringen, **[!UICONTROL Cancel]** om du vill avbryta markeringen.
+1. Om du vill ändra kolumnerna som visas i aktivitetsloggen väljer du ![Kolumner](/help/assets/icons/ColumnSetting.svg) och markerar de kolumner som ska visas i dialogrutan **[!UICONTROL Customize table]**. Välj **[!UICONTROL Apply]** om du vill använda markeringen, **[!UICONTROL Cancel]** om du vill avbryta markeringen.
 
-1. Om du vill hämta granskningsloggen väljer du ![Ladda ned](/help/assets/icons/Download.svg) **[!UICONTROL Download log]**. I **[!UICONTROL Download log]** välj antingen **[!UICONTROL CSV]** eller **[!UICONTROL JSON]** som format och välj **[!UICONTROL Download]**.
+1. Om du vill hämta granskningsloggen väljer du ![Hämta](/help/assets/icons/Download.svg) **[!UICONTROL Download log]**. I dialogrutan **[!UICONTROL Download log]** väljer du antingen **[!UICONTROL CSV]** eller **[!UICONTROL JSON]** som format och väljer **[!UICONTROL Download]**.
 

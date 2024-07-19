@@ -71,17 +71,17 @@ Ett exempel på en upplevelsehändelsedatamängd (Web SDK-händelser) från kund
 
 | Tidsstämpel | Identitetsnamnutrymme | Identitets-ID | Kanal | Klickningar |
 |--- |--- |--- |--- |---:|
-| 01-01-2022 00:01:01,000 | ECID | 64fd46ff-8c63-43b4-85a7-92b953113ba0 | ÄRENDE | 1 |
-| 01-01-2022 00:01:01,000 | ECID | 64fd46ff-8c63-43b4-85a7-92b953113ba0 | ÄRENDE | 1 |
-| 01-08-2022 00:01:01,000 | ECID | 2ca2a16e-caf0-4fa9-9a8b-9774b39547c4 | ÄRENDE | 1 |
-| 01-08-2022 00:01:01,000 | ECID | 5ce99bfb-e44a-40d9-b8cd-c5408bda7cdc | ÄRENDE | 1 |
+| 01-01-2022 00:01:01.000 | ECID | 64fd46ff-8c63-43b4-85a7-92b953113ba0 | ÄRENDE | 1 |
+| 01-01-2022 00:01:01.000 | ECID | 64fd46ff-8c63-43b4-85a7-92b953113ba0 | ÄRENDE | 1 |
+| 01-08-2022 00:01:01.000 | ECID | 2ca2a16e-caf0-4fa9-9a8b-9774b39547c4 | ÄRENDE | 1 |
+| 01-08-2022 00:01:01.000 | ECID | 5ce99bfb-e44a-40d9-b8cd-c5408bda7cdc | ÄRENDE | 1 |
 
 {style="table-layout:auto"}
 
 
 Du vill skapa en harmoniserad datauppsättning med en granularitet som är inställd på veckovis. Händelsedata aggregeras till veckans granularitet och läggs till i den harmoniserade datamängden. Resultatet är:
 
-**Harmoniserad datauppsättning**
+**Harmoniserad datamängd**
 
 | Datum | Datumtyp | Kanal | Campaign | Varumärke | Geo | Mål | Klickningar | Utgift | Intäkter |
 |--- |:---:|--- |--- |--- |---|---|---:|---:|---:|
@@ -104,34 +104,34 @@ Du vill skapa en harmoniserad datauppsättning med en granularitet som är inst�
 
 ## Konfigurera harmoniserade data
 
-Att bygga en harmoniserad datauppsättning, som i den förenklade [exempel](#an-example-of-harmonized-data)måste du följa dessa steg:
+Om du vill skapa en harmoniserad datauppsättning, som i det förenklade [exemplet](#an-example-of-harmonized-data), måste du följa dessa steg:
 
-1. Definiera ytterligare [harmoniserade fält](fields.md) som du vill använda utanför de globalt harmoniserade fält som redan är tillgängliga.
-1. Konfigurera [datauppsättningsregler](dataset-rules.md) för att mappa fält från dina aggregerade data eller upplevelsedatamängder till harmoniserade fält.
-1. Definiera [kontaktytor](marketing-touchpoints.md) med hjälp av de standardiserade och ytterligare harmoniserade fält som du har definierat.
-1. Definiera [konverteringar](conversions.md) med hjälp av de standardiserade och ytterligare harmoniserade fält som du har definierat.
+1. Definiera ytterligare [harmoniserade fält](fields.md) som du vill använda utöver de globala harmoniserade fält som redan är tillgängliga.
+1. Konfigurera [datauppsättningsregler](dataset-rules.md) för att mappa fält från dina aggregerade data eller upplevelsehändelsedatamängder till harmoniserade fält.
+1. Definiera [kontaktytor för marknadsföring](marketing-touchpoints.md) med hjälp av standardfälten och de ytterligare harmoniserade fälten som du har definierat.
+1. Definiera [konverteringar](conversions.md) med hjälp av standardfälten och de ytterligare harmoniserade fälten som du har definierat.
 
 
 ## Visa harmoniserade data
 
 För att se harmoniserade data i Mix Modeler-gränssnittet:
 
-1. Välj ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]** från den vänstra listen.
+1. Välj ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]** i den vänstra listen.
 
 1. Välj **[!UICONTROL Harmonized Data]** i det övre fältet. En sammanfattning av dina harmoniserade data visas baserat på de fält, datamängdsregler, kontaktytor för marknadsföring och konverteringar du har definierat.
 
-   1. För att omdefiniera den period på vilken sammanfattningen av harmoniserade uppgifter baseras, ange ett datumintervall för **[!UICONTROL Date range]** eller använda ![Kalender](/help/assets//icons/Calendar.svg) för att markera ett dataområde.
+   1. Om du vill definiera om den period som sammanfattningen av harmoniserade data baseras på anger du ett datumintervall för **[!UICONTROL Date range]** eller använder ![Kalender](/help/assets//icons/Calendar.svg) för att välja ett dataområde.
 
-   1. Om du vill ändra de harmoniserade fältkolumnerna som visas för den harmoniserade datatabellen använder du ![Inställningar](/help/assets//icons/Setting.svg) för att öppna **[!UICONTROL Column settings]** -dialogrutan.
+   1. Om du vill ändra de harmoniserade fältkolumnerna som visas för den harmoniserade datatabellen använder du ![Inställningar](/help/assets//icons/Setting.svg) för att öppna dialogrutan **[!UICONTROL Column settings]**.
 
-      1. Välj ![SelectBox](/help/assets//icons/SelectBox.svg) en eller flera kolumner från **[!UICONTROL AVAILABLE COLUMNS]** och använda ![Sparr höger](/help/assets//icons/ChevronRight.svg) för att lägga till de här kolumnerna i **[!UICONTROL SELECTED COLUMNS]**.
+      1. Välj ![SelectBox](/help/assets//icons/SelectBox.svg) en eller flera kolumner från **[!UICONTROL AVAILABLE COLUMNS]** och använd ![Sparron till höger](/help/assets//icons/ChevronRight.svg) för att lägga till de här kolumnerna i **[!UICONTROL SELECTED COLUMNS]**.
 
-      1. Välj ![SelectBox](/help/assets//icons/SelectBox.svg) en eller flera kolumner från **[!UICONTROL SELECTED COLUMNS]** och använda ![Chevron vänster](/help/assets//icons/ChevronLeft.svg) för att ta bort de markerade kolumnerna och returnera dessa kolumner till **[!UICONTROL AVAILABLE COLUMNS]**.
+      1. Välj ![SelectBox](/help/assets//icons/SelectBox.svg) en eller flera kolumner från **[!UICONTROL SELECTED COLUMNS]** och använd ![Sparron till vänster](/help/assets//icons/ChevronLeft.svg) för att ta bort de markerade kolumnerna och returnera kolumnerna till **[!UICONTROL AVAILABLE COLUMNS]**.
 
-      1. Välj en kolumn från **[!UICONTROL DEFAULT SORT]** och växla **[!UICONTROL Ascending]** eller **[!UICONTROL Descending]**.
+      1. Välj en kolumn från **[!UICONTROL DEFAULT SORT]** och växla mellan **[!UICONTROL Ascending]** eller **[!UICONTROL Descending]**.
 
-      1. Om du vill ändra visningsordningen för kolumner kan du flytta en kolumn i **[!UICONTROL SELECTED COLUMNS]** upp och ned genom att dra och släppa.
+      1. Om du vill ändra visningsordningen för kolumner kan du flytta en kolumn i **[!UICONTROL SELECTED COLUMNS]** uppåt och nedåt genom att dra och släppa .
 
    1. Välj **[!UICONTROL Submit]** om du vill skicka in ändringar av kolumninställningen. Välj **[!UICONTROL Close]** om du vill avbryta alla ändringar du har gjort.
 
-1. Om det finns fler tillgängliga sidor använder du ![Pil vänster](/help/assets//icons/ChevronLeft.svg) eller ![Högerpil](/help/assets//icons/ChevronRight.svg) på **[!UICONTROL Page _x _av_x_]** för att flytta mellan sidor.
+1. Om det finns fler sidor kan du använda ![Vänsterpil](/help/assets//icons/ChevronLeft.svg) eller ![Högerpil](/help/assets//icons/ChevronRight.svg) vid **[!UICONTROL Page _x _av_x_]** för att flytta mellan sidorna.

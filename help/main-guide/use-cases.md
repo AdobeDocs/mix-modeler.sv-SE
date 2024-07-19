@@ -34,8 +34,8 @@ Den stegbaserade metoden för det här användningsexemplet är:
 
 | Steg | Information |
 |---|---|
-| Ingest | Identifiera och importera datakällor under vanliga scheman. <br/>Använd redan gjorda investeringar i Adobe Analytics eller Customer Journey Analytics för snabb driftsättning. |
-| Konfigurera | Konfigurera flexibla modeller med ett AI-as-Service-ramverk för era specifika affärsmål<br/>Säkerställ automatiskt enhetlighet mellan kontaktpunkter och sammanfattningsnivå med dubbelriktad överföring. |
+| Ingest | Identifiera och importera datakällor under vanliga scheman. <br/>Använd befintliga investeringar i Adobe Analytics eller Customer Journey Analytics för snabb distribution. |
+| Konfigurera | Konfigurera flexibla modeller med hjälp av ett AI-as-Service-ramverk för dina specifika affärsmål<br/>Säkerställ automatiskt enhetlighet mellan kontaktyta och sammanfattningsnivå med dubbelriktad överföringsutbildning. |
 | Analysera | Få en tydlig förståelse för avkastningen på den övergripande marknadsföringen och de enskilda kanalerna/delkanalerna.<br/>Ta reda på vilka kontaktytor som är bäst för inkrementella konverteringar. |
 
 {style="table-layout:auto"}
@@ -73,9 +73,9 @@ Den stegbaserade metoden för det här användningsexemplet är:
 
 | Steg | Information |
 |---|---|
-| Konfigurera | Anpassa enkelt mätmodeller efter era affärsmål.<br/>Definiera parametrar med några få klick, utan kodning: t.ex. kanaler, geografiska platser, säljcykler, eftersläpningar, interna och externa affärsfaktorer med mera. |
+| Konfigurera | Anpassa enkelt mätmodeller efter era affärsmål.<br/>Definiera parametrar med några få klick, ingen kodning krävs: t.ex. kanaler, geografiska platser, säljcykler, grupper, interna och externa affärsfaktorer, med mera. |
 | Tåg | Tåget konfigurerade AI/ML-modeller vidare för att lära sig det bästa sättet att få indata, vilket ger de mest exakta resultaten. |
-| Optimera | Få automatiserade, optimerade budgetallokeringar baserade på modellprognoser.<br/>Utveckla och jämför olika budgetscenarier med bara några klick med ett intuitivt användargränssnitt. |
+| Optimera | Få automatiserade, optimerade budgetallokeringar baserade på modellprognoser.<br/>Utveckla och jämför flera budgetscenarier med bara några klick med ett intuitivt användargränssnitt. |
 
 {style="table-layout:auto"}
 
@@ -154,8 +154,8 @@ Den stegbaserade metoden för det här användningsexemplet är:
 | Steg | Information |
 |---|---|
 | Modell | Konfigurera och utbilda en AI/ML-modell för att få enhetliga MTA-poäng och MMM-aggregeringsresultat. |
-| Analysera | Exportera inkrementella poängpoäng till Customer Journey Analytics eller externa BI-verktyg.<br/>Utför detaljerad analys och bygg avancerade kontrollpaneler med poäng för kontaktytor. |
-| Åtgärd | Skapa och aktivera lookalike till populära konsumentsegment med Real-time Customer Data Platform.<br/>Utveckla datadrivna marknadsföringsstrategier utifrån kundsegment för framtida kampanjer. |
+| Analysera | Exportera inkrementella poängpoäng till Customer Journey Analytics eller externa BI-verktyg.<br/>Utför detaljerad analys och bygg avancerade instrumentpaneler med hjälp av poäng. |
+| Åtgärd | Skapa och aktivera lookalike till populära konsumentsegment med Real-time Customer Data Platform.<br/>Utveckla datadrivna marknadsföringsstrategier efter kundsegment för framtida kampanjer. |
 
 {style="table-layout:auto"}
 

@@ -15,7 +15,7 @@ ht-degree: 1%
 
 På översiktspanelen i Mix Modeler kan du överblicka dina harmoniserade data och dina planer via olika konfigurerbara widgetar.
 
-Om du vill visa översikten väljer du ![Startsida](/help/assets//icons/Home.svg) **[!UICONTROL Overview]** från den vänstra listen i Mix Modeler.
+Du öppnar översikten genom att välja ![Hem](/help/assets//icons/Home.svg) **[!UICONTROL Overview]** i den vänstra listen i Mix Modeler.
 
 Här finns mer information om:
 

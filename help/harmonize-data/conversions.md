@@ -20,7 +20,7 @@ Ni definierar marknadsföringskonverteringar för attribueringsanalys.
 
 Om du vill se en tabell över tillgängliga konverteringar i gränssnittet Mix Modeler:
 
-1. Välj ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** från den vänstra listen.
+1. Välj ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** i den vänstra listen.
 
 1. Välj **[!UICONTROL Conversions]** i det övre fältet. En tabell över konverteringarna visas.
 
@@ -39,17 +39,17 @@ Tabellkolumnerna anger information om konverteringen:
 
 ## Lägga till en konvertering
 
-Så här lägger du till en konvertering i ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Conversion]** gränssnitt i Mix Modeler:
+Om du vill lägga till en konvertering går du till ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Conversion]** i Mix Modeler:
 
 1. Välj ![Lägg till](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add a conversion]**.
 
-1. I **[!UICONTROL Create conversion]** dialog:
+1. I dialogrutan **[!UICONTROL Create conversion]**:
 
    1. Ange ett namn för **[!UICONTROL Conversion]**, till exempel `Store Conversions`.
 
    1. Definiera **[!UICONTROL Conversion category]**.
 
-      1. Välj ett värde från **[!UICONTROL *Välj harmonisera...*]**, till exempel `Conversion types`.
+      1. Välj ett värde från **[!UICONTROL *Välj harmonisera..*]**, till exempel `Conversion types`.
 
       1. Välj ett värde för operatorn ![Chevron](/help/assets//icons/ChevronDown.svg), till exempel **[!UICONTROL is]**.
 
@@ -59,7 +59,7 @@ Så här lägger du till en konvertering i ![DataSearch](/help/assets//icons/Dat
 
    1. Välj ett harmoniserat fält från **[!UICONTROL Revenue field]**, till exempel **[!UICONTROL Gross Demand]**.
 
-   1. Om du vill skapa konverteringen väljer du **[!UICONTROL Create]**. Om du vill avbryta skapandet av en konvertering väljer du **[!UICONTROL Cancel]**.
+   1. Välj **[!UICONTROL Create]** om du vill skapa konverteringen. Om du vill avbryta skapandet av en konvertering väljer du **[!UICONTROL Cancel]**.
 
       ![Alt-text](/help/assets//create-conversion.png)
 
@@ -72,7 +72,7 @@ Visa en konvertering:
 
 1. Välj ![Mer](/help/assets//icons/More.svg) när du hovrar över ett konverteringsnamn i tabellen.
 
-1. Välj ![Visa](/help/assets//icons/ViewDetail.svg) **Visa**. En dialogruta med information om konverteringen. Se [Lägga till en konvertering](#add-a-conversion) för mer information. Välj **[!UICONTROL Cancel]** för att stänga dialogrutan.
+1. Välj ![Visa](/help/assets//icons/ViewDetail.svg) **Visa**. En dialogruta med information om konverteringen. Mer information finns i [Lägg till en konvertering](#add-a-conversion). Välj **[!UICONTROL Cancel]** för att stänga dialogrutan.
 
 
 ## Ta bort en konvertering
@@ -80,4 +80,4 @@ Visa en konvertering:
 Ta bort en konvertering:
 
 1. Välj ![Ta bort](/help/assets//icons/Delete.svg) **Ta bort** när du hovrar över ett konverteringsnamn i tabellen.
-1. I **[!UICONTROL Delete conversion]** dialogrutans bekräftelsedialogruta **[!UICONTROL Delete]** om du vill ta bort konverteringen permanent.
+1. I bekräftelsedialogrutan i dialogrutan **[!UICONTROL Delete conversion]** väljer du **[!UICONTROL Delete]** om du vill ta bort konverteringen permanent.

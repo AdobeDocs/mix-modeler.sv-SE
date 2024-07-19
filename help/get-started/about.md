@@ -46,7 +46,7 @@ Mix Modeler har följande funktioner:
 |---|---|
 | **Mät inkrementell prestanda** | Förstå den inkrementella avkastningen och effekten av marknadsföring över affärsmål eller taktiska kampanjmål. |
 | **Sammanställ resultat för MMM och MTA** | Fatta säkrare beslut genom att kombinera modellerna för marknadsföringsblandning (MMM) och multitouch-attribution (MTA) via överföringslära. |
-| **Optimalt allokera budgetar** | Identifiera optimal budgetallokering baserat på marknadsföringsutgifter och påverkan på målen. |
+| **Tilldela budgetar optimalt** | Identifiera optimal budgetallokering baserat på marknadsföringsutgifter och påverkan på målen. |
 | **Skapa och jämföra budgetscenarier** | Utveckla olika budgetplaner och jämför deras effekt för att fatta optimala beslut för ert företag. |
 
 {style="table-layout:auto"}
@@ -93,6 +93,6 @@ Du kan använda multitouch-attribueringsfunktionen för Mix Modeler i följande 
 * Komplett attribuering på händelsenivå: Förstå marknadsföringens påverkan under hela kundresan. Exempel: kostnadsfri kontoregistrering till betalkonvertering och vidare.
 * Partnerutvärderingar: Utvärdera effektiviteten hos myndigheter och partners baserat på attribueringsresultat.
 
-Se [Model Insights - Attribution](../models/insights.md#attribution) om hur du får tillgång till multitouch-attribueringsinsikter i Mix Modeler.
+Se [Model Insights - Attribution](../models/insights.md#attribution) om hur du får åtkomst till Multi-touch-attribueringsinsikter i Mix Modeler.
 
 

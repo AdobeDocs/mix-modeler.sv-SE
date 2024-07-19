@@ -21,7 +21,7 @@ Fliken Planer i Mix Modeler-översikt visar widgetar för [!UICONTROL Budget], [
 
 Vilka data som visas för widgetarna avgörs av:
 
-* Planen. Välj en plan från **[!UICONTROL Plan name]** med **[!UICONTROL _Välj ett alternativ..._]**.
+* Planen. Välj en plan från **[!UICONTROL Plan name]** med **[!UICONTROL _Välj ett alternativ.._]**.
 
 * Den angivna datumperioden. Om du vill ändra datumperioden anger du ett startdatum och ett slutdatum manuellt eller väljer en datumperiod med ![Kalender](/help/assets//icons/Calendar.svg).
 

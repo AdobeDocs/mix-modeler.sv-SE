@@ -18,9 +18,9 @@ Så här hanterar du datauppsättningar som innehåller de data du vill importer
 
 1. Välj ![Data](/help/assets//icons/Data.svg) **[!UICONTROL Datasets]**, under **[!UICONTROL SETUP]**.
 
-Se [Användargränssnittshandbok för datauppsättningar](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en) för mer information.
+Mer information finns i [Användargränssnittsguiden för datauppsättningar](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en).
 
 >[!MORELIKETHIS]
 >
->* [Ingrediera data](overview.md)
+>* [Ingest data](overview.md)
 >* [Scheman](schemas.md)

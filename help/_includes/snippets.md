@@ -78,7 +78,7 @@ ht-degree: 0%
 
 ## AlertCircleFylld {#alertcirclefilled}
 
-![AlertCircleFylld](/help/assets/icons/AlertCircleFilled.svg)
+![AlertCircleFilled](/help/assets/icons/AlertCircleFilled.svg)
 
 ## Algoritm {#algorithm}
 
@@ -90,19 +90,19 @@ ht-degree: 0%
 
 ## JusteraNederkant {#alignbottom}
 
-![JusteraNederkant](/help/assets/icons/AlignBottom.svg)
+![AlignBottom](/help/assets/icons/AlignBottom.svg)
 
 ## JusteraCentrera {#aligncenter}
 
-![JusteraCentrera](/help/assets/icons/AlignCenter.svg)
+![AlignCenter](/help/assets/icons/AlignCenter.svg)
 
 ## JusteraVänster {#alignleft}
 
-![JusteraVänster](/help/assets/icons/AlignLeft.svg)
+![AlignLeft](/help/assets/icons/AlignLeft.svg)
 
 ## JusteraMitten {#alignmiddle}
 
-![JusteraMitten](/help/assets/icons/AlignMiddle.svg)
+![AlignMiddle](/help/assets/icons/AlignMiddle.svg)
 
 ## JusteraHöger {#alignright}
 
@@ -110,7 +110,7 @@ ht-degree: 0%
 
 ## JusteraÖverkant {#aligntop}
 
-![JusteraÖverkant](/help/assets/icons/AlignTop.svg)
+![AlignTop](/help/assets/icons/AlignTop.svg)
 
 ## Amusementpark {#amusementpark}
 
@@ -130,7 +130,7 @@ ht-degree: 0%
 
 ## AntecknaRitstift {#annotatepen}
 
-![AntecknaRitstift](/help/assets/icons/AnnotatePen.svg)
+![AnnotatePen](/help/assets/icons/AnnotatePen.svg)
 
 ## Svar {#answer}
 
@@ -182,11 +182,11 @@ ht-degree: 0%
 
 ## PilUppåt {#arrowup}
 
-![PilUppåt](/help/assets/icons/ArrowUp.svg)
+![PilUp](/help/assets/icons/ArrowUp.svg)
 
 ## PilUppåtHöger {#arrowupright}
 
-![PilUppåtHöger](/help/assets/icons/ArrowUpRight.svg)
+![PilUppHöger](/help/assets/icons/ArrowUpRight.svg)
 
 ## Rityta {#artboard}
 
@@ -198,7 +198,7 @@ ht-degree: 0%
 
 ## Tillgång {#asset}
 
-![Tillgång](/help/assets/icons/Asset.svg)
+![Resurs](/help/assets/icons/Asset.svg)
 
 ## AssetCheck {#assetcheck}
 
@@ -214,11 +214,11 @@ ht-degree: 0%
 
 ## ResurserUtgångna {#assetsexpired}
 
-![ResurserUtgångna](/help/assets/icons/AssetsExpired.svg)
+![Resurser som har gått ut](/help/assets/icons/AssetsExpired.svg)
 
 ## ResurserLänkadePublicerade {#assetslinkedpublished}
 
-![ResurserLänkadePublicerade](/help/assets/icons/AssetsLinkedPublished.svg)
+![AssetsLinkedPublished](/help/assets/icons/AssetsLinkedPublished.svg)
 
 ## ResurserÄndrade {#assetsmodified}
 
@@ -226,7 +226,7 @@ ht-degree: 0%
 
 ## Publicerade resurser {#assetspublished}
 
-![Publicerade resurser](/help/assets/icons/AssetsPublished.svg)
+![ResurserPublicerade](/help/assets/icons/AssetsPublished.svg)
 
 ## Asterisk {#asterisk}
 
@@ -234,7 +234,7 @@ ht-degree: 0%
 
 ## At {#at}
 
-![At](/help/assets/icons/At.svg)
+![Vid](/help/assets/icons/At.svg)
 
 ## Bifoga {#attach}
 
@@ -242,7 +242,7 @@ ht-degree: 0%
 
 ## BilagaUteslut {#attachmentexclude}
 
-![BilagaUteslut](/help/assets/icons/AttachmentExclude.svg)
+![AttachmentExclude](/help/assets/icons/AttachmentExclude.svg)
 
 ## Attribut {#attribute}
 
@@ -262,7 +262,7 @@ ht-degree: 0%
 
 ## Bakåt30 sekunder {#back30second}
 
-![Bakåt30 sekunder](/help/assets/icons/Back30Second.svg)
+![Back30Second](/help/assets/icons/Back30Second.svg)
 
 ## BackAndroid {#backandroid}
 
@@ -270,7 +270,7 @@ ht-degree: 0%
 
 ## Bägare {#beaker}
 
-![Bägare](/help/assets/icons/Beaker.svg)
+![Baker](/help/assets/icons/Beaker.svg)
 
 ## BeakerCheck {#beakercheck}
 
@@ -314,7 +314,7 @@ ht-degree: 0%
 
 ## BokmärkeEnkeltDisposition {#bookmarksingleoutline}
 
-![BokmärkeEnkeltDisposition](/help/assets/icons/BookmarkSingleOutline.svg)
+![BookmarkSingleOutline](/help/assets/icons/BookmarkSingleOutline.svg)
 
 ## BookmarkSmall {#bookmarksmall}
 
@@ -322,7 +322,7 @@ ht-degree: 0%
 
 ## BokmärkeLitenDisposition {#bookmarksmalloutline}
 
-![BokmärkeLitenDisposition](/help/assets/icons/BookmarkSmallOutline.svg)
+![BookmarkSmallOutline](/help/assets/icons/BookmarkSmallOutline.svg)
 
 ## Boolean {#boolean}
 
@@ -334,7 +334,7 @@ ht-degree: 0%
 
 ## Box {#box}
 
-![Box](/help/assets/icons/Box.svg)
+![Ruta](/help/assets/icons/Box.svg)
 
 ## BoxAdd {#boxadd}
 
@@ -350,7 +350,7 @@ ht-degree: 0%
 
 ## Hakparentes {#bracket}
 
-![Hakparentes](/help/assets/icons/Bracket.svg)
+![Parentes](/help/assets/icons/Bracket.svg)
 
 ## BracketsSquare {#bracketssquare}
 
@@ -358,11 +358,11 @@ ht-degree: 0%
 
 ## Gren1 {#branch1}
 
-![Gren1](/help/assets/icons/Branch1.svg)
+![Förgrening1](/help/assets/icons/Branch1.svg)
 
 ## Gren2 {#branch2}
 
-![Gren2](/help/assets/icons/Branch2.svg)
+![Förgrening2](/help/assets/icons/Branch2.svg)
 
 ## Förgrening3 {#branch3}
 
@@ -382,7 +382,7 @@ ht-degree: 0%
 
 ## BrytfrekvensLägg till {#breakdownadd}
 
-![BrytfrekvensLägg till](/help/assets/icons/BreakdownAdd.svg)
+![BreakdownAdd](/help/assets/icons/BreakdownAdd.svg)
 
 ## Portfölj {#briefcase}
 
@@ -402,7 +402,7 @@ ht-degree: 0%
 
 ## Byggnad {#building}
 
-![Byggnad](/help/assets/icons/Building.svg)
+![Bygger](/help/assets/icons/Building.svg)
 
 ## BulkEditUser {#bulkedituser}
 
@@ -426,7 +426,7 @@ ht-degree: 0%
 
 ## KalenderLägg till {#calendaradd}
 
-![KalenderLägg till](/help/assets/icons/CalendarAdd.svg)
+![CalendarAdd](/help/assets/icons/CalendarAdd.svg)
 
 ## KalenderLåst {#calendarlocked}
 
@@ -478,7 +478,7 @@ ht-degree: 0%
 
 ## Stad {#capital}
 
-![Stad](/help/assets/icons/Capital.svg)
+![Versalt](/help/assets/icons/Capital.svg)
 
 ## Captcha {#captcha}
 
@@ -502,7 +502,7 @@ ht-degree: 0%
 
 ## ChattLäggTill {#chatadd}
 
-![ChattLäggTill](/help/assets/icons/ChatAdd.svg)
+![ChatAdd](/help/assets/icons/ChatAdd.svg)
 
 ## CheckPause {#checkpause}
 
@@ -518,7 +518,7 @@ ht-degree: 0%
 
 ## CheckCircleOutline {#checkmarkcircleoutline}
 
-![CheckCircleOutline](/help/assets/icons/CheckmarkCircleOutline.svg)
+![CheckmarkCircleOutline](/help/assets/icons/CheckmarkCircleOutline.svg)
 
 ## ChevronDoubleLeft {#chevrondoubleleft}
 
@@ -530,7 +530,7 @@ ht-degree: 0%
 
 ## ChevronDown {#chevrondown}
 
-![ChevronDown](/help/assets/icons/ChevronDown.svg)
+![KranNed](/help/assets/icons/ChevronDown.svg)
 
 ## ChevronLeft {#chevronleft}
 
@@ -538,7 +538,7 @@ ht-degree: 0%
 
 ## ChevronRight {#chevronright}
 
-![ChevronRight](/help/assets/icons/ChevronRight.svg)
+![SparronRight](/help/assets/icons/ChevronRight.svg)
 
 ## ChevronUp {#chevronup}
 
@@ -546,7 +546,7 @@ ht-degree: 0%
 
 ## SparruppUppNed {#chevronupdown}
 
-![SparruppUppNed](/help/assets/icons/ChevronUpDown.svg)
+![SparronUpDown](/help/assets/icons/ChevronUpDown.svg)
 
 ## Cirkel {#circle}
 
@@ -554,7 +554,7 @@ ht-degree: 0%
 
 ## KlassiskStödrastervisning {#classicgridview}
 
-![KlassiskStödrastervisning](/help/assets/icons/ClassicGridView.svg)
+![KlassiskGridView](/help/assets/icons/ClassicGridView.svg)
 
 ## Klocka {#clock}
 
@@ -586,7 +586,7 @@ ht-degree: 0%
 
 ## CloudFrånkopplad {#clouddisconnected}
 
-![CloudFrånkopplad](/help/assets/icons/CloudDisconnected.svg)
+![CloudDisconnected](/help/assets/icons/CloudDisconnected.svg)
 
 ## CloudError {#clouderror}
 
@@ -598,7 +598,7 @@ ht-degree: 0%
 
 ## Code {#code}
 
-![Code](/help/assets/icons/Code.svg)
+![Kod](/help/assets/icons/Code.svg)
 
 ## Samling {#collection}
 
@@ -614,7 +614,7 @@ ht-degree: 0%
 
 ## CollectionCheck {#collectioncheck}
 
-![CollectionCheck](/help/assets/icons/CollectionCheck.svg)
+![Samlingskontroll](/help/assets/icons/CollectionCheck.svg)
 
 ## CollectionEdit {#collectionedit}
 
@@ -642,7 +642,7 @@ ht-degree: 0%
 
 ## ColumnSetting {#columnsetting}
 
-![ColumnSetting](/help/assets/icons/ColumnSetting.svg)
+![Kolumninställning](/help/assets/icons/ColumnSetting.svg)
 
 ## ColumnTwoA {#columntwoa}
 
@@ -694,7 +694,7 @@ ht-degree: 0%
 
 ## ConversionTrnel {#conversionfunnel}
 
-![ConversionTrnel](/help/assets/icons/ConversionFunnel.svg)
+![ConversionTratt](/help/assets/icons/ConversionFunnel.svg)
 
 ## Kopiera {#copy}
 
@@ -706,7 +706,7 @@ ht-degree: 0%
 
 ## CreditCard {#creditcard}
 
-![CreditCard](/help/assets/icons/CreditCard.svg)
+![Kreditkort](/help/assets/icons/CreditCard.svg)
 
 ## Beskär {#crop}
 
@@ -718,7 +718,7 @@ ht-degree: 0%
 
 ## BeskärRotera {#croprotate}
 
-![BeskärRotera](/help/assets/icons/CropRotate.svg)
+![CropRotate](/help/assets/icons/CropRotate.svg)
 
 ## Crosshair {#crosshair}
 
@@ -734,7 +734,7 @@ ht-degree: 0%
 
 ## Kontrollpanel {#dashboard}
 
-![Kontrollpanel](/help/assets/icons/Dashboard.svg)
+![Instrumentpanel](/help/assets/icons/Dashboard.svg)
 
 ## Data {#data}
 
@@ -766,11 +766,11 @@ ht-degree: 0%
 
 ## DataMapping {#datamapping}
 
-![DataMapping](/help/assets/icons/DataMapping.svg)
+![Datamappning](/help/assets/icons/DataMapping.svg)
 
 ## DataRefresh {#datarefresh}
 
-![DataRefresh](/help/assets/icons/DataRefresh.svg)
+![Datauppdatering](/help/assets/icons/DataRefresh.svg)
 
 ## DataRemove {#dataremove}
 
@@ -814,7 +814,7 @@ ht-degree: 0%
 
 ## TaBortKontur {#deleteoutline}
 
-![TaBortKontur](/help/assets/icons/DeleteOutline.svg)
+![DeleteOutline](/help/assets/icons/DeleteOutline.svg)
 
 ## Demografisk {#demographic}
 
@@ -882,27 +882,27 @@ ht-degree: 0%
 
 ## DistribueraNederkant {#distributebottomedge}
 
-![DistribueraNederkant](/help/assets/icons/DistributeBottomEdge.svg)
+![DistributeBottomEdge](/help/assets/icons/DistributeBottomEdge.svg)
 
 ## FördelaVågrätCentrering {#distributehorizontalcenter}
 
-![FördelaVågrätCentrering](/help/assets/icons/DistributeHorizontalCenter.svg)
+![DistributeHorizontalCenter](/help/assets/icons/DistributeHorizontalCenter.svg)
 
 ## FördelaVågrätt {#distributehorizontally}
 
-![FördelaVågrätt](/help/assets/icons/DistributeHorizontally.svg)
+![Fördela vågrätt](/help/assets/icons/DistributeHorizontally.svg)
 
 ## FördelaVänsterKant {#distributeleftedge}
 
-![FördelaVänsterKant](/help/assets/icons/DistributeLeftEdge.svg)
+![DistributeLeftEdge](/help/assets/icons/DistributeLeftEdge.svg)
 
 ## FördelaHögerKant {#distributerightedge}
 
-![FördelaHögerKant](/help/assets/icons/DistributeRightEdge.svg)
+![DistributeRightEdge](/help/assets/icons/DistributeRightEdge.svg)
 
 ## DistribueraBlankstegVågrätt {#distributespacehoriz}
 
-![DistribueraBlankstegVågrätt](/help/assets/icons/DistributeSpaceHoriz.svg)
+![DistributeSpaceHoriz](/help/assets/icons/DistributeSpaceHoriz.svg)
 
 ## DistributeSpaceVert {#distributespacevert}
 
@@ -910,11 +910,11 @@ ht-degree: 0%
 
 ## FördelaÖverkant {#distributetopedge}
 
-![FördelaÖverkant](/help/assets/icons/DistributeTopEdge.svg)
+![DistributeTopEdge](/help/assets/icons/DistributeTopEdge.svg)
 
 ## FördelaLodrättCentrera {#distributeverticalcenter}
 
-![FördelaLodrättCentrera](/help/assets/icons/DistributeVerticalCenter.svg)
+![DistributeVerticalCenter](/help/assets/icons/DistributeVerticalCenter.svg)
 
 ## DistribueraLodrätt {#distributevertically}
 
@@ -934,7 +934,7 @@ ht-degree: 0%
 
 ## DocumentFragment {#documentfragment}
 
-![DocumentFragment](/help/assets/icons/DocumentFragment.svg)
+![Dokumentfragment](/help/assets/icons/DocumentFragment.svg)
 
 ## DocumentFragmentGroup {#documentfragmentgroup}
 
@@ -942,11 +942,11 @@ ht-degree: 0%
 
 ## DokumentDisposition {#documentoutline}
 
-![DokumentDisposition](/help/assets/icons/DocumentOutline.svg)
+![DocumentOutline](/help/assets/icons/DocumentOutline.svg)
 
 ## DokumentUppdatera {#documentrefresh}
 
-![DokumentUppdatera](/help/assets/icons/DocumentRefresh.svg)
+![DocumentRefresh](/help/assets/icons/DocumentRefresh.svg)
 
 ## Dolly {#dolly}
 
@@ -958,11 +958,11 @@ ht-degree: 0%
 
 ## HämtaFrånCloud {#downloadfromcloud}
 
-![HämtaFrånCloud](/help/assets/icons/DownloadFromCloud.svg)
+![DownloadFromCloud](/help/assets/icons/DownloadFromCloud.svg)
 
 ## HämtaFrånCloudDisposition {#downloadfromcloudoutline}
 
-![HämtaFrånCloudDisposition](/help/assets/icons/DownloadFromCloudOutline.svg)
+![DownloadFromCloudOutline](/help/assets/icons/DownloadFromCloudOutline.svg)
 
 ## Utkast {#draft}
 
@@ -972,9 +972,9 @@ ht-degree: 0%
 
 ![DragHandle](/help/assets/icons/DragHandle.svg)
 
-## Draw {#draw}
+## Rita {#draw}
 
-![Draw](/help/assets/icons/Draw.svg)
+![Rita](/help/assets/icons/Draw.svg)
 
 ## Listruta {#dropdown}
 
@@ -1002,7 +1002,7 @@ ht-degree: 0%
 
 ## RedigeraInljus {#editinlight}
 
-![RedigeraInljus](/help/assets/icons/EditInLight.svg)
+![EditInLight](/help/assets/icons/EditInLight.svg)
 
 ## Utbildning {#education}
 
@@ -1014,7 +1014,7 @@ ht-degree: 0%
 
 ## Effektivt {#efficient}
 
-![Effektivt](/help/assets/icons/Efficient.svg)
+![Effektiv](/help/assets/icons/Efficient.svg)
 
 ## Ellips {#ellipse}
 
@@ -1194,7 +1194,7 @@ ht-degree: 0%
 
 ## ArkivUtcheckad {#filecheckedout}
 
-![ArkivUtcheckad](/help/assets/icons/FileCheckedOut.svg)
+![FileCheckedOut](/help/assets/icons/FileCheckedOut.svg)
 
 ## FileCode {#filecode}
 
@@ -1218,7 +1218,7 @@ ht-degree: 0%
 
 ## FileGlobe {#fileglobe}
 
-![FileGlobe](/help/assets/icons/FileGlobe.svg)
+![FileGlobal](/help/assets/icons/FileGlobe.svg)
 
 ## FileHTML {#filehtml}
 
@@ -1294,27 +1294,27 @@ ht-degree: 0%
 
 ## FilterLäggTill {#filteradd}
 
-![FilterLäggTill](/help/assets/icons/FilterAdd.svg)
+![FilterAdd](/help/assets/icons/FilterAdd.svg)
 
 ## FilterCheck {#filtercheck}
 
-![FilterCheck](/help/assets/icons/FilterCheck.svg)
+![Filterkontroll](/help/assets/icons/FilterCheck.svg)
 
 ## FilterTa bort {#filterdelete}
 
-![FilterTa bort](/help/assets/icons/FilterDelete.svg)
+![FilterDelete](/help/assets/icons/FilterDelete.svg)
 
 ## Filterredigering {#filteredit}
 
-![Filterredigering](/help/assets/icons/FilterEdit.svg)
+![FilterEdit](/help/assets/icons/FilterEdit.svg)
 
 ## FilterHjärta {#filterheart}
 
-![FilterHjärta](/help/assets/icons/FilterHeart.svg)
+![FilterHeart](/help/assets/icons/FilterHeart.svg)
 
 ## FilterTa bort {#filterremove}
 
-![FilterTa bort](/help/assets/icons/FilterRemove.svg)
+![FilterRemove](/help/assets/icons/FilterRemove.svg)
 
 ## Filterstjärna {#filterstar}
 
@@ -1322,7 +1322,7 @@ ht-degree: 0%
 
 ## SökOchErsätt {#findandreplace}
 
-![SökOchErsätt](/help/assets/icons/FindAndReplace.svg)
+![FindAndReplace](/help/assets/icons/FindAndReplace.svg)
 
 ## Flagga {#flag}
 
@@ -1330,7 +1330,7 @@ ht-degree: 0%
 
 ## FlaggaUteslut {#flagexclude}
 
-![FlaggaUteslut](/help/assets/icons/FlagExclude.svg)
+![FlagExclude](/help/assets/icons/FlagExclude.svg)
 
 ## FlashAuto {#flashauto}
 
@@ -1358,7 +1358,7 @@ ht-degree: 0%
 
 ## VändVågrätt {#fliphorizontal}
 
-![VändVågrätt](/help/assets/icons/FlipHorizontal.svg)
+![FlipHorizontal](/help/assets/icons/FlipHorizontal.svg)
 
 ## FlipVertical {#flipvertical}
 
@@ -1370,23 +1370,23 @@ ht-degree: 0%
 
 ## Folder2Color {#folder2color}
 
-![Folder2Color](/help/assets/icons/Folder2Color.svg)
+![Mapp2Färg](/help/assets/icons/Folder2Color.svg)
 
 ## FolderAdd {#folderadd}
 
-![FolderAdd](/help/assets/icons/FolderAdd.svg)
+![MappLägg till](/help/assets/icons/FolderAdd.svg)
 
 ## FolderAddTo {#folderaddto}
 
-![FolderAddTo](/help/assets/icons/FolderAddTo.svg)
+![MappLäggTill](/help/assets/icons/FolderAddTo.svg)
 
 ## FolderArchive {#folderarchive}
 
-![FolderArchive](/help/assets/icons/FolderArchive.svg)
+![Mapparkiv](/help/assets/icons/FolderArchive.svg)
 
 ## FolderDelete {#folderdelete}
 
-![FolderDelete](/help/assets/icons/FolderDelete.svg)
+![Mappborttagning](/help/assets/icons/FolderDelete.svg)
 
 ## FolderGear {#foldergear}
 
@@ -1394,11 +1394,11 @@ ht-degree: 0%
 
 ## FolderLocked {#folderlocked}
 
-![FolderLocked](/help/assets/icons/FolderLocked.svg)
+![MappLåst](/help/assets/icons/FolderLocked.svg)
 
 ## FolderOpen {#folderopen}
 
-![FolderOpen](/help/assets/icons/FolderOpen.svg)
+![MappÖppna](/help/assets/icons/FolderOpen.svg)
 
 ## FolderOpenOutline {#folderopenoutline}
 
@@ -1406,7 +1406,7 @@ ht-degree: 0%
 
 ## FolderOutline {#folderoutline}
 
-![FolderOutline](/help/assets/icons/FolderOutline.svg)
+![Mappdisposition](/help/assets/icons/FolderOutline.svg)
 
 ## MappTa bort {#folderremove}
 
@@ -1414,11 +1414,11 @@ ht-degree: 0%
 
 ## FolderSearch {#foldersearch}
 
-![FolderSearch](/help/assets/icons/FolderSearch.svg)
+![Mappsökning](/help/assets/icons/FolderSearch.svg)
 
 ## FolderUser {#folderuser}
 
-![FolderUser](/help/assets/icons/FolderUser.svg)
+![Mappanvändare](/help/assets/icons/FolderUser.svg)
 
 ## Följ {#follow}
 
@@ -1478,7 +1478,7 @@ ht-degree: 0%
 
 ## Mätare 5 {#gauge5}
 
-![Mätare 5](/help/assets/icons/Gauge5.svg)
+![Mätare5](/help/assets/icons/Gauge5.svg)
 
 ## Kugghjul {#gear}
 
@@ -1498,15 +1498,15 @@ ht-degree: 0%
 
 ## KönKvinnor {#genderfemale}
 
-![KönKvinnor](/help/assets/icons/GenderFemale.svg)
+![KönKvinna](/help/assets/icons/GenderFemale.svg)
 
 ## KönMan {#gendermale}
 
-![KönMan](/help/assets/icons/GenderMale.svg)
+![GenusMale](/help/assets/icons/GenderMale.svg)
 
 ## Gåva {#gift}
 
-![Gåva](/help/assets/icons/Gift.svg)
+![Presentatör](/help/assets/icons/Gift.svg)
 
 ## Globe {#globe}
 
@@ -1514,11 +1514,11 @@ ht-degree: 0%
 
 ## GlobeCheck {#globecheck}
 
-![GlobeCheck](/help/assets/icons/GlobeCheck.svg)
+![GlobalCheck](/help/assets/icons/GlobeCheck.svg)
 
 ## GlobeClock {#globeclock}
 
-![GlobeClock](/help/assets/icons/GlobeClock.svg)
+![GlobalClock](/help/assets/icons/GlobeClock.svg)
 
 ## GlobeEnter {#globeenter}
 
@@ -1538,7 +1538,7 @@ ht-degree: 0%
 
 ## GlobeRemove {#globeremove}
 
-![GlobeRemove](/help/assets/icons/GlobeRemove.svg)
+![GlobalRemove](/help/assets/icons/GlobeRemove.svg)
 
 ## GlobalSearch {#globesearch}
 
@@ -1670,7 +1670,7 @@ ht-degree: 0%
 
 ## Grafik {#graphic}
 
-![Grafik](/help/assets/icons/Graphic.svg)
+![Bild](/help/assets/icons/Graphic.svg)
 
 ## Grupp {#group}
 
@@ -1706,7 +1706,7 @@ ht-degree: 0%
 
 ## Lagning {#heal}
 
-![Lagning](/help/assets/icons/Heal.svg)
+![Laga](/help/assets/icons/Heal.svg)
 
 ## Hjärta {#heart}
 
@@ -1798,7 +1798,7 @@ ht-degree: 0%
 
 ## ImageProfile {#imageprofile}
 
-![ImageProfile](/help/assets/icons/ImageProfile.svg)
+![Bildprofil](/help/assets/icons/ImageProfile.svg)
 
 ## ImageSearch {#imagesearch}
 
@@ -1818,7 +1818,7 @@ ht-degree: 0%
 
 ## Enskild {#individual}
 
-![Enskild](/help/assets/icons/Individual.svg)
+![Individual](/help/assets/icons/Individual.svg)
 
 ## Info {#info}
 
@@ -1830,7 +1830,7 @@ ht-degree: 0%
 
 ## ÖverlappaÖverlappa {#intersectoverlap}
 
-![ÖverlappaÖverlappa](/help/assets/icons/IntersectOverlap.svg)
+![IntersectOverlap](/help/assets/icons/IntersectOverlap.svg)
 
 ## InvertAdj {#invertadj}
 
@@ -1918,19 +1918,19 @@ ht-degree: 0%
 
 ## LagerLäggÖverst {#layersbringtofront}
 
-![LagerLäggÖverst](/help/assets/icons/LayersBringToFront.svg)
+![LagerBringToFront](/help/assets/icons/LayersBringToFront.svg)
 
 ## LagerFramåt {#layersforward}
 
-![LagerFramåt](/help/assets/icons/LayersForward.svg)
+![LayersForward](/help/assets/icons/LayersForward.svg)
 
 ## LagerLäggLängstBak {#layerssendtoback}
 
-![LagerLäggLängstBak](/help/assets/icons/LayersSendToBack.svg)
+![LayersSendToBack](/help/assets/icons/LayersSendToBack.svg)
 
 ## Läs {#learn}
 
-![Läs](/help/assets/icons/Learn.svg)
+![Lär dig](/help/assets/icons/Learn.svg)
 
 ## LeftRight {#leftright}
 
@@ -1942,11 +1942,11 @@ ht-degree: 0%
 
 ## Linje {#line}
 
-![Linje](/help/assets/icons/Line.svg)
+![Rad](/help/assets/icons/Line.svg)
 
 ## LineHeight {#lineheight}
 
-![LineHeight](/help/assets/icons/LineHeight.svg)
+![Radhöjd](/help/assets/icons/LineHeight.svg)
 
 ## LinearGradient {#lineargradient}
 
@@ -2002,7 +2002,7 @@ ht-degree: 0%
 
 ## LocationContribute {#locationcontribution}
 
-![LocationContribute](/help/assets/icons/LocationContribution.svg)
+![LocationContribution](/help/assets/icons/LocationContribution.svg)
 
 ## LockClosed {#lockclosed}
 
@@ -2026,7 +2026,7 @@ ht-degree: 0%
 
 ## LuppvisningVisa {#loupeview}
 
-![LuppvisningVisa](/help/assets/icons/LoupeView.svg)
+![Luppvisning](/help/assets/icons/LoupeView.svg)
 
 ## MBox {#mbox}
 
@@ -2050,15 +2050,15 @@ ht-degree: 0%
 
 ## MarginalNederkant {#marginbottom}
 
-![MarginalNederkant](/help/assets/icons/MarginBottom.svg)
+![MarginBottom](/help/assets/icons/MarginBottom.svg)
 
 ## MarginalVänster {#marginleft}
 
-![MarginalVänster](/help/assets/icons/MarginLeft.svg)
+![MarginLeft](/help/assets/icons/MarginLeft.svg)
 
 ## MarginalHöger {#marginright}
 
-![MarginalHöger](/help/assets/icons/MarginRight.svg)
+![MarginRight](/help/assets/icons/MarginRight.svg)
 
 ## MarginTop {#margintop}
 
@@ -2066,7 +2066,7 @@ ht-degree: 0%
 
 ## Marknadsföringsaktivitet {#marketingactivitie}
 
-![Marknadsföringsaktivitet](/help/assets/icons/MarketingActivitie.svg)
+![Marknadsföringsaktiviteter](/help/assets/icons/MarketingActivitie.svg)
 
 ## Maximera {#maximize}
 
@@ -2126,7 +2126,7 @@ ht-degree: 0%
 
 ## MoreSmall {#moresmall}
 
-![MoreSmall](/help/assets/icons/MoreSmall.svg)
+![MerLiten](/help/assets/icons/MoreSmall.svg)
 
 ## MoreSmallList {#moresmalllist}
 
@@ -2154,7 +2154,7 @@ ht-degree: 0%
 
 ## FlyttaUppNed {#moveupdown}
 
-![FlyttaUppNed](/help/assets/icons/MoveUpDown.svg)
+![MoveUpDown](/help/assets/icons/MoveUpDown.svg)
 
 ## MovieCamera {#moviecamera}
 
@@ -2178,7 +2178,7 @@ ht-degree: 0%
 
 ## Namnordning {#namingorder}
 
-![Namnordning](/help/assets/icons/NamingOrder.svg)
+![NamingOrder](/help/assets/icons/NamingOrder.svg)
 
 ## Nytt {#new}
 
@@ -2202,7 +2202,7 @@ ht-degree: 0%
 
 ## Anteckning {#note}
 
-![Anteckning](/help/assets/icons/Note.svg)
+![Obs!](/help/assets/icons/Note.svg)
 
 ## NoteAdd {#noteadd}
 
@@ -2218,11 +2218,11 @@ ht-degree: 0%
 
 ## ErbjudandeVerksamheter {#offeractivities}
 
-![ErbjudandeVerksamheter](/help/assets/icons/OfferActivities.svg)
+![Erbjudandeaktiviteter](/help/assets/icons/OfferActivities.svg)
 
 ## OfferDelete {#offerdelete}
 
-![OfferDelete](/help/assets/icons/OfferDelete.svg)
+![ErbjudandeTa bort](/help/assets/icons/OfferDelete.svg)
 
 ## Erbjudanden {#offers}
 
@@ -2250,7 +2250,7 @@ ht-degree: 0%
 
 ## Fågelperspektiv {#orbit}
 
-![Fågelperspektiv](/help/assets/icons/Orbit.svg)
+![Omloppsbana](/help/assets/icons/Orbit.svg)
 
 ## Organisation {#organisation}
 
@@ -2262,7 +2262,7 @@ ht-degree: 0%
 
 ## Dispositionssökväg {#outlinepath}
 
-![Dispositionssökväg](/help/assets/icons/OutlinePath.svg)
+![OutlinePath](/help/assets/icons/OutlinePath.svg)
 
 ## PaddingBottom {#paddingbottom}
 
@@ -2298,7 +2298,7 @@ ht-degree: 0%
 
 ## PageShare {#pageshare}
 
-![PageShare](/help/assets/icons/PageShare.svg)
+![Siddelning](/help/assets/icons/PageShare.svg)
 
 ## PageTag {#pagetag}
 
@@ -2330,7 +2330,7 @@ ht-degree: 0%
 
 ## KlistraInText {#pastetext}
 
-![KlistraInText](/help/assets/icons/PasteText.svg)
+![PasteText](/help/assets/icons/PasteText.svg)
 
 ## Mönster {#pattern}
 
@@ -2338,7 +2338,7 @@ ht-degree: 0%
 
 ## Pausa {#pause}
 
-![Pausa](/help/assets/icons/Pause.svg)
+![Paus](/help/assets/icons/Pause.svg)
 
 ## PauseCircle {#pausecircle}
 
@@ -2346,7 +2346,7 @@ ht-degree: 0%
 
 ## Pånad {#pawn}
 
-![Pånad](/help/assets/icons/Pawn.svg)
+![Pärrad](/help/assets/icons/Pawn.svg)
 
 ## Väntande {#pending}
 
@@ -2374,7 +2374,7 @@ ht-degree: 0%
 
 ## Pivotera {#pivot}
 
-![Pivotera](/help/assets/icons/Pivot.svg)
+![Pivot](/help/assets/icons/Pivot.svg)
 
 ## Platshållare {#placeholder}
 
@@ -2402,7 +2402,7 @@ ht-degree: 0%
 
 ## PolygonMarkera {#polygonselect}
 
-![PolygonMarkera](/help/assets/icons/PolygonSelect.svg)
+![Polygonmarkering](/help/assets/icons/PolygonSelect.svg)
 
 ## PopIn {#popin}
 
@@ -2426,7 +2426,7 @@ ht-degree: 0%
 
 ## PrintPreview {#printpreview}
 
-![PrintPreview](/help/assets/icons/PrintPreview.svg)
+![Förhandsgranskning](/help/assets/icons/PrintPreview.svg)
 
 ## Projekt {#project}
 
@@ -2434,15 +2434,15 @@ ht-degree: 0%
 
 ## ProjektLäggTill {#projectadd}
 
-![ProjektLäggTill](/help/assets/icons/ProjectAdd.svg)
+![ProjectAdd](/help/assets/icons/ProjectAdd.svg)
 
 ## ProjektRedigera {#projectedit}
 
-![ProjektRedigera](/help/assets/icons/ProjectEdit.svg)
+![ProjectEdit](/help/assets/icons/ProjectEdit.svg)
 
 ## ProjektNamnRedigera {#projectnameedit}
 
-![ProjektNamnRedigera](/help/assets/icons/ProjectNameEdit.svg)
+![ProjectNameEdit](/help/assets/icons/ProjectNameEdit.svg)
 
 ## Befordra {#promote}
 
@@ -2486,7 +2486,7 @@ ht-degree: 0%
 
 ## QuickSelect {#quickselect}
 
-![QuickSelect](/help/assets/icons/QuickSelect.svg)
+![Snabbval](/help/assets/icons/QuickSelect.svg)
 
 ## RSS {#rss}
 
@@ -2526,7 +2526,7 @@ ht-degree: 0%
 
 ## IntervallMask {#rangemask}
 
-![IntervallMask](/help/assets/icons/RangeMask.svg)
+![Intervallmask](/help/assets/icons/RangeMask.svg)
 
 ## RealTimeCustomerProfile {#realtimecustomerprofile}
 
@@ -2582,7 +2582,7 @@ ht-degree: 0%
 
 ## Svara {#reply}
 
-![Svara](/help/assets/icons/Reply.svg)
+![Svar](/help/assets/icons/Reply.svg)
 
 ## SvaraAlla {#replyall}
 
@@ -2618,7 +2618,7 @@ ht-degree: 0%
 
 ## Återställ {#revert}
 
-![Återställ](/help/assets/icons/Revert.svg)
+![Återgå](/help/assets/icons/Revert.svg)
 
 ## Spola tillbaka {#rewind}
 
@@ -2626,7 +2626,7 @@ ht-degree: 0%
 
 ## Spola tillbakaCirkel {#rewindcircle}
 
-![Spola tillbakaCirkel](/help/assets/icons/RewindCircle.svg)
+![RewindCircle](/help/assets/icons/RewindCircle.svg)
 
 ## Band {#ribbon}
 
@@ -2634,19 +2634,19 @@ ht-degree: 0%
 
 ## RoteraCCW {#rotateccw}
 
-![RoteraCCW](/help/assets/icons/RotateCCW.svg)
+![RotateCCW](/help/assets/icons/RotateCCW.svg)
 
 ## RoteraCCWBold {#rotateccwbold}
 
-![RoteraCCWBold](/help/assets/icons/RotateCCWBold.svg)
+![RotateCCWBold](/help/assets/icons/RotateCCWBold.svg)
 
 ## RoteraFV {#rotatecw}
 
-![RoteraFV](/help/assets/icons/RotateCW.svg)
+![RotateCW](/help/assets/icons/RotateCW.svg)
 
 ## RoteraCWBold {#rotatecwbold}
 
-![RoteraCWBold](/help/assets/icons/RotateCWBold.svg)
+![RotateCWBold](/help/assets/icons/RotateCWBold.svg)
 
 ## RoteraVänster {#rotateleft}
 
@@ -2654,7 +2654,7 @@ ht-degree: 0%
 
 ## RoteraVänsterKontur {#rotateleftoutline}
 
-![RoteraVänsterKontur](/help/assets/icons/RotateLeftOutline.svg)
+![RotateLeftOutline](/help/assets/icons/RotateLeftOutline.svg)
 
 ## RoteraHöger {#rotateright}
 
@@ -2662,7 +2662,7 @@ ht-degree: 0%
 
 ## RoteraHögerKontur {#rotaterightoutline}
 
-![RoteraHögerKontur](/help/assets/icons/RotateRightOutline.svg)
+![RotateRightOutline](/help/assets/icons/RotateRightOutline.svg)
 
 ## SM {#sm}
 
@@ -2706,7 +2706,7 @@ ht-degree: 0%
 
 ## SparaTillLjus {#savetolight}
 
-![SparaTillLjus](/help/assets/icons/SaveToLight.svg)
+![SaveToLight](/help/assets/icons/SaveToLight.svg)
 
 ## Scheman {#schemas}
 
@@ -2726,7 +2726,7 @@ ht-degree: 0%
 
 ## LäggTillPlats {#seatadd}
 
-![LäggTillPlats](/help/assets/icons/SeatAdd.svg)
+![SäteLägg till](/help/assets/icons/SeatAdd.svg)
 
 ## Segment {#segment}
 
@@ -2750,7 +2750,7 @@ ht-degree: 0%
 
 ## MarkeraRutaAlla {#selectboxall}
 
-![MarkeraRutaAlla](/help/assets/icons/SelectBoxAll.svg)
+![SelectBoxAll](/help/assets/icons/SelectBoxAll.svg)
 
 ## SelectCircular {#selectcircular}
 
@@ -2770,7 +2770,7 @@ ht-degree: 0%
 
 ## SelectSubtract {#selectsubtract}
 
-![SelectSubtract](/help/assets/icons/SelectSubtract.svg)
+![MarkeraSubtrahera](/help/assets/icons/SelectSubtract.svg)
 
 ## Markering {#selection}
 
@@ -2778,11 +2778,11 @@ ht-degree: 0%
 
 ## SelectionChecked {#selectionchecked}
 
-![SelectionChecked](/help/assets/icons/SelectionChecked.svg)
+![MarkeringMarkerad](/help/assets/icons/SelectionChecked.svg)
 
 ## MarkeringFlytta {#selectionmove}
 
-![MarkeringFlytta](/help/assets/icons/SelectionMove.svg)
+![SelectionMove](/help/assets/icons/SelectionMove.svg)
 
 ## Skicka {#send}
 
@@ -2846,7 +2846,7 @@ ht-degree: 0%
 
 ## Ship {#ship}
 
-![Ship](/help/assets/icons/Ship.svg)
+![Leverera](/help/assets/icons/Ship.svg)
 
 ## Handla {#shop}
 
@@ -2858,7 +2858,7 @@ ht-degree: 0%
 
 ## VisaAllaLager {#showalllayer}
 
-![VisaAllaLager](/help/assets/icons/ShowAllLayer.svg)
+![ShowAllLayer](/help/assets/icons/ShowAllLayer.svg)
 
 ## VisaMeny {#showmenu}
 
@@ -2866,7 +2866,7 @@ ht-degree: 0%
 
 ## VisaEttLager {#showonelayer}
 
-![VisaEttLager](/help/assets/icons/ShowOneLayer.svg)
+![ShowOneLayer](/help/assets/icons/ShowOneLayer.svg)
 
 ## Blanda {#shuffle}
 
@@ -2890,19 +2890,19 @@ ht-degree: 0%
 
 ## SocialNetwork {#socialnetwork}
 
-![SocialNetwork](/help/assets/icons/SocialNetwork.svg)
+![Socialt nätverk](/help/assets/icons/SocialNetwork.svg)
 
 ## SorteraOrdnaNed {#sortorderdown}
 
-![SorteraOrdnaNed](/help/assets/icons/SortOrderDown.svg)
+![SortOrderDown](/help/assets/icons/SortOrderDown.svg)
 
 ## SorteraOrdnaUpp {#sortorderup}
 
-![SorteraOrdnaUpp](/help/assets/icons/SortOrderUp.svg)
+![SortOrderUp](/help/assets/icons/SortOrderUp.svg)
 
 ## Spam {#spam}
 
-![Spam](/help/assets/icons/Spam.svg)
+![Skräppost](/help/assets/icons/Spam.svg)
 
 ## Stavningskontroll {#spellcheck}
 
@@ -2938,7 +2938,7 @@ ht-degree: 0%
 
 ## StjärnaKontur {#staroutline}
 
-![StjärnaKontur](/help/assets/icons/StarOutline.svg)
+![StarOutline](/help/assets/icons/StarOutline.svg)
 
 ## Starburst {#starburst}
 
@@ -2946,19 +2946,19 @@ ht-degree: 0%
 
 ## StegBakåt {#stepbackward}
 
-![StegBakåt](/help/assets/icons/StepBackward.svg)
+![Stega bakåt](/help/assets/icons/StepBackward.svg)
 
 ## StegBakåtCirkel {#stepbackwardcircle}
 
-![StegBakåtCirkel](/help/assets/icons/StepBackwardCircle.svg)
+![StepBackwardCircle](/help/assets/icons/StepBackwardCircle.svg)
 
 ## StegFramåt {#stepforward}
 
-![StegFramåt](/help/assets/icons/StepForward.svg)
+![Stega framåt](/help/assets/icons/StepForward.svg)
 
 ## StegFramåtCirkel {#stepforwardcircle}
 
-![StegFramåtCirkel](/help/assets/icons/StepForwardCircle.svg)
+![StepForwardCircle](/help/assets/icons/StepForwardCircle.svg)
 
 ## Stoppa {#stop}
 
@@ -2998,7 +2998,7 @@ ht-degree: 0%
 
 ## SubtraheraFrontPath {#subtractfrontpath}
 
-![SubtraheraFrontPath](/help/assets/icons/SubtractFrontPath.svg)
+![SubtractFrontPath](/help/assets/icons/SubtractFrontPath.svg)
 
 ## SuccessMetric {#successmetric}
 
@@ -3006,7 +3006,7 @@ ht-degree: 0%
 
 ## Sammanfatta {#summarize}
 
-![Sammanfatta](/help/assets/icons/Summarize.svg)
+![Sammanfattning](/help/assets/icons/Summarize.svg)
 
 ## Undersökning {#survey}
 
@@ -3014,7 +3014,7 @@ ht-degree: 0%
 
 ## Byt {#switch}
 
-![Byt](/help/assets/icons/Switch.svg)
+![Växla](/help/assets/icons/Switch.svg)
 
 ## Synkronisera {#sync}
 
@@ -3054,11 +3054,11 @@ ht-degree: 0%
 
 ## TabellKolumnDela {#tablecolumnsplit}
 
-![TabellKolumnDela](/help/assets/icons/TableColumnSplit.svg)
+![TableColumnSplit](/help/assets/icons/TableColumnSplit.svg)
 
 ## TabellRedigera {#tableedit}
 
-![TabellRedigera](/help/assets/icons/TableEdit.svg)
+![TableEdit](/help/assets/icons/TableEdit.svg)
 
 ## TableHistogram {#tablehistogram}
 
@@ -3070,23 +3070,23 @@ ht-degree: 0%
 
 ## TabellRadLäggTillNederkant {#tablerowaddbottom}
 
-![TabellRadLäggTillNederkant](/help/assets/icons/TableRowAddBottom.svg)
+![TableRowAddBottom](/help/assets/icons/TableRowAddBottom.svg)
 
 ## TabellRadLäggTillÖverkant {#tablerowaddtop}
 
-![TabellRadLäggTillÖverkant](/help/assets/icons/TableRowAddTop.svg)
+![TableRowAddTop](/help/assets/icons/TableRowAddTop.svg)
 
 ## TabellRadsammanfogning {#tablerowmerge}
 
-![TabellRadsammanfogning](/help/assets/icons/TableRowMerge.svg)
+![TableRowMerge](/help/assets/icons/TableRowMerge.svg)
 
 ## TabellRadTaBortCentrera {#tablerowremovecenter}
 
-![TabellRadTaBortCentrera](/help/assets/icons/TableRowRemoveCenter.svg)
+![TableRowRemoveCenter](/help/assets/icons/TableRowRemoveCenter.svg)
 
 ## TabellRadDela {#tablerowsplit}
 
-![TabellRadDela](/help/assets/icons/TableRowSplit.svg)
+![TableRowSplit](/help/assets/icons/TableRowSplit.svg)
 
 ## TabellMarkeraKolumn {#tableselectcolumn}
 
@@ -3098,7 +3098,7 @@ ht-degree: 0%
 
 ## Tableau {#tableau}
 
-![Tableau](/help/assets/icons/Tableau.svg)
+![Tablet PC](/help/assets/icons/Tableau.svg)
 
 ## TagBold {#tagbold}
 
@@ -3110,7 +3110,7 @@ ht-degree: 0%
 
 ## TaggUnderstruken {#tagunderline}
 
-![TaggUnderstruken](/help/assets/icons/TagUnderline.svg)
+![TagUnderline](/help/assets/icons/TagUnderline.svg)
 
 ## Target {#target}
 
@@ -3118,11 +3118,11 @@ ht-degree: 0%
 
 ## Målinriktad {#targeted}
 
-![Målinriktad](/help/assets/icons/Targeted.svg)
+![Målgrupp](/help/assets/icons/Targeted.svg)
 
 ## AktivitetLista {#tasklist}
 
-![AktivitetLista](/help/assets/icons/TaskList.svg)
+![Aktivitetslista](/help/assets/icons/TaskList.svg)
 
 ## Teapot {#teapot}
 
@@ -3186,7 +3186,7 @@ ht-degree: 0%
 
 ## TextPuneted {#textbulleted}
 
-![TextPuneted](/help/assets/icons/TextBulleted.svg)
+![TextBulleted](/help/assets/icons/TextBulleted.svg)
 
 ## TextBulletedAttach {#textbulletedattach}
 
@@ -3202,7 +3202,7 @@ ht-degree: 0%
 
 ## TextColor {#textcolor}
 
-![TextColor](/help/assets/icons/TextColor.svg)
+![Textfärg](/help/assets/icons/TextColor.svg)
 
 ## Textminskning {#textdecrease}
 
@@ -3222,7 +3222,7 @@ ht-degree: 0%
 
 ## TextIndragMinska {#textindentdecrease}
 
-![TextIndragMinska](/help/assets/icons/TextIndentDecrease.svg)
+![TextIndentMinska](/help/assets/icons/TextIndentDecrease.svg)
 
 ## TextIndentIncrease {#textindentincrease}
 
@@ -3258,11 +3258,11 @@ ht-degree: 0%
 
 ## TextRomanVersaler {#textromanuppercase}
 
-![TextRomanVersaler](/help/assets/icons/TextRomanUppercase.svg)
+![TextRomanUppercase](/help/assets/icons/TextRomanUppercase.svg)
 
 ## TextSize {#textsize}
 
-![TextSize](/help/assets/icons/TextSize.svg)
+![Textstorlek](/help/assets/icons/TextSize.svg)
 
 ## TextSizeAdd {#textsizeadd}
 
@@ -3298,7 +3298,7 @@ ht-degree: 0%
 
 ## TextTracking {#texttracking}
 
-![TextTracking](/help/assets/icons/TextTracking.svg)
+![Textspårning](/help/assets/icons/TextTracking.svg)
 
 ## TextUnderline {#textunderline}
 
@@ -3330,7 +3330,7 @@ ht-degree: 0%
 
 ## Öppenhet {#transparency}
 
-![Öppenhet](/help/assets/icons/Transparency.svg)
+![Genomskinlighet](/help/assets/icons/Transparency.svg)
 
 ## Svällning {#trap}
 
@@ -3346,11 +3346,11 @@ ht-degree: 0%
 
 ## TreeExpandera {#treeexpand}
 
-![TreeExpandera](/help/assets/icons/TreeExpand.svg)
+![TreeExpand](/help/assets/icons/TreeExpand.svg)
 
 ## TreeExpanderaAlla {#treeexpandall}
 
-![TreeExpanderaAlla](/help/assets/icons/TreeExpandAll.svg)
+![TreeExpandAll](/help/assets/icons/TreeExpandAll.svg)
 
 ## TreeView {#treeview}
 
@@ -3414,7 +3414,7 @@ ht-degree: 0%
 
 ## UserActivity {#useractivity}
 
-![UserActivity](/help/assets/icons/UserActivity.svg)
+![Användaraktivitet](/help/assets/icons/UserActivity.svg)
 
 ## UserAdd {#useradd}
 
@@ -3430,7 +3430,7 @@ ht-degree: 0%
 
 ## AnvändareUtcheckad {#usercheckedout}
 
-![AnvändareUtcheckad](/help/assets/icons/UserCheckedOut.svg)
+![UserCheckedOut](/help/assets/icons/UserCheckedOut.svg)
 
 ## UserDeveloper {#userdeveloper}
 
@@ -3446,7 +3446,7 @@ ht-degree: 0%
 
 ## UserGroup {#usergroup}
 
-![UserGroup](/help/assets/icons/UserGroup.svg)
+![Användargrupp](/help/assets/icons/UserGroup.svg)
 
 ## UserLock {#userlock}
 
@@ -3482,7 +3482,7 @@ ht-degree: 0%
 
 ## LodrätMarginalStödrastervisning {#verticalmasonrygridview}
 
-![LodrätMarginalStödrastervisning](/help/assets/icons/VerticalMasonryGridView.svg)
+![VerticalMjältbrandGridView](/help/assets/icons/VerticalMasonryGridView.svg)
 
 ## VideoCheckedOut {#videocheckedout}
 
@@ -3502,15 +3502,15 @@ ht-degree: 0%
 
 ## VisaBiWeek {#viewbiweek}
 
-![VisaBiWeek](/help/assets/icons/ViewBiWeek.svg)
+![ViewBiWeek](/help/assets/icons/ViewBiWeek.svg)
 
 ## ViewCard {#viewcard}
 
-![ViewCard](/help/assets/icons/ViewCard.svg)
+![VisaKort](/help/assets/icons/ViewCard.svg)
 
 ## VisaKortEnKol {#viewcardonecol}
 
-![VisaKortEnKol](/help/assets/icons/ViewCardOneCol.svg)
+![ViewCardOneCol](/help/assets/icons/ViewCardOneCol.svg)
 
 ## VisaKolumn {#viewcolumn}
 
@@ -3530,7 +3530,7 @@ ht-degree: 0%
 
 ## ViewList {#viewlist}
 
-![ViewList](/help/assets/icons/ViewList.svg)
+![VisaLista](/help/assets/icons/ViewList.svg)
 
 ## VisaRad {#viewrow}
 
@@ -3538,7 +3538,7 @@ ht-degree: 0%
 
 ## ViewSingle {#viewsingle}
 
-![ViewSingle](/help/assets/icons/ViewSingle.svg)
+![VisaEn](/help/assets/icons/ViewSingle.svg)
 
 ## ViewStack {#viewstack}
 
@@ -3550,7 +3550,7 @@ ht-degree: 0%
 
 ## ViewWeek {#viewweek}
 
-![ViewWeek](/help/assets/icons/ViewWeek.svg)
+![VisaVecka](/help/assets/icons/ViewWeek.svg)
 
 ## ViewedMarkA {#viewedmarka}
 
@@ -3566,7 +3566,7 @@ ht-degree: 0%
 
 ## VisibilityOff {#visibilityoff}
 
-![VisibilityOff](/help/assets/icons/VisibilityOff.svg)
+![SynlighetAv](/help/assets/icons/VisibilityOff.svg)
 
 ## Besök {#visit}
 
@@ -3606,7 +3606,7 @@ ht-degree: 0%
 
 ## WebPage {#webpage}
 
-![WebPage](/help/assets/icons/WebPage.svg)
+![Webbsida](/help/assets/icons/WebPage.svg)
 
 ## Arbetsflöde {#workflow}
 
@@ -3614,11 +3614,11 @@ ht-degree: 0%
 
 ## WorkflowAdd {#workflowadd}
 
-![WorkflowAdd](/help/assets/icons/WorkflowAdd.svg)
+![ArbetsflödeLägg till](/help/assets/icons/WorkflowAdd.svg)
 
 ## Wrench {#wrench}
 
-![Wrench](/help/assets/icons/Wrench.svg)
+![skiftnyckel](/help/assets/icons/Wrench.svg)
 
 ## ZoomaIn {#zoomin}
 
@@ -3626,5 +3626,5 @@ ht-degree: 0%
 
 ## ZoomaUt {#zoomout}
 
-![ZoomaUt](/help/assets/icons/ZoomOut.svg)
+![Zooma ut](/help/assets/icons/ZoomOut.svg)
 

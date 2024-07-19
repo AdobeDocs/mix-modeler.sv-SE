@@ -14,9 +14,9 @@ ht-degree: 0%
 
 Så här jämför du planer i gränssnittet för Mix Modeler-planer:
 
-* Välj ![Jämför](/help/assets//icons/Compare.svg) **[!UICONTROL Compare Plans]**. I Jämför planer väljer du en plan för varje **[!UICONTROL _Välj plan_]**.
+* Välj ![Jämför](/help/assets//icons/Compare.svg) **[!UICONTROL Compare Plans]**. I Jämför planer väljer du en plan för varje **[!UICONTROL _Select-plan_]**.
 
-* Du kan också välja två planer i tabellen Planer och i åtgärdsfältet välja ![Jämför](/help/assets//icons/Compare.svg) **[!UICONTROL Compare]**.
+* Du kan också välja två planer i tabellen Planer och välja ![Jämför](/help/assets//icons/Compare.svg) **[!UICONTROL Compare]** i åtgärdsfältet.
 
 Gränssnittet Jämför planer visar information och widgetar om:
 
@@ -40,4 +40,4 @@ Där:
 
 Du kan hovra över enskilda diagramelement i varje widget för att se en pover med mer information.
 
-Välj **[!UICONTROL Close]** för att gå tillbaka till planöversikten.
+Välj **[!UICONTROL Close]** om du vill gå tillbaka till planöversikten.

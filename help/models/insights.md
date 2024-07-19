@@ -12,15 +12,15 @@ ht-degree: 0%
 
 # Modellinsikter
 
-Visa modellinsikter i ![Models](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** gränssnitt i Mix Modeler:
+Om du vill visa modellinsikter går du till gränssnittet ![Models](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** i Mix Modeler:
 
-1. Från **[!UICONTROL Models]** markerar du namnet på en modell som har en **[!UICONTROL Last run status]** av <span style="color:green">●</span> **[!UICONTROL Success]**.
+1. I tabellen **[!UICONTROL Models]** väljer du namnet på en modell som har **[!UICONTROL Last run status]** av <span style="color:green"> ●</span> **[!UICONTROL Success]**.
 
-1. Välj **[!UICONTROL Model Insights]**.
+1. Välj **[!UICONTROL Model Insights]** på snabbmenyn.
 
 ![Flikfältet Modellinsikter](/help/assets//model-insights-tabbar.png)
 
-Du ser när den angivna modellen senast har uppdaterats och widgetar visas på fyra flikar: [Modellinsikter](#model-insights), [Attribut](#attribution), [Diagnostik](#diagnostics)och [Historisk översikt](#historical-overview).
+Du ser när den angivna modellen senast har uppdaterats och widgetar visas på fyra flikar: [Modellinsikter](#model-insights), [Attribution](#attribution), [Diagnostik](#diagnostics) och [Historisk översikt](#historical-overview).
 
 Du kan ändra den datumperiod som widgetarna på varje flik baseras på. Ange en datumperiod eller välj ![Kalender](/help/assets//icons/Calendar.svg) för att välja en datumperiod.
 
@@ -35,19 +35,19 @@ På fliken Modellinsikter visas widgetar för:
 * Sammanfattning av marknadsföringsprestanda.
 
 * Marginalkurvor.
-  <br/>Välj en kanal på menyn **[!UICONTROL Channel]** listruta för att uppdatera widgeten för en viss kanal.
+  <br/>Välj en kanal i listrutan **[!UICONTROL Channel]** för att uppdatera widgeten för en viss kanal.
 
-![Modell - modellinsikter](/help/assets//model-insights-insights.png)
+![Modell - Modellinsikter](/help/assets//model-insights-insights.png)
 
 Du kan hovra över enskilda diagramelement i varje widget för att visa en pover med mer information.
 
-Om du vill hämta en CSV-fil som innehåller data för widgeten väljer du ![Ladda ned](/help/assets//icons/Download.svg).
+Om du vill hämta en CSV-fil som innehåller data för widgeten väljer du ![Hämta](/help/assets//icons/Download.svg).
 
-Om du vill hämta fullständiga data om modellinsikter i Microsoft® Excel-format väljer du ![Ladda ned](/help/assets//icons/Download.svg) **[!UICONTROL Download data]**.
+Om du vill hämta fullständiga modellinsiderdata i Microsoft® Excel-format väljer du ![Hämta](/help/assets//icons/Download.svg) **[!UICONTROL Download data]**.
 
 ## [!UICONTROL Attribution]
 
-Använda [!UICONTROL Attribution] kan ni förstå hur effektiva kontaktytor och marknadsföringskampanjer har på händelsenivå. Följande attribueringsmodeller stöds:
+På fliken [!UICONTROL Attribution] kan du förstå effekten av kontaktytor och marknadsföringskampanjer som har data på händelsenivå. Följande attribueringsmodeller stöds:
 
 * Baserat på den valda modellen i Mix Modeler:
    * Algoritmisk - påverkad
@@ -59,11 +59,11 @@ Använda [!UICONTROL Attribution] kan ni förstå hur effektiva kontaktytor och 
    * Linjär
    * Ushape
 
-Se [Multi-touch-attribuering](../get-started/about.md#multi-touch-attribution) för en introduktion om multitouch-attribuering i Mix Modeler.
+Se [Multi-touch-attribuering](../get-started/about.md#multi-touch-attribution) för en introduktion om multitouch-attribueringsfunktionen i Mix Modeler.
 
-Välj en eller flera attribueringsmodeller från **[!UICONTROL Attribution Model]** listruta. De valda attribueringsmodellerna gäller för alla widgetar på fliken Attribution.
+Välj en eller flera attribueringsmodeller i listrutan **[!UICONTROL Attribution Model]**. De valda attribueringsmodellerna gäller för alla widgetar på fliken Attribution.
 
-![Attribut](/help/assets//model-insights-attribution.png)
+![Attribution](/help/assets//model-insights-attribution.png)
 
 De detaljerade händelsepoängen för multitouch-attribuering i Mix Modeler justeras efter de övergripande poängen för Mix Modeler och avkastningen på investeringen. Dessa bakgrundsmusik är också tillgängliga som datauppsättningar i Experience Platform.
 
@@ -71,23 +71,23 @@ Fliken Attribution består av följande widgetar:
 
 ### [!UICONTROL Overview]
 
-The [!UICONTROL Overview] för de valda attribueringsmodellerna visar konverteringssummor och procentandelar. Om du väljer flera modeller läggs ytterligare cirklar till i visualiseringen, där var och en har en egen färg som motsvarar teckenförklaringen.
+Widgeten [!UICONTROL Overview] visar, för de valda attribueringsmodellerna, konverteringssummor och procentandelar. Om du väljer flera modeller läggs ytterligare cirklar till i visualiseringen, där var och en har en egen färg som motsvarar teckenförklaringen.
 
 Om du vill visa ett popup-fönster med information om en attribueringsmodell håller du pekaren över någon av cirklarna i visualiseringen.
 
 ### [!UICONTROL Trends]
 
-The [!UICONTROL Daily trends], [!UICONTROL Weekly trends], eller [!UICONTROL Monthly trends] för de valda attribueringsmodellerna visar konverteringstrender per dag, vecka eller månad.
+Widgeten [!UICONTROL Daily trends], [!UICONTROL Weekly trends] eller [!UICONTROL Monthly trends] visar konverteringstrender per dag, vecka eller månad för de valda attribueringsmodellerna.
 
-Välj punkt genom att markera **[!UICONTROL Daily trends]**, **[!UICONTROL Weekly trends]** eller **[!UICONTROL Monthly trends]** från ![Mer](/help/assets//icons/More.svg).
+Välj punkt genom att välja **[!UICONTROL Daily trends]**, **[!UICONTROL Weekly trends]** eller **[!UICONTROL Monthly trends]** från ![Mer](/help/assets//icons/More.svg).
 
 Om du vill se information för du markören över dataraden för en viss attribueringsmodell och visar en portfölj som visar det totala antalet konverteringar för dessa data.
 
 ### [!UICONTROL Breakdown]
 
-The [!UICONTROL Breakdown] widgeten är en uppdelning per kanal eller kontaktyta av konverteringarna för var och en av de valda attribueringsmodellerna. Den här widgeten kan vara till hjälp när du ska fatta beslut om hur effektiv varje kanal eller kontaktyta är.
+Widgeten [!UICONTROL Breakdown] är en uppdelning efter kanal eller kontaktyta av konverteringarna för var och en av de valda attribueringsmodellerna. Den här widgeten kan vara till hjälp när du ska fatta beslut om hur effektiv varje kanal eller kontaktyta är.
 
-Välj uppdelningstyp genom att välja **[!UICONTROL Breakdown by channel]** eller **[!UICONTROL Breakdown by touchpoint]** från ![Mer](/help/assets//icons/More.svg).
+Om du vill välja nedbrytningstyp väljer du **[!UICONTROL Breakdown by channel]** eller **[!UICONTROL Breakdown by touchpoint]** från ![Mer](/help/assets//icons/More.svg).
 
 Håll markören över något av diagramelementen om du vill se detaljer.
 
@@ -108,12 +108,12 @@ I den utökade dialogrutan för de bästa kampanjerna visas samma tabell med ext
 
   Du kan markera de extra kolumnrubrikerna om du vill sortera tabellen i stigande eller fallande ordning.
 
-Om du vill stänga den utökade dialogrutan Top-kampanjer väljer du **[!UICONTROL Close]**.
+Välj **[!UICONTROL Close]** om du vill stänga den utökade dialogrutan för de bästa kampanjerna.
 
 
 ### [!UICONTROL Breakdown by touchpoint position]
 
-The [!UICONTROL Breakdown by touchpoint position] visualisering är en uppdelning av konverteringar utifrån kontaktytans och kontaktytpunktens position över alla konverteringsbanor. I det här diagrammet kan du jämföra om en kontaktyta bidrar bättre på en position än återstående positioner och andra kontaktytor på en position.
+Visualiseringen av [!UICONTROL Breakdown by touchpoint position] är en uppdelning av konverteringar av attribut efter position för kontaktytan och kontaktytan över alla konverteringssökvägar. I det här diagrammet kan du jämföra om en kontaktyta bidrar bättre på en position än återstående positioner och andra kontaktytor på en position.
 
 >[!NOTE]
 >
@@ -131,7 +131,7 @@ Positionerna [!UICONTROL Starter], [!UICONTROL Player] och [!UICONTROL Closer] d
 
 ### [!UICONTROL Top conversion paths]
 
-The [!UICONTROL Top conversion paths] visualisering visar de fem populäraste konverteringsvägarna baserat på de valda attribueringsmodellerna.
+Visualiseringen [!UICONTROL Top conversion paths] visar de fem populäraste konverteringssökvägarna baserat på de valda attribueringsmodellerna.
 
 För varje konverteringsbana ser du:
 
@@ -146,11 +146,11 @@ För varje konverteringsbana ser du:
 
 På fliken Diagnostik visas widgetar för:
 
-* [!UICONTROL Model Assessment] visualisering, som du kan bryta ned på faktiska kontra förväntade eller kvarstående konverteringar.
+* [!UICONTROL Model Assessment]-visualisering, som du kan bryta ned för konverteringar av faktisk kontra förväntad eller residual.
 
-  Om du vill bryta ned visualiseringen väljer du **[!UICONTROL Actual vs. Predicted]** eller **[!UICONTROL Residuals]** från **[!UICONTROL Breakdown]** lista.
+  Om du vill bryta ned visualiseringen väljer du **[!UICONTROL Actual vs. Predicted]** eller **[!UICONTROL Residuals]** i listan **[!UICONTROL Breakdown]**.
 
-* [!UICONTROL Model fitting metrics] tabell, med följande kolumner för varje konverteringsmått:
+* [!UICONTROL Model fitting metrics]-tabell, med följande kolumner för varje konverteringsmått:
 
    * Faktisk konvertering
 
@@ -166,15 +166,15 @@ På fliken Diagnostik visas widgetar för:
 
       * RMSE (Rot Mean Square Error): som visar det genomsnittliga felet, viktat enligt kvadraten på felet.
 
-  Om du vill hämta en CSV-fil som innehåller data för tabellen väljer du ![Ladda ned](/help/assets//icons/Download.svg).
+  Om du vill hämta en CSV-fil som innehåller data för tabellen väljer du ![Hämta](/help/assets//icons/Download.svg).
 
-* [!UICONTROL Touchpoint effectiveness] som representerar resultatet av den algoritmiska Attribution AI. Data för det här registret genereras endast för specifika tidsperioder. Välj **[!UICONTROL As of *xx/xx/xx, xx:xx TZ *]**![Info](/help/assets//icons/InfoOutline.svg) för mer information.
+* tabellen [!UICONTROL Touchpoint effectiveness], som representerar resultatet av den algoritmiska Attribution AI. Data för det här registret genereras endast för specifika tidsperioder. Välj **[!UICONTROL As of *xx/xx/xx, xx:xx TZ *]**![Info](/help/assets//icons/InfoOutline.svg) om du vill ha mer information.
 
-  Visualiseringen visar i fallande ordning efter [!UICONTROL Efficiency measure] ![Fallande ordning](/help/assets//icons/SortOrderDown.svg), för varje kontaktyta:
+  Visualiseringen visar, i fallande ordning [!UICONTROL Efficiency measure] ![Fallande ordning](/help/assets//icons/SortOrderDown.svg), för varje kontaktyta:
 
-   * [!UICONTROL Paths touched]: visualiserar procentandelen banor som uppnår konvertering och procentandelen banor som inte uppnår konvertering. För en kontaktyta ser du fler konverteringar när attribueringskonverteringsgraden är hög. Detta förhållande jämför andelen banor som leder till konvertering med andelen banor som gör det *not* leda till konvertering.
-   * [!UICONTROL Efficiency measure]: genereras av den algoritmiska attribueringsmodellen, indikerar effektivitetsmåttet den relativa betydelsen av en kontaktyta mot konverteringen, oberoende av kontaktytpunktsvolym. Effektiviteten mäts på en skala från 1 till 5. Observera att högre kontaktytpunkter inte garanterar högre effektivitetsmått.
-   * [!UICONTROL Total volume]: Det sammanlagda antalet gånger en användare vidrör en kontaktyta. Antalet är inklusive kontaktytor som visas på en bana med konvertering och banor *not* vilket resulterar i konvertering.
+   * [!UICONTROL Paths touched]: visualiserar procentandelen sökvägar som uppnår konvertering och procentandelen sökvägar som inte uppnår konvertering. För en kontaktyta ser du fler konverteringar när attribueringskonverteringsgraden är hög. Proportionerna jämför procentandelen sökvägar som leder till konvertering med procentandelen sökvägar som *inte* leder till konvertering.
+   * [!UICONTROL Efficiency measure]: genereras av den algoritmiska attribueringsmodellen och effektivitetsmåttet anger den relativa vikten av en kontaktyta mot konverteringen, oberoende av kontaktytpunktsvolym. Effektiviteten mäts på en skala från 1 till 5. Observera att högre kontaktytpunkter inte garanterar högre effektivitetsmått.
+   * [!UICONTROL Total volume]: Det sammanlagda antalet gånger en användare vidrör en kontaktyta. Antalet är inklusive kontaktytor som visas på en bana som uppnår konvertering samt banor *som inte* resulterar i konvertering.
 
 ![Diagnostik](/help/assets//model-insights-diagnostics.png)
 

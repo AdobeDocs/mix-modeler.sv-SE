@@ -4,16 +4,16 @@ description: Versionsinformation för den senaste Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 7793d32d2b2cb8ede80df9d8e3ea4df5c92d26aa
+source-git-commit: f75aa1e24506dbb107a519337b0163a93b196ca7
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 5%
+source-wordcount: '376'
+ht-degree: 6%
 
 ---
 
 # Versionsinformation för Mix Modeler
 
-**Senast uppdaterad**: 29 maj 2024.
+**Senast uppdaterad**: 13 augusti 2024.
 
 Versionsinformationen innehåller den senaste versionen av Mix Modeler. Mix Modeler-releaser fungerar enligt en kontinuerlig leveransmodell, vilket möjliggör en ungefärlig månadsrelease-cadence. Versionsinformationen uppdateras därför, så kontrollera dem regelbundet.
 
@@ -24,8 +24,11 @@ Versionsinformationen innehåller den senaste versionen av Mix Modeler. Mix Mode
 | **[!UICONTROL Ad-hoc training and scoring]** | Du kan initiera en modell [om-utbildning](/help/models/overview.md#re-train), [poäng (för nya marknadsföringsdata) eller ompoäng](/help/models/overview.md#score-or-re-score) från gränssnittet för modeller. | 13 augusti 2024 |
 | **[!UICONTROL Policy enforcement]** | Principer för Experience Platform tillämpas när datauppsättningsregler konfigureras och när etiketter ändras till underliggande data som används i Mix Modeler. Mer information finns i [Profiler](../data-governance/policies.md). | 13 augusti 2024 |
 | **Datahygien** | Datahygienreglerna respekteras när du tar bort källdata. Se [Ta bort en källdatauppsättning](../harmonize-data/dataset-rules.md#delete-a-source-dataset) | 13 augusti 2024 |
-| **Information om faktorbidrag** | I [!UICONTROL Model insights] erbjuder fliken [[!UICONTROL Factors]](/help/models/insights.md#factors) externa faktorrelaterade insikter. | 13 augusti 2024 |
-| **Marginalkurvor** | Widgeten [marginella kurvor](/help/models/insights.md#model-insights-1) i modellinsikter uppdaterar nu kurvan och motsvarande värden baserat på ändringar i det valda dataområdet. Dessutom visar widgeten punkten för marginell brytning jämn och punkten för minskande avkastning. | 20 augusti 2024 |
+
+
+
+<!--| **Factor contribution insights** | In [!UICONTROL Model insights], the [[!UICONTROL Factors]](/help/models/insights.md#factors) tab offers external factor related insights. | August 13, 2024 |
+| **Marginal response curves** | The [marginal response curves](/help/models/insights.md#model-insights-1) widget in Model insights now updates the curve and corresponding values based on changes in the selected data range. Additionally, the widget shows the point of marginal break even and the point of diminishing returns. | August 20, 2024 |-->
 
 
 ## Juni 2024

@@ -4,10 +4,10 @@ description: Versionsinformation för den senaste Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 23c83cd3576951eb5f8d64bd98f8a5b9e57286a5
+source-git-commit: 7793d32d2b2cb8ede80df9d8e3ea4df5c92d26aa
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 6%
+source-wordcount: '431'
+ht-degree: 5%
 
 ---
 
@@ -15,7 +15,18 @@ ht-degree: 6%
 
 **Senast uppdaterad**: 29 maj 2024.
 
-Versionsinformationen innehåller den senaste versionen av Mix Modeler. Mix Modeler-releaser fungerar enligt en kontinuerlig leveransmodell som möjliggör en ungefärlig månadsvis lanseringsgräns. Versionsinformationen uppdateras därför, så kontrollera dem regelbundet.
+Versionsinformationen innehåller den senaste versionen av Mix Modeler. Mix Modeler-releaser fungerar enligt en kontinuerlig leveransmodell, vilket möjliggör en ungefärlig månadsrelease-cadence. Versionsinformationen uppdateras därför, så kontrollera dem regelbundet.
+
+## Augusti 2024
+
+| Funktion | Beskrivning | Allmän tillgänglighet |
+|---|---|---|
+| **[!UICONTROL Ad-hoc training and scoring]** | Du kan initiera en modell [om-utbildning](/help/models/overview.md#re-train), [poäng (för nya marknadsföringsdata) eller ompoäng](/help/models/overview.md#score-or-re-score) från gränssnittet för modeller. | 13 augusti 2024 |
+| **[!UICONTROL Policy enforcement]** | Principer för Experience Platform tillämpas när datauppsättningsregler konfigureras och när etiketter ändras till underliggande data som används i Mix Modeler. Mer information finns i [Profiler](../data-governance/policies.md). | 13 augusti 2024 |
+| **Datahygien** | Datahygienreglerna respekteras när du tar bort källdata. Se [Ta bort en källdatauppsättning](../harmonize-data/dataset-rules.md#delete-a-source-dataset) | 13 augusti 2024 |
+| **Information om faktorbidrag** | I [!UICONTROL Model insights] erbjuder fliken [[!UICONTROL Factors]](/help/models/insights.md#factors) externa faktorrelaterade insikter. | 13 augusti 2024 |
+| **Marginalkurvor** | Widgeten [marginella kurvor](/help/models/insights.md#model-insights-1) i modellinsikter uppdaterar nu kurvan och motsvarande värden baserat på ändringar i det valda dataområdet. Dessutom visar widgeten punkten för marginell brytning jämn och punkten för minskande avkastning. | 20 augusti 2024 |
+
 
 ## Juni 2024
 

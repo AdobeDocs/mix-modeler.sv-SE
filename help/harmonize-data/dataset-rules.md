@@ -3,9 +3,9 @@ title: Datauppsättningsregler
 description: Lär dig hur du definierar datauppsättningsregler som ska användas som en del av att harmonisera data i Mix Modeler.
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
+source-git-commit: a924eb080866595af3639c4976716e69ef5e7a20
 workflow-type: tm+mt
-source-wordcount: '1210'
+source-wordcount: '1313'
 ht-degree: 0%
 
 ---
@@ -96,7 +96,7 @@ På skärmen **[!UICONTROL Create]**
 
       * använder en **[!UICONTROL Map Into]** **[!UICONTROL Mapping type]** för att mappa det **[!UICONTROL Channel Type At Source]** harmoniserade fältet till fältet **[!UICONTROL channel_type]** från datamängden **[!DNL Luma Transactions]**.
 
-      * använder **[!UICONTROL Case]** **[!UICONTROL Mapping type]** för att villkorligt mappa värdet för fältet **[!UICONTROL marketing.campaignName]** i datamängden **[!DNL Luma Transactions]** till det **[!UICONTROL Campaign]** harmoniserade fältet. Det harmoniserade fältet Campaign är inställt på:
+      * använder **[!UICONTROL Case]** **[!UICONTROL Mapping type]** för att mappa värdet för fältet **[!UICONTROL marketing.campaignName]** i datamängden **[!DNL Luma Transactions]** villkorligt till det **[!UICONTROL Campaign]** harmoniserade fältet. Det harmoniserade fältet Campaign är inställt på:
 
          * `Black Friday` när **[!UICONTROL marketing.campaignName]** är `_black_friday` eller `BlackFriday`.
          * till värdet för **[!UICONTROL marketing.campaignName]** i alla andra fall.
@@ -126,7 +126,7 @@ Om du vill ta bort en datauppsättningsregel går du till ![DataSearch](/help/as
 
 ## Synkronisera data
 
-Om du vill synkronisera data mellan harmoniserade data och sammanfattningar och/eller händelsedatamängder följer du all logik i datauppsättningsreglerna:
+Så här synkroniserar du data mellan harmoniserade data och sammanfattningar och/eller händelsedatamängder när du använder logiken i datauppsättningsreglerna:
 
 1. Välj **[!UICONTROL Sync data]**.
 
@@ -159,7 +159,7 @@ För att få korrekta modellprognoser kan du definiera inställningar för datas
 
    ![Inställningar för datasammanfogning](/help/assets//data-merge-preferences.png)
 
-   * Välj en **[!UICONTROL Default metric preference]**. Den valda standardinställningen för mätvärden används när flera datakällor uppdaterar ett mätfält för en viss kanal under harmonisering. Inställningen används på sandlådenivå, såvida den inte åsidosätts för specifika måttbaserade inställningar. Du kan välja mellan **[!UICONTROL Summary data]**, **[!UICONTROL Event data]** och **[!UICONTROL Sum of summmary and event data]**.
+   * Välj en **[!UICONTROL Default metric preference]**. Den valda standardinställningen för mätvärden används när flera datakällor uppdaterar ett mätfält för en viss kanal under harmonisering. Inställningen används på sandlådenivå, såvida den inte åsidosätts för specifika måttbaserade inställningar. Du kan välja mellan **[!UICONTROL Summary data]**, **[!UICONTROL Event data]** och **[!UICONTROL Sum of summary and event data]**.
 
    * Så här lägger du till specifika måttbaserade inställningar:
 
@@ -181,11 +181,13 @@ För att få korrekta modellprognoser kan du definiera inställningar för datas
 
 1. Välj **[!UICONTROL Save]** om du vill spara inställningarna för datasammanfogning. En omsynkronisering av data initieras. <br/>Välj **[!UICONTROL Cancel]** om du vill avbryta.
 
+## Ta bort en källdatauppsättning
 
-## Åtkomstkontroll på fältnivå
+När du tar bort en källdatauppsättning som används i dina harmoniserade data, tas de underliggande posterna i den källdatauppsättningen bort från [[!UICONTROL Harmonized data]](/help/harmonize-data/overview.md). Datauppsättningsregeln med den borttagna källdatauppsättningen finns dock kvar i konfigurationslistan för datauppsättningsregler med ikonen ![DataRemove](/help/assets/icons/DataRemove.svg) som anger att källdatauppsättningen har tagits bort. Mer information:
 
-När datauppsättningsregler konfigureras för harmoniserade datauppsättningar, tillämpas Experience Platform [attributbaserad åtkomstkontroll](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) på fältnivå. Ett fält är begränsat när en etikett är kopplad till ett schemafält och en aktiv princip är aktiverad som nekar dig åtkomst till det fältet. Resultatet blir:
+* Välj ![Mer](/help/assets/icons/More.svg) och ![Förhandsgranska](/help/assets/icons/Preview.svg) **[!UICONTROL View]** på snabbmenyn.
+Dialogrutan **[!UICONTROL Dataset rule mapping - Fields]** visar information om den borttagna källdatauppsättningen och fälten som används i konfigurationen av datauppsättningsregeln.
 
-* du inte ser de schemafält som är begränsade för dig när du skapar en datauppsättningsregel,
-* du inte kan visa eller redigera mappningen av ett eller flera schemafält som är begränsade för dig. När du redigerar eller visar en datauppsättningsregel som innehåller sådana begränsade fält visas följande skärm.
-  ![Åtgärden tillåts inte](/help/assets//action-not-permitted.png)
+När du återgår till din **[!UICONTROL Dataset rules]**-konfiguration visas en dialogruta som förklarar att en eller flera av källdatauppsättningarna har tagits bort. De harmoniserade uppgifterna påverkas av nästa ad hoc- eller schemalagda synkronisering. Granska konfigurationen av datauppsättningsregeln.
+
+De harmoniserade data uppdateras utan borttagna källdata vid nästa ad hoc-synkronisering eller schemalagda synkronisering. Du kommer dock även fortsättningsvis att se varningsdialogrutor som uppmanar dig att ta bort datauppsättningsregeln baserat på den borttagna källdatauppsättningen. Med den här varningen kan användare visa och utvärdera de påverkade fälten i den borttagna datauppsättningen. Och för att avgöra vilken påverkan marknadsföringskontaktytor eller konverteringar kan ha på alla modeller. När du har granskat och mildrat den här effekten bör du ta bort datauppsättningsregeln från konfigurationslistan för datauppsättningsregler.

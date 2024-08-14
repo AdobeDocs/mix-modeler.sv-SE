@@ -3,9 +3,9 @@ title: Modellinsikter
 description: Lär dig hur du får information om din modell, som historisk översikt, modellinsikter och modellkvalitet i Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
+source-git-commit: 6897f27520705f54d3f23018903a52536083b339
 workflow-type: tm+mt
-source-wordcount: '1159'
+source-wordcount: '1222'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Om du vill visa modellinsikter går du till gränssnittet ![Models](/help/assets
 
 ![Flikfältet Modellinsikter](/help/assets//model-insights-tabbar.png)
 
-Du ser när den angivna modellen senast har uppdaterats och widgetar visas på fyra flikar: [Modellinsikter](#model-insights), [Attribution](#attribution), [Diagnostik](#diagnostics) och [Historisk översikt](#historical-overview).
+Du ser när den angivna modellen senast har uppdaterats och widgetar visas på fyra flikar: [Modellinsikter](#model-insights), [Attribution](#attribution), [Factors](#factors), [Diagnostics](#diagnostics) och [Historisk översikt](#historical-overview).
 
 Du kan ändra den datumperiod som widgetarna på varje flik baseras på. Ange en datumperiod eller välj ![Kalender](/help/assets//icons/Calendar.svg) för att välja en datumperiod.
 
@@ -34,7 +34,7 @@ På fliken Modellinsikter visas widgetar för:
 
 * Sammanfattning av marknadsföringsprestanda.
 
-* Marginalkurvor.
+* Marginalkurvor.  Både kurvan och motsvarande värden beräknas utifrån det valda dataområdet. Dessutom visar den här widgeten punkten för marginell brytning jämn och punkten för minskande avkastning.
   <br/>Välj en kanal i listrutan **[!UICONTROL Channel]** för att uppdatera widgeten för en viss kanal.
 
 ![Modell - Modellinsikter](/help/assets//model-insights-insights.png)
@@ -141,6 +141,15 @@ För varje konverteringsbana ser du:
 * för varje kanal, bidragsprocenten för attribueringsmodellen, och
 * summan av dessa procentsatser för kanalattribueringsmodellen.
 
+## **[!UICONTROL Factors]**
+
+Fliken Faktorer visar externa faktorrelaterade insikter.
+
+![Faktorer](/help/assets/factors.png)
+
+Om du vill hämta en CSV-fil som innehåller data för tabellen väljer du ![Hämta](/help/assets//icons/Download.svg).
+
+Om inga data är tillgängliga visas meddelandet ![TableAndChart](/help/assets/icons/TableAndChart.svg) **[!UICONTROL No data is available, you may need to retrain your model, or change the date range to view insights]**.
 
 ## [!UICONTROL Diagnostics]
 

@@ -3,16 +3,16 @@ title: Models
 description: Lär dig hur du konfigurerar och använder modeller i Mix Modeler.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
+source-git-commit: d5d9ec6b7b1222b3da9dcecaf3fa1cf2b2198881
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '716'
 ht-degree: 0%
 
 ---
 
 # Models
 
-Med modellfunktionerna i Mix Modeler kan ni konfigurera, utbilda och poängsätta AI/ML-modeller som är specifika för era affärsmål och som stöds av AI-drivet överföringslärande mellan multitouch-attribuering och marknadsmixmodellering.
+Med modellfunktionerna i Mix Modeler kan du konfigurera, utbilda och poängsätta AI/ML-modeller som är specifika för dina affärsmål. Utbildningen och poängsättningen stöder AI-drivet överföringslärande mellan multitouch-attribuering och modellering av marknadsföringsmixar.
 
 Modellerna bygger på de harmoniserade data som du skapar som en del av arbetsflödet i programmet Mix Modeler.
 
@@ -20,17 +20,17 @@ En modell i Mix Modeler är en maskininlärningsmodell som används för att mä
 
 En modell kräver:
 
-* en konvertering,
-* en eller flera kontaktytor för marknadsföring (kanaler) som består av data på sammanfattningsnivå, data om kontaktytor för marknadsföring (händelsedata) eller båda,
-* ett konfigurerbart uppslagsfönster för
-* ett konfigurerbart utbildningsfönster.
+* En konvertering.
+* En eller flera kontaktytor (kanaler) för marknadsföring består av data på sammanfattningsnivå, marknadsföringsdata (händelsedata) eller båda.
+* Ett konfigurerbart uppslagsfönster.
+* Ett konfigurerbart utbildningsfönster.
 
 En modell kan även innehålla:
 
-* yttre faktorer,
-* interna faktorer,
-* s.k.&quot;priors&quot; (sannolikhetsfördelning som representerar kunskap eller osäkerhet om data före eller innan dessa data observeras), som indexerar tidigare konverteringar per kanal,
-* utgiftsresurs, som använder relativ utgiftsresurs som proxy när marknadsföringsdata är glesare.
+* Externa faktorer.
+* Interna faktorer.
+* Tidigare kunskap om marknadsbidrag från andra källor, som tidigare erfarenheter från intressenter, stegvis testning och andra modeller.
+* Utgiftsandel, som använder relativ utgiftsresurs som proxy när marknadsföringsdata är glesare.
 
 
 ## Skapa en modell
@@ -54,51 +54,96 @@ Om du vill visa en tabell över dina aktuella modeller i gränssnittet Mix Model
    | Konverteringshändelse | Den konvertering du har valt för modellen. |
    | Körningsfrekvens | Körfrekvensen för utbildningen av modellen. |
    | Senaste körning | Datum och tid för modellens senaste utbildning. |
-   | Status | Status för den senaste kursen av modellen. <br/><span style="color:green"> ●</span> Slutfört <br/><span style="color:orange"> ●</span> Utbildningsproblem <br/> <span style="color:orange"> ●</span> Väntar på utbildning <br/><span style="color:red"> ●</span> Misslyckades <br/><span style="color:gray"> ●</span> _ (när en senaste körning pågår) |
+   | Status | Status för den senaste kursen av modellen. <br/>![StatusGreen](/help/assets/icons/StatusGreen.svg) Success<br/>![StatusOrange](/help/assets/icons/StatusOrange.svg) Training issue<br/> ![StatusOrange](/help/assets/icons/StatusOrange.svg) Väntar på utbildning <br/>![StatusRed](/help/assets/icons/StatusRed.svg) Misslyckades <br/>![StatusGreen](/help/assets/icons/StatusGray.svg) _ (när en senaste körning pågår) |
 
    {style="table-layout:auto"}
 
 1. Om du vill ändra vilka kolumner som visas för listan väljer du ![Kolumninställningar](/help/assets//icons/ColumnSetting.svg) och aktiverar ![Kontrollera](/help/assets//icons/Checkmark.svg) eller inte.
 
+Du kan utföra följande åtgärder på en viss modell.
 
-### Visa information om en modell
+### Visa detaljer
 
 Så här visar du mer information om en modell:
+
+1. Välj ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** i den vänstra listen.
 
 1. Välj ![Info](/help/assets//icons/Info.svg) för en modell om du vill visa ett popup-fönster med information.
 
 
 
+### Duplicera
+
+Du kan snabbt duplicera en modell.
+
+1. Välj ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** i den vänstra listen.
+
+1. Välj ![Mer](/help/assets/icons/More.svg) för en modell och välj **[!UICONTROL Duplicate]** på snabbmenyn.
+
+
 ### Modellinsikter
 
-Så här visar du insikter om en modell i Mix Modeler-gränssnittet:
+Funktionen för modellinsikter är bara tillgänglig på framgångsrika, utbildade och poängsatta modeller. Så här visar du insikter om en modell:
 
 1. Välj ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** i den vänstra listen.
 
-1. Välj namnet på en modell med **[!UICONTROL Last run status]** av <span style="color:green"> ●</span> **[!UICONTROL Success]** från tabellen **[!UICONTROL Models]**. Modellinsikter är bara tillgängliga för framgångsrika modeller.
+1. Markera modellnamnet.
 
-1. Välj **[!UICONTROL Model Insights]** på snabbmenyn. Du omdirigeras till [Modellinsikter](insights.md).
-
-
-### Poäng igen
+Du omdirigeras till [Modellinsikter](insights.md).
 
 
-Så här gör du om en modell i gränssnittet för Mix Modeler:
+### Återtåg
+
+Omskolning av en modell är endast tillgängligt för modeller som utbildats med framgång. Så här omskolar du en modell:
 
 1. Välj ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** i den vänstra listen.
 
-1. Välj namnet på en modell med **[!UICONTROL Last run status]** av <span style="color:green"> ●</span> **[!UICONTROL Success]** från tabellen **[!UICONTROL Models]**. Ompoängen är endast tillgängliga för korrekt utbildade modeller.
+1. Välj ![Mer](/help/assets/icons/More.svg) för en modell och välj **[!UICONTROL Train]** på snabbmenyn. Du kan också välja ![Datauppdatering](/help/assets/icons/DataRefresh.svg) **[!UICONTROL Train]** i det blå åtgärdsfältet.
 
-1. Välj **[!UICONTROL Re-score]** på snabbmenyn. Det kan ta några minuter att visa en uppdaterad status för modellen.
+   I dialogrutan **[!UICONTROL Train model]** väljer du alternativet att:
+
+   * **[!UICONTROL Train model with last 2 years of marketing data]** eller
+   * **[!UICONTROL Train model using specific date range of data]**.
+Ange datumintervall. Du kan använda ![kalendern](/help/assets/icons/Calendar.svg) för att välja ett datumintervall. Du måste välja ett dataintervall med minst ett år.
+
+   ![Utbilda om en modell](../assets/re-train-model.png)
+
+1. Välj **[!UICONTROL Train]** om du vill träna om modellen.
+
+
+### Poäng eller bakgrundsmusik
+
+
+Ni kan stegvis poängsätta en modell baserat på nya marknadsföringsdata eller poängsätta en modell för ett visst datumintervall. Så här gör du för att poängsätta eller poängsätta om en modell:
+
+1. Välj ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** i den vänstra listen.
+
+1. Välj ![Mer](/help/assets/icons/More.svg) för en modell och välj **[!UICONTROL Score]** på snabbmenyn. Du kan också välja ![Datauppdatering](/help/assets/icons/DataRefresh.svg) **[!UICONTROL Score]** i det blå åtgärdsfältet.
+
+   I dialogrutan **[!UICONTROL Score marketing data]** väljer du alternativet att:
+
+   * **[!UICONTROL Score new marketing data from *mm/dd/yyyy *]**om du vill poängsätta modellen stegvis med nya marknadsföringsdata, eller
+   * **[!UICONTROL Score specific date range of marketing data]** om du vill göra om poängen för ett visst datumintervall.
+Ange datumintervall. Du kan använda ![kalendern](/help/assets/icons/Calendar.svg) för att välja ett datumintervall.
+
+   ![Utbilda om en modell](../assets/re-score-model.png)
+
+1. Välj **[!UICONTROL Score]**. När du ändrar skala på en modell med ett visst dataområde visas en **[!UICONTROL Existing model is replaced]**-dialogruta där du uppmanas att bekräfta att du vill ersätta modellen med nya poäng för det valda datumintervallet. Bekräfta genom att välja **[!UICONTROL Replace model]**.
 
 
 ### Ta bort en modell
 
 Ta bort en modell:
 
-1. Markera namnet på modellen som du vill ta bort.
+1. Välj ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** i den vänstra listen.
 
-1. Välj **[!UICONTROL Delete]** på snabbmenyn för att ta bort modellen.
+1. Välj ![Mer](/help/assets/icons/More.svg) för en modell och välj **[!UICONTROL Delete]** på snabbmenyn. Du kan också välja ![Ta bort](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** i det blå åtgärdsfältet.
+
+Så här tar du bort flera modeller:
+
+1. Markera flera modeller.
+
+1. Välj ![Ta bort](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** från det blå åtgärdsfältet för att ta bort modellerna.
 
    >[!WARNING]
    >

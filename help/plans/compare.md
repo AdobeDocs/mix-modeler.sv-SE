@@ -3,7 +3,7 @@ title: Jämför planer
 description: Lär dig hur du jämför planer i Mix Modeler.
 feature: Plans
 exl-id: 40f6ade5-77eb-4ef7-ba60-4a2d2fcf1a60
-source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
+source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 0%
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 Så här jämför du planer i gränssnittet för Mix Modeler-planer:
 
-* Välj ![Jämför](/help/assets//icons/Compare.svg) **[!UICONTROL Compare Plans]**. I Jämför planer väljer du en plan för varje **[!UICONTROL _Select-plan_]**.
+* Välj ![Jämför](/help/assets/icons/Compare.svg) **[!UICONTROL Compare Plans]**. I Jämför planer väljer du en plan för varje **[!UICONTROL _Select-plan_]**.
 
-* Du kan också välja två planer i tabellen Planer och välja ![Jämför](/help/assets//icons/Compare.svg) **[!UICONTROL Compare]** i åtgärdsfältet.
+* Du kan också välja två planer i tabellen Planer och välja ![Jämför](/help/assets/icons/Compare.svg) **[!UICONTROL Compare]** i åtgärdsfältet.
 
-Gränssnittet Jämför planer visar information och widgetar om:
+Gränssnittet Jämför planer visar information och visualiseringar om:
 
 * Plan
 * Datumintervall
@@ -36,8 +36,8 @@ Där:
 * CPA definieras som Utgift/inkrementell konvertering.
 
 
-![Jämför planer](/help/assets//compare-plans.png)
+![Jämför planer](/help/assets/compare-plans.png)
 
-Du kan hovra över enskilda diagramelement i varje widget för att se en pover med mer information.
+Du kan hovra över enskilda diagramelement i varje visualisering för att se en pover med mer information.
 
 Välj **[!UICONTROL Close]** om du vill gå tillbaka till planöversikten.

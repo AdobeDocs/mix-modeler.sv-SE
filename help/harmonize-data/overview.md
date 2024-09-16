@@ -3,7 +3,7 @@ title: Harmonisera data
 description: Lär dig att harmonisera data i Mix Modeler.
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
+source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
 workflow-type: tm+mt
 source-wordcount: '893'
 ht-degree: 5%
@@ -116,17 +116,17 @@ Om du vill skapa en harmoniserad datauppsättning, som i det förenklade [exempl
 
 För att se harmoniserade data i Mix Modeler-gränssnittet:
 
-1. Välj ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]** i den vänstra listen.
+1. Välj ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]** i den vänstra listen.
 
 1. Välj **[!UICONTROL Harmonized Data]** i det övre fältet. En sammanfattning av dina harmoniserade data visas baserat på de fält, datamängdsregler, kontaktytor för marknadsföring och konverteringar du har definierat.
 
-   1. Om du vill definiera om den period som sammanfattningen av harmoniserade data baseras på anger du ett datumintervall för **[!UICONTROL Date range]** eller använder ![Kalender](/help/assets//icons/Calendar.svg) för att välja ett dataområde.
+   1. Om du vill definiera om den period som sammanfattningen av harmoniserade data baseras på anger du ett datumintervall för **[!UICONTROL Date range]** eller använder ![Kalender](/help/assets/icons/Calendar.svg) för att välja ett dataområde.
 
-   1. Om du vill ändra de harmoniserade fältkolumnerna som visas för den harmoniserade datatabellen använder du ![Inställningar](/help/assets//icons/Setting.svg) för att öppna dialogrutan **[!UICONTROL Column settings]**.
+   1. Om du vill ändra de harmoniserade fältkolumnerna som visas för den harmoniserade datatabellen använder du ![Inställningar](/help/assets/icons/Setting.svg) för att öppna dialogrutan **[!UICONTROL Column settings]**.
 
-      1. Välj ![SelectBox](/help/assets//icons/SelectBox.svg) en eller flera kolumner från **[!UICONTROL AVAILABLE COLUMNS]** och använd ![Sparron till höger](/help/assets//icons/ChevronRight.svg) för att lägga till de här kolumnerna i **[!UICONTROL SELECTED COLUMNS]**.
+      1. Välj ![SelectBox](/help/assets/icons/SelectBox.svg) en eller flera kolumner från **[!UICONTROL AVAILABLE COLUMNS]** och använd ![Sparron till höger](/help/assets/icons/ChevronRight.svg) för att lägga till de här kolumnerna i **[!UICONTROL SELECTED COLUMNS]**.
 
-      1. Välj ![SelectBox](/help/assets//icons/SelectBox.svg) en eller flera kolumner från **[!UICONTROL SELECTED COLUMNS]** och använd ![Sparron till vänster](/help/assets//icons/ChevronLeft.svg) för att ta bort de markerade kolumnerna och returnera kolumnerna till **[!UICONTROL AVAILABLE COLUMNS]**.
+      1. Välj ![SelectBox](/help/assets/icons/SelectBox.svg) en eller flera kolumner från **[!UICONTROL SELECTED COLUMNS]** och använd ![Sparron till vänster](/help/assets/icons/ChevronLeft.svg) för att ta bort de markerade kolumnerna och returnera kolumnerna till **[!UICONTROL AVAILABLE COLUMNS]**.
 
       1. Välj en kolumn från **[!UICONTROL DEFAULT SORT]** och växla mellan **[!UICONTROL Ascending]** eller **[!UICONTROL Descending]**.
 
@@ -134,4 +134,4 @@ För att se harmoniserade data i Mix Modeler-gränssnittet:
 
    1. Välj **[!UICONTROL Submit]** om du vill skicka in ändringar av kolumninställningen. Välj **[!UICONTROL Close]** om du vill avbryta alla ändringar du har gjort.
 
-1. Om det finns fler sidor kan du använda ![Vänsterpil](/help/assets//icons/ChevronLeft.svg) eller ![Högerpil](/help/assets//icons/ChevronRight.svg) vid **[!UICONTROL Page _x _av_x_]** för att flytta mellan sidorna.
+1. Om det finns fler sidor kan du använda ![Vänsterpil](/help/assets/icons/ChevronLeft.svg) eller ![Högerpil](/help/assets/icons/ChevronRight.svg) vid **[!UICONTROL Page _x _av_x_]** för att flytta mellan sidorna.

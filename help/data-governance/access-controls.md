@@ -2,7 +2,8 @@
 title: Åtkomstkontroller
 description: Lär dig hur du konfigurerar åtkomstkontroller i Mix Modeler.
 feature: Administration
-source-git-commit: 6776a91563f120db1341adef923aab4b0f582c9d
+exl-id: c9ec97d9-b9a2-41f5-8626-1cf967d5d7fe
+source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 0%
@@ -31,5 +32,4 @@ När datauppsättningsregler konfigureras för harmoniserade datauppsättningar,
 
 * du inte ser de schemafält som är begränsade för dig när du skapar en datauppsättningsregel,
 * du inte kan visa eller redigera mappningen av ett eller flera schemafält som är begränsade för dig. När du redigerar eller visar en datauppsättningsregel som innehåller sådana begränsade fält visas följande skärm.
-  ![Åtgärden tillåts inte](/help/assets//action-not-permitted.png)
-
+  ![Åtgärden tillåts inte](/help/assets/action-not-permitted.png)

@@ -3,7 +3,7 @@ title: Harmoniserade områden
 description: Lär dig hur du definierar fält som ska användas för att harmonisera data i Mix Modeler.
 feature: Harmonized Data, Harmonized Fields
 exl-id: f051279a-1ae9-49bd-a946-abfc34c90413
-source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
+source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
 workflow-type: tm+mt
 source-wordcount: '687'
 ht-degree: 0%
@@ -55,9 +55,9 @@ Du kan lägga till, redigera eller ta bort egna harmoniserade fält ovanpå dess
 
 En tabell över de tillgängliga harmoniserade fälten finns i Mix Modeler-gränssnittet:
 
-1. Välj ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** i den vänstra listen.
+1. Välj ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** i den vänstra listen.
 
-1. Välj **[!UICONTROL Fields]** i det övre fältet. En tabell över de harmoniserade fälten visas. Om fler sidor är tillgängliga använder du ![Vänsterpil](/help/assets//icons/ChevronLeft.svg) eller ![Högerpil](/help/assets//icons/ChevronRight.svg) vid **[!UICONTROL Page _x _av_x_]** för att flytta mellan sidor i tabellen.
+1. Välj **[!UICONTROL Fields]** i det övre fältet. En tabell över de harmoniserade fälten visas. Om fler sidor är tillgängliga använder du ![Vänsterpil](/help/assets/icons/ChevronLeft.svg) eller ![Högerpil](/help/assets/icons/ChevronRight.svg) vid **[!UICONTROL Page _x _av_x_]** för att flytta mellan sidor i tabellen.
 
    Tabellkolumnerna anger information om de harmoniserade fälten
 
@@ -74,14 +74,14 @@ En tabell över de tillgängliga harmoniserade fälten finns i Mix Modeler-grän
 
    {style="table-layout:auto"}
 
-1. Om du vill söka efter ett visst harmoniserat fält använder du ![Sök](/help/assets//icons/Search.svg) **[!UICONTROL *Sök i harmoniserat fält *]**.
+1. Om du vill söka efter ett visst harmoniserat fält använder du ![Sök](/help/assets/icons/Search.svg) **[!UICONTROL *Sök i harmoniserat fält *]**.
 
 
 ### Lägg till ett harmoniserat fält
 
-Om du vill lägga till ett harmoniserat fält går du till ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** i Mix Modeler:
+Om du vill lägga till ett harmoniserat fält går du till ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** i Mix Modeler:
 
-1. Välj ![Lägg till](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add field]**.
+1. Välj ![Lägg till](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add field]**.
 
 1. I dialogrutan **[!UICONTROL Create]**:
 
@@ -98,14 +98,14 @@ Om du vill lägga till ett harmoniserat fält går du till ![DataSearch](/help/a
 
    1. Välj **[!UICONTROL Submit]** om du vill lägga till det harmoniserade fältet. Välj **[!UICONTROL Close]** om du vill stänga dialogrutan utan att lägga till det harmoniserade fältet.
 
-      ![Skapa ett fält](/help/assets//create-field.png)
+      ![Skapa ett fält](/help/assets/create-field.png)
 
 
 ### Redigera ett harmoniserat fält
 
 Du kan bara redigera harmoniserade fält som du skapat tidigare (ägaren är klienten). Du kan inte redigera ett globalt harmoniserat fält.
 
-Om du vill redigera ett harmoniserat fält går du till ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** i Mix Modeler:
+Om du vill redigera ett harmoniserat fält går du till ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** i Mix Modeler:
 
 1. Markera det harmoniserade fält som du vill redigera. Exempel: **[!UICONTROL Region]**.
 
@@ -113,17 +113,17 @@ Om du vill redigera ett harmoniserat fält går du till ![DataSearch](/help/asse
 
 1. Välj **[!UICONTROL Submit]** om du vill använda ändringarna i det harmoniserade fältet.
 
-   ![Redigera ett fält](/help/assets//edit-field.png)
+   ![Redigera ett fält](/help/assets/edit-field.png)
 
 ### Radera ett harmoniserat fält
 
 Du kan bara ta bort harmoniserade fält som du skapat tidigare (ägaren är klienten). Du kan inte ta bort ett globalt harmoniserat fält.
 
-Om du vill ta bort ett harmoniserat fält går du till ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** i Mix Modeler:
+Om du vill ta bort ett harmoniserat fält går du till ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** i Mix Modeler:
 
 1. Markera det harmoniserade fält som du vill ta bort, till exempel **[!UICONTROL Region]**.
 
-1. Välj ![Ta bort](/help/assets//icons/Delete.svg) **[!UICONTROL Delete]** i den vänstra rutan i **[!UICONTROL Edit harmonization values]**.
+1. Välj ![Ta bort](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** i den vänstra rutan i **[!UICONTROL Edit harmonization values]**.
 
    >[!WARNING]
    >

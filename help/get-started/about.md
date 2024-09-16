@@ -4,7 +4,7 @@ description: Få en översikt över funktionaliteten och funktionerna i Mix Mode
 short-description: Få en översikt över funktionaliteten och funktionerna i Mix Modeler.
 feature: Plans, Harmonized Data, Models
 exl-id: aa1018d5-b073-4dfb-b40c-ca16a8970b2f
-source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
+source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
 workflow-type: tm+mt
 source-wordcount: '757'
 ht-degree: 3%
@@ -35,7 +35,7 @@ För att uppnå den här funktionaliteten kombinerar Mix Modeler:
 
 AI/ML-inlärning för dubbelriktad överföring förenar resultaten av marknadsföringsmixmodellering (MMM) och multi-touch attribution (MTA) för att säkerställa enhetliga resultat för mätning och planering i en värld utan cookies.
 
-![Inlärning av dubbelriktad överföring](/help/assets//birdirectional-transfer-learning.png){width="500" align="center"}
+![Inlärning av dubbelriktad överföring](/help/assets/birdirectional-transfer-learning.png){width="500" align="center"}
 
 
 ## Funktioner

@@ -4,7 +4,7 @@ description: Versionsinformation för den senaste Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 8e04509cbdbf82fcdf3d561a3e2ebfb4ecd3e2ee
+source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 5%
@@ -22,7 +22,7 @@ Versionsinformationen innehåller den senaste versionen av Mix Modeler. Mix Mode
 | Funktion | Beskrivning | Allmän tillgänglighet |
 |---|---|---|
 | **Information om faktorbidrag** | I [!UICONTROL Model insights] erbjuder fliken [[!UICONTROL Factors]](/help/models/insights.md#factors) externa faktorrelaterade insikter. | 20 augusti 2024 |
-| **Marginalkurvor** | Widgeten [marginella kurvor](/help/models/insights.md#model-insights-1) i modellinsikter uppdaterar nu kurvan och motsvarande värden baserat på ändringar i det valda dataområdet. Dessutom visar widgeten punkten för marginell brytning jämn och punkten för minskande avkastning. | 20 augusti 2024 |
+| **Marginalkurvor** | Visualiseringen av [marginella kurvor](/help/models/insights.md#model-insights-1) i modellinsikter uppdaterar nu kurvan och motsvarande värden baserat på ändringar i det valda dataområdet. Dessutom visar visualiseringen punkten för marginell brytning och punkten för minskande avkastning. | 20 augusti 2024 |
 | **Ad-hoc-utbildning och poäng** | Du kan initiera en modell [om-utbildning](/help/models/overview.md#re-train), [poäng (för nya marknadsföringsdata) eller ompoäng](/help/models/overview.md#score-or-re-score) från gränssnittet för modeller. | 13 augusti 2024 |
 | **Tillämpning av principer** | Principer för Experience Platform tillämpas när datauppsättningsregler konfigureras och när etiketter ändras till underliggande data som används i Mix Modeler. Mer information finns i [Profiler](../data-governance/policies.md). | 13 augusti 2024 |
 | **Datahygien** | Datahygienreglerna respekteras när du tar bort källdata. Se [Ta bort en källdatauppsättning](../harmonize-data/dataset-rules.md#delete-a-source-dataset) | 13 augusti 2024 |
@@ -62,7 +62,7 @@ Versionsinformationen innehåller den senaste versionen av Mix Modeler. Mix Mode
 | Funktion | Beskrivning | Allmän tillgänglighet |
 |---|---|---|
 | **Förbättrade hämtningar** | Du kan [hämta fullständiga modellinsikter](../models/insights.md) i Microsoft® Excel-format | 31 januari 2024 |
-| **Marginalkurvor** | [Modellinsikter](../models/insights.md) innehåller en extra widget som visar marginella svarskurvor. | 31 januari 2024 |
+| **Marginalkurvor** | [Modellinsikter](../models/insights.md) ger en ytterligare visualisering som visar marginella svarskurvor. | 31 januari 2024 |
 | **Inställningar för datasammanfogning** | Du kan definiera [inställningar för datasammanfogning](../harmonize-data/dataset-rules.md#data-merge-preferences) för datauppsättningsregler för harmoniserade datauppsättningar. | 31 januari 2024 |
 | **Användningsrapport** | Gränssnittet för harmoniserade datamängder har en extra flik för [användningsrapport](../harmonize-data/usage-report.md) som ger ytterligare insikter om hur modeller och konverteringar används. | 31 januari 2024 |
 | **Uppdaterat gränssnitt för planinsikter** | Gränssnittet för planinsikter uppdateras så att du kan välja vilken avkastning och vilka kanaler som ska rapporteras. | 31 januari 2024 |

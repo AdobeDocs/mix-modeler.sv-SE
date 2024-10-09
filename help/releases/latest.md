@@ -4,10 +4,10 @@ description: Versionsinformation för den senaste Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: 72f122f1cdf7252dae9e93e5ea133e8cc76564dc
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 5%
+source-wordcount: '457'
+ht-degree: 6%
 
 ---
 
@@ -15,13 +15,19 @@ ht-degree: 5%
 
 **Senast uppdaterad**: 13 augusti 2024.
 
-Versionsinformationen innehåller den senaste versionen av Mix Modeler. Mix Modeler-releaser fungerar enligt en kontinuerlig leveransmodell, vilket möjliggör en ungefärlig månadsrelease-cadence. Versionsinformationen uppdateras därför, så kontrollera dem regelbundet.
+Versionsinformationen innehåller den senaste versionen av Mix Modeler. Mix Modeler-releaser fungerar enligt en kontinuerlig leveransmodell, vilket möjliggör en ungefärlig månadsrelease-cadence. Därför uppdateras versionsinformationen så kontrollera dem regelbundet.&quot;
+
+## Oktober 2024
+
+| Funktion | Beskrivning | Allmän tillgänglighet |
+|---|---|---|
+| **Tabell för brytning av pekpunkter** | I [!UICONTROL Models] erbjuder nu fliken [[!UICONTROL Model insights]](/help/models/insights.md#factors) en extra tabell för [Touchpoint-uppdelning](../models/insights.md#touchpoint-breakdown). | 1 oktober 2024 |
 
 ## Augusti 2024
 
 | Funktion | Beskrivning | Allmän tillgänglighet |
 |---|---|---|
-| **Information om faktorbidrag** | I [!UICONTROL Model insights] erbjuder fliken [[!UICONTROL Factors]](/help/models/insights.md#factors) externa faktorrelaterade insikter. | 20 augusti 2024 |
+| **Information om faktorbidrag** | I [!UICONTROL Models] erbjuder fliken [[!UICONTROL Factors]](/help/models/insights.md#factors) externa faktorrelaterade insikter. | 20 augusti 2024 |
 | **Marginalkurvor** | Visualiseringen av [marginella kurvor](/help/models/insights.md#model-insights-1) i modellinsikter uppdaterar nu kurvan och motsvarande värden baserat på ändringar i det valda dataområdet. Dessutom visar visualiseringen punkten för marginell brytning och punkten för minskande avkastning. | 20 augusti 2024 |
 | **Ad-hoc-utbildning och poäng** | Du kan initiera en modell [om-utbildning](/help/models/overview.md#re-train), [poäng (för nya marknadsföringsdata) eller ompoäng](/help/models/overview.md#score-or-re-score) från gränssnittet för modeller. | 13 augusti 2024 |
 | **Tillämpning av principer** | Principer för Experience Platform tillämpas när datauppsättningsregler konfigureras och när etiketter ändras till underliggande data som används i Mix Modeler. Mer information finns i [Profiler](../data-governance/policies.md). | 13 augusti 2024 |

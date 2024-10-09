@@ -3,9 +3,9 @@ title: Modellinsikter
 description: Lär dig hur du får information om din modell, som historisk översikt, modellinsikter och modellkvalitet i Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 09ec757a37725d4b41231076bd99432bffd6d555
+source-git-commit: 72f122f1cdf7252dae9e93e5ea133e8cc76564dc
 workflow-type: tm+mt
-source-wordcount: '1332'
+source-wordcount: '1422'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Du kan ändra den datumperiod som visualiseringarna på varje flik baseras på. 
 
 ## [!UICONTROL Model insights]
 
-På fliken Modellinsikter visas visualiseringar för [Bidrag per datum och basmedia](#contribution-by-date-and-base-media), [Bidrag per kanal](#contribution-by-channel), [Sammanfattning av marknadsföringsprestanda](#marketing-performance-summary) och [Marginalkurvor](#marginal-response-curves).
+På fliken Modellinsikter visas visualiseringar för [Bidrag per datum och basmedia](#contribution-by-date-and-base-media), [Bidrag per kanal](#contribution-by-channel), [Sammanfattning av marknadsföringsprestanda](#marketing-performance-summary) och [Marginalkurvor](#marginal-response-curves). Fliken innehåller även en [tabell för sammanställning av kontaktpunkter](#touchppint-breakdown).
 
 ![Modell - Modellinsikter](/help/assets/model-insights-insights.png)
 
@@ -37,7 +37,7 @@ På fliken Modellinsikter visas visualiseringar för [Bidrag per datum och basme
 * Om du vill hämta fullständiga modellinsiderdata i Microsoft® Excel-format väljer du ![Hämta](/help/assets/icons/Download.svg) **[!UICONTROL Download data]**.
 
 
-### Bidrag per datum och basmedia.
+### Bidrag per datum och basmedia
 
 Det staplade diagrammet ordnas: Bas längst ned, Ej använda kanaler i mitten och Utläggskanaler överst.
 
@@ -45,11 +45,11 @@ Det staplade diagrammet ordnas: Bas längst ned, Ej använda kanaler i mitten oc
 
 I donutvisualiseringen visas en fördelning av bidraget per kanal.
 
-### Sammanfattning av marknadsföringsprestanda.
+### Sammanfattning av marknadsföringsprestanda
 
 Ett vågrätt stolpdiagram som visar ROI-prestanda per kanal.
 
-### Marginalkurvor.
+### Marginalkurvor
 
 Linjediagrammet visar och jämför de marginella vinster som genereras av investeringen i era marknadsföringskanaler.  Och identifierar den brytpunkt där den inkrementella avkastningen är mindre än de inkrementella utgifterna. Den här visualiseringen hjälper er därför att förstå när era marknadsföringsinvesteringar börjar bli mindre effektiva.
 
@@ -60,6 +60,27 @@ Så här ändrar du kanal:
 * Välj en kanal i listrutan **[!UICONTROL Channel]** om du vill uppdatera visualiseringen för en viss kanal.
 
 
+### Uppdelning efter kontaktpunkter
+
+Kontaktpunktsuppdelningstabellen visar brytpunkter för alla eller valda kanaler varje vecka.
+
+![Uppdelning efter kontaktpunkter](../assets/touchpoint-breakdown.png)
+
+Följande kolumner är tillgängliga:
+
+| Kolumn | Beskrivning |
+|---|---|
+| **[!UICONTROL Date range]** | Veckan att rapportera om. |
+| **[!UICONTROL Touchpoint]** | Den specifika kontaktytskanalen. |
+| **[!UICONTROL ROI]** | Procentandelen (**[!UICONTROL Revenue]** - **[!UICONTROL Spend]**) / **[!UICONTROL Spend]**. |
+| **[!UICONTROL Revenue]** | Intäkterna för datumintervallet. |
+| **[!UICONTROL CPA]** | **[!UICONTROL Spend]** / **[!UICONTROL Conversions]**. |
+| **[!UICONTROL Conversions]** | Konverteringarna för datumintervallet. |
+| **[!UICONTROL Spend]** | Utgifterna för dataområdet. |
+
+Om du vill välja en viss kanal eller alla kanaler väljer du den i listrutan **[!UICONTROL View]**.
+
+Välj ![Hämta](/help/assets/icons/Download.svg) **[!UICONTROL Download CSV]** om du vill hämta innehållet i Touchpoint-tabellen.
 
 ## [!UICONTROL Attribution]
 

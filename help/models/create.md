@@ -3,9 +3,9 @@ title: Skapa en modell
 description: Lär dig hur du skapar en modell i Mix Modeler.
 feature: Models
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: 2fbf24f6ac72e24070d6c294bc25c112aeb8bdac
+source-git-commit: 1327ef083cc681b38adc086ad4f7332fd83577b5
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -135,7 +135,7 @@ Gränssnittet ger ett stegvis guidat modellkonfigurationsflöde när du vill ska
 
    1. I avsnittet **[!UICONTROL MTA enabled]**:
 
-      * Aktivera **[!UICONTROL MTA enabled]** om du vill aktivera MTA-funktioner för det skapade läget. När multitouch-attribueringsinsikter har aktiverats är de tillgängliga som du har utbildat och betygsatt din modell via fliken [Attribution](insights.md#attribution) i [Model insights](insights.md).
+      * Aktivera **[!UICONTROL MTA enabled]** om du vill aktivera MTA-funktioner för modellen. Om du har aktiverat MTA finns multitouch-attribueringsinsikter tillgängliga efter att du har utbildat och betygsatt modellen. Se fliken [Attribution](insights.md#attribution) i [Model insights](insights.md).
 
    1. I avsnittet **[!UICONTROL Prior knowledge]**:
 

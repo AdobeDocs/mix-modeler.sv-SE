@@ -3,9 +3,9 @@ title: Skapa en modell
 description: Lär dig hur du skapar en modell i Mix Modeler.
 feature: Models
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: d1de86d51b3e9914eb06b40aa2a26949a9b56cb0
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '723'
 ht-degree: 0%
 
 ---
@@ -26,33 +26,35 @@ Gränssnittet ger ett stegvis guidat modellkonfigurationsflöde när du vill ska
 
 1. I steget **[!UICONTROL Configure]**:
 
-   1. I avsnittet **[!UICONTROL Conversion goal]** i behållaren:
+   1. I avsnittet **[!UICONTROL Conversion goal]**:
 
-      1. Ange **[!UICONTROL Conversion name]** för konverteringen, till exempel `Conversion`
+      ![Modell - konverteringssteg](/help/assets/model-conversion-step.png)
 
-      1. Välj en konvertering från **[!UICONTROL *Välj harmoniserat fält *]**som innehåller de tillgängliga konverteringar du definierat som en del av [Konverteringar](../harmonize-data/conversions.md) i [!UICONTROL Harmonized datasets]. Exempel:**[!UICONTROL Online Conversion]**.
+      1. Välj en konvertering i listrutan **[!UICONTROL Conversion]**. De tillgängliga konverteringarna är konverteringen som du definierade som en del av [Konverteringar](../harmonize-data/conversions.md) i [!UICONTROL Harmonized datasets]. Exempel: **[!UICONTROL Online Conversion]**.
 
-      1. Du kan välja ![Svara](/help/assets/icons/Reply.svg) **[!UICONTROL Create new conversion]** om du vill skapa en konvertering direkt från modellkonfigurationen.
+      1. Du kan välja ![LinkOutLight](/help/assets/icons/LinkOutLight.svg) **[!UICONTROL Create a conversion]** om du vill skapa en konvertering direkt från modellkonfigurationen.
 
-         ![Modell - konverteringssteg](/help/assets/model-conversion-step.png)
 
-   1. I avsnittet **[!UICONTROL Marketing touchpoints]** ser du ett antal kontaktpunktsbehållare för marknadsföring, som motsvarar de kontaktpunkter för marknadsföring som du har definierat som en del av [Marknadsföringskontaktytor](../harmonize-data/marketing-touchpoints.md) i [!UICONTROL Harmonized datasets].
 
-      * För varje behållare:
+   1. I avsnittet **[!UICONTROL Marketing touchpoints]** kan du välja en eller flera kontaktytor för marknadsföring, som motsvarar de kontaktytor för marknadsföring som du har definierat som en del av [Marknadsföringskontaktytor](../harmonize-data/marketing-touchpoints.md) i [!UICONTROL Harmonized datasets].
 
-         1. Du kan ändra **[!UICONTROL Marketing touchpoint name]**.
 
-         1. Välj en kontaktyta för marknadsföring från **[!UICONTROL _Välj kontaktyta för marknadsföring_]**.
+      ![Modell - steg för kontaktyta vid marknadsföring](/help/assets/model-marketing-touchpoint-step.png)
 
-         1. Du kan välja ![Svara](/help/assets/icons/Reply.svg) **[!UICONTROL Create new marketing touchpoint]** om du vill skapa en kontaktyta för marknadsföring direkt från modellkonfigurationen.
+      1. Välj en eller flera kontaktytor för marknadsföring i listrutan **[!UICONTROL Touchpoint include]**.
 
-      * Om du vill lägga till en kontaktpunktsbehållare för marknadsföring väljer du ![Lägg till](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add marketing touchpoint]**.
+         * Du kan använda ![CrossSize75](/help/assets/icons/CrossSize75.svg) för att ta bort en kontaktyta.
+         * Du kan använda **[!UICONTROL Clear all]** för att ta bort alla kontaktytor.
 
-      * Om du vill ta bort en kontaktpunktsbehållare för marknadsföring, markerar du ![Mer](/help/assets/icons/More.svg) i behållaren och väljer **[!UICONTROL Remove container]** på snabbmenyn.
+      1. Du kan välja ![LinkOutLight](/help/assets/icons/LinkOutLight.svg) **[!UICONTROL Create a touchpoint]** om du vill skapa en marknadsföringskontaktyta direkt från modellkonfigurationen.
 
-        ![Modell - marknadsföring touchpoints-step](/help/assets/model-marketing-touchpoint-step.png)
+      >[!NOTE]
+      >
+      >Du kan inte ställa in modellen med kontaktytor som har överlappande data och det måste finnas minst en kontaktyta med utgifter.
 
    1. Som standard genereras en poäng för alla data i din harmoniserade vy. Om du bara vill poängsätta en delmängd av populationen definierar du ett eller flera filter med hjälp av behållare i avsnittet **[!UICONTROL Eligible data population]**.
+
+      ![Modell - kvalificerade datapifieringar](/help/assets/model-eligible-data-population-step.png)
 
       * Definiera en eller flera händelser för varje behållare.
 
@@ -66,7 +68,7 @@ Gränssnittet ger ett stegvis guidat modellkonfigurationsflöde när du vill ska
 
          1. Om du vill lägga till ytterligare en händelse i behållaren väljer du ![Lägg till](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add event]**.
 
-         1. Om du vill ta bort en händelse från behållaren väljer du ![Stäng](/help/assets/icons/Close.svg).
+         1. Om du vill ta bort en händelse från behållaren väljer du ![Stäng](/help/assets/icons/CrossSize75.svg).
 
          1. Om du vill filtrera med hjälp av alla eller några av flera händelser som definieras i behållaren väljer du **[!UICONTROL Any of]** eller **[!UICONTROL All of]**. Etiketten ändras på motsvarande sätt från **[!UICONTROL Include ... Or ...]** till **[!UICONTROL Include ... And ...]**.
 
@@ -74,36 +76,44 @@ Gränssnittet ger ett stegvis guidat modellkonfigurationsflöde när du vill ska
 
       * Om du vill ta bort en giltig dataifyllningsbehållare i behållaren väljer du ![Mer](/help/assets/icons/More.svg) och sedan **[!UICONTROL Remove marketing touchpoint]** på snabbmenyn.
 
-        ![Modell - kvalificerade datapifieringar](/help/assets/model-eligible-data-population-step.png)
 
-   1. Om du vill lägga till datauppsättningar som innehåller externa faktorer i modellen använder du en eller flera behållare i avsnittet **[!UICONTROL External factors dataset]**.
+
+   1. Om du vill lägga till datauppsättningar som innehåller externa faktorer i modellen använder du en eller flera behållare i avsnittet **[!UICONTROL External factors dataset]**. Ett exempel på externa faktorer är S&amp;P-index.
+
+      ![Modell - datamängd för externa faktorer](/help/assets/model-external-factors-dataset-step.png)
 
       * För varje behållare:
 
-         1. Ange **[!UICONTROL Factor name]** vid **[!UICONTROL _Ange faktor_]**.
+         1. Ange en **[!UICONTROL External factor name]**, till exempel `External Factors`.
 
-         1. Välj en datauppsättning från **[!UICONTROL _Välj en datauppsättning_]**. Du kan välja ![Data](/help/assets/icons/Data.svg) för att hantera datamängder. Mer information finns i [Datauppsättningar](../ingest-data/datasets.md).
+         1. Välj en datauppsättning i listrutan **[!UICONTROL Dataset]**. Du kan välja ![Data](/help/assets/icons/Data.svg) för att hantera datamängder. Mer information finns i [Datauppsättningar](../ingest-data/datasets.md).
+
+         1. Välj ett alternativ i listrutan **[!UICONTROL Impact on conversion]**: **[!UICONTROL Auto select]**, **[!UICONTROL Positive]** eller **[!UICONTROL Negative]**.
 
       * Om du vill lägga till ytterligare en datauppsättningsbehållare för externa faktorer väljer du ![Lägg till](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add external factor]**.
 
-      * Om du vill ta bort en datauppsättningsbehållare för externa faktorer i behållaren väljer du ![Mer](/help/assets/icons/More.svg) och sedan **[!UICONTROL Remove external factor]** på snabbmenyn.
-
-        ![Modell - datamängd för externa faktorer](/help/assets/model-external-factors-dataset-step.png)
+      * Välj ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) om du vill ta bort en datauppsättningsbehållare för externa faktorer.
 
 
-   1. Om du vill lägga till datauppsättningar som innehåller interna faktorer i modellen använder du en eller flera behållare i avsnittet **[!UICONTROL Internal factors dataset]**.
+
+
+   1. Om du vill lägga till datauppsättningar som innehåller interna faktorer i modellen använder du en eller flera behållare i avsnittet **[!UICONTROL Internal factors dataset]**. Ett exempel på interna faktorer är marknadsföringsdata för e-post.
+
+      ![Modell - datauppsättning för interna faktorer](/help/assets/model-internal-factors-dataset-step.png)
 
       * För varje behållare:
 
-         1. Ange **[!UICONTROL Factor name]** vid **[!UICONTROL _Ange faktor_]**.
+         1. Ange en **[!UICONTROL Internal factor name]**, till exempel `Email Marketing Data`.
 
          1. Välj en datauppsättning från **[!UICONTROL _Välj en datauppsättning_]**. Du kan välja ![Data](/help/assets/icons/Data.svg) för att hantera datamängder. Mer information finns i [Datauppsättningar](../ingest-data/datasets.md).
 
+         1. Välj ett alternativ i listrutan **[!UICONTROL Impact on conversion]**: **[!UICONTROL Auto select]**, **[!UICONTROL Positive]** eller **[!UICONTROL Negative]**.
+
       * Om du vill lägga till ytterligare en datauppsättningsbehållare för interna faktorer väljer du ![Lägg till](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add internal factor]**.
 
-      * Om du vill ta bort ytterligare en datauppsättningsbehållare för interna faktorer i behållaren väljer du ![Mer](/help/assets/icons/More.svg) och **[!UICONTROL Remove internal factor]** på snabbmenyn.
+      * Välj ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) om du vill ta bort en datauppsättningsbehållare för interna faktorer.
 
-        ![Modell - datauppsättning för interna faktorer](/help/assets/model-internal-factors-dataset-step.png)
+
 
    1. Ange ett värde mellan `1` och `52` i **[!UICONTROL Give contribution credit to touchpoints occurring within]** ... **[!UICONTROL weeks prior to the conversion]** om du vill definiera uppslagsfönstret för modellen.
 
@@ -123,9 +133,15 @@ Gränssnittet ger ett stegvis guidat modellkonfigurationsflöde när du vill ska
 
       * Aktivera **[!UICONTROL Allow spend share]** om du vill använda tidigare investeringsförhållanden för marknadsföring för att informera modellen när marknadsföringsdata är begränsade.
 
+   1. I avsnittet **[!UICONTROL MTA enabled]**:
+
+      * Aktivera **[!UICONTROL MTA enabled]** om du vill aktivera MTA-funktioner för det skapade läget. När aktiverat,
+
    1. I avsnittet **[!UICONTROL Prior knowledge]**:
 
-      1. Välj **[!UICONTROL Rule type]**.
+      ![Modell - tidigare kunskap](/help/assets/model-prior-knowledge-step.png)
+
+      1. Välj **[!UICONTROL Rule type]**, som är standard **[!UICONTROL Absolute values]**.
 
       1. Ange procentsatser för bidrag för någon av kanalerna som listas under **[!UICONTROL Name]**, med kolumnen **[!UICONTROL Contribution proportion]**.
 
@@ -133,11 +149,11 @@ Gränssnittet ger ett stegvis guidat modellkonfigurationsflöde när du vill ska
 
       1. Använd **[!UICONTROL Clear all]** vid behov för att rensa alla indatavärden för kolumnerna **[!UICONTROL Contribution proportion]** och **[!UICONTROL Level of confidence]**.
 
-         ![Modell - tidigare kunskap](/help/assets/model-prior-knowledge-step.png)
 
-1. Välj **[!UICONTROL Finish]** om du vill avsluta din modellkonfiguration.
 
-   * I dialogrutan **[!UICONTROL Create instance?]** väljer du **[!UICONTROL Ok]** för att utlösa den första uppsättningen kurser och poäng direkt. Din modell är listad med statusen <span style="color:orange"> ●</span> **[!UICONTROL Awaiting training]**.
+1. Välj **[!UICONTROL Finish]** för att slutföra modellkonfigurationen.
+
+   * I dialogrutan **[!UICONTROL Create instance?]** väljer du **[!UICONTROL Ok]** för att utlösa den första uppsättningen kurser och poäng direkt. Din modell visas med statusen ![StatusOrange](/help/assets/icons/StatusOrange.svg) **[!UICONTROL Awaiting training]**.
 
      Välj **[!UICONTROL Cancel]** om du vill avbryta.
 

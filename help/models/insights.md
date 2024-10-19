@@ -3,9 +3,9 @@ title: Modellinsikter
 description: Lär dig hur du får information om din modell, som historisk översikt, modellinsikter och modellkvalitet i Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: af315f4566c34c1961130d61ce2804b98d859b24
+source-git-commit: f549f7d4d4f5c702e3ef28bceeaccc46922f7c40
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1436'
 ht-degree: 0%
 
 ---
@@ -59,6 +59,28 @@ Så här ändrar du kanal:
 
 * Välj en kanal i listrutan **[!UICONTROL Channel]** om du vill uppdatera visualiseringen för en viss kanal.
 
+
+### Uppdelning efter kontaktpunkter
+
+Kontaktpunktsuppdelningstabellen visar brytpunkter för alla eller valda kanaler varje vecka.
+
+![Uppdelning efter kontaktpunkter](../assets/touchpoint-breakdown.png)
+
+Följande kolumner är tillgängliga:
+
+| Kolumn | Beskrivning |
+|---|---|
+| **[!UICONTROL Date range]** | Veckan att rapportera om. |
+| **[!UICONTROL Touchpoint]** | Den specifika kontaktytskanalen. |
+| **[!UICONTROL ROI]** | Procentandelen (**[!UICONTROL Revenue]** - **[!UICONTROL Spend]**) / **[!UICONTROL Spend]**. |
+| **[!UICONTROL Revenue]** | Intäkterna för datumintervallet. |
+| **[!UICONTROL CPA]** | **[!UICONTROL Spend]** / **[!UICONTROL Conversions]**. |
+| **[!UICONTROL Conversions]** | Konverteringarna för datumintervallet. |
+| **[!UICONTROL Spend]** | Utgifterna för dataområdet. |
+
+Om du vill välja en viss kanal eller alla kanaler väljer du den i listrutan **[!UICONTROL View]**.
+
+Välj ![Hämta](/help/assets/icons/Download.svg) **[!UICONTROL Download CSV]** om du vill hämta innehållet i Touchpoint-tabellen.
 
 
 ## [!UICONTROL Attribution]

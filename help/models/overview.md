@@ -3,9 +3,9 @@ title: Models
 description: Lär dig hur du konfigurerar och använder modeller i Mix Modeler.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: 3801d6637fee491aa295ef586c2017a503466ffc
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '922'
 ht-degree: 0%
 
 ---
@@ -62,25 +62,6 @@ Om du vill visa en tabell över dina aktuella modeller i gränssnittet Mix Model
 
 Du kan utföra följande åtgärder på en viss modell.
 
-### Visa detaljer
-
-Så här visar du mer information om en modell:
-
-1. Välj ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** i den vänstra listen.
-
-1. Välj ![Info](/help/assets/icons/Info.svg) för en modell om du vill visa ett popup-fönster med information.
-
-
-
-### Duplicera
-
-Du kan snabbt duplicera en modell.
-
-1. Välj ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** i den vänstra listen.
-
-1. Välj ![Mer](/help/assets/icons/More.svg) för en modell och välj **[!UICONTROL Duplicate]** på snabbmenyn.
-
-
 ### Modellinsikter
 
 Funktionen för modellinsikter är bara tillgänglig på framgångsrika, utbildade och poängsatta modeller.
@@ -92,6 +73,52 @@ Så här visar du insikter om en modell:
 1. Markera modellnamnet.
 
 Du omdirigeras till [Modellinsikter](insights.md).
+
+
+### Visa detaljer
+
+Så här visar du mer information om en modell:
+
+1. Välj ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** i den vänstra listen.
+
+1. Välj ![Info](/help/assets/icons/Info.svg) för en modell om du vill visa ett popup-fönster med information.
+
+
+### Duplicera
+
+Du kan snabbt duplicera en modell.
+
+1. Välj ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** i den vänstra listen.
+
+1. Välj ![Mer](/help/assets/icons/More.svg) för en modell och välj **[!UICONTROL Duplicate]** på snabbmenyn.
+
+
+### Redigera
+
+Du kan redigera namn, beskrivning och planering av utbildning och poängsättning för en modell.
+
+1. Välj ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** i den vänstra listen.
+
+1. Välj ![Mer](/help/assets/icons/More.svg) för en modell och välj **[!UICONTROL Edit]** på snabbmenyn.
+
+   I dialogrutan **[!UICONTROL Edit model]**:
+
+   * Ange en ny **[!UICONTROL Name]** och **[!UICONTROL Description]**.
+
+   * Aktivera **[!UICONTROL Status]** om du vill aktivera schemaläggning. Du kan bara aktivera schemaläggning för modeller som är tränade och poängsatta.
+
+      1. Välj en **[!UICONTROL Scoring frequency]**:
+
+         * **[!UICONTROL Daily]**: Ange en giltig tid (till exempel `05:22 pm`) eller använd ![Klocka](/help/assets/icons/Clock.svg).
+         * **[!UICONTROL Weekly]**: Välj en veckodag och ange en giltig tid (till exempel `05:22 pm`) eller använd ![Klocka](/help/assets/icons/Clock.svg).
+         * **[!UICONTROL Monthly]**: Välj en dag i månaden i listrutan Kör på varje och ange en giltig tid (till exempel `05:22 pm`) eller använd ![Klocka](/help/assets/icons/Clock.svg).
+
+      1. Välj en **[!UICONTROL Training frequency]** i listrutan: **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]** eller **[!UICONTROL None]**.
+
+     ![Redigera en modell](../assets/model-edit.png)
+
+1. Välj **[!UICONTROL Save]**.
+
 
 
 ### Återtåg

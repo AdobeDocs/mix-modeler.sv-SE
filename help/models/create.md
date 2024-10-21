@@ -3,9 +3,9 @@ title: Skapa en modell
 description: Lär dig hur du skapar en modell i Mix Modeler.
 feature: Models
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: 1327ef083cc681b38adc086ad4f7332fd83577b5
+source-git-commit: 91dec8849d0d6fe52974024d09012d9c40d36cec
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '825'
 ht-degree: 0%
 
 ---
@@ -121,14 +121,6 @@ Gränssnittet ger ett stegvis guidat modellkonfigurationsflöde när du vill ska
 
 1. I steget **[!UICONTROL Advanced]**:
 
-   1. I avsnittet **[!UICONTROL Define training window]** väljer du
-
-      * **[!UICONTROL Have Mix Modeler select a helpful training window]** och
-
-      * **[!UICONTROL Manually input a training window]**. Ange antalet år i **[!UICONTROL Include events the following years prior to a conversion]** när du väljer det här alternativet.
-
-        ![Modell - Definiera utbildningsfönster](/help/assets/model-define-training-window.png)
-
    1. I avsnittet **[!UICONTROL Spend share]**:
 
       * Aktivera **[!UICONTROL Allow spend share]** om du vill använda tidigare investeringsförhållanden för marknadsföring för att informera modellen när marknadsföringsdata är begränsade.
@@ -150,6 +142,30 @@ Gränssnittet ger ett stegvis guidat modellkonfigurationsflöde när du vill ska
       1. Använd **[!UICONTROL Clear all]** vid behov för att rensa alla indatavärden för kolumnerna **[!UICONTROL Contribution proportion]** och **[!UICONTROL Level of confidence]**.
 
 
+1. I steget **[!UICONTROL Schedule]**:
+
+   1. I avsnittet **[!UICONTROL Schedule]** kan du schemalägga modellutbildning och poängsättning.
+
+      ![Schemamodell](../assets/model-schedule.png)
+
+      Så här schemalägger du betygsättning och utbildning:
+
+      1. Aktivera **[!UICONTROL Enable scheduled model scoring and training]**.
+      1. Välj en **[!UICONTROL Scoring frequency]**:
+
+         * **[!UICONTROL Daily]**: Ange en giltig tid (till exempel `05:22 pm`) eller använd ![Klocka](/help/assets/icons/Clock.svg).
+         * **[!UICONTROL Weekly]**: Välj en veckodag och ange en giltig tid (till exempel `05:22 pm`) eller använd ![Klocka](/help/assets/icons/Clock.svg).
+         * **[!UICONTROL Monthly]**: Välj en dag i månaden i listrutan Kör på varje och ange en giltig tid (till exempel `05:22 pm`) eller använd ![Klocka](/help/assets/icons/Clock.svg).
+
+      1. Välj en **[!UICONTROL Training frequency]** i listrutan: **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]** eller **[!UICONTROL None]**.
+
+   1. I avsnittet **[!UICONTROL Define training window]** väljer du mellan:
+
+      ![Modell - Definiera utbildningsfönster](/help/assets/model-define-training-window.png)
+
+      * **[!UICONTROL Have Mix Modeler select a helpful training window]** och
+
+      * **[!UICONTROL Manually input a training window]**. Ange antalet år i **[!UICONTROL Include events the following years prior to a conversion]** när du väljer det här alternativet.
 
 1. Välj **[!UICONTROL Finish]** för att slutföra modellkonfigurationen.
 

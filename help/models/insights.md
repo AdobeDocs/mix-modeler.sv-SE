@@ -3,9 +3,9 @@ title: Modellinsikter
 description: Lär dig hur du får information om din modell, som historisk översikt, modellinsikter och modellkvalitet i Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: f549f7d4d4f5c702e3ef28bceeaccc46922f7c40
+source-git-commit: d4a500de13272f0b07827a0df4a386d3d757403b
 workflow-type: tm+mt
-source-wordcount: '1436'
+source-wordcount: '1539'
 ht-degree: 0%
 
 ---
@@ -253,3 +253,27 @@ Fliken Historisk översikt visar visualiseringar för:
   Du kan välja en alternativ volymbaserad kanal att visa för den här visualiseringen. Välj en kanal från **[!UICONTROL Channels]**.
 
 ![Modell - historisk översikt](/help/assets/model-insights-historical-overview.png)
+
+## **[!UICONTROL Edit]**
+
+Du kan redigera namn, beskrivning och schemaläggning av utbildning och poängsättning för modellen.
+
+1. Välj ![Redigera](/help/assets/icons/Edit.svg) Redigera
+
+1. I dialogrutan **[!UICONTROL Edit model]**:
+
+   * Ange en ny **[!UICONTROL Name]** och **[!UICONTROL Description]**.
+
+   * Aktivera **[!UICONTROL Status]** om du vill aktivera schemaläggning. Du kan bara aktivera schemaläggning för modeller som är tränade och poängsatta.
+
+      1. Välj en **[!UICONTROL Scoring frequency]**:
+
+         * **[!UICONTROL Daily]**: Ange en giltig tid (till exempel `05:22 pm`) eller använd ![Klocka](/help/assets/icons/Clock.svg).
+         * **[!UICONTROL Weekly]**: Välj en veckodag och ange en giltig tid (till exempel `05:22 pm`) eller använd ![Klocka](/help/assets/icons/Clock.svg).
+         * **[!UICONTROL Monthly]**: Välj en dag i månaden i listrutan Kör på varje och ange en giltig tid (till exempel `05:22 pm`) eller använd ![Klocka](/help/assets/icons/Clock.svg).
+
+      1. Välj en **[!UICONTROL Training frequency]** i listrutan: **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]** eller **[!UICONTROL None]**.
+
+     ![Redigera en modell](../assets/model-edit.png)
+
+1. Välj **[!UICONTROL Save]**.

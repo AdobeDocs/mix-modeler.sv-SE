@@ -4,7 +4,7 @@ description: Versionsinformation för den senaste Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 4901d4ad2ee0943ed651a0cc556f00be436a14a1
+source-git-commit: ab3b5b4177fff324d50463210724ef95db18e67f
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 5%
@@ -21,7 +21,7 @@ Versionsinformationen innehåller den senaste versionen av Mix Modeler. Mix Mode
 
 | Funktion | Beskrivning | Allmän tillgänglighet |
 |---|---|---|
-| **Schemalägg utbildning och poängsättning** | Du kan schemalägga utbildning och poängsättning för en modell när du [skapar en modell](/help/models/create.md) och när du redigerar en modell från [Modellinsikter](/help/models/insights.md#edit) eller [snabbmenyn för en modell](/help/models/overview.md#edit) i tabellen Modeller. | 21 oktober 2024 |
+| **Schemalägg utbildning och poängsättning** | Du kan schemalägga utbildning och poängsättning för en modell när du [skapar en modell](/help/models/create.md#schedule) och när du redigerar en modell från [Modellinsikter](/help/models/insights.md#edit) eller [snabbmenyn för en modell](/help/models/overview.md#edit) i tabellen Modeller. | 21 oktober 2024 |
 | **Tabell för brytning av pekpunkter** | I [!UICONTROL Models] erbjuder nu fliken [[!UICONTROL Model insights]](/help/models/insights.md#factors) en extra tabell för [Touchpoint-uppdelning](../models/insights.md#touchpoint-breakdown). | 1 oktober 2024 |
 
 ## Augusti 2024

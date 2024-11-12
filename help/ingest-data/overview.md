@@ -3,9 +3,9 @@ title: Ingrediera data
 description: Lär dig hur du importerar data till Mix Modeler.
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
 exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
-source-git-commit: ff120c9b1dea81a5dc998cbda008fa913504970e
+source-git-commit: 2402874518001c1ae78de6a64a06a9fefa1bbc27
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '463'
 ht-degree: 6%
 
 ---
@@ -42,13 +42,13 @@ Nedan finns några exempel på data som vanligtvis används i Mix Modeler utöve
 
 +++ Sammanställd information om marknadsföringsinsats
 
-| Geo | Datum | Datumtyp | Kanal | Campaign | Klicka på | Intjänad | Engagemang | Impression | Öppna | Ägt | Skickat |
-|---|:--|---|:---:|---|--:|---|--:|---|---|---|--:|
-| AMER | 2021-10-31 | dag | E-POST | | 12752 | | | | | | 1132945 |
-| AMER | 2021-10-31 | dag | FB | | 148844 | | | | | | |
-| AMER | 2021-10-31 | dag | JT | | | | 2314452 | | | | |
-| JPN | 2021-10-21 | dag | E-POST | | 21089 | | | | | | 3283626 |
-| JPN | 2021-10-21 | dag | SOCIALA | | | | 621 | | | | |
+| Geo | Datum | Datumtyp | Kanal | Campaign | Klicka på | Intjänad | Engagemang | Impression | Öppna | Ägt | Skickat | Utgift |
+|---|:--|---|:---:|---|--:|---|--:|---|---|---|--:|--:|
+| AMER | 2021-10-31 | dag | E-POST | | 12752 | | | | | | 1132945 | |
+| AMER | 2021-10-31 | dag | FB | | 148844 | | | | | | | 42111 |
+| AMER | 2021-10-31 | dag | JT | | | | 2314452 | | | | | 10540 |
+| JPN | 2021-10-21 | dag | E-POST | | 21089 | | | | | | 3283626 | |
+| JPN | 2021-10-21 | dag | SOCIALA | | | | 621 | | | | | 74512 |
 
 {style="table-layout:auto"}
 

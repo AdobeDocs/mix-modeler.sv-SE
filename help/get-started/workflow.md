@@ -3,9 +3,9 @@ title: Mix Modeler arbetsflöde
 description: Förstå det typiska arbetsflödet för Mix Modeler.
 feature: Ingest Data, Plans, Harmonized Data, Models
 exl-id: 200ff846-5d78-4b25-a425-bfd558b88c88
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: da92298bbd5b2fc14b54121f0c43dc3763f9a0a3
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
@@ -32,19 +32,22 @@ Ett typiskt arbetsflöde i Mix Modeler består av följande aktiviteter:
 
 {style="table-layout:auto"}
 
-Det detaljerade dataorienterade flödesschemat nedan visar hur:
+<!---
+The detailed data-oriented flowchart below illustrates how:
 
-* harmoniserade uppgifter bygger på
+* harmonized data is based on:
 
-   * upplevelsehändelsedata (som kommer från Analytics-källkopplingen, samlas in via Experience Platform SDK:er och API:er, hämtas via källanslutningar eller med direktuppspelningsinmatning),
-   * sammanställda eller sammanfattande data från trädgårdar (som Facebook, YouTube), trafikkällor eller offlinereklam, och
-   * definitioner av harmoniserade fält och datauppsättningsregler.
+  * experience event data (originating from Analytics source connector, collected through Experience Platform SDKs and APIs, ingested through source connectors, or using streaming ingestion),
+  * aggregate or summary data from walled gardens (like Facebook, YouTube), traffic sources, or offline advertising data, and 
+  * definitions of harmonized fields and dataset rules.
 
-* en modell baseras på:
+* a model is based on:
 
-   * de konverterings- och marknadsdefinitioner som följer av harmoniserade data och
-   * sammanställda eller sammanfattande data som inte är marknadsför och som innehåller interna eller externa faktorer.
+  * the conversion and marketing touchpoint definitions resulting from the harmonized data and 
+  * non-marketing aggregate or summary data containing internal or external factors.
 
-* poäng för attribueringshändelser med flera beröringspunkter kan eventuellt matas tillbaka till Experience Platform datasjön för användning i efterföljande modellkonfiguration, utbildning och poängsättning.
+* mult-touch attribution event scores can potentially be fed back into Experience Platform data lake for use in subsequent model configuration, training and scoring.
 
-![Omfattande arbetsflöde](/help/assets/comprehensive-workflow.svg)
+![Comprehensive workflow](/help/assets/comprehensive-workflow.svg)
+
+-->

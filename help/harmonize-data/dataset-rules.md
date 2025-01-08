@@ -3,9 +3,9 @@ title: Datauppsättningsregler
 description: Lär dig hur du definierar datauppsättningsregler som ska användas som en del av att harmonisera data i Mix Modeler.
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: a8590d604f79268bc8d1f012f2c19271a3b38668
 workflow-type: tm+mt
-source-wordcount: '1313'
+source-wordcount: '1407'
 ht-degree: 0%
 
 ---
@@ -146,12 +146,27 @@ Så här synkroniserar du data mellan harmoniserade data och sammanfattningar oc
 >
 >[!BADGE beta]{type=Informative}
 
-Inställningarna för datasammanfogning hjälper till att lösa konflikter när data från sammanfogade data och händelsesdatakällor sammanfogas. Användningsexempel:
+För att få korrekta modellprognoser kan du definiera inställningar för datasammanfogning. Med den här funktionen kan användare lösa eventuella konflikter efter sammanfogning av data på sammanfattningsnivå och händelsenivå.
+
+Du kan konfigurera en standardmåttinställning som ska användas om det uppstår konflikter mellan uppdateringar. Det här standardmåttet kan vara ett av tre alternativ:
+
+* **[!UICONTROL Summary data]**
+* **[!UICONTROL Sum of summary and event data]**
+* **[!UICONTROL Event data]**
+
+När flera datakällor försöker uppdatera ett mätfält för en viss kanal under en harmonisering, används den standardinställning som har konfigurerats av användaren. Den här inställningen används på sandlådenivå såvida den inte åsidosätts för vissa metriska inställningar som har konfigurerats ytterligare.
+
+Under **[!UICONTROL Metric based preferences]** kan användaren konfigurera den specifika källan (**[!UICONTROL Summary]** eller **[!UICONTROL Event]**) för ett givet mätresultat och motsvarande konverteringstyp för det mätvärdet.
+
+Vanliga användningsområden är:
 
 * samma reklammått mäts och rapporteras i flera datauppsättningar, eller
 * Måtten kan vara ofullständiga i vissa datauppsättningar, medan en annan datauppsättning kan vara en övermängd av ett visst mått, vilket resulterar i dubbelräkning.
 
-För att få korrekta modellprognoser kan du definiera inställningar för datasammanfogning:
+### Konfigurera
+
+Så här konfigurerar du inställningar för datasammanfogning:
+
 
 1. Välj ![Inställningar för datasammanfogning](/help/assets/icons/Merge.svg) [!BADGE beta].
 

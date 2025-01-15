@@ -3,9 +3,9 @@ title: Models
 description: Lär dig hur du konfigurerar och använder modeller i Mix Modeler.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: c02d2019346932baaf481e373569e29df3d97713
+source-git-commit: a4fdfa97e9d548533a22b1b667cf336f37b83395
 workflow-type: tm+mt
-source-wordcount: '943'
+source-wordcount: '942'
 ht-degree: 0%
 
 ---
@@ -174,7 +174,7 @@ Ange datumintervall. Du kan använda ![kalendern](/help/assets/icons/Calendar.sv
 1. Välj **[!UICONTROL Score]**. När du ändrar skala på en modell med ett visst dataområde visas en **[!UICONTROL Existing model is replaced]**-dialogruta där du uppmanas att bekräfta att du vill ersätta modellen med nya poäng för det valda datumintervallet. Bekräfta genom att välja **[!UICONTROL Replace model]**.
 
 
-### Ta bort en modell
+### Ta bort modeller
 
 Ta bort en modell:
 

@@ -3,9 +3,9 @@ title: Modellinsikter
 description: Lär dig hur du får information om din modell, som historisk översikt, modellinsikter och modellkvalitet i Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: d4a500de13272f0b07827a0df4a386d3d757403b
+source-git-commit: fccdd908bbe6b5a2cf9182fc61cb4bbe392f92ec
 workflow-type: tm+mt
-source-wordcount: '1539'
+source-wordcount: '1553'
 ht-degree: 0%
 
 ---
@@ -186,14 +186,17 @@ För varje konverteringsbana ser du:
 * för varje kanal, bidragsprocenten för attribueringsmodellen, och
 * summan av dessa procentsatser för kanalattribueringsmodellen.
 
-## **[!UICONTROL Factors]**
+## **[!UICONTROL Factors]** [!BADGE beta]
 
-Fliken Faktorer visar externa faktorrelaterade insikter.
+Fliken Faktorer [!BADGE beta] visar externa faktorrelaterade insikter.
 
 ![Faktorer](/help/assets/factors.png)
 
 Den här visualiseringen hjälper dig att förstå den inkrementella effekt som olika interna och externa faktorer har på konverteringens baslinje. Exempel: ekonomiska villkor eller marknadsföringsaktiviteter.
 
+Använd listrutan **[!UICONTROL Factors]** för att välja vilka faktorer du vill visa.
+
+<!-- need to update the image when we do have a proper example -->
 
 Om du vill hämta en CSV-fil som innehåller data för tabellen väljer du ![Hämta](/help/assets/icons/Download.svg).
 
@@ -205,7 +208,7 @@ På fliken Diagnostik visas visualiseringar för:
 
 * [!UICONTROL Model Assessment]-visualisering, som du kan bryta ned för konverteringar av faktisk kontra förväntad eller residual.
 
-  Om du vill bryta ned visualiseringen väljer du **[!UICONTROL Actual vs. Predicted]** eller **[!UICONTROL Residuals]** i listan **[!UICONTROL Breakdown]**.
+Om du vill bryta ned visualiseringen väljer du **[!UICONTROL Actual vs. Predicted]** eller **[!UICONTROL Residuals]** i listan **[!UICONTROL Breakdown]**.
 
 * [!UICONTROL Model fitting metrics]-tabell, med följande kolumner för varje konverteringsmått:
 
@@ -223,11 +226,11 @@ På fliken Diagnostik visas visualiseringar för:
 
       * RMSE (Rot Mean Square Error): som visar det genomsnittliga felet, viktat enligt kvadraten på felet.
 
-  Om du vill hämta en CSV-fil som innehåller data för tabellen väljer du ![Hämta](/help/assets/icons/Download.svg).
+Om du vill hämta en CSV-fil som innehåller data för tabellen väljer du ![Hämta](/help/assets/icons/Download.svg).
 
 * tabellen [!UICONTROL Touchpoint effectiveness], som representerar resultatet av den algoritmiska Attribution AI. Data för det här registret genereras endast för specifika tidsperioder. Välj **[!UICONTROL As of *xx/xx/xx, xx:xx TZ *]**![Info](/help/assets/icons/InfoOutline.svg) om du vill ha mer information.
 
-  Visualiseringen visar, i fallande ordning [!UICONTROL Efficiency measure] ![Fallande ordning](/help/assets/icons/SortOrderDown.svg), för varje kontaktyta:
+Visualiseringen visar, i fallande ordning [!UICONTROL Efficiency measure] ![Fallande ordning](/help/assets/icons/SortOrderDown.svg), för varje kontaktyta:
 
    * [!UICONTROL Paths touched]: visualiserar procentandelen sökvägar som uppnår konvertering och procentandelen sökvägar som inte uppnår konvertering. För en kontaktyta ser du fler konverteringar när attribueringskonverteringsgraden är hög. Proportionerna jämför procentandelen sökvägar som leder till konvertering med procentandelen sökvägar som *inte* leder till konvertering.
    * [!UICONTROL Efficiency measure]: genereras av den algoritmiska attribueringsmodellen och effektivitetsmåttet anger den relativa vikten av en kontaktyta mot konverteringen, oberoende av kontaktytpunktsvolym. Effektiviteten mäts på en skala från 1 till 5. Observera att högre kontaktytpunkter inte garanterar högre effektivitetsmått.
@@ -246,11 +249,11 @@ Fliken Historisk översikt visar visualiseringar för:
 
 * Utlägg för kontaktpunkt.
 
-  Du kan välja en alternativ utgiftsbaserad kanal att visa för den här visualiseringen. Välj en kanal från **[!UICONTROL Channels]**.
+Du kan välja en alternativ utgiftsbaserad kanal att visa för den här visualiseringen. Välj en kanal från **[!UICONTROL Channels]**.
 
 * Pekpunktsvolym.
 
-  Du kan välja en alternativ volymbaserad kanal att visa för den här visualiseringen. Välj en kanal från **[!UICONTROL Channels]**.
+Du kan välja en alternativ volymbaserad kanal att visa för den här visualiseringen. Välj en kanal från **[!UICONTROL Channels]**.
 
 ![Modell - historisk översikt](/help/assets/model-insights-historical-overview.png)
 

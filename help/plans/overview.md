@@ -3,9 +3,9 @@ title: Planer
 description: Lär dig hur du visar, väljer och agerar på planer i Mix Modeler.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: 6331bdfcbc792c03f9cc129daa4e591c2b46a8f1
+source-git-commit: 0475c584b3963d02d9dd72f0dccf692d558463db
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '539'
 ht-degree: 0%
 
 ---
@@ -97,16 +97,14 @@ Så här jämför du planer:
 
 ### Ta bort planer
 
-Så här tar du bort planer:
+Så här tar du bort en plan:
 
-1. Markera en eller flera planer i tabellen.
-1. Välj ![Ta bort](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** i åtgärdsfältet.
+1. Välj ![](/help/assets/icons/FileChart.svg) **[!UICONTROL Plans]** i den vänstra listen.
+1. Välj ![Mer](/help/assets/icons/More.svg) för en plan och välj **[!UICONTROL Delete]** på snabbmenyn. Du kan också välja ![Ta bort](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** i det blå åtgärdsfältet.
+1. Välj **[!UICONTROL Delete]** i bekräftelsedialogrutan **[!UICONTROL Delete moplandel]** om du vill ta bort planen. Välj **[!UICONTROL Cancel]** om du vill avbryta.
 
-Alternativt:
+Så här tar du bort flera planer:
 
-1. Välj ![Mer](/help/assets/icons/More.svg) för en plan i tabellen.
-1. Välj **[!UICONTROL Delete]** på snabbmenyn. En ny plan, med ett namn som består av den ursprungliga planens namn som har lagts till med **[!UICONTROL (Copy)]**, läggs till högst upp i tabellen.
-
-   >[!WARNING]
-   >
-   >   De valda planerna raderas omedelbart!
+1. Välj flera planer.
+1. Välj ![Ta bort](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** i det blå åtgärdsfältet för att ta bort planerna.
+1. Välj **[!UICONTROL Delete]** i bekräftelsedialogrutan för **[!UICONTROL Delete *x *-planer]**om du vill ta bort planerna. Välj **[!UICONTROL Cancel]**om du vill avbryta.

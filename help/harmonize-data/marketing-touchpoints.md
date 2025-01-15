@@ -3,9 +3,9 @@ title: Marknadsföringskontaktytor
 description: Lär dig hur du skapar kontaktytor för marknadsföring som en del av att harmonisera data i Mix Modeler.
 feature: Harmonized Data, Marketing Touch Points
 exl-id: 42851107-7568-4bc9-92ca-3cba713a522e
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: 665b344dfa94275d71e0ecf198d9bb9b73ea584b
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '448'
 ht-degree: 0%
 
 ---
@@ -66,14 +66,29 @@ Om du vill lägga till en kontaktyta för marknadsföring går du till ![DataSea
 1. När kontaktytan skapas läggs den till i tabellen med kontaktytor för marknadsföring.
 
 
-## Visa en kontaktyta för marknadsföring
+## Visa detaljer
 
-Så här visar du en kontaktyta:
+Så här visar du information om en kontaktyta:
 
 1. Välj ![Mer](/help/assets/icons/More.svg) när du hovrar över ett namn på en kontaktyta för marknadsföring i tabellen.
 
 1. Välj ![Visa](/help/assets/icons/ViewDetail.svg) **Visa**. En dialogruta visar detaljer om kontaktytan för marknadsföring. Mer information finns i [Lägg till en kontaktyta för marknadsföring](#add-a-marketing-touchpoint). Välj **[!UICONTROL Cancel]** för att stänga dialogrutan.
 
+
+## Visa rapport
+
+Så här visar du en rapport om en kontaktyta:
+
+1. Välj ![Mer](/help/assets/icons/More.svg) när du hovrar över ett namn på en kontaktyta för marknadsföring i tabellen.
+
+1. Välj ![GraphTrend](/help/assets/icons/GraphTrend.svg) **Visa rapport**. En dialogruta visar en rapport om kontaktytan för marknadsföring.
+
+   ![Vyrapport för marknadsföringskontaktyta](../assets/marketingtouchpoint-view-report.png)
+
+   * Om du vill ändra granulariteten som ska rapporteras väljer du ett värde i listrutan **[!UICONTROL Weekly]**.
+   * Om du vill ändra den period som ska rapporteras anger du ett start- och slutdatum eller använder ![Kalender](/help/assets/icons/Calendar.svg) för att definiera en period i kalenderpopup-fönstret.
+
+1. Välj **[!UICONTROL Close]** för att stänga dialogrutan.
 
 ## Ta bort en kontaktyta för marknadsföring
 

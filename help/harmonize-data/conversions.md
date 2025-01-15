@@ -3,9 +3,9 @@ title: Konverteringar
 description: Lär dig hur du skapar konverteringar som du kan använda som en del av att harmonisera data i Mix Modeler.
 feature: Harmonized Data, Conversions
 exl-id: a8559426-452a-43e8-9a60-0c0bc97d863c
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: 665b344dfa94275d71e0ecf198d9bb9b73ea584b
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
@@ -66,14 +66,28 @@ Om du vill lägga till en konvertering går du till ![DataSearch](/help/assets/i
 1. När konverteringen skapas läggs den till i konverteringstabellen.
 
 
-## Visa en konvertering
+## Visa detaljer
 
-Visa en konvertering:
+Så här visar du information om en konvertering:
 
 1. Välj ![Mer](/help/assets/icons/More.svg) när du hovrar över ett konverteringsnamn i tabellen.
 
-1. Välj ![Visa](/help/assets/icons/ViewDetail.svg) **Visa**. En dialogruta med information om konverteringen. Mer information finns i [Lägg till en konvertering](#add-a-conversion). Välj **[!UICONTROL Cancel]** för att stänga dialogrutan.
+1. Välj ![Visa](/help/assets/icons/ViewDetail.svg) **Visa information**. En dialogruta med information om konverteringen. Mer information finns i [Lägg till en konvertering](#add-a-conversion). Välj **[!UICONTROL Cancel]** för att stänga dialogrutan.
 
+## Visa rapport
+
+Så här visar du en rapport om en konvertering:
+
+1. Välj ![Mer](/help/assets/icons/More.svg) när du hovrar över ett konverteringsnamn i tabellen.
+
+1. Välj ![GraphTrend](/help/assets/icons/GraphTrend.svg) **Visa rapport**. En dialogruta visar en rapport om konverteringen.
+
+   ![Konverteringsrapport](../assets/conversion-view-report.png)
+
+   * Om du vill ändra granulariteten som ska rapporteras väljer du ett värde i listrutan **[!UICONTROL Weekly]**.
+   * Om du vill ändra den period som ska rapporteras anger du ett start- och slutdatum eller använder ![Kalender](/help/assets/icons/Calendar.svg) för att definiera en period i kalenderpopup-fönstret.
+
+1. Välj **[!UICONTROL Close]** för att stänga dialogrutan.
 
 ## Ta bort en konvertering
 

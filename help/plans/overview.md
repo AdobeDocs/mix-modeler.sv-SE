@@ -3,7 +3,7 @@ title: Planer
 description: Lär dig hur du visar, väljer och agerar på planer i Mix Modeler.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: a4fdfa97e9d548533a22b1b667cf336f37b83395
+source-git-commit: 935b179e31d1b677a8c83b1566c02b7aaa617e8d
 workflow-type: tm+mt
 source-wordcount: '539'
 ht-degree: 0%
@@ -108,3 +108,5 @@ Så här tar du bort flera planer:
 1. Välj flera planer.
 1. Välj ![Ta bort](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** i det blå åtgärdsfältet för att ta bort planerna.
 1. Välj **[!UICONTROL Delete]** i bekräftelsedialogrutan för **[!UICONTROL Delete *x *-planer]**om du vill ta bort planerna. Välj **[!UICONTROL Cancel]**om du vill avbryta.
+
+

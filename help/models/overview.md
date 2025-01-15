@@ -3,7 +3,7 @@ title: Models
 description: Lär dig hur du konfigurerar och använder modeller i Mix Modeler.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: a4fdfa97e9d548533a22b1b667cf336f37b83395
+source-git-commit: 935b179e31d1b677a8c83b1566c02b7aaa617e8d
 workflow-type: tm+mt
 source-wordcount: '942'
 ht-degree: 0%
@@ -187,5 +187,4 @@ Så här tar du bort flera modeller:
 1. Markera flera modeller.
 1. Välj ![Ta bort](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** från det blå åtgärdsfältet för att ta bort modellerna.
 1. Välj **[!UICONTROL Delete]** i bekräftelsedialogrutan för **[!UICONTROL Delete *x *modeller]**om du vill ta bort modellerna. Välj **[!UICONTROL Cancel]**om du vill avbryta.
-
 

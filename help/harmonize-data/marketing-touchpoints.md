@@ -3,7 +3,7 @@ title: Marknadsföringskontaktytor
 description: Lär dig hur du skapar kontaktytor för marknadsföring som en del av att harmonisera data i Mix Modeler.
 feature: Harmonized Data, Marketing Touch Points
 exl-id: 42851107-7568-4bc9-92ca-3cba713a522e
-source-git-commit: 665b344dfa94275d71e0ecf198d9bb9b73ea584b
+source-git-commit: 935b179e31d1b677a8c83b1566c02b7aaa617e8d
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 0%
@@ -35,7 +35,6 @@ Tabellkolumnerna anger information om kontaktytan för marknadsföring:
 | Skapad | Datum och tid då kontaktytan för marknadsföring skapades. |
 | Senast ändrad | Datum och tid för den senaste ändringen av kontaktytan för marknadsföring. |
 
-{style="table-layout:auto"}
 
 ## Lägg till en kontaktyta för marknadsföring
 

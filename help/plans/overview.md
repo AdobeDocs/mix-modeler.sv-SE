@@ -3,9 +3,9 @@ title: Planer
 description: Lär dig hur du visar, väljer och agerar på planer i Mix Modeler.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: 6331bdfcbc792c03f9cc129daa4e591c2b46a8f1
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '526'
 ht-degree: 0%
 
 ---
@@ -47,9 +47,13 @@ Om du vill visa en tabell över dina aktuella planer går du till Mix Modeler:
    | Budget | Den totala budgeten för en plan. |
    | Prognostiserad avkastning | Prognostiserad avkastning för en plan |
    | Prognostiserad avkastning | Den prognostiserade avkastningen på en plan. |
+   | Prognostiserad konvertering | Prognostiserad konvertering för en plan |
+   | Prognostiserad CPA | Prognostiserat CPA för en plan |
    | Status | Status för en plan: <p><span style="color:red"> ●</span> misslyckades, <p><span style="color:blue"> ●</span> bearbetar, eller <p><span style="color:green"> ●</span> har slutförts. |
 
    {style="table-layout:auto"}
+
+   Du kan använda ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) för att markera ![Bock](/help/assets/icons/Checkmark.svg) de kolumner som ska visas i tabellen.
 
 1. Använd ![Sök](/help/assets/icons/Search.svg) om du vill söka efter och filtrera tabellen efter en eller flera specifika planer.
 

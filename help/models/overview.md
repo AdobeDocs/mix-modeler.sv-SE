@@ -3,9 +3,9 @@ title: Models
 description: Lär dig hur du konfigurerar och använder modeller i Mix Modeler.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 3801d6637fee491aa295ef586c2017a503466ffc
+source-git-commit: c02d2019346932baaf481e373569e29df3d97713
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '943'
 ht-degree: 0%
 
 ---
@@ -179,17 +179,13 @@ Ange datumintervall. Du kan använda ![kalendern](/help/assets/icons/Calendar.sv
 Ta bort en modell:
 
 1. Välj ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** i den vänstra listen.
-
 1. Välj ![Mer](/help/assets/icons/More.svg) för en modell och välj **[!UICONTROL Delete]** på snabbmenyn. Du kan också välja ![Ta bort](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** i det blå åtgärdsfältet.
+1. Välj **[!UICONTROL Delete]** i bekräftelsedialogrutan **[!UICONTROL Delete model]** om du vill ta bort modellen. Välj **[!UICONTROL Cancel]** om du vill avbryta.
 
 Så här tar du bort flera modeller:
 
 1. Markera flera modeller.
-
 1. Välj ![Ta bort](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** från det blå åtgärdsfältet för att ta bort modellerna.
-
-   >[!WARNING]
-   >
-   >Modellen tas bort omedelbart.
+1. Välj **[!UICONTROL Delete]** i bekräftelsedialogrutan för **[!UICONTROL Delete *x *modeller]**om du vill ta bort modellerna. Välj **[!UICONTROL Cancel]**om du vill avbryta.
 
 

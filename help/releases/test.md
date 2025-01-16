@@ -5,13 +5,13 @@ feature-set: Experience Cloud
 feature: Release Notes
 hide: true
 hidefromtoc: true
-source-git-commit: 72b4d3606316c254a9a3ea5909633d87eb9eada6
+exl-id: 5f832a79-7a0c-43cd-87cf-a5ceceb79032
+source-git-commit: 159a89896f7b463fdc0de663062b7e0088d9ecfc
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '333'
 ht-degree: 1%
 
 ---
-
 
 # Test
 
@@ -25,10 +25,22 @@ Testa en tabell med Unicode-tecken
 
 
 
+## Formler
 
-Och vi stöder också formler?
+Och vi stöder formler?
 
 **Inequality-WWARZ**
 $$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$
 
 
+
+
+## Använda SVG i skuggad ruta
+
+Vi verkar inte ha rätt stöd för SVG i en skuggad låda. Se skillnaderna mellan förhandsgranskning (corp.adobe.com) och publicerad webbplats (adobe.com).
+
+>[!BEGINSHADEBOX]
+
+*Den här artikeln dokumenterar panelen Attribution i ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analytics**.<br/>Se [Attribution panel](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/attribution) för versionen ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)**Customer Journey Analytics**av den här artikeln.*
+
+>[!ENDSHADEBOX]

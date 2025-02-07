@@ -1,18 +1,18 @@
 ---
-title: Kontrollpanel för översikt över harmoniserade data
+title: Kontrollpanel för harmoniserade data
 description: Lär dig hur du använder kontrollpanelen för den harmoniserade datapresentationen i Mix Modeler.
 feature: Dashboard, Harmonized Data
 exl-id: fbb01613-d648-4db1-a782-a7720b7a03ad
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: f073e8f44fc2aa731a69725ebdb99700d1f91a91
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
 
-# Översikt över harmoniserade data
+# Harmoniserade data
 
-Fliken Harmonized Data i Mix Modeler Overview ger insikter om de harmoniserade data som du har konfigurerat för att användas som en del av de importerade data och harmoniserade datainställningarna.
+Fliken **[!UICONTROL Harmonized data]** i Mix Modeler ![Home](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** ger insikter i de harmoniserade data som du har konfigurerat för att användas som en del av de inkapslade data och de harmoniserade datainställningarna.
 
 I översikten visas fyra visualiseringar av KPI-statuskort (översta raden) och sex andra konfigurerbara visualiseringar.
 

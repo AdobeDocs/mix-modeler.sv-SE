@@ -1,16 +1,16 @@
 ---
-title: Poängdata
+title: Värderingsdata för amerikansk e
 description: Lär dig hur en modells poängdata i Mix Modeler bevaras.
 feature: Models
 exl-id: 2f2c3d20-7b14-41cc-a11a-03e8ad9e5d7a
-source-git-commit: b6045176e82b97f848113f4e0ffbbb995c48b3d4
+source-git-commit: f073e8f44fc2aa731a69725ebdb99700d1f91a91
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '677'
 ht-degree: 0%
 
 ---
 
-# Poängdata
+# Använd poängdata
 
 Som en del av poängsättningen för en modell lagras bedömningsdata i en datauppsättning i Experience Platform. När du har aktiverat multitouch-attribuering när du skapar en modell sparas ytterligare data om händelsepoäng i en datauppsättning i Experience Platform.
 

@@ -1,16 +1,16 @@
 ---
-title: Harmonisera data
+title: Översikt över harmoniserade datauppsättningar
 description: Lär dig att harmonisera data i Mix Modeler.
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: f073e8f44fc2aa731a69725ebdb99700d1f91a91
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '895'
 ht-degree: 5%
 
 ---
 
-# Harmonisera data
+# Översikt över harmoniserade datauppsättningar
 
 Data i Mix Modeler är av olika karaktär beroende på datakällan. Data kan vara:
 

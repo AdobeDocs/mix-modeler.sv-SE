@@ -1,23 +1,23 @@
 ---
-title: Planer - översikt
+title: Planer
 description: Lär dig hur du använder planöversikten i Mix Modeler.
 feature: Dashboard, Plans, Models
 exl-id: 930fc1d5-8e28-4610-af7b-c4ec91f86a8a
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: 0bdb80fb19118ab4e15c36c1a43e2d4f0c528041
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '93'
 ht-degree: 0%
 
 ---
 
-# Planer - översikt
+# Planer
 
 >[!NOTE]
 >
->[!BADGE Alpha]{type=Informative}
+>[!BADGE Alpha]{type=Informative}Fliken **[!UICONTROL Plans]** i Mix Modeler ![Hem](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** är en alfavärde och dess funktioner kan komma att ändras. Funktionen är tillgänglig för ett begränsat antal kunder.
 
 
-Fliken Planer i Mix Modeler-översikt visar visualiseringar för [!UICONTROL Budget], [!UICONTROL Revenue], [!UICONTROL ROI] och [!UICONTROL KPI].
+Fliken **[!UICONTROL Plans]** i Mix Modeler ![Hem](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** visar visualiseringar för [!UICONTROL Budget], [!UICONTROL Revenue], [!UICONTROL ROI] och [!UICONTROL KPI].
 
 De data som visas för visualiseringarna bestäms av:
 

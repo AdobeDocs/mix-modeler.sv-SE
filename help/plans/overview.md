@@ -1,16 +1,16 @@
 ---
-title: Planer
+title: Planer - översikt
 description: Lär dig hur du visar, väljer och agerar på planer i Mix Modeler.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: 935b179e31d1b677a8c83b1566c02b7aaa617e8d
+source-git-commit: f12eea7454d1c81b347dc4960f5c491d81725f7d
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '481'
 ht-degree: 0%
 
 ---
 
-# Planer
+# Planer - översikt
 
 Med planer i Mix Modeler kan ni fördela budgetar efter affärsenhet och kanal. Planeringsfunktionen är integrerad med resultaten av de utbildade modellerna baserade på era harmoniserade data.
 
@@ -28,6 +28,10 @@ En plan kan även innehålla:
 - flera flygdatum där var och en har en målbudget,
 - minsta och högsta budgetbegränsningar per kanal och flygdatum.
 
+
+## Skapa planer
+
+Om du vill skapa en plan använder du guiden Skapa plan för Mix Modeler. Mer information finns i [Skapa planer](build.md).
 
 ## Hantera planer
 
@@ -57,50 +61,39 @@ Om du vill visa en tabell över dina aktuella planer går du till Mix Modeler:
 
 1. Använd ![Sök](/help/assets/icons/Search.svg) om du vill söka efter och filtrera tabellen efter en eller flera specifika planer.
 
-## Skapa en plan
+### Planera insikter
 
-Om du vill skapa en plan använder du guiden Skapa plan för Mix Modeler. Mer information finns i [Skapa en plan](create.md).
+Så här visar du insikterna för en plan och redigerar en plan:
 
+1. Välj ![PLan](/help/assets/icons/FileChart.svg) **[!UICONTROL Plans]** i den vänstra listen.
 
-## Redigera en plan
+1. Välj planens namn.
 
-Om du vill redigera en plan väljer du namnet på planen i tabellen. Mer information finns i [Redigera en plan](edit.md).
+Du omdirigeras till [planinsikter](insights.md).
 
-
-## Välj och vidta åtgärder för planer
-
-Du kan välja en eller flera planer, som visar åtgärdsfältet Planer. I åtgärdsfältet kan du ta bort, jämföra eller duplicera planer.
-
-Om du vill ta bort alla markeringar i tabellen Planer väljer du ![Stäng](/help/assets/icons/Close.svg) i åtgärdsfältet
-
-![Åtgärdsfältet Planer](/help/assets/plans-action-bar.png)
 
 ### Duplicera en plan
 
 Så här duplicerar du en plan:
 
-1. Välj en plan i tabellen.
-1. Välj ![Kopiera](/help/assets/icons/Copy.svg) **[!UICONTROL Duplicate]** i åtgärdsfältet. En ny plan, med ett namn som består av den ursprungliga planens namn som har lagts till med **[!UICONTROL (Copy)]**, läggs till högst upp i tabellen.
+- Välj ![Mer](/help/assets/icons/More.svg) för en plan. Välj **[!UICONTROL Duplicate]** på snabbmenyn.
+- Du kan också välja en plan i tabellen ![SelectBox](/help/assets/icons/SelectBox.svg) och välja ![Kopiera](/help/assets/icons/Copy.svg) **[!UICONTROL Duplicate]** i det blå åtgärdsfältet.
 
-Alternativt:
-
-1. Välj ![Mer](/help/assets/icons/More.svg) för en plan i tabellen.
-1. Välj **[!UICONTROL Duplicate]** på snabbmenyn. En ny plan, med ett namn som består av den ursprungliga planens namn som har lagts till med **[!UICONTROL (Copy)]**, läggs till högst upp i tabellen.
+En ny plan, med ett namn som består av den ursprungliga planens namn som har lagts till med **[!UICONTROL (Copy)]**, läggs till högst upp i tabellen.
 
 ### Jämför planer
 
 Så här jämför du planer:
 
 1. Välj två planer i tabellen.
-1. Välj ![Jämför](/help/assets/icons/Compare.svg) **[!UICONTROL Compare]** i åtgärdsfältet. Du ser användargränssnittet för **[!UICONTROL Compare plans]**.
+1. Välj ![Jämför](/help/assets/icons/Compare.svg) **[!UICONTROL Compare]** i det blå åtgärdsfältet. Du ser användargränssnittet för **[!UICONTROL Compare plans]**.
 
 
 ### Ta bort planer
 
 Så här tar du bort en plan:
 
-1. Välj ![](/help/assets/icons/FileChart.svg) **[!UICONTROL Plans]** i den vänstra listen.
-1. Välj ![Mer](/help/assets/icons/More.svg) för en plan och välj **[!UICONTROL Delete]** på snabbmenyn. Du kan också välja ![Ta bort](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** i det blå åtgärdsfältet.
+1. Välj ![Mer](/help/assets/icons/More.svg) för en plan. Välj **[!UICONTROL Delete]** på snabbmenyn. <br/>Du kan också välja en plan i tabellen ![SelectBox](/help/assets/icons/SelectBox.svg) och välja ![Delete](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** i det blå åtgärdsfältet.
 1. Välj **[!UICONTROL Delete]** i bekräftelsedialogrutan **[!UICONTROL Delete plan]** om du vill ta bort planen. Välj **[!UICONTROL Cancel]** om du vill avbryta.
 
 Så här tar du bort flera planer:

@@ -4,7 +4,7 @@ description: Versionsinformation för den senaste Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 7e39691cad69084b57d2b993a4eaf7b501d112d9
+source-git-commit: 25eb18443d0bdecdb02c026aec363271618441f5
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 3%
@@ -21,7 +21,7 @@ Versionsinformationen innehåller den senaste versionen av Mix Modeler. Mix Mode
 
 | Funktion | Beskrivning | [Startar](#release-strategy) | [Allmän tillgänglighet](#release-strategy) |
 |---|---|---|---|
-| **Kapslade villkor** | Du kan skapa kapslade villkor med AND och OR när du definierar en berättigad datapifyllning som en del av [konfigurationen för en modell](/help/models/create.md#configure). | 15 januari 2025 | t.b.d. |
+| **Kapslade villkor** | Du kan skapa kapslade villkor med AND och OR när du definierar en berättigad datapifyllning som en del av [konfigurationen för en modell](/help/models/build.md#configure). | 15 januari 2025 | t.b.d. |
 | **Visa rapporter** | Du kan visa en rapport om en [konvertering](/help/harmonize-data/conversions.md#view-report) eller en [marknadsföringskontaktyta](/help/harmonize-data/marketing-touchpoints.md#view-report) som du har definierat som en del av att harmonisera data. | 15 januari 2025 | t.b.d. |
 | **Ta bort bekräftelse** | Du uppmanas att bekräfta borttagningen av en [plan](/help/plans/overview.md#delete-plans) eller en [modell](/help/models/overview.md#delete-models). | 15 januari 2025 | t.b.d. |
 | **Förbättring av gränssnittet för faktorer** | Du kan välja vilka [faktorer](/help/models/insights.md#factors-beta) du vill visa i modellinsikter. | 15 januari 2025 | t.b.d. |

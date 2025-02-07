@@ -1,16 +1,16 @@
 ---
-title: Ingrediera data
+title: Översikt över infogningsdata
 description: Lär dig hur du importerar data till Mix Modeler.
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
 exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
-source-git-commit: 2402874518001c1ae78de6a64a06a9fefa1bbc27
+source-git-commit: f073e8f44fc2aa731a69725ebdb99700d1f91a91
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '465'
 ht-degree: 6%
 
 ---
 
-# Ingrediera data
+# Översikt över infogningsdata
 
 Mix Modeler arbetar med data på händelsenivå, sammanställda eller sammanfattande uppgifter om marknadsföringsinsatser från olika trädgårdar och samlar in eller sammanställer data från andra källor, som offlinereklam, interna faktorer eller externa faktorer.
 

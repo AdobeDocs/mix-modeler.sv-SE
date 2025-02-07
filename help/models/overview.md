@@ -1,16 +1,16 @@
 ---
-title: Models
-description: Lär dig hur du konfigurerar och använder modeller i Mix Modeler.
+title: Översikt över modeller
+description: Lär dig hur du bygger och använder modeller i Mix Modeler.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 935b179e31d1b677a8c83b1566c02b7aaa617e8d
+source-git-commit: f12eea7454d1c81b347dc4960f5c491d81725f7d
 workflow-type: tm+mt
 source-wordcount: '942'
 ht-degree: 0%
 
 ---
 
-# Models
+# Översikt över modeller
 
 Med modellfunktionerna i Mix Modeler kan du konfigurera, utbilda och poängsätta modeller som är specifika för dina affärsmål. Utbildningen och poängsättningen stöder AI-drivet överföringslärande mellan multitouch-attribuering och modellering av marknadsföringsmixar.
 
@@ -33,9 +33,9 @@ En modell kan även innehålla:
 * Utgiftsandel, som använder relativ utgiftsresurs som proxy när marknadsföringsdata är glesare.
 
 
-## Skapa en modell
+## Skapa modeller
 
-Om du vill skapa en modell använder du det guidade modellkonfigurationsflöde för Mix Modeler steg som är tillgängligt när du väljer **[!UICONTROL Open model canvas]**. Mer information finns i [Skapa en modell](create.md).
+Om du vill skapa en modell använder du det guidade modellkonfigurationsflöde för Mix Modeler steg som är tillgängligt när du väljer **[!UICONTROL Open model canvas]**. Mer information finns i [Skapa modeller](build.md).
 
 ## Hantera modeller
 

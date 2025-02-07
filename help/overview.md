@@ -4,10 +4,10 @@ description: Lär dig hur du mäter kampanjer och optimerar planeringen enhetlig
 short-description: Lär dig hur du mäter kampanjer och optimerar planeringen enhetligt i alla kanaler med Mix Modeler.
 feature: Harmonized Data, Models, Plans
 exl-id: 3427c338-f2a0-416b-bb4c-d8fef929c38a
-source-git-commit: af315f4566c34c1961130d61ce2804b98d859b24
+source-git-commit: f12eea7454d1c81b347dc4960f5c491d81725f7d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '203'
+ht-degree: 14%
 
 ---
 
@@ -60,13 +60,13 @@ Den här tekniska handboken ger självhjälp för Adobe **Mix Modeler**. Mix Mod
     </td>
     <td>
       <img src="assets/FileGear.svg" width="35px"><br/>
-      <strong> Modeller </strong><br/><a href="/help/models/overview.md">Översikt</a> - <a href="/help/models/create.md">Skapa en modell</a> - <a href="/help/models/insights.md">Modellinsikter</a> - <a href="/help/models/scoring-data.md">Värderingsdata</a>
+      <strong> Modeller </strong><br/><a href="/help/models/overview.md">Översikt</a> - <a href="/help/models/build.md">Skapa modeller</a> - <a href="/help/models/insights.md">Modellinsikter</a> - <a href="/help/models/scoring-data.md">Använd bedömningsdata</a>
     </td>
   </tr>
   <tr style="border: 0;">
     <td>
       <img src="assets/FileChart.svg" width="35px"><br/>
-      <strong>Planer</strong><br/><a href="/help/plans/overview.md">Planer</a> - <a href="/help/plans/create.md">Skapa en plan</a> - <a href="/help/plans/compare.md">Jämför planer</a> - <a href="/help/plans/edit.md">Redigera en plan</a>
+      <strong>Planer</strong><br/><a href="/help/plans/overview.md">Planer</a> - <a href="/help/plans/build.md">Skapa planer</a> - <a href="/help/plans/compare.md">Jämför planer</a> - <a href="/help/plans/build.md">Planinsikter</a>
     </td>
     <td>
       <img src="assets/Dashboard.svg" width="35px"><br/>

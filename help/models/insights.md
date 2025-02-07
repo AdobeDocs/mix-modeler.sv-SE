@@ -3,9 +3,9 @@ title: Modellinsikter
 description: Lär dig hur du får information om din modell, som historisk översikt, modellinsikter och modellkvalitet i Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: fccdd908bbe6b5a2cf9182fc61cb4bbe392f92ec
+source-git-commit: 25eb18443d0bdecdb02c026aec363271618441f5
 workflow-type: tm+mt
-source-wordcount: '1553'
+source-wordcount: '1552'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ Välj ![Hämta](/help/assets/icons/Download.svg) **[!UICONTROL Download CSV]** o
 >Fliken Attribution är bara tillgänglig för MTA-aktiverade modeller.
 
 
-På fliken [!UICONTROL Attribution] kan du förstå effekten av kontaktytor och marknadsföringskampanjer som har data på händelsenivå.  Se [Skapa en modell](create.md).
+På fliken [!UICONTROL Attribution] kan du förstå effekten av kontaktytor och marknadsföringskampanjer som har data på händelsenivå.  Se [Skapa modell](build.md).
 
 Följande attribueringsmodeller stöds:
 

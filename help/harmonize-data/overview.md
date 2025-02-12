@@ -3,21 +3,31 @@ title: Översikt över harmoniserade datauppsättningar
 description: Lär dig att harmonisera data i Mix Modeler.
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: f073e8f44fc2aa731a69725ebdb99700d1f91a91
+source-git-commit: beee5fe52188f133b71ed3ef53e40c3aea06ab9c
 workflow-type: tm+mt
-source-wordcount: '895'
-ht-degree: 5%
+source-wordcount: '966'
+ht-degree: 4%
 
 ---
 
 # Översikt över harmoniserade datauppsättningar
 
-Data i Mix Modeler är av olika karaktär beroende på datakällan. Data kan vara:
+Data i Mix Modeler är av olika slag beroende på datakällan. Data kan vara:
 
 * Sammanlagda eller sammanfattande data, t.ex. insamlade från datakällor i trädgården eller offlinereklam som samlats in (t.ex. utgifter) från en reklamkampanj, ett evenemang eller en fysisk annonskampanj.
-* händelsedata, till exempel från datakällor från första part. Dessa händelsedata kan samlas in via Adobe Analytics-källanslutningen från Adobe Analytics, via Experience Platform Web eller Mobile SDK eller Edge Network, eller via data som hämtas via källanslutningar.
+* händelsedata, till exempel från datakällor från första part. Dessa händelsedata kan samlas in via Adobe Analytics källanslutning från Adobe Analytics, Experience Platform Web eller Mobile SDK eller Edge Network API, eller data som hämtas med källanslutningar.
 
-Harmoniseringstjänsten i Mix Modeler likställer aggregat och händelsedata i en enhetlig datavy. Den här datavyn, tillsammans med interna och externa faktordata, är källan för modellerna i Mix Modeler. Tjänsten använder den högsta granulariteten för de olika datauppsättningarna. Om en datauppsättning till exempel har en kornighet på månatliga och återstående datauppsättningar som har en kornighet varje vecka och dag, skapar harmoniseringstjänsten en datavy med hjälp av månatlig granularitet.
+Harmoniseringstjänsten i Mix Modeler likställer aggregat och händelsedata i en enhetlig datavy. Den här datavyn, tillsammans med [interna och externa faktordata](#factors), är källan för modellerna i Mix Modeler. Tjänsten använder den högsta granulariteten för de olika datauppsättningarna. Om en datauppsättning till exempel har en kornighet på månatliga och återstående datauppsättningar som har en kornighet varje vecka och dag, skapar harmoniseringstjänsten en datavy med hjälp av månatlig granularitet.
+
+## Faktorer
+
+Faktorer är avgörande för modellbyggande och ni vill förstå vad som påverkar verksamheten på ett holistiskt sätt. Faktorer är kanske inte relaterade till marknadsföringsdata.
+
+* Interna faktorer är specifika för er organisation och kan påverka era konverteringar. Exempel: din försäljningssäsong, kampanjer med mera.
+
+* Externa faktorer är faktorer som ligger utanför organisationens kontroll men som fortfarande kan påverka de konverteringar du uppnår. Exempel är bland annat CPI, S&amp;P 500.
+
+
 
 ## Ett exempel på harmoniserade data
 
@@ -39,7 +49,7 @@ Innehåller datauppsättning för marknadsföringsinsats från YouTube, med en k
 
 **Datauppsättning 2**
 
-Innehåller datauppsättning för marknadsföringsinsats från Facebook, med en kornighet av aggregerade data inställda på veckovis.
+Innehåller data för marknadsföringsinsats från Facebook, med en kornighet av sammanställda data inställda på veckovis.
 
 | Datum | Datumtyp | Kanal | Campaign | Geo | Klickningar | Utgift |
 |--- |:---:|--- |---|---|---:|---:|
@@ -114,7 +124,7 @@ Om du vill skapa en harmoniserad datauppsättning, som i det förenklade [exempl
 
 ## Visa harmoniserade data
 
-För att se harmoniserade data i Mix Modeler-gränssnittet:
+Om du vill se harmoniserade data i Mix Modeler gränssnitt:
 
 1. Välj ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]** i den vänstra listen.
 

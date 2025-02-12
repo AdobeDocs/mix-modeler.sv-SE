@@ -1,18 +1,18 @@
 ---
 title: Planer - översikt
-description: Lär dig hur du visar, väljer och agerar på planer i Mix Modeler.
+description: Lär dig hur du visar, väljer ut och utför åtgärder på planer i Mix Modeler.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: f12eea7454d1c81b347dc4960f5c491d81725f7d
+source-git-commit: 3b6b127bfaf79cee99a869b21ff0c1a911b3ad6c
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
 
 # Planer - översikt
 
-Med planer i Mix Modeler kan ni fördela budgetar efter affärsenhet och kanal. Planeringsfunktionen är integrerad med resultaten av de utbildade modellerna baserade på era harmoniserade data.
+Med planer i Mix Modeler kan ni fördela budgetar per affärsenhet och kanal. Planeringsfunktionen är integrerad med resultaten av de utbildade modellerna baserade på era harmoniserade data.
 
 I en plan beskrivs de diskonära investeringar (t.ex. budgetar) som ett företag avser att spendera på marknadsrelaterade projekt under en viss tidsram i tjänsten för gemensamma nyckeltal (t.ex. order, intäkter). Planer kan innehålla kostnader från kanaler som betald annonsering, sponsrat webbinnehåll och evenemang.
 
@@ -28,14 +28,16 @@ En plan kan även innehålla:
 - flera flygdatum där var och en har en målbudget,
 - minsta och högsta budgetbegränsningar per kanal och flygdatum.
 
+Om en modell som du har använt för din plan baseras på nya data måste du skapa en ny plan som tar hänsyn till ompoängterade data.
+
 
 ## Skapa planer
 
-Om du vill skapa en plan använder du guiden Skapa plan för Mix Modeler. Mer information finns i [Skapa planer](build.md).
+Om du vill skapa en plan använder du guiden Skapa Mix Modeler-plan. Mer information finns i [Skapa planer](build.md).
 
 ## Hantera planer
 
-Om du vill visa en tabell över dina aktuella planer går du till Mix Modeler:
+Om du vill visa en tabell över dina aktuella planer går du till Mix Modeler-gränssnittet:
 
 1. Välj ![](/help/assets/icons/FileChart.svg) **[!UICONTROL Plans]** i den vänstra listen.
 

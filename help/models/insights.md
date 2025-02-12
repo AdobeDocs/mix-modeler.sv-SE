@@ -1,18 +1,18 @@
 ---
 title: Modellinsikter
-description: Lär dig hur du får information om din modell, som historisk översikt, modellinsikter och modellkvalitet i Mix Modeler.
+description: Lär dig mer om din modell, som historisk översikt, modellinsikter och modellkvalitet i Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 25eb18443d0bdecdb02c026aec363271618441f5
+source-git-commit: 0ee212a626986e4c721d0e58f2528d0ca1a9fdbf
 workflow-type: tm+mt
-source-wordcount: '1552'
+source-wordcount: '1549'
 ht-degree: 0%
 
 ---
 
 # Modellinsikter
 
-Om du vill visa modellinsikter går du till gränssnittet ![Models](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** i Mix Modeler:
+Så här visar du modellinsikter i gränssnittet ![Models](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** i Mix Modeler:
 
 1. I tabellen **[!UICONTROL Models]** väljer du namnet på en modell som har **[!UICONTROL Last run status]** av <span style="color:green"> ●</span> **[!UICONTROL Success]**.
 
@@ -82,12 +82,27 @@ Om du vill välja en viss kanal eller alla kanaler väljer du den i listrutan **
 
 Välj ![Hämta](/help/assets/icons/Download.svg) **[!UICONTROL Download CSV]** om du vill hämta innehållet i Touchpoint-tabellen.
 
+## **[!UICONTROL Factors]** [!BADGE beta]
+
+Fliken Faktorer [!BADGE beta] visar externa faktorrelaterade insikter.
+
+![Faktorer](/help/assets/factors.png)
+
+Den här visualiseringen hjälper dig att förstå den inkrementella effekt som olika interna och externa faktorer har på konverteringens baslinje. Exempel: ekonomiska villkor eller marknadsföringsaktiviteter.
+
+Använd listrutan **[!UICONTROL Factors]** för att välja vilka faktorer du vill visa.
+
+<!-- need to update the image when we do have a proper example -->
+
+Om du vill hämta en CSV-fil som innehåller data för tabellen väljer du ![Hämta](/help/assets/icons/Download.svg).
+
+Om inga data är tillgängliga visas meddelandet ![TableAndChart](/help/assets/icons/TableAndChart.svg) **[!UICONTROL No data is available, you may need to retrain your model, or change the date range to view insights]**.
 
 ## [!UICONTROL Attribution]
 
 >[!NOTE]
 >
->Fliken Attribution är bara tillgänglig för MTA-aktiverade modeller.
+Fliken Attribution är bara tillgänglig för MTA-aktiverade modeller.
 
 
 På fliken [!UICONTROL Attribution] kan du förstå effekten av kontaktytor och marknadsföringskampanjer som har data på händelsenivå.  Se [Skapa modell](build.md).
@@ -110,7 +125,7 @@ Välj en eller flera attribueringsmodeller i listrutan **[!UICONTROL Attribution
 
 ![Attribution](/help/assets/model-insights-attribution.png)
 
-De detaljerade händelsepoängen för multitouch-attribuering i Mix Modeler justeras efter de övergripande poängen för Mix Modeler och avkastningen på investeringen. Dessa bakgrundsmusik är också tillgängliga som datauppsättningar i Experience Platform.
+Mix Modeler Multi-Touch-attribuering i korthet anpassar sig efter Mix Modeler övergripande poäng och ROI. Dessa bakgrundsmusik är också tillgängliga som datauppsättningar i Experience Platform.
 
 Fliken Attribution består av följande visualiseringar:
 
@@ -132,15 +147,15 @@ Om du vill se information för du markören över dataraden för en viss attribu
 
 Visualiseringen [!UICONTROL Breakdown] är en uppdelning efter kanal eller kontaktyta av konverteringarna för var och en av de valda attribueringsmodellerna. Den här visualiseringen kan vara till hjälp när du ska fatta beslut om effektiviteten för varje kanal eller kontaktyta.
 
-Om du vill välja nedbrytningstyp väljer du **[!UICONTROL Breakdown by channel]** eller **[!UICONTROL Breakdown by touchpoint]** från ![Mer](/help/assets/icons/More.svg).
+Välj uppdelningstyp select **[!UICONTROL Breakdown by channel]** eller **[!UICONTROL Breakdown by touchpoint]** från ![Mer](/help/assets/icons/More.svg).
 
 Håll markören över något av diagramelementen om du vill se detaljer.
 
 ### [!UICONTROL Top campaigns]
 
-I visualiseringen av de populäraste kampanjerna visas en tabell med de främsta kampanjerna med kolumner för Campaign-namn, Channel-typ, Media-typ och inkrementella konverteringar. Den här visualiseringen kan hjälpa ert team att informera om effektiviteten hos en viss kampanj för en viss kanal och ge er insikter om vilka kampanjer ni bör investera i ytterligare.
+I visualiseringen av de populäraste kampanjerna visas en tabell över de främsta kampanjerna med kolumner för Campaign-namn, Channel-typ och medietyp and Inkrementella konverteringar. Den här visualiseringen kan hjälpa ert team att informera om effektiviteten hos en viss kampanj för en viss kanal och ge er insikter om vilka kampanjer ni bör investera i ytterligare.
 
-Om du vill sortera tabellen i stigande eller fallande ordning ↓ för Kanal, Medietyp eller Inkrementella konverteringar markerar du kolumnrubriken och växlar sorteringen.
+Sortera tabellen i stigande eller fallande ordning ↓ för kanal, medietyp or Stegvisa konverteringar, markera kolumnrubriken och växla sortering.
 
 Om du vill expandera tabellen i en separat dialogruta väljer du **[!UICONTROL Expand]** från ![Mer](/help/assets/icons/More.svg).
 
@@ -151,7 +166,7 @@ I den utökade dialogrutan för de bästa kampanjerna visas samma tabell med ext
 * Första beröringskonverteringen
 * Senaste pekkonverteringar
 
-  Du kan markera de extra kolumnrubrikerna om du vill sortera tabellen i stigande eller fallande ordning.
+Du kan markera de extra kolumnrubrikerna om du vill sortera tabellen i stigande eller fallande ordning.
 
 Välj **[!UICONTROL Close]** om du vill stänga den utökade dialogrutan för de bästa kampanjerna.
 
@@ -162,7 +177,7 @@ Visualiseringen av [!UICONTROL Breakdown by touchpoint position] är en uppdelni
 
 >[!NOTE]
 >
->Summan av procentandelen för en attribueringsmodell för alla kontaktytor och positioner ska vara lika med 100.
+Summan av procentandelen för en attribueringsmodell för alla kontaktytor och positioner ska vara lika med 100.
 
 
 Positionerna [!UICONTROL Starter], [!UICONTROL Player] och [!UICONTROL Closer] definieras enligt följande:
@@ -186,21 +201,6 @@ För varje konverteringsbana ser du:
 * för varje kanal, bidragsprocenten för attribueringsmodellen, och
 * summan av dessa procentsatser för kanalattribueringsmodellen.
 
-## **[!UICONTROL Factors]** [!BADGE beta]
-
-Fliken Faktorer [!BADGE beta] visar externa faktorrelaterade insikter.
-
-![Faktorer](/help/assets/factors.png)
-
-Den här visualiseringen hjälper dig att förstå den inkrementella effekt som olika interna och externa faktorer har på konverteringens baslinje. Exempel: ekonomiska villkor eller marknadsföringsaktiviteter.
-
-Använd listrutan **[!UICONTROL Factors]** för att välja vilka faktorer du vill visa.
-
-<!-- need to update the image when we do have a proper example -->
-
-Om du vill hämta en CSV-fil som innehåller data för tabellen väljer du ![Hämta](/help/assets/icons/Download.svg).
-
-Om inga data är tillgängliga visas meddelandet ![TableAndChart](/help/assets/icons/TableAndChart.svg) **[!UICONTROL No data is available, you may need to retrain your model, or change the date range to view insights]**.
 
 ## [!UICONTROL Diagnostics]
 
@@ -228,7 +228,7 @@ Om du vill bryta ned visualiseringen väljer du **[!UICONTROL Actual vs. Predict
 
 Om du vill hämta en CSV-fil som innehåller data för tabellen väljer du ![Hämta](/help/assets/icons/Download.svg).
 
-* tabellen [!UICONTROL Touchpoint effectiveness], som representerar resultatet av den algoritmiska Attribution AI. Data för det här registret genereras endast för specifika tidsperioder. Välj **[!UICONTROL As of *xx/xx/xx, xx:xx TZ *]**![Info](/help/assets/icons/InfoOutline.svg) om du vill ha mer information.
+* [!UICONTROL Touchpoint effectiveness]-tabellen, som representerar resultatet av AI-algoritmisk modell för attribuering. Data för det här registret genereras endast för specifika tidsperioder. Välj **[!UICONTROL As of *xx/xx/xx, xx:xx TZ *]**![Info](/help/assets/icons/InfoOutline.svg) om du vill ha mer information.
 
 Visualiseringen visar, i fallande ordning [!UICONTROL Efficiency measure] ![Fallande ordning](/help/assets/icons/SortOrderDown.svg), för varje kontaktyta:
 

@@ -3,9 +3,9 @@ title: Översikt över modeller
 description: Lär dig hur du bygger och använder modeller i Mix Modeler.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: f12eea7454d1c81b347dc4960f5c491d81725f7d
+source-git-commit: 39ea5ed145678d6ac7e5263b38255e725e488f8d
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: '1090'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 Med modellfunktionerna i Mix Modeler kan du konfigurera, utbilda och poängsätta modeller som är specifika för dina affärsmål. Utbildningen och poängsättningen stöder AI-drivet överföringslärande mellan multitouch-attribuering och modellering av marknadsföringsmixar.
 
-Modellerna bygger på de harmoniserade data som du skapar som en del av arbetsflödet i programmet Mix Modeler.
+Modellerna bygger på de harmoniserade data som du skapar som en del av Mix Modeler arbetsflöde.
 
-En modell i Mix Modeler är en maskininlärningsmodell som används för att mäta och förutsäga ett specifikt resultat baserat på en marknadsförares investeringar. Marknadsföringskontaktytor och data på sammanfattningsnivå kan användas som indata. Med Mix Modeler kan ni skapa olika modeller baserade på olika uppsättningar av variabler, dimensioner och utfall, till exempel intäkter, sålda enheter, leads.
+En modell i Mix Modeler är en maskininlärningsmodell som används för att mäta och förutsäga ett specifikt resultat baserat på en marknadsförares investeringar. Marknadsföringskontaktytor och data på sammanfattningsnivå kan användas som indata. Med Mix Modeler kan ni skapa olika typer av modeller baserade på olika uppsättningar av variabler, dimensioner och resultat, som intäkter, sålda enheter, leads.
 
 En modell kräver:
 
@@ -35,11 +35,11 @@ En modell kan även innehålla:
 
 ## Skapa modeller
 
-Om du vill skapa en modell använder du det guidade modellkonfigurationsflöde för Mix Modeler steg som är tillgängligt när du väljer **[!UICONTROL Open model canvas]**. Mer information finns i [Skapa modeller](build.md).
+Om du vill skapa en modell använder du Mix Modeler steg-för-steg-guidade modellkonfigurationsflöde som är tillgängligt när du väljer **[!UICONTROL Open model canvas]**. Mer information finns i [Skapa modeller](build.md).
 
 ## Hantera modeller
 
-Om du vill visa en tabell över dina aktuella modeller i gränssnittet Mix Modeler:
+Om du vill visa en tabell över de aktuella modellerna i Mix Modeler-gränssnittet:
 
 1. Välj ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** i den vänstra listen.
 
@@ -54,9 +54,33 @@ Om du vill visa en tabell över dina aktuella modeller i gränssnittet Mix Model
    | Konverteringshändelse | Den konvertering du har valt för modellen. |
    | Körningsfrekvens | Körfrekvensen för utbildningen av modellen. |
    | Senaste körning | Datum och tid för modellens senaste utbildning. |
-   | Status | Status för den senaste kursen av modellen. <br/>![StatusGreen](/help/assets/icons/StatusGreen.svg) Success<br/>![StatusOrange](/help/assets/icons/StatusOrange.svg) Training issue<br/> ![StatusOrange](/help/assets/icons/StatusOrange.svg) Väntar på utbildning <br/>![StatusRed](/help/assets/icons/StatusRed.svg) Misslyckades <br/>![StatusGreen](/help/assets/icons/StatusGray.svg) _ (när en senaste körning pågår) |
+   | Status | Modellens status. |
 
    {style="table-layout:auto"}
+
+   Modellens rapporterade status beror på var modellen befinner sig under sin livscykel. Till exempel om en modell skapas, (omutbildas) har lyckats eller inte, eller om (ompoängteras) har lyckats eller inte.
+
+   I tabellen nedan:
+
+   * ![Markering](/help/assets/icons/Checkmark.svg) - indikerar att ett steg i modelllivscykeln har körts.
+   * ![Klocka](/help/assets/icons/Clock.svg) - indikerar en pågående körning av ett steg i modellens livscykel.
+   * ![Close](/help/assets/icons/Close.svg) - indikerar att ett steg i modelllivscykeln inte kunde köras.
+
+   | Status | Skapa | Tåg | Poäng | Återtåg | Poäng igen |
+   |---|:---:|:---:|:---:|:---:|:---:|
+   | Pågår | ![Markering](/help/assets/icons/Checkmark.svg) | | | | |
+   | Pågår | ![Markering](/help/assets/icons/Checkmark.svg) | ![Klocka](/help/assets/icons/Clock.svg) | | | |
+   | Pågår | ![Markering](/help/assets/icons/Checkmark.svg) | ![Markering](/help/assets/icons/Checkmark.svg) | ![Klocka](/help/assets/icons/Clock.svg) | | |
+   | Pågår | ![Markering](/help/assets/icons/Checkmark.svg) | ![Markering](/help/assets/icons/Checkmark.svg) | ![Markering](/help/assets/icons/Checkmark.svg) | ![Klocka](/help/assets/icons/Clock.svg) | |
+   | Pågår | ![Markering](/help/assets/icons/Checkmark.svg) | ![Markering](/help/assets/icons/Checkmark.svg) | ![Markering](/help/assets/icons/Checkmark.svg) | ![Markering](/help/assets/icons/Checkmark.svg) | ![Klocka](/help/assets/icons/Clock.svg) |
+   | Utbildningen misslyckades | ![Markering](/help/assets/icons/Checkmark.svg) | ![Stäng](/help/assets/icons/Close.svg) | | | |
+   | Utbildningen misslyckades | ![Markering](/help/assets/icons/Checkmark.svg) | ![Markering](/help/assets/icons/Checkmark.svg) | ![Markering](/help/assets/icons/Checkmark.svg) | ![Stäng](/help/assets/icons/Close.svg) | |
+   | Utbildning lyckades | ![Markering](/help/assets/icons/Checkmark.svg) | ![Markering](/help/assets/icons/Checkmark.svg) | | | |
+   | Utbildning lyckades | ![Markering](/help/assets/icons/Checkmark.svg) | ![Markering](/help/assets/icons/Checkmark.svg) | ![Markering](/help/assets/icons/Checkmark.svg) | ![Markering](/help/assets/icons/Checkmark.svg) | |
+   | Bedömningen misslyckades | ![Markering](/help/assets/icons/Checkmark.svg) | ![Markering](/help/assets/icons/Checkmark.svg) | ![Stäng](/help/assets/icons/Close.svg) | | |
+   | Bedömningen misslyckades | ![Markering](/help/assets/icons/Checkmark.svg) | ![Markering](/help/assets/icons/Checkmark.svg) | ![Markering](/help/assets/icons/Checkmark.svg) | ![Markering](/help/assets/icons/Checkmark.svg) | ![Stäng](/help/assets/icons/Close.svg) |
+   | Bedömningen lyckades | ![Markering](/help/assets/icons/Checkmark.svg) | ![Markering](/help/assets/icons/Checkmark.svg) | ![Markering](/help/assets/icons/Checkmark.svg) | | |
+   | Bedömningen lyckades | ![Markering](/help/assets/icons/Checkmark.svg) | ![Markering](/help/assets/icons/Checkmark.svg) | ![Markering](/help/assets/icons/Checkmark.svg) | ![Markering](/help/assets/icons/Checkmark.svg) | ![Markering](/help/assets/icons/Checkmark.svg) |
 
 1. Om du vill ändra vilka kolumner som visas för listan väljer du ![Kolumninställningar](/help/assets/icons/ColumnSetting.svg) och aktiverar ![Kontrollera](/help/assets/icons/Checkmark.svg) eller inte.
 
@@ -92,6 +116,7 @@ Du kan snabbt duplicera en modell.
 
 1. Välj ![Mer](/help/assets/icons/More.svg) för en modell och välj **[!UICONTROL Duplicate]** på snabbmenyn.
 
+Du omdirigeras till stegen för att skapa en ny modell, med ett föreslaget namn bestående av den ursprungliga modellens namn som bifogas med **[!UICONTROL (Copy)](_n_)**.
 
 ### Redigera
 

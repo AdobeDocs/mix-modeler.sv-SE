@@ -3,9 +3,9 @@ title: Planer - översikt
 description: Lär dig hur du visar, väljer ut och utför åtgärder på planer i Mix Modeler.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: 3b6b127bfaf79cee99a869b21ff0c1a911b3ad6c
+source-git-commit: 8e1c748f3e4e267038dcac5bce82f90157e88c32
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,7 @@ Så här duplicerar du en plan:
 - Välj ![Mer](/help/assets/icons/More.svg) för en plan. Välj **[!UICONTROL Duplicate]** på snabbmenyn.
 - Du kan också välja en plan i tabellen ![SelectBox](/help/assets/icons/SelectBox.svg) och välja ![Kopiera](/help/assets/icons/Copy.svg) **[!UICONTROL Duplicate]** i det blå åtgärdsfältet.
 
-En ny plan, med ett namn som består av den ursprungliga planens namn som har lagts till med **[!UICONTROL (Copy)]**, läggs till högst upp i tabellen.
+En ny plan, med ett namn som består av den ursprungliga planens namn, som har lagts till med **[!UICONTROL (Copy)](_n_)**, läggs till överst i tabellen.
 
 ### Jämför planer
 

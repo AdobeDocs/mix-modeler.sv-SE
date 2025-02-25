@@ -3,9 +3,9 @@ title: Översikt över modeller
 description: Lär dig hur du bygger och använder modeller i Mix Modeler.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 39ea5ed145678d6ac7e5263b38255e725e488f8d
+source-git-commit: 4a154ec4c81cb6b2361a05440c56b7946f748d8c
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1175'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,8 @@ En modell kan även innehålla:
 * Interna faktorer.
 * Tidigare kunskap om marknadsbidrag från andra källor, som tidigare erfarenheter från intressenter, stegvis testning och andra modeller.
 * Utgiftsandel, som använder relativ utgiftsresurs som proxy när marknadsföringsdata är glesare.
+
+När en modell skapas för första gången kommer man omedelbart igång med utbildningen och poängprocessen. När den inledande kursen och poängsättningen är klara blir modellinsikter tillgängliga för granskning. En modell kan därefter omskolas. Data kan också läggas till modellen, vilket kräver att du gör om poängen för modellen manuellt. Omutbildning och ompoängtering är en repetitiv process i takt med att nya resultat och ny information kommer fram och justeringar behövs för att skapa en modell som passar era affärsmål bäst.
 
 
 ## Skapa modeller

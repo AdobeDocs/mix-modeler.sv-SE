@@ -4,7 +4,7 @@ description: Versionsinformation för den senaste Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 622e61b2e354bd428d6c084f29bfec9666c1a09d
+source-git-commit: 96d56adc0a24a45797fd8a837b405a3f5329c886
 workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 2%
@@ -26,7 +26,7 @@ Versionsinformationen innehåller den senaste utgåvan av Mix Modeler. Mix Model
 | **Ta bort bekräftelser** | Du uppmanas att bekräfta borttagningen av en [plan](/help/plans/overview.md#delete-plans) eller en [modell](/help/models/overview.md#delete-models). | 15 januari 2025 | 18 februari 2025 |
 | **Förbättring av gränssnittet för faktorer** | Du kan välja vilka [faktorer](/help/models/insights.md#factors-beta) du vill visa i modellinsikter. | 15 januari 2025 | 18 februari 2025 |
 | **Felhantering** | Användarvänliga felmeddelanden och förbättrad användarupplevelse för felscenarier vid dataharmonisering och planer. | 18 februari 2025 | 18 februari 2025 |
-| **Modellstatus** | Omdefiniering av [modellstatus](/help/models/overview.md#manage-models) under modelllivscykeln. | 18 februari 2025 | t.b.d. |
+| **Modellstatus** | Omdefiniering av [modellstatus](/help/models/overview.md#manage-models) under modelllivscykeln. | 18 februari 2025 | 18 februari 2025 |
 
 
 ## Frisläppningsstrategi

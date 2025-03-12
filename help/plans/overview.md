@@ -3,9 +3,9 @@ title: Planer - översikt
 description: Lär dig hur du visar, väljer ut och utför åtgärder på planer i Mix Modeler.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: df0faeb2682381ec8d13d594d52c0b7cf22a679d
+source-git-commit: c62cba4dc7c703cf33859a925369383d45ad0606
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '635'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,7 @@ Om en modell som du har använt för din plan baseras på nya data måste du ska
 ## Skapa planer
 
 Om du vill skapa en plan använder du guiden Skapa Mix Modeler-plan. Mer information finns i [Skapa planer](build.md).
+
 
 ## Hantera planer
 
@@ -81,7 +82,15 @@ Så här duplicerar du en plan:
 - Välj ![Mer](/help/assets/icons/More.svg) för en plan. Välj **[!UICONTROL Duplicate]** på snabbmenyn.
 - Du kan också välja en plan i tabellen ![SelectBox](/help/assets/icons/SelectBox.svg) och välja ![Kopiera](/help/assets/icons/Copy.svg) **[!UICONTROL Duplicate]** i det blå åtgärdsfältet.
 
-En ny plan, med ett namn som består av den ursprungliga planens namn, som har lagts till med **[!UICONTROL (Copy)](_n_)**, läggs till överst i tabellen.
+En ny plan, med ett namn som består av den ursprungliga planens namn som har lagts till med **[!UICONTROL (Copy)](_n_)**, skapas. Du omdirigeras automatiskt till [Planskapande](build.md) för att tillhandahålla uppdaterad information om den kopierade planen.
+
+- Information (som Beskrivning, Budget med mera) från den ursprungliga planen kopieras över.
+- Budgetbegränsningar från den ursprungliga planen kopieras till den nya planen.
+- Du kan välja en annan modell som bas för den kopierade planen.
+   - För kontaktytor eller kanaler som finns i den kopierade planen men inte finns i den nyligen valda modellen tas alla begränsningar för dessa kontaktytor eller kanaler bort från planen.
+   - För kontaktytor eller kanaler som inte finns i den kopierade planen men som finns i den nyligen valda modellen, ställs begränsningarna in på ett minimivärde på `0` och ett maxvärde i linje med planens flygintervallbudget.
+
+
 
 ### Jämför planer
 

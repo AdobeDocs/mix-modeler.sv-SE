@@ -3,9 +3,9 @@ title: Skapa planer
 description: Lär dig hur du bygger planer i Mix Modeler.
 feature: Plans
 exl-id: 6d61d0b2-5871-4d00-9a35-73fff0a1c3e5
-source-git-commit: f12eea7454d1c81b347dc4960f5c491d81725f7d
+source-git-commit: d05eccef370598ce64363ca6ae20886b0e5dccd0
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---
@@ -15,14 +15,14 @@ ht-degree: 0%
 
 I Mix Modeler skapar du en plan med hjälp av planarbetsytan. På planarbetsytan kan du ange information och budgetar för din plan och den underliggande modellen som ska användas för din plan. När du har angett detaljer, budget och modell kan du gå vidare med en AI-rekommenderad plan eller redigera utgiften per kanal.
 
-Om du vill skapa en plan väljer du **[!UICONTROL Create plan]** i gränssnittet ![PLan](/help/assets/icons/FileChart.svg) **[!UICONTROL Plans]** i Mix Modeler.
+Om du vill skapa en plan väljer du **[!UICONTROL Create plan]** i ![PLan](/help/assets/icons/FileChart.svg) **[!UICONTROL Plans]** -gränssnittet i Mix Modeler.
 
-1. Skärmen för att skapa plan:
+1. På skärmen **[!UICONTROL Plan creation]**:
 
-   1. I avsnittet **[!UICONTROL Setup]**
+   1. I avsnittet **[!UICONTROL Setup]**:
 
       1. Ange en **[!UICONTROL Plan name]**, till exempel `Demo plan`. Ange en **[!UICONTROL Description]**, till exempel `Demo plan for Luma company`.
-      1. Välj ett **[!UICONTROL Model]** från **[!UICONTROL _Välj ett alternativ._.]**.
+      1. Välj ett **[!UICONTROL Model]** från **[!UICONTROL _Välj ett alternativ._.]**
       1. Du kan välja ![LinkOut](/help/assets/icons/LinkOut.svg) **[!UICONTROL Create model]** om du vill skapa en modell direkt från planskapandet. Då öppnas en ny flik i webbläsaren och gränssnittet [Models](../models/overview.md) visas.
 
          ![Planinställningar](/help/assets/plan-setup.png)

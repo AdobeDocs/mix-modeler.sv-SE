@@ -3,51 +3,65 @@ title: Modellinsikter
 description: Lär dig mer om din modell, som historisk översikt, modellinsikter och modellkvalitet i Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 0ee212a626986e4c721d0e58f2528d0ca1a9fdbf
+source-git-commit: bc48dc564042890856072a07c3a9715ba9dcdb87
 workflow-type: tm+mt
-source-wordcount: '1549'
+source-wordcount: '1914'
 ht-degree: 0%
 
 ---
 
 # Modellinsikter
 
+Varje visualisering i modellinsikter är utformad för att hjälpa dig att:
+
+* Visualisera och kvantifiera effekten av din organisations marknadsföringsaktiviteter.
+* Identifiera vilka kanaler som är högpresterande.
+* Identifiera vilka kanaler som kan behöva optimeras.
+
+Dessa insikter hjälper er sedan att ge stöd åt resursprioritering och resurstilldelning.
+
 Så här visar du modellinsikter i gränssnittet ![Models](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** i Mix Modeler:
 
 1. I tabellen **[!UICONTROL Models]** väljer du namnet på en modell som har **[!UICONTROL Last run status]** av <span style="color:green"> ●</span> **[!UICONTROL Success]**.
 
-1. Välj **[!UICONTROL Model Insights]** på snabbmenyn.
+1. På snabbmenyn väljer du **[!UICONTROL Model Insights]**.
 
-![Flikfältet Modellinsikter](/help/assets/model-insights-tabbar.png)
+![Flikfält för modellinsikter](/help/assets/model-insights-tabbar.png)
 
-Du ser när den angivna modellen senast har uppdaterats och visualiseringar visas på fyra flikar: [Modellinsikter](#model-insights), [Attribution](#attribution), [Factors](#factors), [Diagnostics](#diagnostics) och [Historiköversikt](#historical-overview).
+Du ser när den angivna modellen senast uppdaterades och visualiseringar visas med hjälp av fyra flikar: [Modellinsikter](#model-insights), [Attribuering](#attribution), [Faktorer](#factors), [Diagnostik](#diagnostics) och [Historisk översikt](#historical-overview).
 
 Du kan ändra den datumperiod som visualiseringarna på varje flik baseras på. Ange en datumperiod eller välj ![Kalender](/help/assets/icons/Calendar.svg) för att välja en datumperiod.
 
 ## [!UICONTROL Model insights]
 
-På fliken Modellinsikter visas visualiseringar för [Bidrag per datum och basmedia](#contribution-by-date-and-base-media), [Bidrag per kanal](#contribution-by-channel), [Sammanfattning av marknadsföringsprestanda](#marketing-performance-summary) och [Marginalkurvor](#marginal-response-curves). Fliken innehåller även en [tabell för sammanställning av kontaktpunkter](#touchppint-breakdown).
+Fliken Modellinsikter visar visualiseringar för [Bidrag efter datum och basmedia](#contribution-by-date-and-base-media), [Bidrag per kanal](#contribution-by-channel), [Sammanfattning](#marketing-performance-summary) av marknadsföringsresultat och [Marginalsvarskurvor](#marginal-response-curves). Fliken innehåller också en [uppdelningstabell](#touchppint-breakdown) för beröringspunkter.
 
-![Modell - Modellinsikter](/help/assets/model-insights-insights.png)
+![Modell – Modellinsikter](/help/assets/model-insights-insights.png)
 
-* Du kan hovra över enskilda diagramelement i varje visualisering för att visa en pover med mer information.
+* Du kan hovra över enskilda diagramelement i varje visualisering för att visa ett flytande fönster med mer information.
 
-* Om du vill hämta en CSV-fil som innehåller data för visualiseringen väljer du ![Hämta](/help/assets/icons/Download.svg).
+* Om du vill ladda ned en CSV-fil som innehåller data för visualiseringen väljer du ![Ladda ned](/help/assets/icons/Download.svg).
 
-* Om du vill hämta fullständiga modellinsiderdata i Microsoft® Excel-format väljer du ![Hämta](/help/assets/icons/Download.svg) **[!UICONTROL Download data]**.
+* Om du vill ladda ned fullständiga data för modellinsikter i Microsoft Excel-format® väljer du ![Ladda ned](/help/assets/icons/Download.svg) **[!UICONTROL Download data]**.
 
 
 ### Bidrag per datum och basmedia.
 
-Det staplade diagrammet ordnas: Bas längst ned, Ej använda kanaler i mitten och Utläggskanaler överst.
+Den här staplade diagramvisualiseringen ordnas enligt följande:
+
+* Basera längst ned.
+* Icke-spenderade kanaler i mitten.
+* Lägg ut kanaler överst.
+
+Den här visualiseringen representerar den andel bidrag som uppnås genom bas, via utgiftskanaler och icke-utgiftskanaler i ett datumintervall. Den här visualiseringen är användbar för att visa hur stor ökningen är. Basen representerar det som skulle ha hänt utan någon marknadsföring alls, och de icke-utgiftsrelaterade kanalerna plus utgiftskanalerna (utöver basen) tillskriver marknadsföringens påverkan. Kort och gott är att icke-spendera plus-utgifter motsvarar den inkrementella effekten av era marknadsföringssatsningar och visualiseringen ger enkel insikt i det värde som marknadsföring genererar.
 
 ### Bidrag per kanal
 
-I donutvisualiseringen visas en fördelning av bidraget per kanal.
+En donutvisualisering som visar hur bidraget distribueras av olika kanaler. Den här visualiseringen visar inkrementalitet genom objektivet på de tre främsta kanalerna (utom bas- och *alla andra* -kategorier). Visualiseringen underlättar prioriteringen och budgettilldelningen.
 
 ### Sammanfattning av marknadsföringsprestanda.
 
-Ett vågrätt stolpdiagram som visar ROI-prestanda per kanal.
+En vågrät stolpgrafivisualisering som visar ROI- eller CPA-prestanda för var och en av kanalerna. Den här visualiseringen visar på lönsamheten/CPA för era marknadsföringsinvesteringar. Kanalerna rangordnas i fallande ordning baserat på ROI/CPA. Visualiseringen hjälper till att identifiera vilka kanaler som är mest effektiva och vilka som kan behöva optimeras.
 
 ### Marginalkurvor.
 
@@ -62,13 +76,13 @@ Så här ändrar du kanal:
 
 ### Uppdelning efter kontaktpunkter
 
-Kontaktpunktsuppdelningstabellen visar brytpunkter för alla eller valda kanaler varje vecka.
+Tabellen över indelning av kontaktytor visar veckovisa brytpunkter för alla eller valda kanaler på veckobasis, med nyckeltal som är kopplade till varje kanal. Tabellen gör det enklare att jämföra, identifiera trender och spåra prestanda på en mer detaljerad kanalnivå. Den här tabellen kompletterar visualiseringen [Bidrag per datum och basmedia](#contribution-by-date-and-base-media) och visualiseringen [Bidrag per kanal](#contribution-by-channel).
 
-![Uppdelning efter kontaktpunkter](../assets/touchpoint-breakdown.png)
+![Uppdelning av beröringspunkter](../assets/touchpoint-breakdown.png)
 
 Följande kolumner är tillgängliga:
 
-| Kolumn | Beskrivning |
+| Spalt | Beskrivning |
 |---|---|
 | **[!UICONTROL Date range]** | Veckan att rapportera om. |
 | **[!UICONTROL Touchpoint]** | Den specifika kontaktytskanalen. |
@@ -102,7 +116,7 @@ Om inga data är tillgängliga visas meddelandet ![TableAndChart](/help/assets/i
 
 >[!NOTE]
 >
-Fliken Attribution är bara tillgänglig för MTA-aktiverade modeller.
+>Fliken Attribution är endast tillgänglig för MTA-aktiverade modeller.
 
 
 På fliken [!UICONTROL Attribution] kan du förstå effekten av kontaktytor och marknadsföringskampanjer som har data på händelsenivå.  Se [Skapa modell](build.md).
@@ -112,20 +126,20 @@ Följande attribueringsmodeller stöds:
 * Baserat på den valda modellen i Mix Modeler:
    * Algoritmisk - påverkad
    * Algoritmisk - inkrementell
-* Regelbaserad:
-   * Minskningsenheter
+* Regelbaserat:
+   * Enheter för nedbrytning
    * Första beröringen
    * Senaste beröring
    * Linjär
-   * Ushape
+   * Ushape Ushape
 
-Se [Multi-touch-attribuering](../get-started/about.md#multi-touch-attribution) för en introduktion om multitouch-attribueringsfunktionen i Mix Modeler.
+Se [Multi-touch-attribuering](../get-started/about.md#multi-touch-attribution) om du vill ha en introduktion till funktionen för multi-touch-attribuering i Mix Modeler.
 
-Välj en eller flera attribueringsmodeller i listrutan **[!UICONTROL Attribution Model]**. De valda attribueringsmodellerna gäller för alla visualiseringar på fliken Attribution.
+Välj en eller flera attributionsmodeller på **[!UICONTROL Attribution Model]** rullgardinsmenyn. De valda attribueringsmodellerna gäller för alla visualiseringar på fliken Attribution.
 
-![Attribution](/help/assets/model-insights-attribution.png)
+![Tillskrivning](/help/assets/model-insights-attribution.png)
 
-Mix Modeler Multi-Touch-attribuering i korthet anpassar sig efter Mix Modeler övergripande poäng och ROI. Dessa bakgrundsmusik är också tillgängliga som datauppsättningar i Experience Platform.
+De detaljerade händelsepoängen för Mix Modeler med multi-touch-attribution stämmer överens med de övergripande Mix Modeler-poängen och avkastningen på investeringen. Dessa poäng görs också tillgängliga som datauppsättningar i Experience Platform.
 
 Fliken Attribution består av följande visualiseringar:
 
@@ -147,15 +161,15 @@ Om du vill se information för du markören över dataraden för en viss attribu
 
 Visualiseringen [!UICONTROL Breakdown] är en uppdelning efter kanal eller kontaktyta av konverteringarna för var och en av de valda attribueringsmodellerna. Den här visualiseringen kan vara till hjälp när du ska fatta beslut om effektiviteten för varje kanal eller kontaktyta.
 
-Välj uppdelningstyp select **[!UICONTROL Breakdown by channel]** eller **[!UICONTROL Breakdown by touchpoint]** från ![Mer](/help/assets/icons/More.svg).
+Om du vill välja nedbrytningstyp väljer du **[!UICONTROL Breakdown by channel]** eller **[!UICONTROL Breakdown by touchpoint]** från ![Mer](/help/assets/icons/More.svg).
 
 Håll markören över något av diagramelementen om du vill se detaljer.
 
 ### [!UICONTROL Top campaigns]
 
-I visualiseringen av de populäraste kampanjerna visas en tabell över de främsta kampanjerna med kolumner för Campaign-namn, Channel-typ och medietyp and Inkrementella konverteringar. Den här visualiseringen kan hjälpa ert team att informera om effektiviteten hos en viss kampanj för en viss kanal och ge er insikter om vilka kampanjer ni bör investera i ytterligare.
+I visualiseringen av de populäraste kampanjerna visas en tabell med de främsta kampanjerna med kolumner för Campaign-namn, Channel-typ, Media-typ och inkrementella konverteringar. Den här visualiseringen kan hjälpa ert team att informera om effektiviteten hos en viss kampanj för en viss kanal och ge er insikter om vilka kampanjer ni bör investera i ytterligare.
 
-Sortera tabellen i stigande eller fallande ordning ↓ för kanal, medietyp or Stegvisa konverteringar, markera kolumnrubriken och växla sortering.
+Om du vill sortera tabellen i stigande eller fallande ordning ↓ för Kanal, Medietyp eller Inkrementella konverteringar markerar du kolumnrubriken och växlar sorteringen.
 
 Om du vill expandera tabellen i en separat dialogruta väljer du **[!UICONTROL Expand]** från ![Mer](/help/assets/icons/More.svg).
 
@@ -166,7 +180,7 @@ I den utökade dialogrutan för de bästa kampanjerna visas samma tabell med ext
 * Första beröringskonverteringen
 * Senaste pekkonverteringar
 
-Du kan markera de extra kolumnrubrikerna om du vill sortera tabellen i stigande eller fallande ordning.
+  Du kan markera de extra kolumnrubrikerna om du vill sortera tabellen i stigande eller fallande ordning.
 
 Välj **[!UICONTROL Close]** om du vill stänga den utökade dialogrutan för de bästa kampanjerna.
 
@@ -177,7 +191,7 @@ Visualiseringen av [!UICONTROL Breakdown by touchpoint position] är en uppdelni
 
 >[!NOTE]
 >
-Summan av procentandelen för en attribueringsmodell för alla kontaktytor och positioner ska vara lika med 100.
+>Summan av procentandelen för en attribueringsmodell för alla kontaktytor och positioner ska vara lika med 100.
 
 
 Positionerna [!UICONTROL Starter], [!UICONTROL Player] och [!UICONTROL Closer] definieras enligt följande:
@@ -208,7 +222,7 @@ På fliken Diagnostik visas visualiseringar för:
 
 * [!UICONTROL Model Assessment]-visualisering, som du kan bryta ned för konverteringar av faktisk kontra förväntad eller residual.
 
-Om du vill bryta ned visualiseringen väljer du **[!UICONTROL Actual vs. Predicted]** eller **[!UICONTROL Residuals]** i listan **[!UICONTROL Breakdown]**.
+  Om du vill bryta ned visualiseringen väljer du **[!UICONTROL Actual vs. Predicted]** eller **[!UICONTROL Residuals]** i listan **[!UICONTROL Breakdown]**.
 
 * [!UICONTROL Model fitting metrics]-tabell, med följande kolumner för varje konverteringsmått:
 
@@ -216,9 +230,9 @@ Om du vill bryta ned visualiseringen väljer du **[!UICONTROL Actual vs. Predict
 
    * Modellerad konvertering
 
-   * Restkonvertering (skillnad mellan faktisk konvertering och modellkonvertering)
+   * Residualkonvertering (skillnaden mellan faktisk och modellerad konvertering)
 
-   * Värden för modellkvalitetsskala:
+   * Resultatvärden för modellkvalitet:
 
       * R2 (R-fyrkantig), som anger hur väl data passar in i regressionsmodellen (godheten i passform).
 
@@ -226,15 +240,15 @@ Om du vill bryta ned visualiseringen väljer du **[!UICONTROL Actual vs. Predict
 
       * RMSE (Rot Mean Square Error): som visar det genomsnittliga felet, viktat enligt kvadraten på felet.
 
-Om du vill hämta en CSV-fil som innehåller data för tabellen väljer du ![Hämta](/help/assets/icons/Download.svg).
+  Om du vill hämta en CSV-fil som innehåller data för tabellen väljer du ![Hämta](/help/assets/icons/Download.svg).
 
-* [!UICONTROL Touchpoint effectiveness]-tabellen, som representerar resultatet av AI-algoritmisk modell för attribuering. Data för det här registret genereras endast för specifika tidsperioder. Välj **[!UICONTROL As of *xx/xx/xx, xx:xx TZ *]**![Info](/help/assets/icons/InfoOutline.svg) om du vill ha mer information.
+* [!UICONTROL Touchpoint effectiveness]-tabellen, som representerar resultatet av AI-algoritmisk modell för attribuering. Data för det här registret genereras endast för specifika tidsperioder. Välj **[!UICONTROL As of *xx/xx/xx, xx:xx TZ *]**![Info](/help/assets/icons/InfoOutline.svg) för mer information.
 
-Visualiseringen visar, i fallande ordning [!UICONTROL Efficiency measure] ![Fallande ordning](/help/assets/icons/SortOrderDown.svg), för varje kontaktyta:
+  Visualiseringen visar, i fallande ordning efter [!UICONTROL Efficiency measure] ![Fallande ordning](/help/assets/icons/SortOrderDown.svg), för varje kontaktyta:
 
-   * [!UICONTROL Paths touched]: visualiserar procentandelen sökvägar som uppnår konvertering och procentandelen sökvägar som inte uppnår konvertering. För en kontaktyta ser du fler konverteringar när attribueringskonverteringsgraden är hög. Proportionerna jämför procentandelen sökvägar som leder till konvertering med procentandelen sökvägar som *inte* leder till konvertering.
+   * [!UICONTROL Paths touched]: visualiserar procentandelen banor som uppnår konvertering och procentandelen banor som inte uppnår konvertering. För en beröringspunkt ser du fler tillskrivna konverteringar när konverteringsgraden för attribution är hög. Proportionerna jämför procentandelen sökvägar som leder till konvertering med procentandelen sökvägar som *inte* leder till konvertering.
    * [!UICONTROL Efficiency measure]: genereras av den algoritmiska attribueringsmodellen och effektivitetsmåttet anger den relativa vikten av en kontaktyta mot konverteringen, oberoende av kontaktytpunktsvolym. Effektiviteten mäts på en skala från 1 till 5. Observera att högre kontaktytpunkter inte garanterar högre effektivitetsmått.
-   * [!UICONTROL Total volume]: Det sammanlagda antalet gånger en användare vidrör en kontaktyta. Antalet är inklusive kontaktytor som visas på en bana som uppnår konvertering samt banor *som inte* resulterar i konvertering.
+   * [!UICONTROL Total volume]: Det sammanlagda antalet gånger en användare rör vid en beröringspunkt. Siffran inkluderar kontaktytor som visas på en bana som uppnår konvertering samt banor *som inte* leder till konvertering.
 
 ![Diagnostik](/help/assets/model-insights-diagnostics.png)
 
@@ -243,27 +257,44 @@ Visualiseringen visar, i fallande ordning [!UICONTROL Efficiency measure] ![Fall
 
 Fliken Historisk översikt visar visualiseringar för:
 
-* Konvertering och utgifter per kv och produkt.
+![Modell - Historisk översikt](/help/assets/model-insights-historical-overview.png)
 
-* Utgift per kanal.
 
-* Utlägg för kontaktpunkt.
+### Konvertering och utgifter per räkenskapsår och produkt
 
-Du kan välja en alternativ utgiftsbaserad kanal att visa för den här visualiseringen. Välj en kanal från **[!UICONTROL Channels]**.
+Den här visualiseringen representerar konvertering och utgiftsfördelning för olika kvartal inom det angivna datumintervallet. Visualiseringen hjälper till att identifiera högpresterande kvarter där utgifter driver konverteringar.
 
-* Pekpunktsvolym.
 
-Du kan välja en alternativ volymbaserad kanal att visa för den här visualiseringen. Välj en kanal från **[!UICONTROL Channels]**.
+### Utgift per kanal
 
-![Modell - historisk översikt](/help/assets/model-insights-historical-overview.png)
+Den här visualiseringen representerar utgiftsfördelningen i olika kanaler inom det angivna datumintervallet. Visualiseringen gör det enkelt att snabbt identifiera vilka kanaler som får mest pengar.
+
+
+### Utgift för kontaktpunkt
+
+Den här visualiseringen representerar utgiftsfördelningen över betalda kontaktytor för varje kvartal inom det angivna datumintervallet. Visualiseringen gör det möjligt att förstå vilka kontaktytor som prioriteras inom specifika kanaler och kvartal. Visualiseringen hjälper till att identifiera mönster och trender för kanalanvändning, särskilt kanaler med låga och sällan använda resurser över tid.
+
+Så här kan du välja en alternativ utgiftsbaserad kanal som ska visas för den här visualiseringen:
+
+* Välj en kanal från **[!UICONTROL Channels]**.
+
+
+### Volym för beröringspunkt
+
+Den här visualiseringen representerar volymfördelningen över alla beröringspunkter för varje kvartal inom det angivna datumintervallet.
+
+Till kan välja en alternativ volymbaserad kanal som ska visas för den här visualiseringen:
+
+* Välj en kanal från **[!UICONTROL Channels]**.
+
 
 ## **[!UICONTROL Edit]**
 
-Du kan redigera namn, beskrivning och schemaläggning av utbildning och poängsättning för modellen.
+Du kan redigera namn, beskrivning och schemaläggning av träning och poängsättning av modellen.
 
 1. Välj ![Redigera](/help/assets/icons/Edit.svg) Redigera
 
-1. I dialogrutan **[!UICONTROL Edit model]**:
+1. I dialogrutan **[!UICONTROL Edit model]** :
 
    * Ange en ny **[!UICONTROL Name]** och **[!UICONTROL Description]**.
 

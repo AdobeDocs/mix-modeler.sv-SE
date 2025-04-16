@@ -3,9 +3,9 @@ title: Planer - översikt
 description: Lär dig hur du visar, väljer ut och utför åtgärder på planer i Mix Modeler.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: c62cba4dc7c703cf33859a925369383d45ad0606
+source-git-commit: 09b0868cc6f631188b2609b1da81d1a6b6f0aa9f
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '637'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Med planer i Mix Modeler kan ni fördela budgetar per affärsenhet och kanal. Planeringsfunktionen är integrerad med resultaten av de utbildade modellerna baserade på era harmoniserade data.
 
-I en plan beskrivs de diskretionära investeringar (t.ex. budgetar) som ett företag har för avsikt att spendera på marknadsrelaterade projekt under en viss tidsram i tjänsten av en gemensam nyckeltal (t.ex. order, intäkter). Planer kan innehålla kostnader från kanaler som betald annonsering, sponsrat webbinnehåll och evenemang.
+I en plan beskrivs de diskretionära investeringar (till exempel budgetar) som ett företag avser att spendera på marknadsrelaterade projekt under en viss tidsperiod. Dessa investeringar är till för gemensamma nyckeltal (t.ex. order, intäkter). Planer kan innehålla kostnader från kanaler som betald annonsering, sponsrat webbinnehåll och evenemang.
 
 En plan kräver:
 
@@ -52,10 +52,10 @@ Om du vill visa en tabell över dina aktuella planer går du till Mix Modeler-gr
    | Modell | Modellen som används som bas för planen. |
    | Datumintervall | Det fullständiga datumintervallet för en plan. |
    | Budget | Den totala budgeten för en plan. |
-   | Prognostiserad avkastning | Prognostiserad avkastning för en plan |
-   | Prognostiserad avkastning | Den prognostiserade avkastningen på en plan. |
-   | Prognostiserad konvertering | Prognostiserad konvertering för en plan |
-   | Prognostiserad CPA | Prognostiserat CPA för en plan |
+   | Prognostiserad avkastning | Den [prognostiserade avkastningen](/help/main-guide/glossary.md) för en plan |
+   | Prognostiserad avkastning | Den [prognostiserade avkastningen ](/help/main-guide/glossary.md) för en plan. |
+   | Prognostiserad konvertering | Den [prognostiserade konverteringen](/help/main-guide/glossary.md) för en plan |
+   | Prognostiserad CPA | [Prognostiserat CPA](/help/main-guide/glossary.md)för en plan |
    | Status | Status för en plan: <p><span style="color:red"> ●</span> misslyckades, <p><span style="color:blue"> ●</span> bearbetar, eller <p><span style="color:green"> ●</span> har slutförts. |
 
    {style="table-layout:auto"}
@@ -87,8 +87,10 @@ En ny plan, med ett namn som består av den ursprungliga planens namn som har la
 - Information (som Beskrivning, Budget med mera) från den ursprungliga planen kopieras över.
 - Budgetbegränsningar från den ursprungliga planen kopieras till den nya planen.
 - Du kan välja en annan modell som bas för den kopierade planen.
-   - För kontaktytor eller kanaler som finns i den kopierade planen men inte finns i den nyligen valda modellen tas alla begränsningar för dessa kontaktytor eller kanaler bort från planen.
-   - För kontaktytor eller kanaler som inte finns i den kopierade planen men som finns i den nyligen valda modellen, ställs begränsningarna in på ett minimivärde på `0` och ett maxvärde i linje med planens flygintervallbudget.
+   - För kontaktytor eller kanaler som finns i den kopierade planen, men som inte finns i den nyligen valda modellen, tas alla begränsningar för dessa kontaktytor eller kanaler bort från planen.
+   - För kontaktytor eller kanaler som inte finns i den kopierade planen, men som finns i den nyligen valda modellen, ställs begränsningarna in på:
+      - ett minsta värde på `0`,
+      - ett maximalt värde i linje med planens flygintervallbudget.
 
 
 

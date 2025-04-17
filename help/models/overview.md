@@ -3,7 +3,7 @@ title: Översikt över modeller
 description: Lär dig hur du bygger och använder modeller i Mix Modeler.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: f4333d3686d3173452f4e8ca43ccf07c269f4365
+source-git-commit: 85f9b42a775006cd3566447b2bb9d0a806fa3e73
 workflow-type: tm+mt
 source-wordcount: '1174'
 ht-degree: 0%
@@ -32,7 +32,7 @@ En modell kan även innehålla:
 * Tidigare kunskap om marknadsbidrag från andra källor, som tidigare erfarenheter från intressenter, stegvis testning och andra modeller.
 * Utgiftsandel, som använder relativ utgiftsresurs som proxy när marknadsföringsdata är glesare.
 
-När en modell skapas för första gången kommer man omedelbart igång med utbildningen och poängprocessen. När den inledande kursen och poängsättningen är klara finns modellinsikter att granska. En modell kan därefter omskolas. Data kan också läggas till modellen, vilket kräver att du gör om poängen för modellen manuellt. Omutbildning och ompoängtering är en repetitiv process i takt med att nya resultat och ny information kommer fram och justeringar behövs för att skapa en modell som passar era affärsmål bäst.
+När en modell skapas för första gången kommer man omedelbart igång med utbildningen och poängprocessen. När den inledande kursen och poängsättningen är klara finns modellinsikter att granska. En modell kan därefter omskolas. Dessutom kan data läggas till i modellen, vilket kräver att du anger om modellen manuellt. Omutbildning och ompoängtering är en repetitiv process i takt med att nya resultat och ny information kommer fram och justeringar behövs för att skapa en modell som passar era affärsmål bäst.
 
 
 ## Skapa modeller
@@ -68,7 +68,7 @@ Om du vill visa en tabell över de aktuella modellerna i Mix Modeler-gränssnitt
    * ![Klocka](/help/assets/icons/Clock.svg) - indikerar en pågående körning av ett steg i modellens livscykel.
    * ![Close](/help/assets/icons/Close.svg) - indikerar att ett steg i modelllivscykeln inte kunde köras.
 
-   | Status | Skapa | Tåg | Poäng | Återtåg | Poäng igen |
+   | Status | Skapa | Tåg | Poäng | Retrain | Rescore |
    |---|:---:|:---:|:---:|:---:|:---:|
    | Pågår | ![Markering](/help/assets/icons/Checkmark.svg) | | | | |
    | Pågår | ![Markering](/help/assets/icons/Checkmark.svg) | ![Klocka](/help/assets/icons/Clock.svg) | | | |
@@ -150,12 +150,11 @@ Du kan redigera namn, beskrivning och planering av utbildning och poängsättnin
 
 
 
-### Återtåg
+### Retrain
 
+Behåll en modell finns bara för framgångsrika modeller.
 
-Omskolning av en modell är endast tillgängligt för modeller som utbildats med framgång.
-
-Överväg att utbilda om en modell när du vill:
+Överväg att träna om en modell när du vill:
 
 * Inkludera nya inkrementella marknadsförings- och faktordata. Under det senaste kvartalet har till exempel marknadsdynamiken ändrats eller så har er distribution av marknadsföringsdata ändrats avsevärt.
 
@@ -171,7 +170,7 @@ Så här omskolar du en modell:
    * **[!UICONTROL Train model using specific date range of data]**.
 Ange datumintervall. Du kan använda ![kalendern](/help/assets/icons/Calendar.svg) för att välja ett datumintervall. Du måste välja ett dataintervall med minst ett år.
 
-   ![Utbilda om en modell](../assets/re-train-model.png)
+   ![Behåll en modell](../assets/retrain-model.png)
 
 1. Välj **[!UICONTROL Train]** om du vill träna om modellen.
 
@@ -181,12 +180,12 @@ Ange datumintervall. Du kan använda ![kalendern](/help/assets/icons/Calendar.sv
 
 Ni kan stegvis poängsätta en modell baserat på nya marknadsföringsdata eller poängsätta en modell för ett visst datumintervall.
 
-Tänk på att göra om poängen för en modell när du vill:
+Överväg att göra om en modell när du vill:
 
 * Korrigera felaktiga marknadsföringsdata. De senaste betalda sökdata som du tog med i utbildningen och poängsättningen för modellen missade t.ex. en veckas data.
 * Använd nya inkrementella marknadsföringsdata som har blivit tillgängliga via uppdateringar i de datauppsättningar som du har konfigurerat som en del av dina harmoniserade data.
 
-Så här gör du för att poängsätta eller poängsätta om en modell:
+Så här poängterar du en modell eller anger om den:
 
 1. Välj ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** i den vänstra listen.
 
@@ -195,10 +194,10 @@ Så här gör du för att poängsätta eller poängsätta om en modell:
    I dialogrutan **[!UICONTROL Score marketing data]** väljer du alternativet att:
 
    * **[!UICONTROL Score new marketing data from *mm/dd/yyyy *]**om du vill poängsätta modellen stegvis med nya marknadsföringsdata, eller
-   * **[!UICONTROL Score specific date range of marketing data]** om du vill göra om poängen för ett visst datumintervall.
+   * **[!UICONTROL Score specific date range of marketing data]** om du vill upprepa för ett visst datumintervall.
 Ange datumintervall. Du kan använda ![kalendern](/help/assets/icons/Calendar.svg) för att välja ett datumintervall.
 
-   ![Utbilda om en modell](../assets/re-score-model.png)
+   ![Posta om en modell](../assets/rescore-model.png)
 
 1. Välj **[!UICONTROL Score]**. När du ändrar skala på en modell med ett visst dataområde visas en **[!UICONTROL Existing model is replaced]**-dialogruta där du uppmanas att bekräfta att du vill ersätta modellen med nya poäng för det valda datumintervallet. Bekräfta genom att välja **[!UICONTROL Replace model]**.
 

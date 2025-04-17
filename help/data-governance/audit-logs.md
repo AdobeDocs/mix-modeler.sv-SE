@@ -3,16 +3,16 @@ title: Granskningsloggar
 description: Lär dig hur du får åtkomst till granskningsloggar från Mix Modeler.
 feature: Administration
 exl-id: aa65aac5-bea4-43ff-b0d0-9e8a6a97d3ca
-source-git-commit: 77a338ae568c854b99069b849a18661d413c501c
+source-git-commit: 85f9b42a775006cd3566447b2bb9d0a806fa3e73
 workflow-type: tm+mt
 source-wordcount: '479'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 # Granskningsloggar
 
-För att öka insynen i och synligheten för aktiviteter som utförs i systemet, hämtas användaraktiviteter i arbetsflödet i Mix Modeler i Experience Platform granskningsloggar för att förstå användardrivna förändringar i Mix Modeler-kategorier. Loggarna utgör en verifieringskedja som kan hjälpa dig med felsökningsproblem och som kan hjälpa ditt företag att effektivt följa företagets policyer för datahantering och lagstadgade krav.
+För att öka insynen i och synligheten för aktiviteter som utförs i systemet, hämtas användaraktiviteter i Mix Modeler-arbetsflödet in i Experience Platform granskningsloggar för att förstå användardrivna ändringar i Mix Modeler-kategorier. Loggarna utgör en verifieringskedja som kan hjälpa dig med felsökningsproblem och som kan hjälpa ditt företag att effektivt följa företagets policyer för datahantering och lagstadgade krav.
 
 <!-- DO WE HAVE TO ADD THIS
 If you are subject to the Health Insurance Portability and Accountability Act (HIPAA) and create, receive, maintain, or transmit permitted sensitive personal data through Mix Modeler, you are responsible for executing a BAA with Adobe and licensing Healthcare Shield.
@@ -28,34 +28,34 @@ Så här inspekterar du granskningsloggen i Mix Modeler-gränssnittet:
 
    | Kategori | Åtgärd | Status |
    |---|---|---|
-   | Mix Modeler datauppsättningsregel | Skapa | Tillåt eller Neka |
-   | Mix Modeler datauppsättningsregel | Uppdatera | Tillåt eller Neka |
-   | Mix Modeler datauppsättningsregel | Ta bort | Tillåt eller Neka |
-   | Mix Modeler | Skapa | Tillåt eller Neka |
-   | Mix Modeler | Uppdatera | Tillåt eller Neka |
-   | Mix Modeler | Ta bort | Tillåt eller Neka |
-   | Mix Modeler Marketing Touch Point | Skapa | Tillåt eller Neka |
-   | Mix Modeler Marketing Touch Point | Uppdatera | Tillåt eller Neka |
-   | Mix Modeler Marketing Touch Point | Ta bort | Tillåt eller Neka |
-   | Konvertering av Mix Modeler | Skapa | Tillåt eller Neka |
-   | Konvertering av Mix Modeler | Uppdatera | Tillåt eller Neka |
-   | Konvertering av Mix Modeler | Ta bort | Tillåt eller Neka |
+   | Mix Modeler-datauppsättningsregel | Skapa | Tillåt eller Neka |
+   | Mix Modeler-datauppsättningsregel | Uppdatering | Tillåt eller Neka |
+   | Mix Modeler-datauppsättningsregel | Ta bort | Tillåt eller Neka |
+   | Mix Modeler Field | Skapa | Tillåt eller Neka |
+   | Mix Modeler Field | Uppdatering | Tillåt eller Neka |
+   | Mix Modeler Field | Ta bort | Tillåt eller Neka |
+   | Mix Modeler Marketing Touchpoint | Skapa | Tillåt eller Neka |
+   | Mix Modeler Marketing Touchpoint | Uppdatering | Tillåt eller Neka |
+   | Mix Modeler Marketing Touchpoint | Ta bort | Tillåt eller Neka |
+   | Mix Modeler Conversion | Skapa | Tillåt eller Neka |
+   | Mix Modeler Conversion | Uppdatering | Tillåt eller Neka |
+   | Mix Modeler Conversion | Ta bort | Tillåt eller Neka |
    | Mix Modeler Model | Skapa | Tillåt eller Neka |
-   | Mix Modeler Model | Uppdatera | Tillåt eller Neka |
+   | Mix Modeler Model | Uppdatering | Tillåt eller Neka |
    | Mix Modeler Model | Ta bort | Tillåt eller Neka |
-   | Mix Modeler Model | Poäng igen | Tillåt eller Neka |
+   | Mix Modeler Model | Rescore | Tillåt eller Neka |
    | Mix Modeler Model | Klona | Tillåt eller Neka |
-   | Mix Modeler Model | Tåg/tåg | Tillåt eller Neka |
+   | Mix Modeler Model | Tåg/regn | Tillåt eller Neka |
    | Mix Modeler Model | Hämta/spara metadata | Tillåt eller Neka |
-   | Mix Modeler | Skapa | Tillåt eller Neka |
-   | Mix Modeler | Uppdatera | Tillåt eller Neka |
-   | Mix Modeler | Ändra associerad modell | Tillåt eller Neka |
+   | Mix Modeler Plan | Skapa | Tillåt eller Neka |
+   | Mix Modeler Plan | Uppdatering | Tillåt eller Neka |
+   | Mix Modeler Plan | Ändra associerad modell | Tillåt eller Neka |
    | Mix Modeler Data Harmonization | Utlösarsynkronisering | Tillåt eller Neka |
 
 
 1. Välj en post i aktivitetsloggen om du vill öppna en panel med mer information.
 
-   ![Mix Modeler-granskning](/help/assets/mix-modeler-audit.png)
+   ![Mix Modeler Audit](/help/assets/mix-modeler-audit.png)
 
 1. Om du vill filtrera på intervallet **[!UICONTROL Category]**, **[!UICONTROL Action]**, **[!UICONTROL Request ID]**, **[!UICONTROL User]**, **[!UICONTROL Status]** eller **[!UICONTROL Date]** väljer du ![Filter](/help/assets/icons/Filter.svg).
 
@@ -67,4 +67,4 @@ Så här inspekterar du granskningsloggen i Mix Modeler-gränssnittet:
 
 När funktionen är aktiverad för din organisation samlas granskningsloggarna automatiskt in när aktiviteten inträffar. Du behöver inte aktivera granskningsloggen manuellt.
 
-Om du vill visa och exportera granskningsloggar måste du ha beviljats åtkomstkontrollbehörighet för granskningsloggar. Mer information om hur du hanterar enskilda behörigheter för Mix Modeler finns i [åtkomstkontrollsdokumentationen](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home).
+Om du vill visa och exportera granskningsloggar måste du ha beviljats åtkomstkontrollbehörighet för granskningsloggar. Mer information om hur du hanterar enskilda behörigheter för Mix Modeler-funktioner finns i [åtkomstkontrollsdokumentationen](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home).

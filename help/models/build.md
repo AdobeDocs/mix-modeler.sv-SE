@@ -3,9 +3,9 @@ title: Skapa modeller
 description: Lär dig skapa modeller i Mix Modeler.
 feature: Models
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: 3b6b127bfaf79cee99a869b21ff0c1a911b3ad6c
+source-git-commit: b08a24856e28a1377728bc2c511f6ea483cbd0fd
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '978'
 ht-degree: 0%
 
 ---
@@ -131,7 +131,15 @@ Du kan ange avancerade inställningar i steget **[!UICONTROL Advanced]**. I det 
 
 1. I avsnittet **[!UICONTROL Spend share]**:
 
-   * Aktivera **[!UICONTROL Allow spend share]** om du vill använda tidigare investeringsförhållanden för marknadsföring för att informera modellen när marknadsföringsdata är begränsade.
+   * Aktivera **[!UICONTROL Allow spend share]** om du vill använda tidigare investeringsförhållanden för marknadsföring för att informera modellen när marknadsföringsdata är begränsade. Den här inställningen rekommenderas, särskilt i följande scenarier:
+      * En kanal har inte tillräckligt många observationer (t.ex. låg frekvens av utgifter, visningar eller klick).
+      * Du modellerar spiky men regular och potentiellt högspenderade media (som TV för vissa varumärken), där data kan vara glesa.
+
+     >[!NOTE]
+     >
+     >För engångsinvesteringar (t.ex. en Super Bowl-annons) bör du överväga att lägga in dessa data som en faktor i stället för att förlita dig på kostnadsandelen.
+     >
+
 
 1. I avsnittet **[!UICONTROL MTA enabled]**:
 

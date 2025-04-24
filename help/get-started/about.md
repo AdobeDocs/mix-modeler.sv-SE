@@ -4,30 +4,26 @@ description: Få en översikt över funktionaliteten och funktionerna i Mix Mode
 short-description: Få en översikt över funktionaliteten och funktionerna i Mix Modeler.
 feature: Plans, Harmonized Data, Models
 exl-id: aa1018d5-b073-4dfb-b40c-ca16a8970b2f
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: 325bc55076467a8cab5a884ea5137249913d2350
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '745'
 ht-degree: 3%
 
 ---
 
 # Mix Modeler - översikt
 
-I den här videon får du en snabb översikt över Mix Modeler.
-
->[!VIDEO](https://video.tv.adobe.com/v/3424872/?learn=on)
-
-Mix Modeler, som drivs av Adobe Sensei, gör det möjligt för marknadsförare att mäta kampanjer och optimera planeringen holistiskt i alla kanaler: betalda, förtjänade och ägda. Dess enhetliga metod mäter stegvis både vid kontaktytor för marknadsföring och på aggregeringsnivå, samtidigt som man säkerställer fullständigt enhetliga resultat.
+Mix Modeler, som drivs av Adobe Sensei, gör det möjligt för marknadsförare att mäta kampanjer och optimera planeringen på ett enhetligt sätt i alla kanaler: betalda, förtjänade och ägda. Dess enhetliga metod mäter stegvis både vid kontaktytor för marknadsföring och på aggregeringsnivå, samtidigt som man säkerställer fullständigt enhetliga resultat.
 
 Mix Modeler ger den inkrementella effekten av alla marknadsföringsaktiviteter på affärsresultat och kampanjresultat genom en holistisk (från början till slut) mätningsapplikation för digital och offline marknadsföring.
 
-Mix Modeler tillhandahåller följande typer av optimerade och åtgärdbara insikter på strategisk och taktisk nivå, så att ni kan förstå bättre:
+Mix Modeler tillhandahåller följande typer av optimerade och åtgärdbara insikter på strategisk och taktisk nivå, så att du kan förstå dem bättre:
 
 * marknadsföringsutgifter och resulterande resultat i olika kanaler, och
 * rekommenderade investeringsnivåer för att uppnå framtida affärsmål.
 
 
-För att uppnå den här funktionaliteten kombinerar Mix Modeler:
+För att åstadkomma detta kombinerar Mix Modeler
 
 * data på bottennivå (händelsenivå) och data på högsta nivån (aggregeringsnivå),
 * yttre marknadsfaktorer och interna faktorer, och
@@ -53,7 +49,7 @@ Mix Modeler har följande funktioner:
 
 >[!MORELIKETHIS]
 >
->[Förstå arbetsflödet i Mix Modeler](workflow.md)
+>[Förstå Mix Modeler-arbetsflödet](workflow.md)
 
 
 ### Marketing Mix Modeling (MMM)
@@ -66,7 +62,7 @@ Marketing mix-modellering i Mix Modeler är en sekretessvänlig maskininlärning
 
 Denna omfattande analys ger företag möjlighet att fördela marknadsföringsbudgeten strategiskt över olika affärsområden, regioner, kanaler och kampanjer samtidigt som de ger prediktiva insikter om hur framtida händelser påverkar verksamheten.
 
-Mix Modeler Marketing Mixs modelleringsfunktioner är grundläggande när det gäller att lösa följande användningsområden:
+Mix Modeler blandningsmodelleringsfunktioner för marknadsföring är grundläggande för att lösa följande användningsområden:
 
 * Ledningsrapporter: Låt cheferna förstå den faktiska inkrementella effekten av marknadsföring, både i sin helhet och efter kanal, region, SKU osv.
 * Strategisk planering: Utforma långsiktiga marknadsföringsstrategier och ange realistiska mål och riktmärken för framtida kampanjer
@@ -78,7 +74,7 @@ Mix Modeler Marketing Mixs modelleringsfunktioner är grundläggande när det g�
 
 Multitouch-attribueringen i Mix Modeler är en maskininlärningsanalys som du kan använda för att attribuera krediter till kontaktytor på händelsenivå, vilket leder till konverteringshändelser. Den här attribueringen används av marknadsförare för att hjälpa till att kvantifiera marknadsföringseffekten av varje enskild kontaktyta för marknadsföring över kundresor som kan spåras. Dessa kontaktytor för den digitala marknadsföringskampanjen är vanligtvis displayannonsklickningar, e-postutskick, e-postöppningar och betalda sökklick. Multi-touch-attribuering kan inte mäta de flesta kontaktytor offline, som annonser, affischtavlor, TV-reklam och affärsfaktorer. Dessa kontaktytor har endast sammanfattande data på nivå som inte kan sammanfogas med kundresor.
 
-Mix Modeler multi-touch-attribuering stöder två kategorier av poäng:
+Mix Modeler multitouch-attribuering har stöd för två typer av bakgrundsmusik:
 
 * Algoritmiska poäng, som omfattar inkrementella och påverkade poäng:
    * Det påverkade resultatet är den del av konverteringen som varje marknadsföringskontaktyta ansvarar för.
@@ -86,13 +82,13 @@ Mix Modeler multi-touch-attribuering stöder två kategorier av poäng:
 
 * Regelbaserade resultat, inklusive First Touch, Last Touch, Linear, U-shaped och Time-Decay.
 
-Du kan använda multitouch-attribueringsfunktionen för Mix Modeler i följande fall:
+Du kan använda multitouch-attribueringsfunktionen i Mix Modeler i följande fall:
 
 * Budgetallokering för kampanj: Informera om budgetallokeringsbeslut för alla marknadsföringskanaler.
 * Kampanjoptimering: I varje kanal kan du förstå vilka kampanjer, kreatörer och nyckelord som fungerar bättre för vilka SKU:er eller geos. Tack vare den här förståelsen kan ni titta på varje kanal så att marknadsföringsteamet kan optimera taktikerna.
 * Komplett attribuering på händelsenivå: Förstå marknadsföringens påverkan under hela kundresan. Exempel: kostnadsfri kontoregistrering till betalkonvertering och vidare.
 * Partnerutvärderingar: Utvärdera effektiviteten hos myndigheter och partners baserat på attribueringsresultat.
 
-Se [Model Insights - Attribution](../models/insights.md#attribution) om hur du får åtkomst till Multi-touch-attribueringsinsikter i Mix Modeler.
+Se [Modellinsikter - Attribution](../models/insights.md#attribution) om hur du får åtkomst till multitouch-attribueringsinsikter inom Mix Modeler.
 
 

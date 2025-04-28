@@ -3,16 +3,16 @@ title: Översikt över infogningsdata
 description: Lär dig hur du importerar data till Mix Modeler.
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
 exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
-source-git-commit: f073e8f44fc2aa731a69725ebdb99700d1f91a91
+source-git-commit: 857641f6c1db749f79056ce2a2ea35fc4d3e3a3c
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 6%
+source-wordcount: '520'
+ht-degree: 5%
 
 ---
 
 # Översikt över infogningsdata
 
-Mix Modeler arbetar med data på händelsenivå, sammanställda eller sammanfattande uppgifter om marknadsföringsinsatser från olika trädgårdar och samlar in eller sammanställer data från andra källor, som offlinereklam, interna faktorer eller externa faktorer.
+Mix Modeler arbetar med data på händelsenivå, sammanställda eller sammanfattade marknadsföringsinsatser från olika trädgårdar och samlar ihop eller sammanställer data från andra källor, som offlinereklam, interna faktorer eller externa faktorer.
 
 Kunderna kan använda alla typer av data som är inkapslade i Experience Platform som datauppsättningar och som är baserade på scheman med hjälp av XDM ExperienceEvent eller XDM Summary Metrics som basklass.
 
@@ -20,15 +20,15 @@ Exempel:
 
 * data som samlats in med Adobe Analytics källanslutning och omvandlats till datauppsättningar som överensstämmer med standardversionen eller en anpassad version av Adobe Analytics-schemat, eller
 * data som samlats in med Experience Platform Web SDK, Mobile SDK eller Edge Network Server API för att samla in kundinteraktioner på webben, mobiler eller andra typer av enheter,
-* aggregerade eller sammanfattande data från trädgårdar (som Facebook, YouTube), trafikkällor eller offlinereklam,
+* aggregerade eller sammanfattande data från förvarade trädgårdar (som Facebook, YouTube), trafikkällor eller offlinereklam,
 * sammanfattande eller sammanfattande data som inte är avsedda för marknadsföring och som innehåller interna eller externa faktorer som är användbara för modelluppbyggnad.
 
-Ni kan använda vilken mekanism som helst, som stöds av Experience Platform, för att importera era upplevelsehändelsenivåer, sammanställda marknadsföringssatsdata och data från andra källor. som Experience Platform SDK:er, API:er, källkopplingar samt strömning och batchförbrukning.
+Ni kan använda vilken mekanism som helst, som stöds av Experience Platform, för att hämta data på upplevelsehändelsenivå, aggregerade marknadsföringssatsdata och data från andra källor. som Experience Platform SDK:er, API:er, källanslutningar samt strömning och batchförbrukning.
 
 
 ## Riktlinjer
 
-Om du vill importera data till Experience Platform för användning med Mix Modeler följer du dessa riktlinjer:
+Följ dessa riktlinjer när du vill importera data till Experience Platform för användning med Mix Modeler:
 
 * De inkrementella data som läggs till i datauppsättningarna får inte överlappa varandra.
 * Alla data från en enda källa ska vara av samma granularitet.
@@ -80,7 +80,17 @@ Nedan finns några exempel på data som vanligtvis används i Mix Modeler utöve
 
 +++
 
-För att kunna arbeta med data i Mix Modeler behöver du data som samlats in i datauppsättningar och som modellerats efter scheman i Experience Platform. Gränssnittet i Mix Modeler ger enkel åtkomst till både Experience Platform Scheman och datauppsättningsgränssnittet.
+För att kunna arbeta med data i Mix Modeler behöver du data som samlats in i datauppsättningar och modellerats efter scheman i Experience Platform. Mix Modeler-gränssnittet ger enkel åtkomst till både Experience Platform Scheman och datauppsättningsgränssnittet.
+
+
+## Validera
+
+Så här validerar du om dina data är tillgängliga i Mix Modeler:
+
+* Använd visualiseringar i [översikt](/help/overview.md).
+* Hämta och inspektera data från [harmoniserade data](/help/harmonize-data/overview.md) i harmoniserade datauppsättningar.
+
+Om du vill verifiera om dina data har importerats korrekt i Experience Platform kan du [skriva och köra SQL-frågor med Experience Platform Query Service](https://experienceleague.adobe.com/en/docs/experience-platform/query/home).
 
 
 >[!MORELIKETHIS]

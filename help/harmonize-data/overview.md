@@ -3,9 +3,9 @@ title: Översikt över harmoniserade datauppsättningar
 description: Lär dig att harmonisera data i Mix Modeler.
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: beee5fe52188f133b71ed3ef53e40c3aea06ab9c
+source-git-commit: 857641f6c1db749f79056ce2a2ea35fc4d3e3a3c
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '1013'
 ht-degree: 4%
 
 ---
@@ -128,7 +128,7 @@ Om du vill se harmoniserade data i Mix Modeler gränssnitt:
 
 1. Välj ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]** i den vänstra listen.
 
-1. Välj **[!UICONTROL Harmonized Data]** i det övre fältet. En sammanfattning av dina harmoniserade data visas baserat på de fält, datamängdsregler, kontaktytor för marknadsföring och konverteringar du har definierat.
+1. Välj **[!UICONTROL Harmonized data]** i det övre fältet. En sammanfattning av dina harmoniserade data visas baserat på de fält, datamängdsregler, kontaktytor för marknadsföring och konverteringar du har definierat.
 
    1. Om du vill definiera om den period som sammanfattningen av harmoniserade data baseras på anger du ett datumintervall för **[!UICONTROL Date range]** eller använder ![Kalender](/help/assets/icons/Calendar.svg) för att välja ett dataområde.
 
@@ -145,3 +145,13 @@ Om du vill se harmoniserade data i Mix Modeler gränssnitt:
    1. Välj **[!UICONTROL Submit]** om du vill skicka in ändringar av kolumninställningen. Välj **[!UICONTROL Close]** om du vill avbryta alla ändringar du har gjort.
 
 1. Om det finns fler sidor kan du använda ![Vänsterpil](/help/assets/icons/ChevronLeft.svg) eller ![Högerpil](/help/assets/icons/ChevronRight.svg) vid **[!UICONTROL Page _x _av_x_]** för att flytta mellan sidorna.
+
+1. Du kan även hämta harmoniserade data.
+
+   1. Välj ![Hämta](/help/assets/icons/Download.svg) [!BADGE beta].
+   1. Välj ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Create]** på popup-menyn.
+   1. Ange en **[!UICONTROL Report name]**, till exempel `Test Report`.
+   1. Välj ![FileCSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL Report]**.
+
+   En CSV-rapport med en titel som baseras på ditt angivna rapportnamn och aktuellt datum och tid (till exempel `Test Report_2025_04_23_9-5-18.csv`) hämtas till din standardmapp för hämtning.
+

@@ -52,7 +52,7 @@ Om du vill lägga till en kontaktyta för marknadsföring går du till ![DataSea
 
       1. Välj ett värde för operatorn ![Chevron](/help/assets/icons/ChevronDown.svg), till exempel **[!UICONTROL is]**.
 
-      1. Välj ett värde från **[!UICONTROL *Välj värde *]**eller ange ett värde, till exempel **[!DNL Luma]**.
+      1. Välj ett värde från **[!UICONTROL *Välj värde *]**&#x200B;eller ange ett värde, till exempel **[!DNL Luma]**.
 
    1. Välj ett harmoniserat fält från **[!UICONTROL Touchpoint volume]**, till exempel **[!UICONTROL Impressions]**.
 

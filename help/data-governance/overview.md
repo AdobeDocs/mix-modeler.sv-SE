@@ -18,7 +18,7 @@ Experience Platform datastyrning ger er möjlighet att kontrollera och förstå 
 
 Etiketter och profiler för dataanvändning som skapas på datauppsättningar som används av Experience Platform i Mix Modeler, där så är lämpligt. Dessa etiketter stoppar eller varnar till exempel användare när de tar bort datauppsättningar som ingår i en datauppsättningsregel i harmoniserade data. Eller dölj schemafält som är begränsade för användare när en datauppsättningsregel skapas.
 
-Tack vare integreringen av datastyrning kan ni hantera regelefterlevnaden effektivare. Datahanteringen i organisationen kan ange regler som begränsar användningen. Det innebär att du kan använda data som överensstämmer med policyer som definieras av data stewards. Läs dokumentationen om [Etiketter och profiler](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-governance) om du vill veta mer.
+Tack vare integreringen av datastyrning kan ni hantera regelefterlevnaden effektivare. Datahanteringen i organisationen kan ange regler som begränsar användningen. Det innebär att du kan använda data som överensstämmer med policyer som definieras av data stewards. Läs dokumentationen om [Etiketter och profiler](https://experienceleague.adobe.com/sv/docs/analytics-platform/using/cja-dataviews/data-governance) om du vill veta mer.
 
 Följande funktioner för datastyrning är tillgängliga:
 

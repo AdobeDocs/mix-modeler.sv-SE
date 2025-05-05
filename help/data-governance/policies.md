@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # Policyer
 
-När du har gått igenom arbetsflödet för att skapa en modell och skicka in modellens konfiguration, kontrollerar [policytillämpning](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/enforcement/overview#automatic-enforcement) om det finns några överträdelser. Om en principöverträdelse inträffar visas en portfölj som anger att en eller flera profiler har överträtts. Den här kontrollen är till för att säkerställa att datahanteringen och marknadsföringsåtgärderna i Experience Platform är kompatibla med dataanvändningspolicyer.
+När du har gått igenom arbetsflödet för att skapa en modell och skicka in modellens konfiguration, kontrollerar [policytillämpning](https://experienceleague.adobe.com/sv/docs/experience-platform/data-governance/enforcement/overview#automatic-enforcement) om det finns några överträdelser. Om en principöverträdelse inträffar visas en portfölj som anger att en eller flera profiler har överträtts. Den här kontrollen är till för att säkerställa att datahanteringen och marknadsföringsåtgärderna i Experience Platform är kompatibla med dataanvändningspolicyer.
 
 Som standard söker Mix Modeler efter överträdelser av Adobe-definierade policyer som är kopplade till följande etiketter och marknadsföringsåtgärder:
 
@@ -61,7 +61,7 @@ Currently,  Mix Modeler does not support all of the data governance functionalit
 
 >[!MORELIKETHIS]
 >
->[Översikt över dataanvändningsprinciper](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/policies/overview)
+>[Översikt över dataanvändningsprinciper](https://experienceleague.adobe.com/sv/docs/experience-platform/data-governance/policies/overview)
 >
 >
 

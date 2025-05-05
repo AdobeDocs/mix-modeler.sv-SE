@@ -90,7 +90,7 @@ Så här validerar du om dina data är tillgängliga i Mix Modeler:
 * Använd visualiseringar i [översikt](/help/overview.md).
 * Hämta och inspektera data från [harmoniserade data](/help/harmonize-data/overview.md) i harmoniserade datauppsättningar.
 
-Om du vill verifiera om dina data har importerats korrekt i Experience Platform kan du [skriva och köra SQL-frågor med Experience Platform Query Service](https://experienceleague.adobe.com/en/docs/experience-platform/query/home).
+Om du vill verifiera om dina data har importerats korrekt i Experience Platform kan du [skriva och köra SQL-frågor med Experience Platform Query Service](https://experienceleague.adobe.com/sv/docs/experience-platform/query/home).
 
 
 >[!MORELIKETHIS]

@@ -18,7 +18,7 @@ Så här hanterar du scheman och stöder de data du vill importera i Experience 
 
 1. Välj ![Scheman](/help/assets/icons/Schemas.svg) **[!UICONTROL Schemas]**, under **[!UICONTROL SETUP]**.
 
-Mer information finns i [Översikt över användargränssnittet för scheman](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en).
+Mer information finns i [Översikt över användargränssnittet för scheman](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=sv-SE).
 
 ## Sammanställd eller sammanfattad data
 
@@ -72,7 +72,7 @@ Med tanke på den asynkrona typen av profilinmatning uppmuntras det att använda
 
 ## Datatyper som stöds
 
-För närvarande stöder Mix Modeler en delmängd av Experience Platform datatyper. Följande grundläggande datatyper (fält), som nämns i [Grundläggande om schemakomposition](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#data-type), stöds:
+För närvarande stöder Mix Modeler en delmängd av Experience Platform datatyper. Följande grundläggande datatyper (fält), som nämns i [Grundläggande om schemakomposition](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=sv-SE#data-type), stöds:
 
 - Sträng
 - Heltal

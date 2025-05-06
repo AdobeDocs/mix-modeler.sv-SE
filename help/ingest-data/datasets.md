@@ -3,9 +3,9 @@ title: Datauppsättningar
 description: Lär dig hur du hanterar de datauppsättningar som krävs för att importera data till Mix Modeler.
 feature: Datasets
 exl-id: 788de24d-9021-48f8-87ab-09252b91276a
-source-git-commit: 857641f6c1db749f79056ce2a2ea35fc4d3e3a3c
+source-git-commit: 499db639c5e1bf335a704bdb264b2894a89d7341
 workflow-type: tm+mt
-source-wordcount: '55'
+source-wordcount: '66'
 ht-degree: 3%
 
 ---
@@ -18,9 +18,11 @@ Så här hanterar du datauppsättningar som innehåller de data du vill importer
 
 1. Välj ![Data](/help/assets/icons/Data.svg) **[!UICONTROL Datasets]**, under **[!UICONTROL SETUP]**.
 
-Mer information finns i [Användargränssnittsguiden för datauppsättningar](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=sv-SE).
+Mer information finns i [Användargränssnittsguiden för datauppsättningar](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en).
 
 >[!MORELIKETHIS]
 >
->* [Ingest data](https://experienceleague.adobe.com/sv/docs/experience-platform/ingestion/home)
+>* [Ingest data](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home)
 >* [Scheman](schemas.md)
+>* [Översikt över dataöverföring (Experience Platform)](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home)
+>* [Source-anslutningar (Experience Platform)](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)

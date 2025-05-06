@@ -18,11 +18,11 @@ Så här hanterar du datauppsättningar som innehåller de data du vill importer
 
 1. Välj ![Data](/help/assets/icons/Data.svg) **[!UICONTROL Datasets]**, under **[!UICONTROL SETUP]**.
 
-Mer information finns i [Användargränssnittsguiden för datauppsättningar](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en).
+Mer information finns i [Användargränssnittsguiden för datauppsättningar](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=sv-SE).
 
 >[!MORELIKETHIS]
 >
->* [Ingest data](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home)
+>* [Ingest data](https://experienceleague.adobe.com/sv/docs/experience-platform/ingestion/home)
 >* [Scheman](schemas.md)
->* [Översikt över dataöverföring (Experience Platform)](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home)
->* [Source-anslutningar (Experience Platform)](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
+>* [Översikt över dataöverföring (Experience Platform)](https://experienceleague.adobe.com/sv/docs/experience-platform/ingestion/home)
+>* [Source-anslutningar (Experience Platform)](https://experienceleague.adobe.com/sv/docs/experience-platform/sources/home)

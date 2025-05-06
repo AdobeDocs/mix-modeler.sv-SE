@@ -23,7 +23,7 @@ Exempel:
 * aggregerade eller sammanfattande data från förvarade trädgårdar (som Facebook, YouTube), trafikkällor eller offlinereklam,
 * sammanfattande eller sammanfattande data som inte är avsedda för marknadsföring och som innehåller interna eller externa faktorer som är användbara för modelluppbyggnad.
 
-Ni kan använda vilken mekanism som helst, som stöds av Experience Platform, för att hämta data på upplevelsehändelsenivå, aggregerade marknadsföringssatsdata och data från andra källor. Mekanismerna för inmatning är bland annat Experience Platform SDK, API:er, källanslutningar, strömning och gruppinmatning. Om du vill veta mer om hur du importerar data i Experience Platform för användning i Adobe Mix Modeler kan du läsa [Översikt över datainmatning](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home).
+Ni kan använda vilken mekanism som helst, som stöds av Experience Platform, för att hämta data på upplevelsehändelsenivå, aggregerade marknadsföringssatsdata och data från andra källor. Mekanismerna för inmatning är bland annat Experience Platform SDK, API:er, källanslutningar, strömning och gruppinmatning. Om du vill veta mer om hur du importerar data i Experience Platform för användning i Adobe Mix Modeler kan du läsa [Översikt över datainmatning](https://experienceleague.adobe.com/sv/docs/experience-platform/ingestion/home).
 
 ## Riktlinjer
 
@@ -89,7 +89,7 @@ Så här validerar du om dina data är tillgängliga i Mix Modeler:
 * Använd visualiseringar i [översikt](/help/overview.md).
 * Hämta och inspektera data från [harmoniserade data](/help/harmonize-data/overview.md) i harmoniserade datauppsättningar.
 
-Om du vill verifiera om dina data har importerats korrekt i Experience Platform kan du [skriva och köra SQL-frågor med Experience Platform Query Service](https://experienceleague.adobe.com/en/docs/experience-platform/query/home).
+Om du vill verifiera om dina data har importerats korrekt i Experience Platform kan du [skriva och köra SQL-frågor med Experience Platform Query Service](https://experienceleague.adobe.com/sv/docs/experience-platform/query/home).
 
 
 >[!MORELIKETHIS]

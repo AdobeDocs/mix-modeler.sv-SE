@@ -120,7 +120,7 @@ Du kan snabbt duplicera en modell.
 
 1. Välj ![Mer](/help/assets/icons/More.svg) för en modell och välj **[!UICONTROL Duplicate]** på snabbmenyn.
 
-Du omdirigeras till stegen för att skapa en ny modell, med ett föreslaget namn bestående av den ursprungliga modellens namn som bifogas med **[!UICONTROL (Copy)](_n_)**.
+Du omdirigeras till stegen för att skapa en ny modell, med ett föreslaget namn bestående av den ursprungliga modellens namn som bifogas med **[!UICONTROL (Copy)] (_n_)**.
 
 ### Redigera
 
@@ -193,7 +193,7 @@ Så här poängterar du en modell eller anger om den:
 
    I dialogrutan **[!UICONTROL Score marketing data]** väljer du alternativet att:
 
-   * **[!UICONTROL Score new marketing data from *mm/dd/yyyy *]**om du vill poängsätta modellen stegvis med nya marknadsföringsdata, eller
+   * **[!UICONTROL Score new marketing data from *mm/dd/yyyy *]**&#x200B;om du vill poängsätta modellen stegvis med nya marknadsföringsdata, eller
    * **[!UICONTROL Score specific date range of marketing data]** om du vill upprepa för ett visst datumintervall.
 Ange datumintervall. Du kan använda ![kalendern](/help/assets/icons/Calendar.svg) för att välja ett datumintervall.
 
@@ -219,5 +219,5 @@ Så här tar du bort flera modeller:
 
 1. Markera flera modeller.
 1. Välj ![Ta bort](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** från det blå åtgärdsfältet för att ta bort modellerna.
-1. Välj **[!UICONTROL Delete]** i bekräftelsedialogrutan för **[!UICONTROL Delete *x *modeller]**om du vill ta bort modellerna. Välj **[!UICONTROL Cancel]**om du vill avbryta.
+1. Välj **[!UICONTROL Delete]** i bekräftelsedialogrutan för **[!UICONTROL Delete *x *modeller]**&#x200B;om du vill ta bort modellerna. Välj **[!UICONTROL Cancel]**&#x200B;om du vill avbryta.
 

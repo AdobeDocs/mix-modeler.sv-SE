@@ -2,10 +2,10 @@
 user-guide-title: Användarhandbok för Mix Modeler
 breadcrumb-title: Användarhandbok för Mix Modeler
 user-guide-description: Lär dig hur du använder Mix Modeler.
-source-git-commit: 0ee212a626986e4c721d0e58f2528d0ca1a9fdbf
+source-git-commit: 1e2a6d1bc32060d6de02b7ac7c879da3046f69e7
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 39%
+source-wordcount: '88'
+ht-degree: 42%
 
 ---
 
@@ -17,14 +17,15 @@ ht-degree: 39%
    + [Vad är Mix Modeler?](/help/get-started/about.md)
    + [Programarbetsflöde](/help/get-started/workflow.md)
 
-+ Hem {#dashboard}
++ Startsida {#dashboard}
    + [Översikt](/help/dashboard/overview.md)
    + [Harmoniserade data](/help/dashboard/harmonized-data.md)
    + [Planer](/help/dashboard/plans.md)
 
-+ Modeller {#models}
++ Models {#models}
    + [Översikt](/help/models/overview.md)
    + [Skapa modeller](/help/models/build.md)
+   + [Tåg- och poängmodeller](/help/models/train-score.md)
    + [Modellinsikter](/help/models/insights.md)
    + [Använd poängdata](/help/models/scoring-data.md)
 
@@ -42,12 +43,12 @@ ht-degree: 39%
    + [Konverteringar](/help/harmonize-data/conversions.md)
    + [Användningsrapport](/help/harmonize-data/usage-report.md)
 
-+ Ingest data {#ingest-data}
++ Ingrediera data {#ingest-data}
    + [Översikt](/help/ingest-data/overview.md)
    + [Scheman](/help/ingest-data/schemas.md)
    + [Datauppsättningar](/help/ingest-data/datasets.md)
 
-+ Datastyrning {#data-governance}
++ Dataförvaltning {#data-governance}
    + [Översikt](/help/data-governance/overview.md)
    + [Åtkomstkontroll](/help/data-governance/access-controls.md)
    + [Granskningsloggar](/help/data-governance/audit-logs.md)

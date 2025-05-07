@@ -55,7 +55,7 @@ Så här poängterar du en modell eller anger om den:
 
    I dialogrutan **[!UICONTROL Score marketing data]** väljer du alternativet att:
 
-   * **[!UICONTROL Score new marketing data from *mm/dd/yyyy *]**om du vill poängsätta modellen stegvis med nya marknadsföringsdata, eller
+   * **[!UICONTROL Score new marketing data from *mm/dd/yyyy *]**&#x200B;om du vill poängsätta modellen stegvis med nya marknadsföringsdata, eller
    * **[!UICONTROL Score specific date range of marketing data]** om du vill upprepa för ett visst datumintervall.
 Ange datumintervall. Du kan använda ![kalendern](/help/assets/icons/Calendar.svg) för att välja ett datumintervall.
 

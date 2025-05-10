@@ -74,7 +74,7 @@ Den här tekniska handboken ger självhjälp för Adobe **Mix Modeler**. Mix Mod
     </td>
         <td>
       <img src="assets/Learn.svg" width="35px"><br/>
-      <strong> Tutorials </strong><br/><a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/overview.html?lang=sv-SE">Översikt</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/use-cases.html?lang=en">Användningsexempel</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-workflow.html?lang=sv-SE">Användararbetsflöde</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-interface-tour.html?lang=sv-SE">Demo av användargränssnittet</a>
+      <strong> Tutorials </strong><br/><a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/overview.html?lang=sv-SE">Översikt</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/use-cases.html?lang=sv-SE">Användningsexempel</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-workflow.html?lang=sv-SE">Användararbetsflöde</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-interface-tour.html?lang=sv-SE">Demo av användargränssnittet</a>
     </td>
   </tr>
 </table>

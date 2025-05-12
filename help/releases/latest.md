@@ -4,9 +4,9 @@ description: Versionsinformation för den senaste Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 85f9b42a775006cd3566447b2bb9d0a806fa3e73
+source-git-commit: 9b400aeac26a3b02a8dfaf1faad435e0d3ac6cd8
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '365'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,8 @@ Versionsinformationen innehåller den senaste utgåvan av Mix Modeler. Mix Model
 
 | Funktion | Beskrivning | [Startar](#release-strategy) | [Allmän tillgänglighet](#release-strategy) |
 |---|---|---|---|
-| **Modellkörningsidentifiering** | När du öppnar en modell uppmanas du [att träna om modellen när modellavdrift identifieras](/help/models/insights.md#model-drift). | 3 april 2025 | t.b.d. |
+| **Modellkörningsidentifiering** | När du öppnar en modell uppmanas du [att träna om modellen när modellavdrift identifieras](/help/models/insights.md#model-drift). | 3 april 2025 | 7 maj 2025 |
+| **Återföring av marginella kanaler i planinsikter** | En [marginell kanalretur](/help/plans/insights.md#marginal-channel-return)-visualisering läggs till i planeringsinsikter, som visar marginell radbrytning och planretur för alla eller valda kanaler. | 3 april 2025 | 24 april 2025 |
 
 
 ## Januari-februari 2025

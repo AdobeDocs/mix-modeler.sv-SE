@@ -3,9 +3,9 @@ title: Planera insikter
 description: Lär dig hur du ser insikter om din plan och redigerar en plan i Mix Modeler.
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-source-git-commit: fbed53a1c394d6d110db6a8a181ca815056377de
+source-git-commit: 3545a7045478108db4d9f6bb87df679bfede5a45
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '766'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ När hämtningen är klar visas en översikt över din plan, som består av:
 
 Om du vill stänga gränssnittet väljer du **[!UICONTROL Close]**.
 
-Om du vill ändra hur du visar avkastningen på din plan väljer du **[!UICONTROL X]** eller **[!UICONTROL &#x200B; %]** **[!UICONTROL View ROI]**.
+Om du vill ändra hur du visar avkastningen på din plan väljer du **[!UICONTROL X]** eller **[!UICONTROL  %]** **[!UICONTROL View ROI]**.
 
 ## Prognostiserade utgifter för betalda kanaler och avkastning på investerat kapital
 
@@ -114,6 +114,39 @@ Tabellen [!UICONTROL Date range breakdown] visar detaljerade, detaljerade data p
       1. Välj **[!UICONTROL Next]** om du vill återgå till avsnittet **[!UICONTROL Spend]**. Välj **[!UICONTROL Cancel]** om du vill återgå till din planöversikt.
 
          ![Avtalsinformation](/help/assets/plan-details.png)
+
+   1. Om du har definierat avancerade konfigurationer för din plan väljer du **[!UICONTROL Next]**.
+
+      ![Redigera avancerad konfiguration](../assets/edit-plan-advanced-configuration.png)
+
+      - Ditt plannamn, din modell, datumintervall och din totala budget sammanfattas.
+
+      - Som standard beräknar Mix Modeler automatiskt den genomsnittliga intäkten per konvertering med hjälp av de senaste historiska säsongsuppgifterna. I **[!UICONTROL Average Revenue per conversion]** kan du definiera en specifik genomsnittlig intäkt per konvertering.
+
+         1. För varje datumintervall i din budget:
+            1. Välj ett datumintervall i listrutan **[!UICONTROL Date range]**.
+            1. Ange ett **[!UICONTROL Average revenue]**-värde.
+
+         1. Välj ![AddCircle](/help/assets/icons/AddCircle.svg) Lägg till en anpassad genomsnittlig intäkt per konverteringsenhet för att lägga till ett datumintervall.
+         1. Välj ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) om du vill ta bort ett datumintervall.
+
+        >[!NOTE]
+        >
+        >Om modellen inte innehåller historiska intäktsdata måste du definiera en genomsnittlig intäkt per konvertering för varje datumintervall som du anger för din budget.
+        >
+
+      - Som standard beräknar Mix Modeler automatiskt kanalkostnaderna med hjälp av de senaste säsongsuppgifterna. I **[!UICONTROL Channel costs]** kan du definiera anpassade kanalkostnader.
+
+         1. Definiera anpassade kanalkostnader för varje kanal i modellen.
+            1. Välj en kanal i listrutan **[!UICONTROL Channel]**.
+            1. För varje datumintervall i din budget:
+               1. Välj ett datumintervall i listrutan **[!UICONTROL Date range]**.
+               1. Ange ett **[!UICONTROL Average revenue]**-värde.
+            1. Välj ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add custom average revenue per conversion unit]** om du vill lägga till ett datumintervall.
+            1. Välj ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) om du vill ta bort ett datumintervall.
+
+         1. Välj ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add custom channel cost]** om du vill lägga till en kanal.
+         1. Välj ![CrossSize400](/help/assets/icons/CrossSize400.svg) om du vill ta bort en anpassad kanal.
 
 
 1. När du är klar med redigeringen av din plan väljer du **[!UICONTROL Edit]**.

@@ -3,9 +3,9 @@ title: Skapa planer
 description: Lär dig hur du bygger planer i Mix Modeler.
 feature: Plans
 exl-id: 6d61d0b2-5871-4d00-9a35-73fff0a1c3e5
-source-git-commit: d05eccef370598ce64363ca6ae20886b0e5dccd0
+source-git-commit: 3545a7045478108db4d9f6bb87df679bfede5a45
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '535'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,7 @@ ht-degree: 0%
 I Mix Modeler skapar du en plan med hjälp av planarbetsytan. På planarbetsytan kan du ange information och budgetar för din plan och den underliggande modellen som ska användas för din plan. När du har angett detaljer, budget och modell kan du gå vidare med en AI-rekommenderad plan eller redigera utgiften per kanal.
 
 Om du vill skapa en plan väljer du **[!UICONTROL Create plan]** i ![PLan](/help/assets/icons/FileChart.svg) **[!UICONTROL Plans]** -gränssnittet i Mix Modeler.
+
 
 1. På skärmen **[!UICONTROL Plan creation]**:
 
@@ -49,12 +50,12 @@ Om du vill skapa en plan väljer du **[!UICONTROL Create plan]** i ![PLan](/help
 
    ![Planen är klar](/help/assets/plan-done-required-fields.png)
 
-   * Välj <img src="/help/assets/icons/NewPlan.svg" width="25" /> **[!UICONTROL Create plan now]** om du vill generera en AI-rekommenderad plan med prognostiserad avkastning på investerat kapital.
+   * Välj ![NewPlan](../assets/icons/NewPlan.svg) **[!UICONTROL Create plan now]** om du vill generera en AI-rekommenderad plan med prognostiserad avkastning.
 
      Välj **[!UICONTROL OK]**. Din plan har skapats.
 
 
-   * Välj ![TableEdit](/help/assets/icons/TableEdit.svg) **[!UICONTROL Edit channel budgets first]** om du vill redigera kanalbudgeten innan du skapar en plan med prognostiserad avkastning.
+   * Välj ![TableEdit](/help/assets/icons/TableEdit.svg) **[!UICONTROL Edit channel budgets first]** om du vill redigera kanalbudgeten och definiera avancerade konfigurationer innan en plan med prognostiserad avkastning skapas.
 
      Välj **[!UICONTROL OK]** så att du kan definiera din kanalutgift i **[!UICONTROL Spend selection]** i nästa steg.
 
@@ -68,6 +69,46 @@ Om du vill skapa en plan väljer du **[!UICONTROL Create plan]** i ![PLan](/help
 
       ![Utgiftsmarkering](/help/assets/plan-spend-selection.png)
 
+   1. Välj **[!UICONTROL Next]**.
+
+
+1. I avsnittet **[!UICONTROL Advanced configurations]** kan du ange valfria avancerade konfigurationer.
+
+   ![Sammanfattning av plan](../assets/plan-advanced-configurations.png)
+
+   * Ditt plannamn, din modell, datumintervall och din totala budget sammanfattas.
+
+   * Som standard beräknar Mix Modeler automatiskt den genomsnittliga intäkten per konvertering med hjälp av de senaste historiska säsongsuppgifterna. I **[!UICONTROL Average Revenue per conversion]** kan du definiera en specifik genomsnittlig intäkt per konvertering.
+
+      1. För varje datumintervall i din budget:
+
+         1. Välj ett datumintervall i listrutan **[!UICONTROL Date range]**.
+         1. Ange ett **[!UICONTROL Average revenue]**-värde.
+
+      1. Välj ![AddCircle](/help/assets/icons/AddCircle.svg) Lägg till en anpassad genomsnittlig intäkt per konverteringsenhet för att lägga till ett datumintervall.
+      1. Välj ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) om du vill ta bort ett datumintervall.
+
+     >[!NOTE]
+     >
+     >Om modellen inte innehåller historiska intäktsdata måste du definiera en genomsnittlig intäkt per konvertering för varje datumintervall som du anger för din budget.
+     >
+
+   * Som standard beräknar Mix Modeler automatiskt kanalkostnaderna med hjälp av de senaste säsongsuppgifterna. I **[!UICONTROL Channel costs]** kan du definiera anpassade kanalkostnader.
+
+      1. Definiera anpassade kanalkostnader för varje kanal i modellen.
+
+         1. Välj en kanal i listrutan **[!UICONTROL Channel]**.
+         1. För varje datumintervall i din budget:
+            1. Välj ett datumintervall i listrutan **[!UICONTROL Date range]**.
+            1. Ange ett **[!UICONTROL Average revenue]**-värde.
+         1. Välj ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add custom average revenue per conversion unit]** om du vill lägga till ett datumintervall.
+         1. Välj ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) om du vill ta bort ett datumintervall.
+
+      1. Välj ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add custom channel cost]** om du vill lägga till en kanal.
+      1. Välj ![CrossSize400](/help/assets/icons/CrossSize400.svg) om du vill ta bort en anpassad kanal.
+
+
    1. När du är klar väljer du **[!UICONTROL Create]**.
 
    1. I dialogrutan **[!UICONTROL Create plan]** väljer du **[!UICONTROL Create plan]** för att skapa din plan. Välj **[!UICONTROL Cancel]** om du vill avbryta skapandet av din plan. En **[!UICONTROL No work is saved]**-dialogruta visas för att bekräfta.
+

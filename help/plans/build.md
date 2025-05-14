@@ -3,7 +3,7 @@ title: Skapa planer
 description: Lär dig hur du bygger planer i Mix Modeler.
 feature: Plans
 exl-id: 6d61d0b2-5871-4d00-9a35-73fff0a1c3e5
-source-git-commit: 1d017960409e5433ac6b4950a5cf7a5b3174840a
+source-git-commit: 3650135ee3ed5c435593aeed94bee8952bbe6df4
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 0%
@@ -84,10 +84,10 @@ Om du vill skapa en plan väljer du **[!UICONTROL Create plan]** i ![PLan](/help
    1. Om du vill växla mellan valuta- eller procentindata väljer du **[!UICONTROL $]** eller **[!UICONTROL %]** för **[!UICONTROL View spend by]**.
 
    1. När du är klar väljer du **[!UICONTROL Create]**.
-
       ![Utgiftsmarkering](/help/assets/plan-spend-selection.png)
 
    1. Välj **[!UICONTROL Next]**.
+
 
 
 1. I avsnittet **[!UICONTROL Advanced configurations]** kan du ange valfria avancerade konfigurationer.

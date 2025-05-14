@@ -4,18 +4,26 @@ description: Versionsinformation för den senaste Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 9b400aeac26a3b02a8dfaf1faad435e0d3ac6cd8
+source-git-commit: 58f8745a224407cfb8ce3912bde9f0f85b5d8b46
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '433'
 ht-degree: 2%
 
 ---
 
 # Aktuella versionsinformation för Mix Modeler
 
-**Senast uppdaterad**: februari 2025.
+**Senast uppdaterad**: 14 maj 2025.
 
 Versionsinformationen innehåller den senaste utgåvan av Mix Modeler. Mix Modeler-releaser fungerar enligt en kontinuerlig leveransmodell, vilket möjliggör en ungefärlig månadsvis publiceringsgräns. Versionsinformationen uppdateras därför, så kontrollera dem regelbundet.
+
+
+## Maj-juni 2025
+
+| Funktion | Beskrivning | [Startar](#release-strategy) | [Allmän tillgänglighet](#release-strategy) |
+|---|---|---|---|
+| **Konfiguration för utgiftsmönster** | När du skapar en plan har du nu möjlighet att använda [historiska referensdata](/help/plans/build.md) (som tidigare marknadsföringsutgiftsdata och insikter) när du definierar utgiftsmönstret för varje budgetdatumintervall. | 14 maj 2025 | 14 maj 2025 |
+| **Avancerade plankonfigurationer** | Du kan definiera [avancerade konfigurationer](/help/plans/build.md) för din plan, som genomsnittliga intäkter per konvertering och kanalkostnader. | 14 maj 2025 | 14 maj 2025 |
 
 ## Mars-april 2025
 

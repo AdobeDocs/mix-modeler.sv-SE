@@ -3,9 +3,9 @@ title: Planera insikter
 description: Lär dig hur du ser insikter om din plan och redigerar en plan i Mix Modeler.
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-source-git-commit: 3545a7045478108db4d9f6bb87df679bfede5a45
+source-git-commit: 1d017960409e5433ac6b4950a5cf7a5b3174840a
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '926'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ När hämtningen är klar visas en översikt över din plan, som består av:
 
 Om du vill stänga gränssnittet väljer du **[!UICONTROL Close]**.
 
-Om du vill ändra hur du visar avkastningen på din plan väljer du **[!UICONTROL X]** eller **[!UICONTROL &#x200B; %]** **[!UICONTROL View ROI]**.
+Om du vill ändra hur du visar avkastningen på din plan väljer du **[!UICONTROL X]** eller **[!UICONTROL  %]** **[!UICONTROL View ROI]**.
 
 ## Prognostiserade utgifter för betalda kanaler och avkastning på investerat kapital
 
@@ -84,13 +84,27 @@ Tabellen [!UICONTROL Date range breakdown] visar detaljerade, detaljerade data p
 
 1. Om du vill redigera din plan väljer du ![Redigera](/help/assets/icons/Edit.svg) **[!UICONTROL Edit plan]**:
 
-   1. I avsnittet **[!UICONTROL Spend selection]** använder du ![Chevron](/help/assets/icons/ChevronRight.svg) för att öppna kanaldistributionsvyn för det dataintervallet för varje datumintervall.
+   I avsnittet **[!UICONTROL Spend selection]** använder du ![Chevron](/help/assets/icons/ChevronRight.svg) för att öppna kanaldistributionsvyn för det dataintervallet för varje datumintervall.
+
+   Ni kan använda historiska referensdata om ni vill använda tidigare marknadsföringsutgiftsdata och insikter. Du bör överväga historiska referensdata för att:
+
+   - Förbättra budgettilldelningen genom att markera högpresterande kanaler och dåligt fungerande kanaler.
+   - stödja trendanalys.
+   - Identifiera effektiva strategier och undvik misstag när du konfigurerar planer.
+
+   Om du väljer en historisk referensperiod kan du anpassa dig till tidigare inställningar för utgiftsmönster och Mix Modeler planeringsfunktion generera planer som ligger inom dina förväntningar. Dessa planer bör i slutändan öka intressenternas förtroende, säkerställa att marknadsföringsplanerna är strategiska, effektiva och att dessa planer bygger på beprövade resultatdata och affärsbehov.
+
+   ![Utgiftsmarkering](/help/assets/plan-spend-selection.png)
+
+   1. Välj **[!UICONTROL Spend pattern]**.
+
+      - Som standard är detta **[!UICONTROL Automatic]**.
+      - Välj **[!UICONTROL Historical reference]** och ange en **[!UICONTROL Start date]** för att referera till tidigare marknadsföringsutgiftsdata som redan är tillgängliga för Mix Modeler. **[!UICONTROL End date]** bestäms automatiskt utifrån det valda dataområdet. Det föreslagna startdatumet är den första tillgängliga informationen om tidigare marknadsföringsutgifter som finns tillgänglig. Om du vill ange att du har valt en historik som inte finns visas en ![AlertRed](/help/assets/icons/AlertRed.svg).
+
 
    1. Om du vill ändra budgeten för varje kanal ändrar du värdena för **[!UICONTROL Min]** och **[!UICONTROL Max]** eller använder reglagen.
 
    1. Om du vill växla mellan valuta- eller procentindata väljer du **[!UICONTROL $]** eller **[!UICONTROL %]** för **[!UICONTROL View spend by]**.
-
-      ![Utgiftsmarkering](/help/assets/spend-selection.png)
 
    1. Om du vill redigera information om din plan väljer du **[!UICONTROL Edit details]**:
 

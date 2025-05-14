@@ -84,6 +84,7 @@ Om du vill skapa en plan väljer du **[!UICONTROL Create plan]** i ![PLan](/help
    1. Om du vill växla mellan valuta- eller procentindata väljer du **[!UICONTROL $]** eller **[!UICONTROL %]** för **[!UICONTROL View spend by]**.
 
    1. När du är klar väljer du **[!UICONTROL Create]**.
+
       ![Utgiftsmarkering](/help/assets/plan-spend-selection.png)
 
    1. Välj **[!UICONTROL Next]**.

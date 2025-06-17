@@ -3,10 +3,10 @@ title: Översikt över harmoniserade datauppsättningar
 description: Lär dig att harmonisera data i Mix Modeler.
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: 857641f6c1db749f79056ce2a2ea35fc4d3e3a3c
+source-git-commit: 80fbb8aea3e66342a7887f1660af0f4bf05ffcdb
 workflow-type: tm+mt
-source-wordcount: '1013'
-ht-degree: 4%
+source-wordcount: '1192'
+ht-degree: 3%
 
 ---
 
@@ -154,4 +154,28 @@ Om du vill se harmoniserade data i Mix Modeler gränssnitt:
    1. Välj ![FileCSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL Report]**.
 
    En CSV-rapport med en titel som baseras på ditt angivna rapportnamn och aktuellt datum och tid (till exempel `Test Report_2025_04_23_9-5-18.csv`) hämtas till din standardmapp för hämtning.
+
+
+## God praxis
+
+När du skapar en harmoniserad datauppsättning bör du följa följande metodtips.
+
+### Schema
+
+* Undvik felaktiga datatyper. Felmatchningar inträffar när datatypen för ett fält i poster för dina inkapslade datamängder inte överensstämmer med den datatyp som du konfigurerade för fältet i det underliggande schemat.
+* Undvik felaktiga schematyper. Felaktiga schematyper inträffar när du försöker importera en viss typ av data med en datauppsättning som inte matchar schemat för dessa data. Du kan till exempel försöka att importera sammanfattningsdata med hjälp av en extern faktordatauppsättning.
+
+### Datamappning
+
+* Se till att du har konfigurerat identiteter korrekt för alla händelsedatamängder.
+
+### Datakvalitet
+
+* Se till att du använder samma datum- och tidsformat för alla poster i datauppsättningar som kräver tidsstämplade data.
+* Se till att du använder samma granularitet (dag eller vecka) för poster i sammanställda eller sammanfattningsdatauppsättningar.
+
+### Beräkning av uppgifter
+
+* Undvik dubblettrader i en datauppsättning.
+* Se till att varje datauppsättning som du överför är specifik för en unik kanal och konverteringstyp. Duplicerade kontaktytor eller konverteringar över flera datauppsättningar påverkar modellens utdata och kvalitet.
 

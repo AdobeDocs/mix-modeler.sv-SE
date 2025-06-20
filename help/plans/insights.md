@@ -41,7 +41,7 @@ När insikterna skapas visas en översikt över din plan, som består av:
 
 Om du vill stänga gränssnittet väljer du **[!UICONTROL Close]**.
 
-Om du vill ändra hur du visar avkastningen på din plan väljer du **[!UICONTROL X]** eller **[!UICONTROL  %]** **[!UICONTROL View ROI]**.
+Om du vill ändra hur du visar avkastningen på din plan väljer du **[!UICONTROL X]** eller **[!UICONTROL &#x200B; %]** **[!UICONTROL View ROI]**.
 
 ## Prognostiserade utgifter för betalda kanaler och avkastning på investerat kapital
 

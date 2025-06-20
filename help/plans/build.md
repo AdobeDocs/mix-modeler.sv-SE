@@ -108,6 +108,7 @@ Om du vill ta bort ett datumintervall och tillhörande målmått väljer du ![St
    1. Om du vill växla mellan valuta- eller procentindata väljer du **[!UICONTROL $]** eller **[!UICONTROL %]** för **[!UICONTROL View spend by]**. Den här växlingen är inaktiverad om du har valt målmått som inte är valutabaserade.
 
    1. När du är klar väljer du **[!UICONTROL Create]**.
+
       ![Utgiftsmarkering](/help/assets/plan-spend-selection.png)
 
    1. Välj **[!UICONTROL Next]**.

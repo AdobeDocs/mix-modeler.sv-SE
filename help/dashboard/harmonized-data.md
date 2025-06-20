@@ -1,9 +1,9 @@
 ---
 title: Kontrollpanel för harmoniserade data
-description: Lär dig hur du använder kontrollpanelen för den harmoniserade datapresentationen i Mix Modeler.
+description: Lär dig hur du använder den harmoniserade kontrollpanelen för dataöversikt i Mix Modeler.
 feature: Dashboard, Harmonized Data
 exl-id: fbb01613-d648-4db1-a782-a7720b7a03ad
-source-git-commit: f073e8f44fc2aa731a69725ebdb99700d1f91a91
+source-git-commit: 9776b79cfc4a8eaebecd4bce85cfc9d85329c910
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Om du vill ändra datumperioden för data som ska visas i visualiseringarna ange
 
 Du kan filtrera de data som visas för alla visualiseringar med rutan ![Filter](/help/assets/icons/Filter.svg) **[!UICONTROL Category Filters]** .
 
-Välj ett eller flera filter för varje kategori (**[!UICONTROL Brands]**, **[!UICONTROL Campaigns]**, **[!UICONTROL Cannels Type]**, **[!UICONTROL Conversion types]**, **[!UICONTROL Datasets]**, **[!UICONTROL Media types]**, **[!UICONTROL Source types]** och **[!UICONTROL Traffic Source]**).
+Välj ett eller flera filter för varje kategori (**[!UICONTROL Brands]**, **[!UICONTROL Campaigns]**, **[!UICONTROL Channels Type]**, **[!UICONTROL Conversion types]**, **[!UICONTROL Datasets]**, **[!UICONTROL Media types]**, **[!UICONTROL Source types]** och **[!UICONTROL Traffic Source]**).
 
 De valda filtren visas ovanpå visualiseringarna på **[!UICONTROL FILTERING BY:]**.
 

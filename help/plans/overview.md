@@ -3,9 +3,9 @@ title: Planer - översikt
 description: Lär dig hur du visar, väljer ut och utför åtgärder på planer i Mix Modeler.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: 09b0868cc6f631188b2609b1da81d1a6b6f0aa9f
+source-git-commit: f0871834ec665c907caf0af3edeeed4fb2549a58
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
@@ -52,11 +52,12 @@ Om du vill visa en tabell över dina aktuella planer går du till Mix Modeler-gr
    | Modell | Modellen som används som bas för planen. |
    | Datumintervall | Det fullständiga datumintervallet för en plan. |
    | Budget | Den totala budgeten för en plan. |
+   | Planmål | Målmåttet som har definierats för en målbaserad plan. |
    | Prognostiserad avkastning | Den [prognostiserade avkastningen](/help/main-guide/glossary.md) för en plan |
    | Prognostiserad avkastning | Den [prognostiserade avkastningen ](/help/main-guide/glossary.md) för en plan. |
    | Prognostiserad konvertering | Den [prognostiserade konverteringen](/help/main-guide/glossary.md) för en plan |
    | Prognostiserad CPA | [Prognostiserat CPA](/help/main-guide/glossary.md)för en plan |
-   | Status | Status för en plan: <p><span style="color:red"> ●</span> misslyckades, <p><span style="color:blue"> ●</span> bearbetar, eller <p><span style="color:green"> ●</span> har slutförts. |
+   | Status | Status för en plan: <p><span style="color:red">●</span> misslyckades, <p><span style="color:blue">●</span> bearbetar, eller <p><span style="color:green">●</span> har slutförts. |
 
    {style="table-layout:auto"}
 
@@ -82,7 +83,7 @@ Så här duplicerar du en plan:
 - Välj ![Mer](/help/assets/icons/More.svg) för en plan. Välj **[!UICONTROL Duplicate]** på snabbmenyn.
 - Du kan också välja en plan i tabellen ![SelectBox](/help/assets/icons/SelectBox.svg) och välja ![Kopiera](/help/assets/icons/Copy.svg) **[!UICONTROL Duplicate]** i det blå åtgärdsfältet.
 
-En ny plan, med ett namn som består av den ursprungliga planens namn som har lagts till med **[!UICONTROL (Copy)] (_n_)**, skapas. Du omdirigeras automatiskt till [Planskapande](build.md) för att tillhandahålla uppdaterad information om den kopierade planen.
+En ny plan, med ett namn som består av den ursprungliga planens namn som har lagts till med **[!UICONTROL (Copy)](_n_)**, skapas. Du omdirigeras automatiskt till [Planskapande](build.md) för att tillhandahålla uppdaterad information om den kopierade planen.
 
 - Information (som Beskrivning, Budget med mera) från den ursprungliga planen kopieras över.
 - Budgetbegränsningar från den ursprungliga planen kopieras till den nya planen.
@@ -113,6 +114,6 @@ Så här tar du bort flera planer:
 
 1. Välj flera planer.
 1. Välj ![Ta bort](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** i det blå åtgärdsfältet för att ta bort planerna.
-1. Välj **[!UICONTROL Delete]** i bekräftelsedialogrutan för **[!UICONTROL Delete *x *-planer]**&#x200B;om du vill ta bort planerna. Välj **[!UICONTROL Cancel]**&#x200B;om du vill avbryta.
+1. Välj **[!UICONTROL Delete]** i bekräftelsedialogrutan för **[!UICONTROL Delete *x *-planer]**om du vill ta bort planerna. Välj **[!UICONTROL Cancel]**om du vill avbryta.
 
 

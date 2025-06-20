@@ -4,9 +4,9 @@ description: Versionsinformation för den senaste Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 58f8745a224407cfb8ce3912bde9f0f85b5d8b46
+source-git-commit: 498f50e4d1568e58d0ac2833022822340a5f6337
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '464'
 ht-degree: 2%
 
 ---
@@ -22,6 +22,7 @@ Versionsinformationen innehåller den senaste utgåvan av Mix Modeler. Mix Model
 
 | Funktion | Beskrivning | [Startar](#release-strategy) | [Allmän tillgänglighet](#release-strategy) |
 |---|---|---|---|
+| **Målbaserade planer** | Vid budgetar kan du definiera ett mål (mål) när du [skapar](/help/plans/build.md) eller [redigerar](/help/plans/insights.md#edit-plan) en plan. Exempel på målvärden är intäkter, konvertering, CPA eller ROI. | 18 juni 2025 | 8 juli 2025 |
 | **Konfiguration för utgiftsmönster** | När du skapar en plan har du nu möjlighet att använda [historiska referensdata](/help/plans/build.md) (som tidigare marknadsföringsutgiftsdata och insikter) när du definierar utgiftsmönstret för varje budgetdatumintervall. | 14 maj 2025 | 14 maj 2025 |
 | **Avancerade plankonfigurationer** | Du kan definiera [avancerade konfigurationer](/help/plans/build.md) för din plan, som genomsnittliga intäkter per konvertering och kanalkostnader. | 14 maj 2025 | 14 maj 2025 |
 

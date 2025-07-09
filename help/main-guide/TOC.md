@@ -2,10 +2,10 @@
 user-guide-title: Användarhandbok för Mix Modeler
 breadcrumb-title: Användarhandbok för Mix Modeler
 user-guide-description: Lär dig hur du använder Mix Modeler.
-source-git-commit: 1e2a6d1bc32060d6de02b7ac7c879da3046f69e7
+source-git-commit: cc6f7810bf60c7b364280139cb1cbb39794595d8
 workflow-type: tm+mt
 source-wordcount: '88'
-ht-degree: 42%
+ht-degree: 44%
 
 ---
 
@@ -65,3 +65,4 @@ ht-degree: 42%
    + [Test](../releases/test.md)
 
 + [Ordlista](/help/main-guide/glossary.md)
+

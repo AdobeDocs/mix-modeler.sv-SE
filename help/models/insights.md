@@ -3,9 +3,9 @@ title: Modellinsikter
 description: Lär dig mer om din modell, som historisk översikt, modellinsikter och modellkvalitet i Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: d7386eb44b01fa42c2f0c501e09472af4458c4b1
+source-git-commit: e5fa52cee1725ddfe4d75c50857a1e5ef4daf5b2
 workflow-type: tm+mt
-source-wordcount: '2040'
+source-wordcount: '2255'
 ht-degree: 0%
 
 ---
@@ -22,13 +22,19 @@ Dessa insikter hjälper er sedan att ge stöd åt resursprioritering och resurst
 
 Så här visar du modellinsikter i gränssnittet ![Models](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** i Mix Modeler:
 
-1. I tabellen **[!UICONTROL Models]** väljer du namnet på en modell som har **[!UICONTROL Last run status]** av <span style="color:green"> ●</span> **[!UICONTROL Success]**.
+1. I tabellen **[!UICONTROL Models]** väljer du namnet på en modell som har **[!UICONTROL Last run status]** av <span style="color:green">●</span> **[!UICONTROL Success]**.
 
 1. Välj **[!UICONTROL Model Insights]** på snabbmenyn.
 
-![Flikfältet Modellinsikter](/help/assets/model-insights-tabbar.png)
 
-Du ser när den angivna modellen senast har uppdaterats och visualiseringar visas på fyra flikar: [Modellinsikter](#model-insights), [Attribution](#attribution), [Factors](#factors), [Diagnostics](#diagnostics) och [Historiköversikt](#historical-overview).
+
+Följande flikar är tillgängliga:
+
+* [Modellinsikter](#model-insights)
+* [Faktorer](#factors-beta) [!BADGE beta]
+* [Attribution](#attribution) (endast för MTA-aktiverade modeller)
+* [Diagnostik](#diagnostics)
+* [Historisk översikt](#historical-overview).
 
 Du kan ändra den datumperiod som visualiseringarna på varje flik baseras på. Ange en datumperiod eller välj ![Kalender](/help/assets/icons/Calendar.svg) för att välja en datumperiod.
 
@@ -57,9 +63,9 @@ På fliken Modellinsikter visas visualiseringar för [Bidrag per datum och basme
 
 Den här staplade diagramvisualiseringen ordnas enligt följande:
 
-* Basera längst ned.
-* Icke-spenderade kanaler i mitten.
-* Lägg ut kanaler överst.
+* Basen visas längst ned.
+* Kanaler som inte används visas i mitten.
+* Utgiftskanaler visas överst.
 
 Den här visualiseringen representerar den andel bidrag som uppnås genom bas, via utgiftskanaler och icke-utgiftskanaler i ett datumintervall. Den här visualiseringen är användbar för att visa hur stor ökningen är. Basen representerar det som skulle ha hänt utan någon marknadsföring alls, och de icke-utgiftsrelaterade kanalerna plus utgiftskanalerna (utöver basen) tillskriver marknadsföringens påverkan. Kort och gott är att icke-spendera plus-utgifter motsvarar den inkrementella effekten av era marknadsföringssatsningar och visualiseringen ger enkel insikt i det värde som marknadsföring genererar.
 
@@ -84,7 +90,7 @@ Så här ändrar du kanal:
 
 ### Uppdelning efter kontaktpunkter
 
-Tabellen över indelning av kontaktytor visar veckovisa brytpunkter för alla eller valda kanaler på veckobasis, med nyckeltal som är kopplade till varje kanal. Tabellen gör det enklare att jämföra, identifiera trender och spåra prestanda på en mer detaljerad kanalnivå. Den här tabellen kompletterar visualiseringen [Bidrag per datum och basmedia](#contribution-by-date-and-base-media) och visualiseringen [Bidrag per kanal](#contribution-by-channel).
+Tabellen över indelning av kontaktytor visar veckovisa brytpunkter för alla eller valda kanaler, varje vecka, med nyckeltal som är kopplade till varje kanal. Tabellen gör det enklare att jämföra, identifiera trender och spåra prestanda på en mer detaljerad kanalnivå. Den här tabellen kompletterar visualiseringen [Bidrag per datum och basmedia](#contribution-by-date-and-base-media) och visualiseringen [Bidrag per kanal](#contribution-by-channel).
 
 ![Uppdelning efter kontaktpunkter](../assets/touchpoint-breakdown.png)
 
@@ -228,37 +234,51 @@ För varje konverteringsbana ser du:
 
 På fliken Diagnostik visas visualiseringar för:
 
-* [!UICONTROL Model Assessment]-visualisering, som du kan bryta ned för konverteringar av faktisk kontra förväntad eller residual.
+* **[!UICONTROL Model Assessment]** visualiseringar, som består av:
 
-  Om du vill bryta ned visualiseringen väljer du **[!UICONTROL Actual vs. Predicted]** eller **[!UICONTROL Residuals]** i listan **[!UICONTROL Breakdown]**.
+  ![Modellutvärdering](../assets/model-assessment.png)
 
-* [!UICONTROL Model fitting metrics]-tabell, med följande kolumner för varje konverteringsmått:
+   * Ett diagram som du kan dela upp på faktiska kontra förväntade eller kvarvarande konverteringar.
+Om du vill dela upp visualiseringen väljer du något av följande alternativ i listan **[!UICONTROL Breakdown]**.
 
-   * Faktisk konvertering
+      * **[!UICONTROL Actual vs Predicted]**: Det här alternativet jämför verkliga värden med modellprognoser. I idealfallet bör de förväntade värdena vara nära anpassade till de faktiska värdena, även om en viss avvikelse förväntas. Stora eller systematiska avvikelser eller mönster kan tyda på saknade relationer och data eller potentiella avvikelser.
 
-   * Modellerad konvertering
+      * **[!UICONTROL Residuals]**: Det här alternativet visar skillnaden mellan faktiska och förväntade värden. En modell med bra prestanda har residualer som är slumpmässigt fördelade, utan tydliga mönster eller ökat spridning. Strukturerade trender eller vidgade residualer kan signalera saknade relationer och data- eller variansproblem.
 
-   * Restkonvertering (skillnad mellan faktisk konvertering och modellkonvertering)
+   * En tabell som visar följande kolumner för varje konverteringsmått:
 
-   * Värden för modellkvalitetsskala:
-
-      * R2 (R-fyrkantig), som anger hur väl data passar in i regressionsmodellen (godheten i passform).
-
-      * MAPE (medelvärde för absolut procentfel), som är en av de mest använda KPI:erna för att mäta prognosens exakthet och uttrycker prognosfelet som en procentandel av det faktiska värdet.
-
-      * RMSE (Rot Mean Square Error): som visar det genomsnittliga felet, viktat enligt kvadraten på felet.
+      * **[!UICONTROL Actual Conversion]**
+      * **[!UICONTROL Predicted Conversion]**
+      * **[!UICONTROL Residual Conversion]**
+      * **[!UICONTROL R<sup>2</sup>]**, en poäng som anger hur bra data passar in i regressionsmodellen (hur bra det är att anpassa).
+      * **[!UICONTROL MAPE]** (medelvärde för absolut procentfel), som är en av de mest använda KPI:erna för att mäta prognosexakthet och uttrycker prognosfelet som en procentandel av det faktiska värdet.
+      * **[!UICONTROL RMSE]** (Ruta med rotmedelfel): som visar det genomsnittliga felet, viktat enligt kvadraten på felet.
 
   Om du vill hämta en CSV-fil som innehåller data för tabellen väljer du ![Hämta](/help/assets/icons/Download.svg).
 
-* [!UICONTROL Touchpoint effectiveness]-tabellen, som representerar resultatet av AI-algoritmisk modell för attribuering. Data för det här registret genereras endast för specifika tidsperioder. Välj **[!UICONTROL As of *xx/xx/xx, xx:xx TZ *]**![Info](/help/assets/icons/InfoOutline.svg) om du vill ha mer information.
+* **[!UICONTROL Model training fit metrics]**-tabell, som visas för varje konverteringsmått:
+
+  ![Modellträning, passningsstatistik, tabell](../assets/model-training-fit-metrics.png)
+
+   * **[!UICONTROL Training R<sup>2</sup>]**: Anger andelen varians i de faktiska värdena som förklaras av modellens prognoser, från 0 till 1.
+   * **[!UICONTROL Training sMAPE]** (symmetriskt medelvärde för absolut procentfel): Mäter medelprocentfel för utbildningsdata. Lägre värden ger bättre precision.
+   * **[!UICONTROL Training RMSE]** (Rot Mean-kvadrat-fel): Mäter genomsnittligt procentfel för utbildningsdata. Utjämnar större fel mer än MAPE. Lägre RMSE ger bättre prediktiv precision men är känsligt för avvikelser.
+   * **[!UICONTROL Out-of-sample sMAPE]**: Utvärderar procentfel för osynliga data, balanserar över- och underprognoser. Hjälper till att utvärdera generalisering. För närvarande utvärderar Mix Modeler ett procentfel med hjälp av sista kvartalet av utbildningsdata som en utelämningsuppsättning.
+   * **[!UICONTROL Out-of-sample RMSE]**: Utvärderar procentfel för osynliga data, balanserar över- och underprognoser. Hjälper till att utvärdera generalisering. För närvarande utvärderar Mix Modeler ett procentfel med hjälp av sista kvartalet av utbildningsdata som en utelämningsuppsättning. RMSE penaliserar större fel mer än MAPE.
+
+
+* **[!UICONTROL Touchpoint effectiveness]**-tabellen, som representerar resultatet av AI-algoritmisk modell för attribuering.
+
+  ![Touchpoint-effektivitetstabell](../assets/touchpoint-effectiveness.png)
+
+  Data för det här registret genereras endast för specifika tidsperioder. Välj **[!UICONTROL As of *xx/xx/xx, xx:xx TZ *]**![Info](/help/assets/icons/InfoOutline.svg) om du vill ha mer information.
 
   Visualiseringen visar, i fallande ordning [!UICONTROL Efficiency measure] ![Fallande ordning](/help/assets/icons/SortOrderDown.svg), för varje kontaktyta:
 
-   * [!UICONTROL Paths touched]: visualiserar procentandelen sökvägar som uppnår konvertering och procentandelen sökvägar som inte uppnår konvertering. För en kontaktyta ser du fler konverteringar när attribueringskonverteringsgraden är hög. Proportionerna jämför procentandelen sökvägar som leder till konvertering med procentandelen sökvägar som *inte* leder till konvertering.
-   * [!UICONTROL Efficiency measure]: genereras av den algoritmiska attribueringsmodellen och effektivitetsmåttet anger den relativa vikten av en kontaktyta mot konverteringen, oberoende av kontaktytpunktsvolym. Effektiviteten mäts på en skala från 1 till 5. Observera att högre kontaktytpunkter inte garanterar högre effektivitetsmått.
-   * [!UICONTROL Total volume]: Det sammanlagda antalet gånger en användare vidrör en kontaktyta. Antalet är inklusive kontaktytor som visas på en bana som uppnår konvertering samt banor *som inte* resulterar i konvertering.
+   * **[!UICONTROL Paths touched]**: visualiserar procentandelen sökvägar som uppnår konvertering och procentandelen sökvägar som inte uppnår konvertering. För en kontaktyta ser du fler konverteringar när attribueringskonverteringsgraden är hög. Proportionerna jämför procentandelen sökvägar som leder till konvertering med procentandelen sökvägar som *inte* leder till konvertering.
+   * **[!UICONTROL Efficiency measure]**: genereras av den algoritmiska attribueringsmodellen och effektivitetsmåttet anger den relativa vikten av en kontaktyta mot konverteringen, oberoende av kontaktytpunktsvolym. Effektiviteten mäts på en skala från 1 till 5. Observera att högre kontaktytpunkter inte garanterar högre effektivitetsmått.
+   * **[!UICONTROL Total volume]**: Det sammanlagda antalet gånger en användare vidrör en kontaktyta. Antalet är inklusive kontaktytor som visas på en bana som uppnår konvertering samt banor *som inte* resulterar i konvertering.
 
-![Diagnostik](/help/assets/model-insights-diagnostics.png)
 
 ### Modellkörningsidentifiering
 

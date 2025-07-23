@@ -1,16 +1,22 @@
 ---
 title: Marknadsföringskontaktytor
-description: Lär dig hur du skapar kontaktytor för marknadsföring som en del av att harmonisera data i Mix Modeler.
+description: Lär dig hur du skapar kontaktytor för marknadsföring som en del i arbetet med att harmonisera data i Mix Modeler.
 feature: Harmonized Data, Marketing Touch Points
 exl-id: 42851107-7568-4bc9-92ca-3cba713a522e
-source-git-commit: 935b179e31d1b677a8c83b1566c02b7aaa617e8d
+source-git-commit: b3e52a34f26574961823c08859f17e2e6f1fdcd3
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
 
-# Marknadsföringskontaktytor
+# Marknadsföringskontaktytor {#marketing-touchpoints}
+
+>[!CONTEXTUALHELP]
+>id="harmonizeddata_marketingtouchpoint"
+>title="Marknadsföringskontaktyta"
+>abstract="Marknadsföringskontaktytorna är marknadshändelser på mottagarnivå, individ- och cookienivå som används för att utvärdera effekten av marknadsinvesteringar på numeriska eller intäktsbaserade konverteringar."
+
 
 Marknadsföringskontaktytorna är marknadshändelser på mottagarnivå, individ- och cookienivå som används för att utvärdera effekten av marknadsinvesteringar på numeriska eller intäktsbaserade konverteringar.
 
@@ -52,7 +58,7 @@ Om du vill lägga till en kontaktyta för marknadsföring går du till ![DataSea
 
       1. Välj ett värde för operatorn ![Chevron](/help/assets/icons/ChevronDown.svg), till exempel **[!UICONTROL is]**.
 
-      1. Välj ett värde från **[!UICONTROL *Välj värde *]**&#x200B;eller ange ett värde, till exempel **[!DNL Luma]**.
+      1. Välj ett värde från **[!UICONTROL *Välj värde *]**eller ange ett värde, till exempel **[!DNL Luma]**.
 
    1. Välj ett harmoniserat fält från **[!UICONTROL Touchpoint volume]**, till exempel **[!UICONTROL Impressions]**.
 

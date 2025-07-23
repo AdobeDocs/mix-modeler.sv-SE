@@ -3,9 +3,9 @@ title: Modellinsikter
 description: Lär dig mer om din modell, som historisk översikt, modellinsikter och modellkvalitet i Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: e5fa52cee1725ddfe4d75c50857a1e5ef4daf5b2
+source-git-commit: b3e52a34f26574961823c08859f17e2e6f1fdcd3
 workflow-type: tm+mt
-source-wordcount: '2255'
+source-wordcount: '2333'
 ht-degree: 0%
 
 ---
@@ -230,9 +230,30 @@ För varje konverteringsbana ser du:
 * summan av dessa procentsatser för kanalattribueringsmodellen.
 
 
-## [!UICONTROL Diagnostics]
+## [!UICONTROL Diagnostics] {#diagnostics}
 
-På fliken Diagnostik visas visualiseringar för:
+
+>[!CONTEXTUALHELP]
+>id="models_diagnostics_modelassessment"
+>title="Modellbedömningsdiagram"
+>abstract="Modellbedömningsvisualiseringar bryts ned på faktiska kontra förväntade eller kvarvarande konverteringar."
+>additional-url="https://experienceleague.adobe.com/en/docs/mix-modeler/using/overview" text="Mix Modeler - översikt"
+>additional-url="https://video.tv.adobe.com/v/3440794/?learn=on&amp;enablevpops" text="Mix Modeler demo"
+
+
+>[!CONTEXTUALHELP]
+>id="models_diagnostics_pathstouched"
+>title="Bana rörda"
+>abstract="Perfekta banor är den procentandel av banorna som uppnår konvertering och den procentandel av banorna som inte uppnår konvertering för varje kontaktyta."
+
+
+>[!CONTEXTUALHELP]
+>id="models_diagnostics_modeldateinfo"
+>title="Modelldatum den"
+>abstract="Data för det här registret genereras endast för specifika tidsperioder.  Datumet **[!UICONTROL As of]** anger när data genererades och baseras på data från startDate till endDate."
+
+
+Fliken **[!UICONTROL Diagnostics]** visar visualiseringar för:
 
 * **[!UICONTROL Model Assessment]** visualiseringar, som består av:
 

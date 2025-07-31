@@ -3,16 +3,16 @@ title: Datauppsättningsregler
 description: Lär dig hur du definierar datauppsättningsregler som ska användas som en del av att harmonisera data i Mix Modeler.
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: a8590d604f79268bc8d1f012f2c19271a3b38668
+source-git-commit: 6fb23f4c970b7491730342a6a5a03f4e04c26bd1
 workflow-type: tm+mt
-source-wordcount: '1407'
+source-wordcount: '1421'
 ht-degree: 0%
 
 ---
 
 # Datauppsättningsregler
 
-Datauppsättningsreglerna hjälper dig att mappa dina harmoniserade fält till fält från data som du matat in i Mix Modeler.
+Datauppsättningsreglerna hjälper dig att mappa dina harmoniserade fält till fält från data som du har inhämtat i Mix Modeler.
 
 * För sammanställda data som du har kapslat i Adobe Experience Platform mappar du ett eller flera av de tillgängliga datamängdsfälten till lämpliga harmoniserade fält.
 * För händelsedata kan du mappa ett eller flera harmoniserade fält till fält från datauppsättningen, direkt eller med villkor.
@@ -20,7 +20,7 @@ Datauppsättningsreglerna hjälper dig att mappa dina harmoniserade fält till f
 
 ## Hantera datauppsättningsregler
 
-Om du vill visa en tabell med tillgängliga datauppsättningsregler i gränssnittet Mix Modeler:
+Om du vill visa en tabell med tillgängliga datauppsättningsregler i Mix Modeler-gränssnittet:
 
 1. Välj ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** i den vänstra listen.
 
@@ -35,14 +35,14 @@ Tabellkolumnerna anger information om datauppsättningsreglerna:
 | Schema | Schemat som datauppsättningen följer. Du kan snabbt välja schemanamnet för att öppna schemat på en ny flik i schemaredigeraren i ![Schema](/help/assets/icons/Schemas.svg) [Scheman](../ingest-data/schemas.md). |
 | Kornighet | Detaljrikedomen för data i datauppsättningen. Möjliga värden är Daily, Weekly, Monthly eller Yearly. |
 | Veckostart | Anger vilken veckodag som betraktas som början av en ny vecka för den specifika datauppsättningen. |
-| Status | Fältets status: <p><span style="color:gray"> ●</span> utkast eller <p><span style="color:green"> ●</span> aktiv |
+| Status | Fältets status: <p><span style="color:gray">●</span> Utkast eller <p><span style="color:green">●</span> aktiv |
 | Senast ändrad | Data och tid för den senaste ändringen av datauppsättningsregeln. |
 
 {style="table-layout:auto"}
 
 ### Skapa en datauppsättningsregel
 
-Om du vill skapa en datauppsättningsregel väljer du **[!UICONTROL Create a dataset rule]** i guiden **[!UICONTROL Dataset rules configuration]** i ![&#128279;](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** i Mix Modeler. DataSearch  > .
+Om du vill skapa en datauppsättningsregel väljer du ![ i guiden ](/help/assets/icons/DataCheck.svg) i **[!UICONTROL Harmonized data]** **[!UICONTROL Dataset rules]** > **[!UICONTROL Create a dataset rule]** i Mix Modeler-gränssnittet **[!UICONTROL Dataset rules configuration]** DataSearch .
 
 På skärmen **[!UICONTROL Create]**
 
@@ -52,19 +52,7 @@ På skärmen **[!UICONTROL Create]**
 
 1. Välj **[!UICONTROL Daily]**, **[!UICONTROL Weekly]**, **[!UICONTROL Monthly]** eller **[!UICONTROL Yearly]** för **[!UICONTROL Granularity]**.
 
-1. När du har valt en datauppsättning i kategorin **[!UICONTROL Summary]**:
-
-   1. Om du vill definiera om data för datauppsättningen ska aggregeras eller ersätta befintliga data väljer du **[!UICONTROL Aggregation]** eller **[!UICONTROL Replacement]** för **[!UICONTROL Data restatement is by]**.
-
-   1. Avbilda var och en av **[!UICONTROL Available dataset fields]** till motsvarande **[!UICONTROL Standard harmonized fields]** i **[!UICONTROL Map to harmonized fields]**. Om du inte vill mappa ett datamängdsfält till ett harmoniserat fält väljer du **[!UICONTROL -- None --]** uttryckligen.
-
-   1. Om du behöver ett nytt harmoniserat fält, som inte är tillgängligt från listan, väljer du **[!UICONTROL Create New]** för att skapa ett nytt harmoniserat fält. Dialogrutan visas enligt beskrivningen i [Lägg till ett nytt harmoniserat fält](fields.md#add-a-harmonized-field).
-
-   1. När mappningen är klar för alla fält för regeln väljer du **[!UICONTROL Save as draft]** om du vill spara ett utkast av regeln eller **[!UICONTROL Save]** om du vill spara och aktivera regeln. Välj **[!UICONTROL Cancel]** om du vill avbryta regelkonfigurationen.
-
-      ![Skapa datauppsättningsregler](/help/assets/dataset-create-summary.png)
-
-1. När du har valt en händelsekategoridatauppsättning (**[!UICONTROL Experience Events]**, **[!UICONTROL Adobe Analytics]**, **[!UICONTROL Consumer Experience Events]**), i rutan under **[!UICONTROL Map to harmonized fields]**:
+1. I avsnittet **[!UICONTROL Map to harmonized fields]**:
 
    1. Välj ett harmoniserat fält från **[!UICONTROL Standard harmonized field]**.
 
@@ -72,17 +60,17 @@ På skärmen **[!UICONTROL Create]**
 
       1. Välj **[!UICONTROL Count]** eller **[!UICONTROL Sum]** från **[!UICONTROL Mapping type]**.
 
-      1. Välj ett **[!UICONTROL *AEP-datamängdsfält *]**&#x200B;som du vill att det harmoniserade fältet ska mappas till som standard.
+      1. Välj ett **[!UICONTROL *AEP-datamängdsfält *]**som du vill att det harmoniserade fältet ska mappas till som standard.
 
    1. När det markerade fältet är av typen dimension:
 
       1. Välj **[!UICONTROL Map Into]** eller **[!UICONTROL Case]** från **[!UICONTROL Mapping type]**.
 
-      1. När du har valt **[!UICONTROL Map Into]** väljer du **[!UICONTROL Field]** och **[!UICONTROL *AEP-datamängdsfält *]**&#x200B;eller **[!UICONTROL Value]**&#x200B;och ett standardvärde som mappar det harmoniserade fältet som standard till datamängdsfältet eller det angivna värdet.
+      1. När du har valt **[!UICONTROL Map Into]** väljer du **[!UICONTROL Field]** och **[!UICONTROL *AEP-datamängdsfält *]**eller **[!UICONTROL Value]**och ett standardvärde som mappar det harmoniserade fältet som standard till datamängdsfältet eller det angivna värdet.
 
-      1. När du väljer **[!UICONTROL Case]** väljer du **[!UICONTROL Field]** och **[!UICONTROL *AEP-datamängdsfält *]**&#x200B;eller **[!UICONTROL Value]**&#x200B;och ett standardvärde som mappar det harmoniserade fältet som standard till datamängdsfältet eller det angivna värdet.
+      1. När du väljer **[!UICONTROL Case]** väljer du **[!UICONTROL Field]** och **[!UICONTROL *AEP-datamängdsfält *]**eller **[!UICONTROL Value]**och ett standardvärde för att mappa det harmoniserade fältet som standard till datamängdsfältet eller det angivna värdet.
 
-         1. Om du vill ange värden explicit definierar du ett eller flera fall som består av ett eller flera villkor. Varje villkor kan söka efter ett specifikt **[!UICONTROL *AEP-datamängdsfält *]**&#x200B;vare sig det är **[!UICONTROL Exists]**&#x200B;eller **[!UICONTROL Not Exists]**&#x200B;eller om det är **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**&#x200B;eller **[!UICONTROL Ends With]**&#x200B;ett värde som anges vid&#x200B;**[!UICONTROL * Ange indatavärde *]**.
+         1. Om du vill ange värden explicit definierar du ett eller flera fall som består av ett eller flera villkor. Varje villkor kan kontrollera om det finns ett specifikt **[!UICONTROL *AEP-datamängdsfält *]**, om det är **[!UICONTROL Exists]**eller **[!UICONTROL Not Exists]**eller om det är **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**eller **[!UICONTROL Ends With]**ett värde som anges vid**[!UICONTROL * Ange indatavärde *]**.
 
          1. Om du vill lägga till ytterligare ett ärende väljer du ![Lägg till](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add case]** och väljer ![Lägg till](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add condition]**.
 
@@ -103,9 +91,24 @@ På skärmen **[!UICONTROL Create]**
 
         ![Datauppsättningsregelhändelse](/help/assets/dataset-create-event.png)
 
+      När du mappar ett standardiserat, harmoniserat fält från en sammanfattningsdatauppsättning försöker Mix Modeler att ta fram motsvarande Experience Platform-datamängdsfält. När det lyckades:
+
+      * Om fältet är av typen dimension markeras **[!UICONTROL Map into]** som **[!UICONTROL Mapping type]**.
+      * Om fältet är av måtttyp markeras **[!UICONTROL Sum]** som **[!UICONTROL Mapping type]**.
+      * **[!UICONTROL Field]** har valts som mappningstyp för **[!UICONTROL Default]**.
+      * Motsvarande Experience Platform-datamängdsfält infogas automatiskt för *AEP-datamängdsfält*.
+
+      Du kan ändra vilket som helst av de föreslagna värdena om de är felaktiga eller inte stöder ditt specifika användningssätt.
+
 1. Välj ![Lägg till](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add field]** om du vill definiera ytterligare fält.
 
 När du är klar väljer du **[!UICONTROL Save as draft]** om du vill spara ett utkast av regeln eller **[!UICONTROL Save]** om du vill spara och aktivera regeln. Välj **[!UICONTROL Cancel]** om du vill avbryta regelkonfigurationen.
+
+>[!NOTE]
+>
+>Den dedikerade **[!UICONTROL Map to harmonized fields]**-upplevelsen för regler för sammanfattningsdatauppsättningar är föråldrad. Alla datauppsättningar använder nu samma generiska **[!UICONTROL Map to harmonized fields]**-upplevelse. För sammanfattningsdatauppsättningar för vilka du har definierat regler med hjälp av den föråldrade **[!UICONTROL Map to harmonized fields]**-upplevelsen kanske du vill verifiera dessa regler mot den generiska **[!UICONTROL Map to harmonized field]**-upplevelsen.
+>
+
 
 
 ### Redigera en datauppsättningsregel
@@ -122,6 +125,7 @@ Om du vill ta bort en datauppsättningsregel går du till ![DataSearch](/help/as
 
 1. Välj ![Mer](/help/assets/icons/More.svg) i kolumnen **[!UICONTROL Dataset]** för den datauppsättningsregel som du vill ta bort.
 1. Välj ![Ta bort](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** på snabbmenyn om du vill ta bort datauppsättningsregeln. Du uppmanas att bekräfta åtgärden. Välj **[!UICONTROL Delete]** om du vill ta bort den markerade datauppsättningsregeln permanent.
+
 
 
 ## Synkronisera data
@@ -144,7 +148,7 @@ Så här synkroniserar du data mellan harmoniserade data och sammanfattningar oc
 
 >[!NOTE]
 >
->[!BADGE beta]{type=Informative}
+>[!BADGE beta]{type=Informative} Inställningarna för datasammanfogning är en betafunktion och funktionen kan komma att ändras.
 
 För att få korrekta modellprognoser kan du definiera inställningar för datasammanfogning. Med den här funktionen kan användare lösa eventuella konflikter efter sammanfogning av data på sammanfattningsnivå och händelsenivå.
 
@@ -170,7 +174,7 @@ Så här konfigurerar du inställningar för datasammanfogning:
 
 1. Välj ![Inställningar för datasammanfogning](/help/assets/icons/Merge.svg) [!BADGE beta].
 
-1. I **[!UICONTROL Data merge preferences]** [!BADGE beta]{type=Informative}
+1. I dialogrutan **[!UICONTROL Data merge preferences]** [!BADGE beta]{type=Informative}:
 
    ![Inställningar för datasammanfogning](/help/assets/data-merge-preferences.png)
 

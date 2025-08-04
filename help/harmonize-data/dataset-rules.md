@@ -3,9 +3,9 @@ title: Datauppsättningsregler
 description: Lär dig hur du definierar datauppsättningsregler som ska användas som en del av att harmonisera data i Mix Modeler.
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: 6fb23f4c970b7491730342a6a5a03f4e04c26bd1
+source-git-commit: 6862d9a49718fe9d1ee1d5bec75b0dc83e14a090
 workflow-type: tm+mt
-source-wordcount: '1421'
+source-wordcount: '1625'
 ht-degree: 0%
 
 ---
@@ -52,6 +52,14 @@ På skärmen **[!UICONTROL Create]**
 
 1. Välj **[!UICONTROL Daily]**, **[!UICONTROL Weekly]**, **[!UICONTROL Monthly]** eller **[!UICONTROL Yearly]** för **[!UICONTROL Granularity]**.
 
+1. När du har valt en datauppsättning i kategorin **[!UICONTROL Summary]** väljer du **[!UICONTROL Aggregation]** eller **[!UICONTROL Replacement]** för **[!UICONTROL Data restatement is by]**.
+
+   Att rapportera data från utgivare är mycket viktigt för marknadsföringsanalytiker, eftersom det ofta innebär betydande utgifter, och förändringar i rapporteringsdata kan leda till mycket olika insikter och investeringsplaner. Dessutom behöver marknadsföringsanalytiker korrekta data för att få fram rätt insikter och lägga fram övertygande förslag för att få intressenternas förtroende. Men dessa utgivare, som Google och Facebook, skriver ofta om eller tar bort rapporteringsdata när de sammanställer deras data. Tidsperioden för de flesta ändringar är inom 7 dagar från den rapporterade medieprestandan. Ytterligare förändringar i data är möjliga inom 30 dagar. Efter 30 dagar betraktas böcker som stängda och data fullständiga.
+
+   Mix Modeler har stöd för omräkning av data. För att säkerställa att de data som används för rapportering, modellering och planering är korrekta. Och att data kan stödja varumärkes- och marknadsföringsanalytikernas förväntningar och behov.
+
+   Du kan skicka omräknade rader med sammanfattningsdata som inkrementella rader i en Experience Platform-datamängd och harmoniseringstjänsten uppdaterar den harmoniserade datamängden med dessa omräknade data. På samma sätt kan du även ta bort rader med sammanfattningsdata som måste återspeglas i harmoniseringstjänsten.
+
 1. I avsnittet **[!UICONTROL Map to harmonized fields]**:
 
    1. Välj ett harmoniserat fält från **[!UICONTROL Standard harmonized field]**.
@@ -60,17 +68,17 @@ På skärmen **[!UICONTROL Create]**
 
       1. Välj **[!UICONTROL Count]** eller **[!UICONTROL Sum]** från **[!UICONTROL Mapping type]**.
 
-      1. Välj ett **[!UICONTROL *AEP-datamängdsfält *]**&#x200B;som du vill att det harmoniserade fältet ska mappas till som standard.
+      1. Välj ett **[!UICONTROL *AEP-datamängdsfält *]**som du vill att det harmoniserade fältet ska mappas till som standard.
 
    1. När det markerade fältet är av typen dimension:
 
       1. Välj **[!UICONTROL Map Into]** eller **[!UICONTROL Case]** från **[!UICONTROL Mapping type]**.
 
-      1. När du har valt **[!UICONTROL Map Into]** väljer du **[!UICONTROL Field]** och **[!UICONTROL *AEP-datamängdsfält *]**&#x200B;eller **[!UICONTROL Value]**&#x200B;och ett standardvärde som mappar det harmoniserade fältet som standard till datamängdsfältet eller det angivna värdet.
+      1. När du har valt **[!UICONTROL Map Into]** väljer du **[!UICONTROL Field]** och **[!UICONTROL *AEP-datamängdsfält *]**eller **[!UICONTROL Value]**och ett standardvärde som mappar det harmoniserade fältet som standard till datamängdsfältet eller det angivna värdet.
 
-      1. När du väljer **[!UICONTROL Case]** väljer du **[!UICONTROL Field]** och **[!UICONTROL *AEP-datamängdsfält *]**&#x200B;eller **[!UICONTROL Value]**&#x200B;och ett standardvärde för att mappa det harmoniserade fältet som standard till datamängdsfältet eller det angivna värdet.
+      1. När du väljer **[!UICONTROL Case]** väljer du **[!UICONTROL Field]** och **[!UICONTROL *AEP-datamängdsfält *]**eller **[!UICONTROL Value]**och ett standardvärde för att mappa det harmoniserade fältet som standard till datamängdsfältet eller det angivna värdet.
 
-         1. Om du vill ange värden explicit definierar du ett eller flera fall som består av ett eller flera villkor. Varje villkor kan kontrollera om det finns ett specifikt **[!UICONTROL *AEP-datamängdsfält *]**, om det är **[!UICONTROL Exists]**&#x200B;eller **[!UICONTROL Not Exists]**&#x200B;eller om det är **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**&#x200B;eller **[!UICONTROL Ends With]**&#x200B;ett värde som anges vid&#x200B;**[!UICONTROL * Ange indatavärde *]**.
+         1. Om du vill ange värden explicit definierar du ett eller flera fall som består av ett eller flera villkor. Varje villkor kan kontrollera om det finns ett specifikt **[!UICONTROL *AEP-datamängdsfält *]**, om det är **[!UICONTROL Exists]**eller **[!UICONTROL Not Exists]**eller om det är **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**eller **[!UICONTROL Ends With]**ett värde som anges vid**[!UICONTROL * Ange indatavärde *]**.
 
          1. Om du vill lägga till ytterligare ett ärende väljer du ![Lägg till](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add case]** och väljer ![Lägg till](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add condition]**.
 

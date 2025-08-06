@@ -4,18 +4,26 @@ description: Versionsinformation för den senaste Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 498f50e4d1568e58d0ac2833022822340a5f6337
+source-git-commit: d22bb8c9526821c28c9a59967e1be399957d3051
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '518'
 ht-degree: 2%
 
 ---
 
 # Aktuella versionsinformation för Mix Modeler
 
-**Senast uppdaterad**: 14 maj 2025.
+**Senast uppdaterad**: 6 augusti 2025.
 
 Versionsinformationen innehåller den senaste utgåvan av Mix Modeler. Mix Modeler-releaser fungerar enligt en kontinuerlig leveransmodell, vilket möjliggör en ungefärlig månadsvis publiceringsgräns. Versionsinformationen uppdateras därför, så kontrollera dem regelbundet.
+
+
+
+## Juli-augusti 2025
+
+| Funktion | Beskrivning | [Startar](#release-strategy) | [Allmän tillgänglighet](#release-strategy) |
+|---|---|---|---|
+| **Uppdateringar om harmonisering** | Alla datauppsättningsregler använder nu en liknande [generisk karta som den harmoniserade fältupplevelsen ](/help/harmonize-data/dataset-rules.md), oavsett datamängdstypen. När du mappar ett standardiserat, harmoniserat fält från en sammanfattningsdatauppsättning försöker Mix Modeler automatiskt minska motsvarande Experience Platform-datamängdsfält. | 29 juli 2025 | 29 juli 2025 |
 
 
 ## Maj-juni 2025

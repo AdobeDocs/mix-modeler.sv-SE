@@ -4,7 +4,7 @@ description: Versionsinformation för den senaste Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: d22bb8c9526821c28c9a59967e1be399957d3051
+source-git-commit: be13e5c45603963b994b751c589901238e09d2dc
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 2%
@@ -56,7 +56,7 @@ Versionsinformationen innehåller den senaste utgåvan av Mix Modeler. Mix Model
 
 ## Frisläppningsstrategi
 
-[!UICONTROL Mixx Modeler] använder funktionsflaggor (kallas även&quot;växlar&quot;) för att styra synligheten för nya funktioner, vilket möjliggör kontrollerad skaltestning före den fullständiga versionen. Den här versionsstrategin innehåller följande faser:
+[!UICONTROL Mix Modeler] använder funktionsflaggor (kallas även&quot;växlar&quot;) för att styra synligheten för nya funktioner, vilket möjliggör kontrollerad skaltestning före den fullständiga versionen. Den här versionsstrategin innehåller följande faser:
 
 * **Begränsad testning**: En fasversion börjar med att testas av interna Adobe-användare. Den görs sedan tillgänglig för en liten grupp kundkonton för att säkerställa att funktionen uppfyller kundernas behov och förväntningar.
 

@@ -3,9 +3,9 @@ title: Datastyrningsöversikt
 description: Lär dig hur du använder de tjänster och verktyg från Experience Platform som gör att du kan kontrollera dina insamlade upplevelsedata. Så att ni följer era rutiner, juridiska skyldigheter och utvecklingsprocesser.
 feature: Administration
 exl-id: 87407c29-e158-48bf-bde9-b3c16a16107e
-source-git-commit: 0ee212a626986e4c721d0e58f2528d0ca1a9fdbf
+source-git-commit: bdde574b150bda2b0c82a9f5a20160fed26cb69d
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Experience Platform datastyrning ger er möjlighet att kontrollera och förstå 
 
 Etiketter och profiler för dataanvändning som skapas på datauppsättningar som används av Experience Platform i Mix Modeler, där så är lämpligt. Dessa etiketter stoppar eller varnar till exempel användare när de tar bort datauppsättningar som ingår i en datauppsättningsregel i harmoniserade data. Eller dölj schemafält som är begränsade för användare när en datauppsättningsregel skapas.
 
-Tack vare integreringen av datastyrning kan ni hantera regelefterlevnaden effektivare. Datahanteringen i organisationen kan ange regler som begränsar användningen. Det innebär att du kan använda data som överensstämmer med policyer som definieras av data stewards. Läs dokumentationen om [Etiketter och profiler](https://experienceleague.adobe.com/sv/docs/analytics-platform/using/cja-dataviews/data-governance) om du vill veta mer.
+Tack vare integreringen av datastyrning kan ni hantera regelefterlevnaden effektivare. Datahanteringen i organisationen kan ange regler som begränsar användningen. Det innebär att du kan använda data som överensstämmer med policyer som definieras av data stewards. Läs dokumentationen om [Etiketter och profiler](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-governance) om du vill veta mer.
 
 Följande funktioner för datastyrning är tillgängliga:
 
@@ -29,4 +29,4 @@ Följande funktioner för datastyrning är tillgängliga:
 | Policyer | Som en del av det harmoniserade arbetsflödet för data tillämpas Experience Platform-definierade regler. Överträdelser av dataanvändningsetiketter rapporteras och visas för användaren. Mer information finns i [Profiler](policies.md). |
 | Kryptering | Alla datauppsättningar som används för indata och utdata av modeller följer Experience Platform riktlinjer. Experience Platform datakryptering gäller för data i vila och under överföring. |
 | Datahygien | Alla datauppsättningar som används för indata och ut-modeller följer Experience Platform riktlinjer. Experience Platform tillhandahåller en uppsättning verktyg för att hantera kundens datalängd, inklusive stöd för olika typer av utgångsdatum. När du tar bort en källdatauppsättning från Experience Platform, som används som en del av dina harmoniserade data, meddelas du. Mer information finns i [Datauppsättningsregler](/help/harmonize-data/dataset-rules.md). |
-| Kundhanterade nycklar | När du har licensierat Mix Modeler med tillägget Privacy Security Shield eller Healthcare Shield kan du använda funktionen Customer Managed Keys för att utnyttja Azure Key Vault för att få egna nycklar via API:er. Ni har fullständig hantering av data som bearbetas i Mix Modeler. |
+| Kundhanterade nycklar | När du har licensierat Mix Modeler med tillägget Privacy Security Shield kan du använda funktionen Customer Managed Keys för att utnyttja Azure Key Vault för att få egna nycklar via API:er. Ni har fullständig hantering av data som bearbetas i Mix Modeler. |

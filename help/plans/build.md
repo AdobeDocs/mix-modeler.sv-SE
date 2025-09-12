@@ -3,7 +3,7 @@ title: Skapa planer
 description: Lär dig hur du bygger planer i Mix Modeler.
 feature: Plans
 exl-id: 6d61d0b2-5871-4d00-9a35-73fff0a1c3e5
-source-git-commit: 498f50e4d1568e58d0ac2833022822340a5f6337
+source-git-commit: 20985d0f9e9d2990b881ab448f6475e4bb8244d1
 workflow-type: tm+mt
 source-wordcount: '948'
 ht-degree: 0%
@@ -17,7 +17,7 @@ I Mix Modeler skapar du en plan med hjälp av planguiden. I planguiden kan du st
 
 Du måste definiera det mål som du vill maximera din plan mot. Detta mål kan antingen vara en budget som du kan spendera eller ett mål som du vill uppnå. Om målet är ett mål måste du dessutom ange värden för målmåttet som ska användas: konvertering, intäkter, CPA eller avkastning.
 
-Om du vill skapa en plan väljer du **[!UICONTROL Create plan]** i ![PLan](/help/assets/icons/FileChart.svg) **[!UICONTROL Plans]** -gränssnittet i Mix Modeler.
+Om du vill skapa en plan väljer du ![ i ](/help/assets/icons/FileChart.svg)PLan **[!UICONTROL Plans]** **[!UICONTROL Create plan]** -gränssnittet i Mix Modeler.
 
 
 1. På skärmen **[!UICONTROL Plan creation]**:
@@ -58,7 +58,7 @@ Om du vill ta bort ett datumintervall och en associerad budget väljer du ![Stä
             1. Välj ett målmått i listrutan **[!UICONTROL Select target metric]**. Du kan välja mellan **[!UICONTROL Conversion]**, **[!UICONTROL CPA]**, **[!UICONTROL Revenue]** eller **[!UICONTROL ROI]**.
             1. Välj en modell i listrutan **[!UICONTROL Select model]**.
          1. Ange ett datumintervall, antingen genom att skriva datum eller genom att välja ett datumintervall med ![Kalender](/help/assets/icons/Calendar.svg).
-         1. Ange ett värde för det valda målmåttet. Ett tal för **[!UICONTROL Conversion]**, ett procenttal för **[!UICONTROL ROI]** eller valutavärden för **[!UICONTROL CPA]** och **[!UICONTROL Revenue]**.
+         1. Ange ett värde för det valda målmåttet. Ett tal för **[!UICONTROL Total Conversions]**, ett procenttal för **[!UICONTROL Paid Marketing ROI]** eller valutavärden för **[!UICONTROL Paid Marketing CPA]** och **[!UICONTROL Total Revenue]**.
 Om du vill lägga till ytterligare datumintervall väljer du ![CalendarAdd](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]** för var och en med sina målmått.
 Om du vill ta bort ett datumintervall och tillhörande målmått väljer du ![Stäng](/help/assets/icons/Close.svg).
          1. Så här definierar du en valfri maxbudget som du vill begränsa planen inom:
@@ -108,7 +108,6 @@ Om du vill ta bort ett datumintervall och tillhörande målmått väljer du ![St
    1. Om du vill växla mellan valuta- eller procentindata väljer du **[!UICONTROL $]** eller **[!UICONTROL %]** för **[!UICONTROL View spend by]**. Den här växlingen är inaktiverad om du har valt målmått som inte är valutabaserade.
 
    1. När du är klar väljer du **[!UICONTROL Create]**.
-
       ![Utgiftsmarkering](/help/assets/plan-spend-selection.png)
 
    1. Välj **[!UICONTROL Next]**.

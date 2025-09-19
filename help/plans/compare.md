@@ -3,9 +3,9 @@ title: Jämför planer
 description: Lär dig hur du jämför planer i Mix Modeler.
 feature: Plans
 exl-id: 40f6ade5-77eb-4ef7-ba60-4a2d2fcf1a60
-source-git-commit: 05d9ccc11c8b4e1a5b537bba66dd4e4b162c1fcb
+source-git-commit: c66d4bd23aa6cf8e0be5bac179072ae562a97770
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '197'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,11 @@ Gränssnittet Jämför planer visar information och visualiseringar om:
 * **[!UICONTROL Channel budgeting]**: **[!UICONTROL AI automated]** eller **[!UICONTROL Custom + AI]**
 * **[!UICONTROL Planned spend]**
 * **[!UICONTROL Forecasted ROI]** (avkastning på investering) eller **[!UICONTROL CPA]** (kostnad per åtgärd)
+   * Prognostiserad avkastning är planens totala avkastning (inklusive inkrementella intäkter från bas- och utgiftskanaler).
+   * Prognostiserad CPA är planens övergripande CPA.
 * **[!UICONTROL Paid marketing ROI]** (avkastning på investering) eller **[!UICONTROL CPA]** (kostnad per åtgärd)
+   * Avkastning på betald marknadsföring är avkastningen på investeringen för endast de betalda kanalerna i planen.
+   * CPA för betald marknadsföring är CPA för endast de betalda kanalerna i planen.
 * **[!UICONTROL ROI]** (avkastning på investering) eller **[!UICONTROL CPA]** (kostnad per åtgärd) **[!UICONTROL breakdown]**
 * **[!UICONTROL Forecasted return]**
 * **[!UICONTROL Paid marketing revenue]**
@@ -36,8 +40,6 @@ Där:
 
 * ROI definieras som (Inkrementell omsättning - Utgift) / Utgift.
 * CPA definieras som Utgift/inkrementell konvertering.
-* Prognos definieras som inkluderande bas- och utgiftskanaler.
-* Betalad marknadsföring definieras som enbart specifik för betalda marknadsföringskanaler.
 
 
 ![Jämför planer](/help/assets/compare-plans.png)

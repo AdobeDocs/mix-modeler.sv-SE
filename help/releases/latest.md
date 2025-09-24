@@ -4,9 +4,9 @@ description: Versionsinformation för den senaste Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 9ac6acec2faa57a771386fc9df9cce655d711f3a
+source-git-commit: 6fe334458e8d7fabbd7cbaa027e13eadbf703325
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '701'
 ht-degree: 2%
 
 ---
@@ -25,6 +25,7 @@ Versionsinformationen innehåller den senaste utgåvan av Mix Modeler. Mix Model
 | **[!UICONTROL Dataset mapping validations]** | Lagt till valideringar i Experience Platform datamängdsmappningar för harmoniserade fält. | 9 september 2025 | 9 september 2025 |
 | **[!UICONTROL Context menu on links to model and plans]** | Snabbmeny för webbläsare med länkar till modeller och planer är aktiverad. Nu kan du använda den snabbmenyn i webbläsaren för att öppna en viss plan eller modell på en ny flik eller i ett nytt fönster. | 9 september 2025 | 9 september 2025 |
 | **Korrigeringar** | Fixar följande biljetter: <ul><li>AMM-3101: Korrigerade felaktig mappningsskapande för regler: `event_date` skickades som fältnamn i stället för `timestamp`.</li><li>AMM-3092: Det gick inte att ändra kanalens maximala begränsningsvärde i en duplicerad budgetbaserad plan.</li><li>AM3130: Korrigerad felaktig **[!UICONTROL Run frequency]**-information i ett popup-fönster med detaljer för en modell.</li><li>AMM3158: Uppdaterade etiketter för alternativen **[!UICONTROL Select target metric]** som en del av rutan **[!UICONTROL Optimize]** i gränssnittet [Planer skapar](/help/plans/build.md).</li><li>AMM 3176: Det gick inte att visa [Brytning efter kanal](/help/models/insights.md#breakdown)-visualisering på fliken **[!UICONTROL Attribution]** i **[!UICONTROL Model Insights]** har åtgärdats.</li></ul> | 9 september 2025 | 9 september 2025 |
+| **Korrigeringar** | Fixar följande biljetter: <ul><li>AMM-3174: Förbättrad upplevelse när inga befintliga planer är tillgängliga.</li><li>AMM-3216: Förbättrad validering för anpassade datumintervall.</li><li>AMM-3240: Visning av fast körningsmodellfrekvens.</ul> | 23 september 2025 | 23 september 2025 |
 
 
 ## Juli-augusti 2025

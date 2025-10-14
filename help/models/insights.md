@@ -238,7 +238,7 @@ För varje konverteringsbana ser du:
 >title="Modellbedömningsdiagram"
 >abstract="Modellbedömningsvisualiseringar bryts ned på faktiska kontra förväntade eller kvarvarande konverteringar."
 >additional-url="https://experienceleague.adobe.com/sv/docs/mix-modeler/using/overview" text="Mix Modeler - översikt"
->additional-url="https://video.tv.adobe.com/v/3440794/?learn=on&enablevpops" text="Mix Modeler demo"
+>additional-url="https://video.tv.adobe.com/v/3440798/?learn=on&enablevpops&captions=swe" text="Mix Modeler demo"
 
 
 >[!CONTEXTUALHELP]

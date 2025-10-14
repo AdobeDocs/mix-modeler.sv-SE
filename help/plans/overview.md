@@ -54,7 +54,7 @@ Om du vill visa en tabell över dina aktuella planer går du till Mix Modeler-gr
    | Budget | Den totala budgeten för en plan. |
    | Planmål | Målmåttet som har definierats för en målbaserad plan. |
    | Prognostiserad avkastning | Den [prognostiserade avkastningen](/help/main-guide/glossary.md) för en plan |
-   | Prognostiserad avkastning | Den [prognostiserade avkastningen ](/help/main-guide/glossary.md) för en plan. |
+   | Prognostiserad avkastning | Den [prognostiserade avkastningen &#x200B;](/help/main-guide/glossary.md) för en plan. |
    | Prognostiserad konvertering | Den [prognostiserade konverteringen](/help/main-guide/glossary.md) för en plan |
    | Prognostiserad CPA | [Prognostiserat CPA](/help/main-guide/glossary.md)för en plan |
    | Status | Status för en plan: <p><span style="color:red">●</span> misslyckades, <p><span style="color:blue">●</span> bearbetar, eller <p><span style="color:green">●</span> har slutförts. |

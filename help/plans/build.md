@@ -17,7 +17,7 @@ I Mix Modeler skapar du en plan med hjälp av planguiden. I planguiden kan du st
 
 Du måste definiera det mål som du vill maximera din plan mot. Detta mål kan antingen vara en budget som du kan spendera eller ett mål som du vill uppnå. Om målet är ett mål måste du dessutom ange värden för målmåttet som ska användas: konvertering, intäkter, CPA eller avkastning.
 
-Om du vill skapa en plan väljer du ![ i ](/help/assets/icons/FileChart.svg)PLan **[!UICONTROL Plans]** **[!UICONTROL Create plan]** -gränssnittet i Mix Modeler.
+Om du vill skapa en plan väljer du ![&#x200B; i &#x200B;](/help/assets/icons/FileChart.svg)PLan **[!UICONTROL Plans]** **[!UICONTROL Create plan]** -gränssnittet i Mix Modeler.
 
 
 1. På skärmen **[!UICONTROL Plan creation]**:

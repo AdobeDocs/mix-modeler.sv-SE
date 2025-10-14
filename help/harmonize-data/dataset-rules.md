@@ -42,7 +42,7 @@ Tabellkolumnerna anger information om datauppsättningsreglerna:
 
 ### Skapa en datauppsättningsregel
 
-Om du vill skapa en datauppsättningsregel väljer du ![ i guiden ](/help/assets/icons/DataCheck.svg) i **[!UICONTROL Harmonized data]** **[!UICONTROL Dataset rules]** > **[!UICONTROL Create a dataset rule]** i Mix Modeler-gränssnittet **[!UICONTROL Dataset rules configuration]** DataSearch .
+Om du vill skapa en datauppsättningsregel väljer du ![&#x200B; i guiden &#x200B;](/help/assets/icons/DataCheck.svg) i **[!UICONTROL Harmonized data]** **[!UICONTROL Dataset rules]** > **[!UICONTROL Create a dataset rule]** i Mix Modeler-gränssnittet **[!UICONTROL Dataset rules configuration]** DataSearch .
 
 På skärmen **[!UICONTROL Create]**
 

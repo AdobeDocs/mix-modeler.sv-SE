@@ -3,27 +3,27 @@ title: Översikt över infogningsdata
 description: Lär dig hur du importerar data till Mix Modeler.
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
 exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
-source-git-commit: bb05cee1d4e2245cf665e5dcea17a30c5c0cf203
+source-git-commit: f86454dd262a0a11a20d58e380b5d2b7c90fd2b9
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '542'
 ht-degree: 5%
 
 ---
 
 # Översikt över infogningsdata
 
-Mix Modeler arbetar med data på händelsenivå, sammanställda eller sammanfattade marknadsföringsinsatser från olika trädgårdar och samlar ihop eller sammanställer data från andra källor, som offlinereklam, interna faktorer eller externa faktorer.
+Mix Modeler arbetar med data på händelsenivå, sammanställda eller sammanfattande data om marknadsföringsinsatser från olika trädgårdar. Och med sammanställda eller sammanfattande data från andra källor, som offlinereklam, interna faktorer eller externa faktorer.
 
 Kunderna kan använda alla typer av data som är inkapslade i Experience Platform som datauppsättningar och som är baserade på scheman med hjälp av XDM ExperienceEvent eller XDM Summary Metrics som basklass.
 
 Exempel:
 
-* data som samlats in med Adobe Analytics källanslutning och omvandlats till datauppsättningar som överensstämmer med standardversionen eller en anpassad version av Adobe Analytics-schemat, eller
-* data som samlats in med Experience Platform Web SDK, Mobile SDK eller Edge Network Server API för att samla in kundinteraktioner på webben, mobiler eller andra typer av enheter,
-* aggregerade eller sammanfattande data från förvarade trädgårdar (som Facebook, YouTube), trafikkällor eller offlinereklam,
-* sammanfattande eller sammanfattande data som inte är avsedda för marknadsföring och som innehåller interna eller externa faktorer som är användbara för modelluppbyggnad.
+* Data samlas in med Adobe Analytics källanslutning. Och omvandlades till datauppsättningar som överensstämmer med standardversionen eller en anpassad version av Adobe Analytics-schemat.
+* Data som samlats in med Experience Platform Web SDK, Mobile SDK eller Edge Network Server API för att samla in kundinteraktioner på webben, mobiler eller andra typer av enheter.
+* Samla in eller sammanfatta data från uttjänta trädgårdar (som Facebook, YouTube), trafikkällor eller offlinereklam.
+* Sammanlagda eller sammanfattande data som inte är marknadsförda och som innehåller interna eller externa faktorer som är användbara för modelluppbyggnad.
 
-Ni kan använda vilken mekanism som helst, som stöds av Experience Platform, för att hämta data på upplevelsehändelsenivå, aggregerade marknadsföringssatsdata och data från andra källor. Mekanismerna för inmatning är bland annat Experience Platform SDK, API:er, källanslutningar, strömning och gruppinmatning. Om du vill veta mer om hur du importerar data i Experience Platform för användning i Adobe Mix Modeler kan du läsa [Översikt över datainmatning](https://experienceleague.adobe.com/sv/docs/experience-platform/ingestion/home).
+Ni kan använda vilken mekanism som helst, som stöds av Experience Platform, för att hämta data på upplevelsehändelsenivå, aggregerade marknadsföringssatsdata och data från andra källor. som Experience Platform SDK:er, API:er, källanslutningar samt strömning och batchförbrukning. Om du vill veta mer om hur du samlar in data i Experience Platform för användning i Adobe Mix Modeler kan du läsa [översikten över datainmatning](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home).
 
 ## Riktlinjer
 
@@ -86,10 +86,10 @@ För att kunna arbeta med data i Mix Modeler behöver du data som samlats in i d
 
 Så här validerar du om dina data är tillgängliga i Mix Modeler:
 
-* Använd visualiseringar i [översikt](/help/overview.md).
+* Använd visualiseringar i [översikten](/help/overview.md).
 * Hämta och inspektera data från [harmoniserade data](/help/harmonize-data/overview.md) i harmoniserade datauppsättningar.
 
-Om du vill verifiera om dina data har importerats korrekt i Experience Platform kan du [skriva och köra SQL-frågor med Experience Platform Query Service](https://experienceleague.adobe.com/sv/docs/experience-platform/query/home).
+Om du vill verifiera om dina data har importerats korrekt i Experience Platform kan du [skriva och köra SQL-frågor med Experience Platform Query Service](https://experienceleague.adobe.com/en/docs/experience-platform/query/home).
 
 
 >[!MORELIKETHIS]

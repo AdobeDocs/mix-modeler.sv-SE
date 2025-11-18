@@ -4,7 +4,7 @@ description: Få en översikt över funktionaliteten och funktionerna i Mix Mode
 short-description: Få en översikt över funktionaliteten och funktionerna i Mix Modeler.
 feature: Plans, Harmonized Data, Models
 exl-id: aa1018d5-b073-4dfb-b40c-ca16a8970b2f
-source-git-commit: 325bc55076467a8cab5a884ea5137249913d2350
+source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
 workflow-type: tm+mt
 source-wordcount: '745'
 ht-degree: 3%

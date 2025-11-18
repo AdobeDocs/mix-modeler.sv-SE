@@ -1,18 +1,18 @@
 ---
-title: Användningsexempel i Mix Modeler
-description: Användningsexempel i Mix Modeler.
+title: Användningsexempel för Mix Modeler
+description: Användningsexempel från Mix Modeler.
 feature: Schemas, Datasets, Conversions, Harmonized Data, Marketing Touch Points, Models, Plans
 exl-id: cc82abec-d0ce-44bf-ad7e-fc379a394185
-source-git-commit: c0bae17b21322cafb50370dcd787bb86b8e3e471
+source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
 workflow-type: tm+mt
 source-wordcount: '625'
 ht-degree: 0%
 
 ---
 
-# Användningsexempel i Mix Modeler
+# Användningsexempel för Mix Modeler
 
-Mix Modeler aktiverar följande viktiga användningsexempel.
+Mix Modeler har följande viktiga användningsområden:
 
 ## Förstå flerkanaliga inkrementella prestanda
 
@@ -155,7 +155,7 @@ Den stegbaserade metoden för det här användningsexemplet är:
 |---|---|
 | Modell | Konfigurera och utbilda en AI/ML-modell för att få enhetliga MTA-poäng och MMM-aggregeringsresultat. |
 | Analysera | Exportera inkrementella poängpoäng till Customer Journey Analytics eller externa BI-verktyg.<br/>Utför detaljerad analys och bygg avancerade instrumentpaneler med hjälp av poäng. |
-| Åtgärd | Skapa och aktivera lookalike till populära konsumentsegment med Real-time Customer Data Platform.<br/>Utveckla datadrivna marknadsföringsstrategier efter kundsegment för framtida kampanjer. |
+| Åtgärd | Skapa och aktivera lookalike till populära konsumentsegment med Real-Time Customer Data Platform.<br/>Utveckla datadrivna marknadsföringsstrategier efter kundsegment för framtida kampanjer. |
 
 {style="table-layout:auto"}
 

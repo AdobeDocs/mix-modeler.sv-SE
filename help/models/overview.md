@@ -3,7 +3,7 @@ title: Översikt över modeller
 description: Lär dig hur du bygger och använder modeller i Mix Modeler.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 6855d19347b7f6f1477a6265310df5950b8463c9
+source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
 workflow-type: tm+mt
 source-wordcount: '924'
 ht-degree: 0%
@@ -120,7 +120,7 @@ Du kan snabbt duplicera en modell.
 
 1. Välj ![Mer](/help/assets/icons/More.svg) för en modell och välj **[!UICONTROL Duplicate]** på snabbmenyn.
 
-Du omdirigeras till stegen för att skapa en ny modell, med ett föreslaget namn bestående av den ursprungliga modellens namn som bifogas med **[!UICONTROL (Copy)] (_n_)**.
+Du omdirigeras till stegen för att skapa en ny modell, med ett föreslaget namn bestående av den ursprungliga modellens namn som bifogas med **[!UICONTROL (Copy)](_n_)**.
 
 ### Redigera
 
@@ -172,5 +172,5 @@ Så här tar du bort flera modeller:
 
 1. Markera flera modeller.
 1. Välj ![Ta bort](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** från det blå åtgärdsfältet för att ta bort modellerna.
-1. Välj **[!UICONTROL Delete]** i bekräftelsedialogrutan för **[!UICONTROL Delete *x *modeller]**&#x200B;om du vill ta bort modellerna. Välj **[!UICONTROL Cancel]**&#x200B;om du vill avbryta.
+1. Välj **[!UICONTROL Delete]** i bekräftelsedialogrutan för **[!UICONTROL Delete *x *modeller]**om du vill ta bort modellerna. Välj **[!UICONTROL Cancel]**om du vill avbryta.
 

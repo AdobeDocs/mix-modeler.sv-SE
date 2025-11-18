@@ -3,9 +3,9 @@ title: Modellinsikter
 description: Lär dig mer om din modell, som historisk översikt, modellinsikter och modellkvalitet i Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: b3e52a34f26574961823c08859f17e2e6f1fdcd3
+source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
 workflow-type: tm+mt
-source-wordcount: '2333'
+source-wordcount: '2332'
 ht-degree: 0%
 
 ---
@@ -237,8 +237,8 @@ För varje konverteringsbana ser du:
 >id="models_diagnostics_modelassessment"
 >title="Modellbedömningsdiagram"
 >abstract="Modellbedömningsvisualiseringar bryts ned på faktiska kontra förväntade eller kvarvarande konverteringar."
->additional-url="https://experienceleague.adobe.com/sv/docs/mix-modeler/using/overview" text="Mix Modeler - översikt"
->additional-url="https://video.tv.adobe.com/v/3440798/?learn=on&enablevpops&captions=swe" text="Mix Modeler demo"
+>additional-url="https://experienceleague.adobe.com/en/docs/mix-modeler/using/overview" text="Mix Modeler - översikt"
+>additional-url="https://video.tv.adobe.com/v/3440794/?learn=on&enablevpops" text="Mix Modeler demo"
 
 
 >[!CONTEXTUALHELP]

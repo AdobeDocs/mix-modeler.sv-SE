@@ -3,7 +3,7 @@ title: Marknadsföringskontaktytor
 description: Lär dig hur du skapar kontaktytor för marknadsföring som en del i arbetet med att harmonisera data i Mix Modeler.
 feature: Harmonized Data, Marketing Touch Points
 exl-id: 42851107-7568-4bc9-92ca-3cba713a522e
-source-git-commit: b3e52a34f26574961823c08859f17e2e6f1fdcd3
+source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 0%
@@ -58,7 +58,7 @@ Om du vill lägga till en kontaktyta för marknadsföring går du till ![DataSea
 
       1. Välj ett värde för operatorn ![Chevron](/help/assets/icons/ChevronDown.svg), till exempel **[!UICONTROL is]**.
 
-      1. Välj ett värde från **[!UICONTROL *Välj värde *]**&#x200B;eller ange ett värde, till exempel **[!DNL Luma]**.
+      1. Välj ett värde från **[!UICONTROL *Välj värde *]**eller ange ett värde, till exempel **[!DNL Luma]**.
 
    1. Välj ett harmoniserat fält från **[!UICONTROL Touchpoint volume]**, till exempel **[!UICONTROL Impressions]**.
 

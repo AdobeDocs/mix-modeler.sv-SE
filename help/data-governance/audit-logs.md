@@ -3,7 +3,7 @@ title: Granskningsloggar
 description: Lär dig hur du får åtkomst till granskningsloggar från Mix Modeler.
 feature: Administration
 exl-id: aa65aac5-bea4-43ff-b0d0-9e8a6a97d3ca
-source-git-commit: 85f9b42a775006cd3566447b2bb9d0a806fa3e73
+source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 1%
@@ -67,4 +67,4 @@ Så här inspekterar du granskningsloggen i Mix Modeler-gränssnittet:
 
 När funktionen är aktiverad för din organisation samlas granskningsloggarna automatiskt in när aktiviteten inträffar. Du behöver inte aktivera granskningsloggen manuellt.
 
-Om du vill visa och exportera granskningsloggar måste du ha beviljats åtkomstkontrollbehörighet för granskningsloggar. Mer information om hur du hanterar enskilda behörigheter för Mix Modeler-funktioner finns i [åtkomstkontrollsdokumentationen](https://experienceleague.adobe.com/sv/docs/experience-platform/access-control/home).
+Om du vill visa och exportera granskningsloggar måste du ha beviljats åtkomstkontrollbehörighet för granskningsloggar. Mer information om hur du hanterar enskilda behörigheter för Mix Modeler-funktioner finns i [åtkomstkontrollsdokumentationen](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home).

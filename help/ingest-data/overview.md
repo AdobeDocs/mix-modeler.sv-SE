@@ -23,7 +23,7 @@ Exempel:
 * Samla in eller sammanfatta data från uttjänta trädgårdar (som Facebook, YouTube), trafikkällor eller offlinereklam.
 * Sammanlagda eller sammanfattande data som inte är marknadsförda och som innehåller interna eller externa faktorer som är användbara för modelluppbyggnad.
 
-Ni kan använda vilken mekanism som helst, som stöds av Experience Platform, för att hämta data på upplevelsehändelsenivå, aggregerade marknadsföringssatsdata och data från andra källor. som Experience Platform SDK:er, API:er, källanslutningar samt strömning och batchförbrukning. Om du vill veta mer om hur du samlar in data i Experience Platform för användning i Adobe Mix Modeler kan du läsa [översikten över datainmatning](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home).
+Ni kan använda vilken mekanism som helst, som stöds av Experience Platform, för att hämta data på upplevelsehändelsenivå, aggregerade marknadsföringssatsdata och data från andra källor. som Experience Platform SDK:er, API:er, källanslutningar samt strömning och batchförbrukning. Om du vill veta mer om hur du samlar in data i Experience Platform för användning i Adobe Mix Modeler kan du läsa [översikten över datainmatning](https://experienceleague.adobe.com/sv/docs/experience-platform/ingestion/home).
 
 ## Riktlinjer
 
@@ -89,7 +89,7 @@ Så här validerar du om dina data är tillgängliga i Mix Modeler:
 * Använd visualiseringar i [översikten](/help/overview.md).
 * Hämta och inspektera data från [harmoniserade data](/help/harmonize-data/overview.md) i harmoniserade datauppsättningar.
 
-Om du vill verifiera om dina data har importerats korrekt i Experience Platform kan du [skriva och köra SQL-frågor med Experience Platform Query Service](https://experienceleague.adobe.com/en/docs/experience-platform/query/home).
+Om du vill verifiera om dina data har importerats korrekt i Experience Platform kan du [skriva och köra SQL-frågor med Experience Platform Query Service](https://experienceleague.adobe.com/sv/docs/experience-platform/query/home).
 
 
 >[!MORELIKETHIS]

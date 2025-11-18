@@ -30,7 +30,7 @@ Vi verkar inte ha rätt stöd för SVG i en skuggad ruta. Se skillnaderna mellan
 
 >[!BEGINSHADEBOX]
 
-I den här artikeln beskrivs panelen Attribution i ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) **Adobe Analytics**.<br/>Se [Attribution panel](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/attribution) för ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) **Customer Journey Analytics** -versionen av den här artikeln.
+I den här artikeln beskrivs panelen Attribution i ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) **Adobe Analytics**.<br/>Se [Attribution panel](https://experienceleague.adobe.com/sv/docs/analytics-platform/using/cja-workspace/panels/attribution) för ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) **Customer Journey Analytics** -versionen av den här artikeln.
 
 >[!ENDSHADEBOX]
 

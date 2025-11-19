@@ -3,9 +3,9 @@ title: Modellinsikter
 description: Lär dig mer om din modell, som historisk översikt, modellinsikter och modellkvalitet i Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
+source-git-commit: bff18fa3d2bb5b5879dca4ab5bdce261e35b2b70
 workflow-type: tm+mt
-source-wordcount: '2332'
+source-wordcount: '2488'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,7 @@ Så här visar du modellinsikter i gränssnittet ![Models](/help/assets/icons/Fi
 Följande flikar är tillgängliga:
 
 * [Modellinsikter](#model-insights)
+* [Kanalsynergi](#channel-synergy)
 * [Faktorer](#factors-beta) [!BADGE beta]
 * [Attribution](#attribution) (endast för MTA-aktiverade modeller)
 * [Diagnostik](#diagnostics)
@@ -109,6 +110,25 @@ Följande kolumner är tillgängliga:
 Om du vill välja en viss kanal eller alla kanaler väljer du den i listrutan **[!UICONTROL View]**.
 
 Välj ![Hämta](/help/assets/icons/Download.svg) **[!UICONTROL Download CSV]** om du vill hämta innehållet i Touchpoint-tabellen.
+
+
+## Kanalsynergi
+
+På fliken **[!UICONTROL Channel synergy]** hjälper visualiseringen av **[!UICONTROL Channel synergies]** dig att identifiera hur marknadsföringskanaler interagerar för att skapa multimediala effekter, utöver deras individuella bidrag.
+
+Heatmap-matrisen ger en visuell representation av synergisvärdena mellan par av utgiftskanaler. Den här matrisen hjälper marknadsförare att förstå hur kanaler interagerar för att öka prestandan. För varje modell normaliseras synergisvärdena från 0 till 10. Dessa värden kvantifierar *nästa dollarsynergi*, som beräknar hur effektivt två kanaler fungerar tillsammans när var och en får ytterligare en dollar av utgifterna på de aktuella nivåerna.
+
+Detta nästa dollarsystem ger ett realistiskt mått på relativ synergistyrka, eftersom ramverket står för faktiska utgiftsförhållanden i utbildningsdata och därmed möjliggör mer välgrundade optimeringsbeslut.
+
+![Planera kanalsynergier](/help/assets/model-channel-synergies.png)
+
+Om du vill hämta en CSV-fil som representerar matrisen väljer du ![Hämta](/help/assets/icons/Download.svg) **[!UICONTROL Download]**.
+
+>[!NOTE]
+>
+>Om fliken **[!UICONTROL Channel synergy]** inte är synlig för en befintlig modell måste du träna om modellen för att aktivera funktioner och visualisering.
+
+
 
 ## **[!UICONTROL Factors]** [!BADGE beta]
 
@@ -237,8 +257,8 @@ För varje konverteringsbana ser du:
 >id="models_diagnostics_modelassessment"
 >title="Modellbedömningsdiagram"
 >abstract="Modellbedömningsvisualiseringar bryts ned på faktiska kontra förväntade eller kvarvarande konverteringar."
->additional-url="https://experienceleague.adobe.com/sv/docs/mix-modeler/using/overview" text="Mix Modeler - översikt"
->additional-url="https://video.tv.adobe.com/v/3440798/?captions=swe&learn=on&enablevpops" text="Mix Modeler demo"
+>additional-url="https://experienceleague.adobe.com/en/docs/mix-modeler/using/overview" text="Mix Modeler - översikt"
+>additional-url="https://video.tv.adobe.com/v/3440794/?learn=on&enablevpops" text="Mix Modeler demo"
 
 
 >[!CONTEXTUALHELP]
@@ -255,7 +275,7 @@ För varje konverteringsbana ser du:
 
 Fliken **[!UICONTROL Diagnostics]** visar visualiseringar för:
 
-* **[!UICONTROL Model Assessment]** visualiseringar, som består av:
+* **[!UICONTROL Model Assessment]** visualiseringar som består av:
 
   ![Modellutvärdering](../assets/model-assessment.png)
 
@@ -277,7 +297,7 @@ Om du vill dela upp visualiseringen väljer du något av följande alternativ i 
 
   Om du vill hämta en CSV-fil som innehåller data för tabellen väljer du ![Hämta](/help/assets/icons/Download.svg).
 
-* **[!UICONTROL Model training fit metrics]**-tabell, som visas för varje konverteringsmått:
+* **[!UICONTROL Model training fit metrics]**-tabell som visas för varje konverteringsmått:
 
   ![Modellträning, passningsstatistik, tabell](../assets/model-training-fit-metrics.png)
 

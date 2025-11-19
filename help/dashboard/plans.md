@@ -3,9 +3,9 @@ title: Prestanda att planera
 description: Lär dig hur du använder Performance för att planera i Mix Modeler.
 feature: Dashboard, Plans, Models
 exl-id: 930fc1d5-8e28-4610-af7b-c4ec91f86a8a
-source-git-commit: 733fc969a780e777eae67042303180707ec4ed8d
+source-git-commit: 7834a0c4a5fd18902b73e7c307f61847bee05bc0
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '515'
 ht-degree: 0%
 
 ---
@@ -14,12 +14,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Fliken **[!UICONTROL Plans]** [!BADGE Alpha]{type=Informative} i Mix Modeler ![Home](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** är en alfavärde som kan komma att ändras. Funktionen är tillgänglig för ett begränsat antal kunder.
+>Fliken **[!UICONTROL Performance to pan]** [!BADGE Beta]{type=Informative} i Mix Modeler ![Home](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** är en betafunktion som kan komma att ändras. Funktionen är tillgänglig för ett begränsat antal kunder.
 
+Fliken **[!UICONTROL Plans]** [!BADGE Beta]{type=Informative} i Mix Modeler ![Home](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** innehåller en kontrollpanel för spårning som du kan använda för att övervaka hur väl marknadsföringen fungerar i förhållande till planen. Du kan spåra faktiska prestanda kontra planerade prestanda med statuskort och visualiseringar.
 
-
-
-Fliken **[!UICONTROL Plans]** [!BADGE Alpha]{type=Informative} i Mix Modeler ![Home](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** innehåller en kontrollpanel för spårning som du kan använda för att övervaka hur väl marknadsföringen fungerar i förhållande till planen.
+Kontrollpanelen hjälper dig att identifiera luckor, upptäcka risker eller möjligheter och göra vältajmade justeringar av dina planer och budgetar.
 
 Så här väljer du vilka data som ska visas för KPI-statuskort och visualiseringar:
 
@@ -27,24 +26,22 @@ Så här väljer du vilka data som ska visas för KPI-statuskort och visualiseri
 
 * Ange en datumperiod. Om du vill ändra datumperioden anger du ett startdatum och ett slutdatum manuellt eller väljer en datumperiod med ![Kalender](/help/assets/icons/Calendar.svg).
 
-På fliken **[!UICONTROL Plans]** [!BADGE Alpha]{type=Informative} visas:
+På fliken **[!UICONTROL Plans]** [!BADGE Beta]{type=Informative} visas:
 
-* KPI-statuskort
+* [KPI-statuskort](#kpi-status-cards):
 
    * [Budget](#budget)
    * [Intäkter](#revenue)
    * [avkastning](#roi)
-   * [Beställningar](#orders)
+   * [KPI](#kpi)
 
-* Visualiseringar:
-   * [ROI: Faktisk kontra prognostiserad](#roi-actual-vs-forecasted)
-   * [Utgift: Faktisk kontra planerad](#spend-actual-vs-planned)
-   * [Avkastning per datumintervall](#roi-by-date-ranges)
-   * [Intäkter: Faktisk kontra prognostiserad](#revenue-actual-vs-forecasted)
-   * [Faktiskt kontra förväntat efter datumintervall](#actual-vs-predicted-spend-by-date-ranges)
-   * [Utgifter efter datumintervall](#spend-by-date-ranges)
-   * [Intäkter efter datumintervall](#revenue-by-date-ranges)
-   * [Utgifter per datumintervall (och kanaler)](#spend-by-date-ranges-and-channels)
+* [Visualiseringar](#visualizations):
+   * [*Mått*](#metric-actual-vs-planned)
+   * [*Mått*](#metric-actual-vs-planned-by-granularity)
+   * [Kanal ](#channel-metric-by-granularity)
+   * [*Mått*](#metric-vs-metric-by-channel)
+   * [*Mått*](#metric-by-granularity)
+   * [*Mått*](#metric-by-channel)
 
 ## KPI-statuskort
 
@@ -65,54 +62,69 @@ En cirkulär förloppsvisualisering som visar hur de faktiska intäkterna står 
 En radvisualisering som visar ROI för datumperioden.
 
 
-### Beställningar
+### KPI
 
-En radvisualisering som visar order för datumperioden.
+En radvisualisering som visar KPI för datumperioden.
 
 Så här väljer du en annan KPI:
 
 1. Välj ![Redigera](/help/assets/icons/Edit.svg).
-1. Välj en KPI i listrutan **[!UICONTROL KPI]** i dialogrutan **[!UICONTROL KPI status card]**.
+1. Välj en KPI i listrutan **[!UICONTROL KPI status card]** i dialogrutan **[!UICONTROL KPI]**. Tillgängliga alternativ är: [!UICONTROL Conversions], [!UICONTROL CPA], [!UICONTROL Revenue], [!UICONTROL ROI] och [!UICONTROL Spend].
 
 
 ## Visualiseringar
 
+Sex visualiseringar finns tillgängliga och du kan redigera var och en av de sex visualiseringarna.
+
+Om du vill ändra storlek på en visualisering använder du handtaget ┛ längst ned till höger. Om du vill flytta en visualisering drar och släpper du bara visualiseringen till önskad plats.
+
+Du kan hovra över valfri rad, stapel eller spridningselement i en visualisering för att visa ett popup-fönster med ytterligare information.
+
 ![Visualisering](../assets/performance-to-plan-visualizations.png)
 
-### ROI: Faktisk kontra prognostiserad
+### *Mått*: Faktiskt kontra planerat
 
-En radinvisualisering som jämför faktisk avkastning jämfört med prognostiserad avkastning för datumperioden.
-
-
-### Utgift: Faktisk kontra planerad
-
-En stapeldiagramvisualisering som jämför faktisk utgift jämfört med planerad budget över kanaler för datumperioden.
-
-### Avkastning per datumintervall
-
-En stapeldiagramvisualisering som visar ROI efter datumintervall för datumperioden.
+En staplad fältvisualisering som jämför de valda mätvärdena för aktuella, planerade till-datum och summor.
 
 
-### Intäkter: Faktisk kontra prognostiserad
+### *Mått*: Faktiskt kontra planerat av *granularitet*
 
-En radvisualisering som jämför faktisk intäkt med prognostiserad intäkt för datumperioden.
-
-
-### Faktisk kontra förväntad utgift per datumintervall
-
-En stapeldiagramvisualisering som visar faktisk eller förväntad utgift per datumintervall för datumperioden.
+En radinvisualisering som visar faktiska och planerade värden för det valda mätvärdet och den valda granulariteten.
 
 
-### Utgifter efter datumintervall
+### Kanal *metrisk* av *granularitet*
 
-En stapeldiagramvisualisering som visar utgifter efter datumintervall för datumperioden.
-
-
-### Intäkter efter datumintervall
-
-En stapeldiagramvisualisering som visar intäkter efter datumintervall för datumperioden.
+En staplad stapelvisualisering som visar staplade staplar som visar kanaler för det valda mätvärdet och den valda granulariteten.
 
 
-### Utgifter per datumintervall och kanaler
+### *Mått* kontra *Mått* per kanal
 
-En staplad stapeldiagramvisualisering som visar utgifter efter datumintervall och kanal för datumperioden.
+En spridningsvisualisering som visar en spridningspunkt för kanaler över de valda mätvärdena.
+
+
+### *Mått* av *granularitet*
+
+En fältvisualisering som visar faktiska och planerade värden för det valda måttet.
+
+
+### *Mått* efter kanal
+
+En flerradsvisualisering som visar det valda måttet över den valda granulariteten.
+
+
+### Redigera en visualisering
+
+Så här redigerar du en visualisering:
+
+1. Välj ![Redigera](/help/assets/icons/Edit.svg) för att öppna dialogrutan **[!UICONTROL Edit data]**.
+1. Beroende på visualiseringen kan du ändra:
+
+   * Ett eller två mått: Välj ett mått i listrutan **[!UICONTROL Select metric]**.
+
+      * För avkastningsbaserade planer är alternativen: [!UICONTROL Conversions], [!UICONTROL CPA], [!UICONTROL Revenue], [!UICONTROL ROI], [!UICONTROL Spend] och [!UICONTROL Volume].
+      * För CPA-baserade planer är alternativen: [!UICONTROL Conversions], [!UICONTROL CPA], [!UICONTROL Spend] och [!UICONTROL Volume].
+   * **[!UICONTROL Granularity]**: Välj antingen **[!UICONTROL date ranges]** eller **[!UICONTROL week]** i listrutan **[!UICONTROL Granularity]**.
+
+   I **[!UICONTROL Preview]** ser du hur ändringarna skiljer sig från visualiseringen i **[!UICONTROL Current]**.
+
+1. Välj **[!UICONTROL Apply]** om du vill tillämpa ändringarna. Välj **[!UICONTROL Cancel]** om du vill avbryta eventuella ändringar i visualiseringen.

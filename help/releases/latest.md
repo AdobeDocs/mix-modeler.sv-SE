@@ -4,18 +4,28 @@ description: Versionsinformation för den senaste Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 8b9f8b6b007f78e9c98e71be56bea48d335fb3c3
+source-git-commit: 6fc734793102533003c731e22dfe0d8c422a1cde
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '834'
 ht-degree: 2%
 
 ---
 
 # Aktuella versionsinformation för Mix Modeler
 
-**Senast uppdaterad**: 12 september 2025.
+**Senast uppdaterad**: 12 november 2025.
 
 Versionsinformationen innehåller den senaste utgåvan av Mix Modeler. Mix Modeler-releaser fungerar enligt en kontinuerlig leveransmodell, vilket möjliggör en ungefärlig månadsvis publiceringsgräns. Versionsinformationen uppdateras därför, så kontrollera dem regelbundet.
+
+
+
+## November 2025
+
+| Funktion | Beskrivning | [Startar](#release-strategy) | [Allmän tillgänglighet](#release-strategy) |
+|---|---|---|---|
+| **[!UICONTROL Plans tracking]** | Låt användarna förstå hur genomförandet av marknadsföringsplanerna följer planerna. Så att ni kan känna er säkra på hur marknadsföringen fungerar. Eller identifiera möjligheter och risker tidigare för att korrigera kurser och uppnå affärsmål. [Prestanda för att planera visualiseringar](/help/dashboard/plans.md#performance-to-plan) uppdateras och tillåter konfiguration för mått och granularitet. | 12 november 2025 | 12 november 2025 |
+| **[!UICONTROL Channel synergy insights]** | Se hur marknadsföringskanalerna samverkar för att skapa större genomslag. Med dessa insikter kan ni tryggt förklara tidigare marknadsföringsresultat och justera marknadsföringsbudgeten utifrån detta för att maximera den totala avkastningen på er marknadsföringsportfölj. En kanalsynergismatris finns tillgänglig i [modellinsikter](/help/models/insights.md#channel-synergy) och [planinsikter](/help/plans/insights.md#channel-synergies). | 12 november 2025 | 12 november 2025 |
+| **Korrigeringar** | Fixar följande biljetter: <ul><li>AMM-2920: Planer för att skapa och migrera.</li><li>AMM-3282: Vetenskaplig notation för varierar små tal i stora rutnät.</li></ul> | 12 november 2025 | 12 november 2025 |
 
 
 ## September 2025

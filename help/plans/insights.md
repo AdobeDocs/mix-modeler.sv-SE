@@ -3,9 +3,9 @@ title: Planera insikter
 description: Lär dig hur du ser insikter om din plan och redigerar en plan i Mix Modeler.
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-source-git-commit: f0871834ec665c907caf0af3edeeed4fb2549a58
+source-git-commit: 86b58717c3c8be183c70d1ceccf6f7c757303518
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1170'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ När insikterna skapas visas en översikt över din plan, som består av:
 - [[!UICONTROL Forecasted revenue]-visualisering](#forecasted-revenue)
 - [[!UICONTROL Forecasted conversion]-visualisering](#forecasted-conversions)
 - [[!UICONTROL Marginal channel return]-visualisering](#marginal-channel-return)
-- tabellen [[!UICONTROL Data range breakdown] i planen &#x200B;](#date-range-breakdown), med kolumner för
+- tabellen [[!UICONTROL Data range breakdown] i planen ](#date-range-breakdown), med kolumner för
 
    - Kanal
    - avkastning
@@ -41,13 +41,13 @@ När insikterna skapas visas en översikt över din plan, som består av:
 
 Om du vill stänga gränssnittet väljer du **[!UICONTROL Close]**.
 
-Om du vill ändra hur du visar avkastningen på din plan väljer du **[!UICONTROL X]** eller **[!UICONTROL &#x200B; %]** **[!UICONTROL View ROI]**.
+Om du vill ändra hur du visar avkastningen på din plan väljer du **[!UICONTROL X]** eller **[!UICONTROL  %]** **[!UICONTROL View ROI]**.
 
 ## Prognostiserade utgifter för betalda kanaler och avkastning på investerat kapital
 
 Den här visualiseringen visar en utspridd yta för de prognostiserade investeringarna och avkastningen på investeringar i dina betalda kanaler, baserat på modell, datumintervall och budget.
 
-![Prognostiserad visualisering av utgifter för betalda kanaler och avkastning &#x200B;](../assets/overview-plan-forecasted-paid-channel-send-roi.png)
+![Prognostiserad visualisering av utgifter för betalda kanaler och avkastning ](../assets/overview-plan-forecasted-paid-channel-send-roi.png)
 
 
 ## Prognostiserade intäkter
@@ -72,6 +72,13 @@ Den här linjediagramvisningen visar en marginell returkurva för den valda kana
 
 Om du vill välja en viss kanal för visualiseringen väljer du en kanal i listrutan **[!UICONTROL View]**.
 
+## Kanalsynergier
+
+Kanalsynergimatrisen hjälper er att identifiera hur marknadsföringskanalerna interagerar för att skapa multimediala effekter, utöver deras individuella bidrag.
+
+![Planera kanalsynergier](/help/assets/plan-channel-synergies.png)
+
+Om du vill hämta en CSV-fil som representerar matrisen väljer du ![Hämta](/help/assets/icons/Download.svg) **[!UICONTROL Download]**.
 
 ## Uppdelning av datumintervall
 

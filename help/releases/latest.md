@@ -4,7 +4,7 @@ description: Versionsinformation för den senaste Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
+source-git-commit: 8b9f8b6b007f78e9c98e71be56bea48d335fb3c3
 workflow-type: tm+mt
 source-wordcount: '701'
 ht-degree: 2%
@@ -27,13 +27,12 @@ Versionsinformationen innehåller den senaste utgåvan av Mix Modeler. Mix Model
 | **Korrigeringar** | Fixar följande biljetter: <ul><li>AMM-3101: Korrigerade felaktig mappningsskapande för regler: `event_date` skickades som fältnamn i stället för `timestamp`.</li><li>AMM-3092: Det gick inte att ändra kanalens maximala begränsningsvärde i en duplicerad budgetbaserad plan.</li><li>AM3130: Korrigerad felaktig **[!UICONTROL Run frequency]**-information i ett popup-fönster med detaljer för en modell.</li><li>AMM3158: Uppdaterade etiketter för alternativen **[!UICONTROL Select target metric]** som en del av rutan **[!UICONTROL Optimize]** i gränssnittet [Planer skapar](/help/plans/build.md).</li><li>AMM 3176: Det gick inte att visa [Brytning efter kanal](/help/models/insights.md#breakdown)-visualisering på fliken **[!UICONTROL Attribution]** i **[!UICONTROL Model Insights]** har åtgärdats.</li></ul> | 9 september 2025 | 9 september 2025 |
 | **Korrigeringar** | Fixar följande biljetter: <ul><li>AMM-3174: Förbättrad upplevelse när inga befintliga planer är tillgängliga.</li><li>AMM-3216: Förbättrad validering för anpassade datumintervall.</li><li>AMM-3240: Visning av fast körningsmodellfrekvens.</ul> | 23 september 2025 | 23 september 2025 |
 
-
 ## Juli-augusti 2025
 
 | Funktion | Beskrivning | [Startar](#release-strategy) | [Allmän tillgänglighet](#release-strategy) |
 |---|---|---|---|
 | **[!UICONTROL Compare plans update]** | Gränssnittet för [Jämför planer](/help/plans/compare.md) visar nu ytterligare information för betald marknadsföring: ROI eller CPA samt intäkter. | 20 augusti 2025 | 20 augusti 2025 |
-| **Uppdateringar om harmonisering** | Alla datauppsättningsregler använder nu en liknande [generisk karta som den harmoniserade fältupplevelsen &#x200B;](/help/harmonize-data/dataset-rules.md), oavsett datamängdstypen. När du mappar ett standardiserat, harmoniserat fält från en sammanfattningsdatauppsättning försöker Mix Modeler automatiskt minska motsvarande Experience Platform-datamängdsfält. | 29 juli 2025 | 29 juli 2025 |
+| **Uppdateringar om harmonisering** | Alla datauppsättningsregler använder nu en liknande [generisk karta som den harmoniserade fältupplevelsen ](/help/harmonize-data/dataset-rules.md), oavsett datamängdstypen. När du mappar ett standardiserat, harmoniserat fält från en sammanfattningsdatauppsättning försöker Mix Modeler automatiskt minska motsvarande Experience Platform-datamängdsfält. | 29 juli 2025 | 29 juli 2025 |
 
 
 ## Maj-juni 2025

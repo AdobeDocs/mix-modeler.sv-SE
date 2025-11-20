@@ -30,7 +30,7 @@ När insikterna skapas visas en översikt över din plan, som består av:
 - [[!UICONTROL Forecasted revenue]-visualisering](#forecasted-revenue)
 - [[!UICONTROL Forecasted conversion]-visualisering](#forecasted-conversions)
 - [[!UICONTROL Marginal channel return]-visualisering](#marginal-channel-return)
-- tabellen [[!UICONTROL Data range breakdown] i planen ](#date-range-breakdown), med kolumner för
+- tabellen [[!UICONTROL Data range breakdown] i planen &#x200B;](#date-range-breakdown), med kolumner för
 
    - Kanal
    - avkastning
@@ -41,13 +41,13 @@ När insikterna skapas visas en översikt över din plan, som består av:
 
 Om du vill stänga gränssnittet väljer du **[!UICONTROL Close]**.
 
-Om du vill ändra hur du visar avkastningen på din plan väljer du **[!UICONTROL X]** eller **[!UICONTROL  %]** **[!UICONTROL View ROI]**.
+Om du vill ändra hur du visar avkastningen på din plan väljer du **[!UICONTROL X]** eller **[!UICONTROL &#x200B; %]** **[!UICONTROL View ROI]**.
 
 ## Prognostiserade utgifter för betalda kanaler och avkastning på investerat kapital
 
 Den här visualiseringen visar en utspridd yta för de prognostiserade investeringarna och avkastningen på investeringar i dina betalda kanaler, baserat på modell, datumintervall och budget.
 
-![Prognostiserad visualisering av utgifter för betalda kanaler och avkastning ](../assets/overview-plan-forecasted-paid-channel-send-roi.png)
+![Prognostiserad visualisering av utgifter för betalda kanaler och avkastning &#x200B;](../assets/overview-plan-forecasted-paid-channel-send-roi.png)
 
 
 ## Prognostiserade intäkter

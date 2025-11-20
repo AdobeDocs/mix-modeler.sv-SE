@@ -3,7 +3,7 @@ title: Prestanda att planera
 description: Lär dig hur du använder Performance för att planera i Mix Modeler.
 feature: Dashboard, Plans, Models
 exl-id: 930fc1d5-8e28-4610-af7b-c4ec91f86a8a
-source-git-commit: 7834a0c4a5fd18902b73e7c307f61847bee05bc0
+source-git-commit: 89def3d6f5a1415d8f7a91b05d68d70ca881bdf4
 workflow-type: tm+mt
 source-wordcount: '515'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Fliken **[!UICONTROL Performance to pan]** [!BADGE Beta]{type=Informative} i Mix Modeler ![Home](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** är en betafunktion som kan komma att ändras. Funktionen är tillgänglig för ett begränsat antal kunder.
+>Fliken **[!UICONTROL Performance to plan]** [!BADGE Beta]{type=Informative} i Mix Modeler ![Home](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** är en betafunktion som kan komma att ändras. Funktionen är tillgänglig för ett begränsat antal kunder.
 
 Fliken **[!UICONTROL Plans]** [!BADGE Beta]{type=Informative} i Mix Modeler ![Home](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** innehåller en kontrollpanel för spårning som du kan använda för att övervaka hur väl marknadsföringen fungerar i förhållande till planen. Du kan spåra faktiska prestanda kontra planerade prestanda med statuskort och visualiseringar.
 

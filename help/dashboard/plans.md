@@ -38,7 +38,7 @@ På fliken **[!UICONTROL Plans]** [!BADGE Beta]{type=Informative} visas:
 * [Visualiseringar](#visualizations):
    * [*Mått*](#metric-actual-vs-planned)
    * [*Mått*](#metric-actual-vs-planned-by-granularity)
-   * [Kanal ](#channel-metric-by-granularity)
+   * [Kanal &#x200B;](#channel-metric-by-granularity)
    * [*Mått*](#metric-vs-metric-by-channel)
    * [*Mått*](#metric-by-granularity)
    * [*Mått*](#metric-by-channel)

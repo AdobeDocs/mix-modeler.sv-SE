@@ -1,5 +1,5 @@
 ---
-title: Mix Modeler guide
+title: Mix Modeler Guide
 description: Lär dig hur du mäter kampanjer och optimerar planeringen enhetligt i alla kanaler med Mix Modeler.
 short-description: Lär dig hur du mäter kampanjer och optimerar planeringen enhetligt i alla kanaler med Mix Modeler.
 feature: Harmonized Data, Models, Plans
@@ -11,9 +11,9 @@ ht-degree: 14%
 
 ---
 
-# Adobe Mix Modeler guide
+# Adobe Mix Modeler Guide
 
-Den här tekniska handboken ger självhjälp för Adobe **Mix Modeler**. Mix Modeler är en Adobe Experience Cloud-applikation som mäter kampanjer och optimerar planeringen holistiskt över alla kanaler: betalda, förtjänade och ägda. Mix Modeler är byggt på Adobe Experience Platform och drivs av Adobe Sensei.
+Den här tekniska handboken ger självhjälp för Adobe **Mix Modeler**. Mix Modeler är en Adobe Experience Cloud-applikation som mäter kampanjer och optimerar planeringen på ett enhetligt sätt i alla kanaler: betalda, förtjänade och ägda. Mix Modeler är byggt på Adobe Experience Platform och drivs av Adobe Sensei.
 
 ## Börja med grunderna
 
@@ -74,7 +74,7 @@ Den här tekniska handboken ger självhjälp för Adobe **Mix Modeler**. Mix Mod
     </td>
         <td>
       <img src="assets/Learn.svg" width="35px"><br/>
-      <strong> Tutorials </strong><br/><a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/overview.html?lang=sv-SE">Översikt</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/use-cases.html?lang=sv-SE">Användningsexempel</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-workflow.html?lang=sv-SE">Användararbetsflöde</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-interface-tour.html?lang=sv-SE">Demo av användargränssnittet</a>
+      <strong>Självstudiekurser</strong><br/><a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/overview.html?lang=en">Översikt</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/use-cases.html?lang=en">Användningsexempel</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-workflow.html?lang=en">Användararbetsflöde</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-interface-tour.html?lang=en">Demo av användargränssnittet</a>
     </td>
   </tr>
 </table>

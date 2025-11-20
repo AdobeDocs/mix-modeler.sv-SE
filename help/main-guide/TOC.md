@@ -5,7 +5,7 @@ user-guide-description: Lär dig hur du använder Mix Modeler.
 source-git-commit: cc6f7810bf60c7b364280139cb1cbb39794595d8
 workflow-type: tm+mt
 source-wordcount: '88'
-ht-degree: 44%
+ht-degree: 45%
 
 ---
 

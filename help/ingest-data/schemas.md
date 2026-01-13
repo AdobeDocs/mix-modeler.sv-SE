@@ -3,10 +3,10 @@ title: Scheman
 description: Lär dig hur du hanterar de scheman som behövs för att importera data till Mix Modeler.
 feature: Schemas
 exl-id: 08289581-5af9-4422-b049-8c24105e2a8e
-source-git-commit: b0306ad6fad8966822ed14c67f159a4aefb4e3f8
+source-git-commit: 7524c2ffc0408b04e6bef5bd5deedc1feea0b682
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 2%
+source-wordcount: '598'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +18,7 @@ Så här hanterar du scheman och stöder de data du vill importera i Experience 
 
 1. Välj ![Scheman](/help/assets/icons/Schemas.svg) **[!UICONTROL Schemas]**, under **[!UICONTROL SETUP]**.
 
-Mer information finns i [Översikt över användargränssnittet för scheman](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=sv-SE).
+Mer information finns i [Översikt över användargränssnittet för scheman](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en).
 
 ## Sammanställd eller sammanfattad data
 
@@ -69,10 +69,26 @@ Nedan finns ett mer omfattande exempel på **[!DNL LumaPaidMarketingSchema]** so
 
 Med tanke på den asynkrona typen av profilinmatning uppmuntras det att använda fältgruppen Extern Source System Audit Details som en del av ett schema när aggregerade data eller sammanfattningsdata samlas in från externa källor. Den här fältgruppen definierar en uppsättning granskningsegenskaper för externa källor.
 
+## Fältgrupp för standardfält för faktor
+
+För enkelhetens skull stöder Experience Platform en dedikerad fältgrupp för Faktorstandard-fält för interna och externa faktordata som ofta är en del av sammanfattande, interna eller externa faktordata. Den här fältgruppen definierar följande fält:
+
+| Fältvisningsnamn | Fältnamn | Fälttyp | Datatyp | Obligatoriskt | Beskrivning |
+|---|---|---|---|:-:|---|
+| Faktornamn | factorName | Dimension | Sträng | ![Markering](/help/assets/icons/Checkmark.svg) | Namnet på faktorn |
+| Faktorvärde | factorValue | Mått | Dubbel | ![Markering](/help/assets/icons/Checkmark.svg) | Värdet på faktorn |
+| Typ av faktor | factorType | Dimension | Sträng (enum) | | Typ av faktor.<br/>Möjliga värden är: <ul><li>Intern (intern faktor)</li><li>Extern (extern faktor)</li></ul> |
+| Värdetyp | valueType | Dimension | Sträng (enum) | | Möjliga värden är:<ul><li>Faktiskt (faktiskt värde)</li><li>Prognos (prognostiserat värde)</li></ul>Om inget värde anges är Faktiskt standardvärdet. |
+| Kornighet | granularitet | Dimension | Sträng (enum) | | Möjliga värden är:<ul><li>Dagligen</li><li>Vecka</li><li>Månadsvis</li></ul> |
+
+En sammanfattning, intern faktor eller extern faktordatauppsättning kan baseras på:
+
+- Ett schema som **använder** gruppen Faktorstandardfält. Den här datauppsättningen visas som en **[!UICONTROL Factors]**-datauppsättning när du konfigurerar datauppsättningsregler. Och de harmoniserade fält som du definierar, som en del av datauppsättningsreglerna för datauppsättningen, är tillgängliga som faktorer när du skapar en modell.
+- Ett schema som **inte använder** gruppen Faktorstandardfält. Den här datauppsättningen visas som en **[!UICONTROL Summary]**-datauppsättning när du konfigurerar datauppsättningsregler. Datauppsättningen är konfigurerad som sammanfattningsdata och påverkar inte harmoniserade data.
 
 ## Datatyper som stöds
 
-För närvarande stöder Mix Modeler en delmängd av Experience Platform datatyper. Följande grundläggande datatyper (fält), som nämns i [Grundläggande om schemakomposition](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=sv-SE#data-type), stöds:
+För närvarande stöder Mix Modeler en delmängd av Experience Platform datatyper. Följande grundläggande datatyper (fält), som nämns i [Grundläggande om schemakomposition](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#data-type), stöds:
 
 - Sträng
 - Heltal

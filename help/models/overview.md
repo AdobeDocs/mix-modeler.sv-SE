@@ -3,9 +3,9 @@ title: Översikt över modeller
 description: Lär dig hur du bygger och använder modeller i Mix Modeler.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 620f77d5d22713381d708eef47dcb4c7eee79da9
+source-git-commit: 8f4b07782d74341afd23e8c3d15f7f2d30a7ccbd
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '963'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Om du vill skapa en modell använder du Mix Modeler steg-för-steg-guidade model
 
 Om du vill visa en tabell över de aktuella modellerna i Mix Modeler-gränssnittet:
 
-1. Välj ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** i den vänstra listen.
+1. Välj ![FileData](/help/assets/icons2/FileData.svg) **[!UICONTROL Models]** i den vänstra listen.
 
 1. En tabell över de aktuella modellerna visas.
 
@@ -54,10 +54,13 @@ Om du vill visa en tabell över de aktuella modellerna i Mix Modeler-gränssnitt
    | **[!UICONTROL Name]** | Modellens namn |
    | **[!UICONTROL Description]** | Beskrivning av modellen |
    | **[!UICONTROL Conversion event]** | Den konvertering du har valt för modellen. |
-   | **[!UICONTROL Run frequency]** | Körfrekvensen för utbildningen av modellen. |
+   | **[!UICONTROL Run]** frekvens | Körfrekvensen för utbildningen av modellen. |
    | **[!UICONTROL Last run]** | Datum och tid för modellens senaste utbildning. |
    | **[!UICONTROL Status]** | Modellens status. |
 
+   Om du vill sortera tabellen i en kolumn i stigande ![ArrowMoveUp](/help/assets/icons2/ArrowMoveUp.svg)- eller fallande ![ArrowMoveDown](/help/assets/icons2/ArrowMoveDown.svg)ordning, markerar du kolumnens rubrik.
+
+   Om du vill sortera eller ändra storlek på kolumnen **[!UICONTROL Name]** väljer du **[!UICONTROL Name]** ![KranNed](/help/assets/icons/ChevronDown.svg). Välj **[!UICONTROL Sort ascending]**, **[!UICONTROL Sort descending]** eller **[!UICONTROL Resize column]** på snabbmenyn. Du kan också hovra över kolumnavgränsaren för att ändra storlek på kolumnen **[!UICONTROL Name]**.
 
    Modellens rapporterade status beror på var modellen befinner sig under sin livscykel. Till exempel om en modell skapas, (omutbildas) har lyckats eller inte, eller om (ompoängteras) har lyckats eller inte.
 
@@ -119,7 +122,7 @@ Du kan snabbt duplicera en modell.
 
 1. Välj ![Mer](/help/assets/icons/More.svg) för en modell och välj **[!UICONTROL Duplicate]** på snabbmenyn.
 
-Du omdirigeras till stegen för att skapa en ny modell, med ett föreslaget namn bestående av den ursprungliga modellens namn som bifogas med **[!UICONTROL (Copy)] (_n_)**.
+Du omdirigeras till stegen för att skapa en ny modell, med ett föreslaget namn bestående av den ursprungliga modellens namn som bifogas med **[!UICONTROL (Copy)](_n_)**.
 
 ### Redigera
 
@@ -171,5 +174,5 @@ Så här tar du bort flera modeller:
 
 1. Markera flera modeller.
 1. Välj ![Ta bort](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** från det blå åtgärdsfältet för att ta bort modellerna.
-1. Välj **[!UICONTROL Delete]** i bekräftelsedialogrutan för **[!UICONTROL Delete *x *modeller]**&#x200B;om du vill ta bort modellerna. Välj **[!UICONTROL Cancel]**&#x200B;om du vill avbryta.
+1. Välj **[!UICONTROL Delete]** i bekräftelsedialogrutan för **[!UICONTROL Delete *x *modeller]**om du vill ta bort modellerna. Välj **[!UICONTROL Cancel]**om du vill avbryta.
 

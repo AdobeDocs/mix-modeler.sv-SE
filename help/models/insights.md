@@ -3,9 +3,9 @@ title: Modellinsikter
 description: Lär dig mer om din modell, som historisk översikt, modellinsikter och modellkvalitet i Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: bff18fa3d2bb5b5879dca4ab5bdce261e35b2b70
+source-git-commit: 16ec71a73b577d124ac1ef420741849cdb1c139f
 workflow-type: tm+mt
-source-wordcount: '2488'
+source-wordcount: '2498'
 ht-degree: 0%
 
 ---
@@ -80,9 +80,9 @@ En vågrät stolpgrafivisualisering som visar ROI- eller CPA-prestanda för var 
 
 ### Marginalkurvor.
 
-Linjediagrammet visar och jämför de marginella vinster som genereras av investeringen i era marknadsföringskanaler.  Och identifierar den brytpunkt där den inkrementella avkastningen är mindre än de inkrementella utgifterna. Den här visualiseringen hjälper er därför att förstå när era marknadsföringsinvesteringar börjar bli mindre effektiva.
+Linjediagrammet visar och jämför de marginella vinster som genereras av investeringen i era marknadsföringskanaler.  Identifierar den aktuella utgiften och den marginella brytpunkten (där den inkrementella avkastningen är mindre än de inkrementella utgifterna). Den här visualiseringen hjälper er därför att förstå när era marknadsföringsinvesteringar börjar bli mindre effektiva.
 
-Kurvan, brytpunkten och motsvarande värden beräknas baserat på det markerade dataområdet och den kanal du har valt.
+Kurvan, den aktuella utgiftspunkten, den marginella brytpunkten och motsvarande värden beräknas baserat på det valda dataområdet och den kanal du har valt.
 
 Så här ändrar du kanal:
 
@@ -257,8 +257,8 @@ För varje konverteringsbana ser du:
 >id="models_diagnostics_modelassessment"
 >title="Modellbedömningsdiagram"
 >abstract="Modellbedömningsvisualiseringar bryts ned på faktiska kontra förväntade eller kvarvarande konverteringar."
->additional-url="https://experienceleague.adobe.com/sv/docs/mix-modeler/using/overview" text="Mix Modeler - översikt"
->additional-url="https://video.tv.adobe.com/v/3440798/?captions=swe&learn=on&enablevpops" text="Mix Modeler demo"
+>additional-url="https://experienceleague.adobe.com/en/docs/mix-modeler/using/overview" text="Mix Modeler - översikt"
+>additional-url="https://video.tv.adobe.com/v/3440794/?learn=on&enablevpops" text="Mix Modeler demo"
 
 
 >[!CONTEXTUALHELP]

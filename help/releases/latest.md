@@ -4,7 +4,7 @@ description: Versionsinformation för den senaste Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: f4755b5b83c50c1a0c63839854954154d0b141c1
+source-git-commit: b19ce70c5ba990b6b720fdf80ef68b5cf7aef07c
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 3%
@@ -23,7 +23,7 @@ Versionsinformationen innehåller den senaste utgåvan av Mix Modeler. Mix Model
 
 | Funktion | Beskrivning | [Startar](#release-strategy) | [Allmän tillgänglighet](#release-strategy) |
 |---|---|---|---|
-| **[!UICONTROL Dataset rules]** | Uppdaterat regelregister för datauppsättning. Du kan söka efter en eller flera datauppsättningsregler och visa, redigera eller ta bort en datauppsättningsregel direkt från tabellen. | 13 januari 2026 | 13 januari 2026 |
+| **[!UICONTROL Dataset rules]** | [Uppdaterad regeltabell för datauppsättning](/help/harmonize-data/dataset-rules.md). Du kan söka efter en eller flera datauppsättningsregler och visa, redigera eller ta bort en datauppsättningsregel direkt från tabellen. | 13 januari 2026 | 13 januari 2026 |
 | **[!UICONTROL Current spend]** | Lägg till en aktuell utgiftspunkt i visualiseringen av den [marginella kurvan](/help/models/insights.md#marginal-response-curves) i modellinsikter. | 13 januari 2026 | 13 januari 2026 |
 | **[!UICONTROL Sort and resize columns]** | Sortering och storleksändring av kolumner i tabellen [Models](/help/models/overview.md) och [Planer](/help/plans/overview.md) har lagts till. | 13 januari 2026 | 13 januari 2026 |
 | **Korrigeringar** | Fixar följande biljetter: <ul><li>AMM-3328: Fältindata inaktiverat för nya operatorer för faktorer</li><li>AMM-3359: Datumväljaren och kombinationslåset.</li><li>AMM-3441: Om du duplicerar en plan fylls inte datumintervallet och budgeten automatiskt i.</li></ul> | 13 januari 2026 | 13 januari 2026 |

@@ -3,9 +3,9 @@ title: Översikt över modeller
 description: Lär dig hur du bygger och använder modeller i Mix Modeler.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 8f4b07782d74341afd23e8c3d15f7f2d30a7ccbd
+source-git-commit: 2775c5a3779f6731f7f3143f6ed21db2993c0955
 workflow-type: tm+mt
-source-wordcount: '963'
+source-wordcount: '962'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Om du vill visa en tabell över de aktuella modellerna i Mix Modeler-gränssnitt
    | **[!UICONTROL Name]** | Modellens namn |
    | **[!UICONTROL Description]** | Beskrivning av modellen |
    | **[!UICONTROL Conversion event]** | Den konvertering du har valt för modellen. |
-   | **[!UICONTROL Run]** frekvens | Körfrekvensen för utbildningen av modellen. |
+   | **[!UICONTROL Run frequency]** | Körfrekvensen för utbildningen av modellen. |
    | **[!UICONTROL Last run]** | Datum och tid för modellens senaste utbildning. |
    | **[!UICONTROL Status]** | Modellens status. |
 
@@ -122,7 +122,7 @@ Du kan snabbt duplicera en modell.
 
 1. Välj ![Mer](/help/assets/icons/More.svg) för en modell och välj **[!UICONTROL Duplicate]** på snabbmenyn.
 
-Du omdirigeras till stegen för att skapa en ny modell, med ett föreslaget namn bestående av den ursprungliga modellens namn som bifogas med **[!UICONTROL (Copy)] (_n_)**.
+Du omdirigeras till stegen för att skapa en ny modell, med ett föreslaget namn bestående av den ursprungliga modellens namn som bifogas med **[!UICONTROL (Copy)](_n_)**.
 
 ### Redigera
 
@@ -174,5 +174,5 @@ Så här tar du bort flera modeller:
 
 1. Markera flera modeller.
 1. Välj ![Ta bort](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** från det blå åtgärdsfältet för att ta bort modellerna.
-1. Välj **[!UICONTROL Delete]** i bekräftelsedialogrutan för **[!UICONTROL Delete *x *modeller]**&#x200B;om du vill ta bort modellerna. Välj **[!UICONTROL Cancel]**&#x200B;om du vill avbryta.
+1. Välj **[!UICONTROL Delete]** i bekräftelsedialogrutan för **[!UICONTROL Delete *x *modeller]**om du vill ta bort modellerna. Välj **[!UICONTROL Cancel]**om du vill avbryta.
 

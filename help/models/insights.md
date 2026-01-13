@@ -3,9 +3,9 @@ title: Modellinsikter
 description: Lär dig mer om din modell, som historisk översikt, modellinsikter och modellkvalitet i Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 16ec71a73b577d124ac1ef420741849cdb1c139f
+source-git-commit: 2775c5a3779f6731f7f3143f6ed21db2993c0955
 workflow-type: tm+mt
-source-wordcount: '2498'
+source-wordcount: '2499'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Dessa insikter hjälper er sedan att ge stöd åt resursprioritering och resurst
 
 Så här visar du modellinsikter i gränssnittet ![Models](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** i Mix Modeler:
 
-1. I tabellen **[!UICONTROL Models]** väljer du namnet på en modell som har **[!UICONTROL Last run status]** av <span style="color:green">●</span> **[!UICONTROL Success]**.
+1. I tabellen **[!UICONTROL Models]** markerar du namnet på en modell som har **[!UICONTROL Last run status]** av ![StatusGreen](/help/assets/icons/StatusGreen.svg) **[!UICONTROL Success]**.
 
 1. Välj **[!UICONTROL Model Insights]** på snabbmenyn.
 
@@ -60,7 +60,7 @@ På fliken Modellinsikter visas visualiseringar för [Bidrag per datum och basme
 * Om du vill hämta fullständiga modellinsiderdata i Microsoft® Excel-format väljer du ![Hämta](/help/assets/icons/Download.svg) **[!UICONTROL Download data]**.
 
 
-### Bidrag per datum och basmedia.
+### Bidrag per datum och basmedia
 
 Den här staplade diagramvisualiseringen ordnas enligt följande:
 
@@ -74,11 +74,11 @@ Den här visualiseringen representerar den andel bidrag som uppnås genom bas, v
 
 En donutvisualisering som visar hur bidraget distribueras av olika kanaler. Den här visualiseringen visar inkrementalitet genom objektivet på de tre främsta kanalerna (utom bas- och *alla andra* -kategorier). Visualiseringen underlättar prioriteringen och budgettilldelningen.
 
-### Sammanfattning av marknadsföringsprestanda.
+### Sammanfattning av marknadsföringsprestanda
 
 En vågrät stolpgrafivisualisering som visar ROI- eller CPA-prestanda för var och en av kanalerna. Den här visualiseringen visar på lönsamheten/CPA för era marknadsföringsinvesteringar. Kanalerna rangordnas i fallande ordning baserat på ROI/CPA. Visualiseringen hjälper till att identifiera vilka kanaler som är mest effektiva och vilka som kan behöva optimeras.
 
-### Marginalkurvor.
+### Marginalkurvor
 
 Linjediagrammet visar och jämför de marginella vinster som genereras av investeringen i era marknadsföringskanaler.  Identifierar den aktuella utgiften och den marginella brytpunkten (där den inkrementella avkastningen är mindre än de inkrementella utgifterna). Den här visualiseringen hjälper er därför att förstå när era marknadsföringsinvesteringar börjar bli mindre effektiva.
 
@@ -257,8 +257,8 @@ För varje konverteringsbana ser du:
 >id="models_diagnostics_modelassessment"
 >title="Modellbedömningsdiagram"
 >abstract="Modellbedömningsvisualiseringar bryts ned på faktiska kontra förväntade eller kvarvarande konverteringar."
->additional-url="https://experienceleague.adobe.com/sv/docs/mix-modeler/using/overview" text="Mix Modeler - översikt"
->additional-url="https://video.tv.adobe.com/v/3440798/?captions=swe&learn=on&enablevpops" text="Mix Modeler demo"
+>additional-url="https://experienceleague.adobe.com/en/docs/mix-modeler/using/overview" text="Mix Modeler - översikt"
+>additional-url="https://video.tv.adobe.com/v/3440794/?learn=on&enablevpops" text="Mix Modeler demo"
 
 
 >[!CONTEXTUALHELP]

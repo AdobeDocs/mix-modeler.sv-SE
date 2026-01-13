@@ -3,9 +3,9 @@ title: Planer - översikt
 description: Lär dig hur du visar, väljer ut och utför åtgärder på planer i Mix Modeler.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: 0d11168b71319e6c854482f89dbb1bb68962a880
+source-git-commit: 2775c5a3779f6731f7f3143f6ed21db2993c0955
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
@@ -48,18 +48,16 @@ Om du vill visa en tabell över dina aktuella planer går du till Mix Modeler-gr
 
    | Kolumnnamn | Information |
    |---|---|
-   | Namn | Namn på planen |
-   | Modell | Modellen som används som bas för planen. |
-   | Datumintervall | Det fullständiga datumintervallet för en plan. |
-   | Budget | Den totala budgeten för en plan. |
-   | Planmål | Målmåttet som har definierats för en målbaserad plan. |
-   | Prognostiserad avkastning | Den [prognostiserade avkastningen](/help/main-guide/glossary.md) för en plan |
-   | Prognostiserad avkastning | Den [prognostiserade avkastningen &#x200B;](/help/main-guide/glossary.md) för en plan. |
-   | Prognostiserad konvertering | Den [prognostiserade konverteringen](/help/main-guide/glossary.md) för en plan |
-   | Prognostiserad CPA | [Prognostiserat CPA](/help/main-guide/glossary.md)för en plan |
-   | Status | Status för en plan: <p><span style="color:red">●</span> misslyckades, <p><span style="color:blue">●</span> bearbetar, eller <p><span style="color:green">●</span> har slutförts. |
-
-   {style="table-layout:auto"}
+   | **[!UICONTROL Name]** | Namn på planen |
+   | **[!UICONTROL Model]** | Modellen som används som bas för planen. |
+   | **[!UICONTROL Date range]** | Det fullständiga datumintervallet för en plan. |
+   | **[!UICONTROL Budget]** | Den totala budgeten för en plan. |
+   | **[!UICONTROL Plan target]** | Målmåttet som har definierats för en målbaserad plan. |
+   | **[!UICONTROL Forecasted return]** | Den [prognostiserade avkastningen](/help/main-guide/glossary.md) för en plan |
+   | **[!UICONTROL Forecasted ROI]** | Den [prognostiserade avkastningen ](/help/main-guide/glossary.md) för en plan. |
+   | **[!UICONTROL Forecasted conversion]** | Den [prognostiserade konverteringen](/help/main-guide/glossary.md) för en plan |
+   | **[!UICONTROL Forecasted CPA]** | [Prognostiserat CPA](/help/main-guide/glossary.md)för en plan |
+   | **[!UICONTROL Status]** | Status för en plan:<br/>![StatusOrange](/help/assets/icons/StatusOrange.svg) **[!UICONTROL Failed]**,<br/>![StatusBlue](/help/assets/icons/StatusBlue.svg) **[!UICONTROL Processing]** eller<br/>![StatusGreen](/help/assets/icons/StatusGreen.svg) **[!UICONTROL Complete]**. |
 
    Du kan använda ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) för att markera ![Bock](/help/assets/icons/Checkmark.svg) de kolumner som ska visas i tabellen.
 
@@ -87,7 +85,7 @@ Så här duplicerar du en plan:
 - Välj ![Mer](/help/assets/icons/More.svg) för en plan. Välj **[!UICONTROL Duplicate]** på snabbmenyn.
 - Du kan också välja en plan i tabellen ![SelectBox](/help/assets/icons/SelectBox.svg) och välja ![Kopiera](/help/assets/icons/Copy.svg) **[!UICONTROL Duplicate]** i det blå åtgärdsfältet.
 
-En ny plan, med ett namn som består av den ursprungliga planens namn som har lagts till med **[!UICONTROL (Copy)] (_n_)**, skapas. Du omdirigeras automatiskt till [Planskapande](build.md) för att tillhandahålla uppdaterad information om den kopierade planen.
+En ny plan, med ett namn som består av den ursprungliga planens namn som har lagts till med **[!UICONTROL (Copy)](_n_)**, skapas. Du omdirigeras automatiskt till [Planskapande](build.md) för att tillhandahålla uppdaterad information om den kopierade planen.
 
 - Information (som Beskrivning, Budget med mera) från den ursprungliga planen kopieras över.
 - Budgetbegränsningar från den ursprungliga planen kopieras till den nya planen.
@@ -118,6 +116,6 @@ Så här tar du bort flera planer:
 
 1. Välj flera planer.
 1. Välj ![Ta bort](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** i det blå åtgärdsfältet för att ta bort planerna.
-1. Välj **[!UICONTROL Delete]** i bekräftelsedialogrutan för **[!UICONTROL Delete *x *-planer]**&#x200B;om du vill ta bort planerna. Välj **[!UICONTROL Cancel]**&#x200B;om du vill avbryta.
+1. Välj **[!UICONTROL Delete]** i bekräftelsedialogrutan för **[!UICONTROL Delete *x *-planer]**om du vill ta bort planerna. Välj **[!UICONTROL Cancel]**om du vill avbryta.
 
 

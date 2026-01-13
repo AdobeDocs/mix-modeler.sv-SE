@@ -3,9 +3,9 @@ title: Datauppsättningsregler
 description: Lär dig hur du definierar datauppsättningsregler som ska användas som en del av att harmonisera data i Mix Modeler.
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: b631cf8d06fe71d9f5ca547923eb3237c677a915
+source-git-commit: 2775c5a3779f6731f7f3143f6ed21db2993c0955
 workflow-type: tm+mt
-source-wordcount: '1696'
+source-wordcount: '1687'
 ht-degree: 0%
 
 ---
@@ -32,19 +32,19 @@ Tabellkolumnerna anger information om datauppsättningsreglerna:
 
 | Kolumnnamn | Information |
 | ---------------------- | ----------|
-| Datauppsättning | Datauppsättningens namn.  Använd ![Mer](/help/assets/icons/More.svg) för att välja åtgärder för en datauppsättning. Du kan:<ul><li>![Förhandsgranska](/help/assets/icons/Preview.svg) **[!UICONTROL View]** om du vill visa datauppsättningsregelkonfigurationen. Alla fält är inaktiverade.</li><li>![Redigera](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]** om du vill redigera regelkonfigurationen för datauppsättningen.</li><li>![Ta bort](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** om du vill ta bort konfigurationen för datauppsättningsreglerna. Du uppmanas att bekräfta borttagningen i dialogrutan Ta bort datauppsättning. Välj **[!UICONTROL Delete]** om du vill ta bort datauppsättningsregelkonfigurationen permanent.</li><ul> |
-| Källa | Källan till datauppsättningen: Adobe Analytics, Experience Events, Summary (sammanställd) eller Consumer Experience Events. |
-| Schema | Schemat som datauppsättningen följer. Du kan snabbt välja schemanamnet för att öppna schemat på en ny flik i schemaredigeraren i ![Schema](/help/assets/icons/Schemas.svg) [Scheman](../ingest-data/schemas.md). |
-| Kornighet | Detaljrikedomen för data i datauppsättningen. Möjliga värden är Daily, Weekly, Monthly eller Yearly. |
-| Veckostart | Anger vilken veckodag som betraktas som början av en ny vecka för den specifika datauppsättningen. |
-| Status | Fältets status: <p><span style="color:gray">●</span> Utkast eller <p><span style="color:green">●</span> aktiv |
-| Senast ändrad | Data och tid för den senaste ändringen av datauppsättningsregeln. |
+| **[!UICONTROL Dataset]** | Datauppsättningens namn.  Använd ![Mer](/help/assets/icons/More.svg) för att välja åtgärder för en datauppsättning. Du kan:<ul><li>![Förhandsgranska](/help/assets/icons/Preview.svg) **[!UICONTROL View]** om du vill visa datauppsättningsregelkonfigurationen. Alla fält är inaktiverade.</li><li>![Redigera](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]** om du vill redigera regelkonfigurationen för datauppsättningen.</li><li>![Ta bort](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** om du vill ta bort konfigurationen för datauppsättningsreglerna. Du uppmanas att bekräfta borttagningen i dialogrutan Ta bort datauppsättning. Välj **[!UICONTROL Delete]** om du vill ta bort datauppsättningsregelkonfigurationen permanent.</li><ul> |
+| **[!UICONTROL Source]** | Källan till datauppsättningen: Adobe Analytics, Experience Events, Summary (sammanställd) eller Consumer Experience Events. |
+| **[!UICONTROL Schema]** | Schemat som datauppsättningen följer. Du kan snabbt välja schemanamnet för att öppna schemat på en ny flik i schemaredigeraren i ![Schema](/help/assets/icons/Schemas.svg) [Scheman](../ingest-data/schemas.md). |
+| **[!UICONTROL Granularity]** | Detaljrikedomen för data i datauppsättningen. Möjliga värden är Daily, Weekly, Monthly eller Yearly. |
+| **[!UICONTROL Start of the week]** | Anger vilken veckodag som betraktas som början av en ny vecka för den specifika datauppsättningen. |
+| **[!UICONTROL Status]** | Fältets status: ![StatusGray](/help/assets/icons/StatusGray.svg) Draft eller ![StatusGreen](/help/assets/icons/StatusGreen.svg) Active |
+| **[!UICONTROL Last modified]** | Data och tid för den senaste ändringen av datauppsättningsregeln. |
 
 {style="table-layout:auto"}
 
 ### Skapa en datauppsättningsregel
 
-Om du vill skapa en datauppsättningsregel väljer du ![&#x200B; i guiden &#x200B;](/help/assets/icons/DataCheck.svg) i **[!UICONTROL Harmonized data]** **[!UICONTROL Dataset rules]** > **[!UICONTROL Create a dataset rule]** i Mix Modeler-gränssnittet **[!UICONTROL Dataset rules configuration]** DataSearch .
+Om du vill skapa en datauppsättningsregel väljer du ![ i guiden ](/help/assets/icons/DataCheck.svg) i **[!UICONTROL Harmonized data]** **[!UICONTROL Dataset rules]** > **[!UICONTROL Create a dataset rule]** i Mix Modeler-gränssnittet **[!UICONTROL Dataset rules configuration]** DataSearch .
 
 På skärmen **[!UICONTROL Create]**
 
@@ -70,17 +70,17 @@ På skärmen **[!UICONTROL Create]**
 
       1. Välj **[!UICONTROL Count]** eller **[!UICONTROL Sum]** från **[!UICONTROL Mapping type]**.
 
-      1. Välj ett **[!UICONTROL *AEP-datamängdsfält *]**&#x200B;som du vill att det harmoniserade fältet ska mappas till som standard.
+      1. Välj ett **[!UICONTROL *AEP-datamängdsfält *]**som du vill att det harmoniserade fältet ska mappas till som standard.
 
    1. När det markerade fältet är av typen dimension:
 
       1. Välj **[!UICONTROL Map Into]** eller **[!UICONTROL Case]** från **[!UICONTROL Mapping type]**.
 
-      1. När du har valt **[!UICONTROL Map Into]** väljer du **[!UICONTROL Field]** och **[!UICONTROL *AEP-datamängdsfält *]**&#x200B;eller **[!UICONTROL Value]**&#x200B;och ett standardvärde som mappar det harmoniserade fältet som standard till datamängdsfältet eller det angivna värdet.
+      1. När du har valt **[!UICONTROL Map Into]** väljer du **[!UICONTROL Field]** och **[!UICONTROL *AEP-datamängdsfält *]**eller **[!UICONTROL Value]**och ett standardvärde som mappar det harmoniserade fältet som standard till datamängdsfältet eller det angivna värdet.
 
-      1. När du väljer **[!UICONTROL Case]** väljer du **[!UICONTROL Field]** och **[!UICONTROL *AEP-datamängdsfält *]**&#x200B;eller **[!UICONTROL Value]**&#x200B;och ett standardvärde för att mappa det harmoniserade fältet som standard till datamängdsfältet eller det angivna värdet.
+      1. När du väljer **[!UICONTROL Case]** väljer du **[!UICONTROL Field]** och **[!UICONTROL *AEP-datamängdsfält *]**eller **[!UICONTROL Value]**och ett standardvärde för att mappa det harmoniserade fältet som standard till datamängdsfältet eller det angivna värdet.
 
-         1. Om du vill ange värden explicit definierar du ett eller flera fall som består av ett eller flera villkor. Varje villkor kan kontrollera om det finns ett specifikt **[!UICONTROL *AEP-datamängdsfält *]**, om det är **[!UICONTROL Exists]**&#x200B;eller **[!UICONTROL Not Exists]**&#x200B;eller om det är **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**&#x200B;eller **[!UICONTROL Ends With]**&#x200B;ett värde som anges vid&#x200B;**[!UICONTROL * Ange indatavärde *]**.
+         1. Om du vill ange värden explicit definierar du ett eller flera fall som består av ett eller flera villkor. Varje villkor kan kontrollera om det finns ett specifikt **[!UICONTROL *AEP-datamängdsfält *]**, om det är **[!UICONTROL Exists]**eller **[!UICONTROL Not Exists]**eller om det är **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**eller **[!UICONTROL Ends With]**ett värde som anges vid**[!UICONTROL * Ange indatavärde *]**.
 
          1. Om du vill lägga till ytterligare ett ärende väljer du ![Lägg till](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add case]** och väljer ![Lägg till](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add condition]**.
 

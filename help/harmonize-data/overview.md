@@ -3,9 +3,9 @@ title: Översikt över harmoniserade datauppsättningar
 description: Lär dig att harmonisera data i Mix Modeler.
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: 80fbb8aea3e66342a7887f1660af0f4bf05ffcdb
+source-git-commit: 83ccceb5f8b73157048ed17b190194de4ed05c4f
 workflow-type: tm+mt
-source-wordcount: '1192'
+source-wordcount: '1347'
 ht-degree: 3%
 
 ---
@@ -17,7 +17,7 @@ Data i Mix Modeler är av olika slag beroende på datakällan. Data kan vara:
 * Sammanlagda eller sammanfattande data, t.ex. insamlade från datakällor i trädgården eller offlinereklam som samlats in (t.ex. utgifter) från en reklamkampanj, ett evenemang eller en fysisk annonskampanj.
 * händelsedata, till exempel från datakällor från första part. Dessa händelsedata kan samlas in via Adobe Analytics källanslutning från Adobe Analytics, Experience Platform Web eller Mobile SDK eller Edge Network API, eller data som hämtas med källanslutningar.
 
-Harmoniseringstjänsten i Mix Modeler likställer aggregat och händelsedata i en enhetlig datavy. Den här datavyn, tillsammans med [interna och externa faktordata](#factors), är källan för modellerna i Mix Modeler. Tjänsten använder den högsta granulariteten för de olika datauppsättningarna. Om en datauppsättning till exempel har en kornighet på månatliga och återstående datauppsättningar som har en kornighet varje vecka och dag, skapar harmoniseringstjänsten en datavy med hjälp av månatlig granularitet.
+Harmoniseringstjänsten i Mix Modeler likställer aggregat och händelsedata i en enhetlig datavy. Den här datavyn är källan för modellerna i Mix Modeler. Tjänsten använder den högsta granulariteten för de olika datauppsättningarna. Om en datauppsättning till exempel har en kornighet på månatliga och återstående datauppsättningar som har en kornighet varje vecka och dag, skapar harmoniseringstjänsten en datavy med hjälp av månatlig granularitet.
 
 ## Faktorer
 
@@ -27,7 +27,22 @@ Faktorer är avgörande för modellbyggande och ni vill förstå vad som påverk
 
 * Externa faktorer är faktorer som ligger utanför organisationens kontroll men som fortfarande kan påverka de konverteringar du uppnår. Exempel är bland annat CPI, S&amp;P 500.
 
+Funktionen Factors i Mix Modeler använder ett arbetsflöde med harmoniserade faktorer. Det här arbetsflödet förenklar hanteringen av faktorer, ger enhetlighet mellan modeller och ger en intuitiv upplevelse.
 
+Som en del av arbetsflödet med harmoniserade faktorer:
+
+1. Definiera harmoniserade fält för faktorer från en faktordatauppsättning i [datauppsättningsregler](/help/harmonize-data/dataset-rules.md#create-a-dataset-rule).
+1. [Synkronisera](/help/harmonize-data/dataset-rules.md#sync-data) harmoniserade data.
+1. [Använd faktorerna](/help/models/build.md#configure) i modellkonfigurationen.
+
+### Migrering
+
+Det kan finnas modeller som ännu inte har implementerat arbetsflödet för harmoniserade faktorer och som använder arbetsflödet för datauppsättningsbaserade faktorer i Experience Platform. Dessa modeller fortsätter att visa sina ursprungliga datauppsättningsbaserade faktorer tills modellerna uppdateras med nya faktorer som baseras på arbetsflödet med harmoniserade faktorer.
+
+När du duplicerar en modell som använder en datauppsättningsbaserad faktorarbetsgång:
+
+* Om modellen inte har harmoniserats överförs inte den gamla faktorkonfigurationen till den duplicerade modellen. Du måste lägga till faktorer med hjälp av det nya arbetsflödet för harmoniserade faktorer.
+* Om modellen har harmoniserats överförs faktorerna och behålls eller uppdateras.
 
 ## Ett exempel på harmoniserade data
 
@@ -156,7 +171,7 @@ Om du vill se harmoniserade data i Mix Modeler gränssnitt:
    En CSV-rapport med en titel som baseras på ditt angivna rapportnamn och aktuellt datum och tid (till exempel `Test Report_2025_04_23_9-5-18.csv`) hämtas till din standardmapp för hämtning.
 
 
-## God praxis
+## Bästa praxis
 
 När du skapar en harmoniserad datauppsättning bör du följa följande metodtips.
 

@@ -3,9 +3,9 @@ title: Marknadsföringskontaktytor
 description: Lär dig hur du skapar kontaktytor för marknadsföring som en del i arbetet med att harmonisera data i Mix Modeler.
 feature: Harmonized Data, Marketing Touch Points
 exl-id: 42851107-7568-4bc9-92ca-3cba713a522e
-source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
+source-git-commit: 6751cea9155bab54c9c8405a57151323f570c477
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
@@ -13,9 +13,9 @@ ht-degree: 0%
 # Marknadsföringskontaktytor {#marketing-touchpoints}
 
 >[!CONTEXTUALHELP]
->id="harmonizeddata_marketingtouchpoint"
->title="Marknadsföringskontaktyta"
->abstract="Marknadsföringskontaktytorna är marknadshändelser på mottagarnivå, individ- och cookienivå som används för att utvärdera effekten av marknadsinvesteringar på numeriska eller intäktsbaserade konverteringar."
+>id="harmonizeddata_marketingtouchpoints_create"
+>title="Marknadsföringskontaktytor"
+>abstract="Marknadsföringskontaktytorna är marknadshändelser på mottagarnivå, individ- och cookienivå som används för att utvärdera effekten av marknadsinvesteringar på numeriska eller intäktsbaserade konverteringar.<br/><br/>Du kan inte konfigurera modellen med kontaktytor som har överlappande data och det måste finnas minst en kontaktyta med utgifter."
 
 
 Marknadsföringskontaktytorna är marknadshändelser på mottagarnivå, individ- och cookienivå som används för att utvärdera effekten av marknadsinvesteringar på numeriska eller intäktsbaserade konverteringar.
@@ -58,7 +58,7 @@ Om du vill lägga till en kontaktyta för marknadsföring går du till ![DataSea
 
       1. Välj ett värde för operatorn ![Chevron](/help/assets/icons/ChevronDown.svg), till exempel **[!UICONTROL is]**.
 
-      1. Välj ett värde från **[!UICONTROL *Välj värde *]**&#x200B;eller ange ett värde, till exempel **[!DNL Luma]**.
+      1. Välj ett värde från **[!UICONTROL *Välj värde *]**eller ange ett värde, till exempel **[!DNL Luma]**.
 
    1. Välj ett harmoniserat fält från **[!UICONTROL Touchpoint volume]**, till exempel **[!UICONTROL Impressions]**.
 

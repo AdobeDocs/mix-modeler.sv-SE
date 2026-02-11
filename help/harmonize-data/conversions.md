@@ -3,14 +3,21 @@ title: Konverteringar
 description: Lär dig hur du skapar konverteringar som du kan använda som en del av att harmonisera data i Mix Modeler.
 feature: Harmonized Data, Conversions
 exl-id: a8559426-452a-43e8-9a60-0c0bc97d863c
-source-git-commit: 935b179e31d1b677a8c83b1566c02b7aaa617e8d
+source-git-commit: 5468e0aaf37bf2dca8912199ea26e5f8d9069cb5
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '420'
 ht-degree: 0%
 
 ---
 
-# Konverteringar
+# Konverteringar {#conversions}
+
+
+>[!CONTEXTUALHELP]
+>id="harmonizeddata_conversions_create"
+>title="Konvertering"
+>abstract="Konverteringshändelser är affärsmål som identifierar effekten av marknadsföringsaktiviteter. Exempel: e-handelsorder, köp i butik, webbplatsbesök med mera."
+
 
 Konverteringshändelser är affärsmål som identifierar effekten av marknadsföringsaktiviteter. Exempel: e-handelsorder, butiksköp, webbplatsbesök och så vidare.
 
@@ -18,7 +25,7 @@ Ni definierar marknadsföringskonverteringar för attribueringsanalys.
 
 ## Hantera konverteringar
 
-Om du vill se en tabell över tillgängliga konverteringar i gränssnittet Mix Modeler:
+En tabell över de tillgängliga konverteringarna finns i Mix Modeler-gränssnittet:
 
 1. Välj ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** i den vänstra listen.
 
@@ -52,7 +59,7 @@ Om du vill lägga till en konvertering går du till ![DataSearch](/help/assets/i
 
       1. Välj ett värde för operatorn ![Chevron](/help/assets/icons/ChevronDown.svg), till exempel **[!UICONTROL is]**.
 
-      1. Välj ett värde från **[!UICONTROL *Välj värde *]**&#x200B;eller ange ett värde, till exempel **[!UICONTROL Store]**.
+      1. Välj ett värde från **[!UICONTROL *Välj värde *]**eller ange ett värde, till exempel **[!UICONTROL Store]**.
 
    1. Välj ett harmoniserat fält från **[!UICONTROL Conversion metric for analysis]**, till exempel **[!UICONTROL Orders]**.
 

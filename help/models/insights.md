@@ -3,9 +3,9 @@ title: Modellinsikter
 description: Lär dig mer om din modell, som historisk översikt, modellinsikter och modellkvalitet i Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 2775c5a3779f6731f7f3143f6ed21db2993c0955
+source-git-commit: 197aa8d5593932e68e592b89dceabf7dc75c7cc7
 workflow-type: tm+mt
-source-wordcount: '2499'
+source-wordcount: '2804'
 ht-degree: 0%
 
 ---
@@ -130,7 +130,13 @@ Om du vill hämta en CSV-fil som representerar matrisen väljer du ![Hämta](/he
 
 
 
-## **[!UICONTROL Factors]** [!BADGE beta]
+## **[!UICONTROL Factors]** [!BADGE beta] {#factors}
+
+>[!CONTEXTUALHELP]
+>id="models_factors_factorcontributionbreakdown"
+>title="Uppdelning av faktorbidrag"
+>abstract="Uppdelningen av faktorbidrag visar andelen baskonverteringar som kan tillskrivas de olika faktorer som ingår i modellen.<br/><br/>Ren bas representerar de underliggande konverteringarna som inträffar oberoende av marknadsföringens kontaktytor och faktorer som ingår i modellen. Det omfattar konverteringar som styrs av varumärken, upprepade köp, ekologisk efterfrågan och långsiktiga marknadstrender och säsongsvariation."
+
 
 Fliken Faktorer [!BADGE beta] visar externa faktorrelaterade insikter.
 
@@ -146,7 +152,21 @@ Om du vill hämta en CSV-fil som innehåller data för tabellen väljer du ![Hä
 
 Om inga data är tillgängliga visas meddelandet ![TableAndChart](/help/assets/icons/TableAndChart.svg) **[!UICONTROL No data is available, you may need to retrain your model, or change the date range to view insights]**.
 
-## [!UICONTROL Attribution]
+## [!UICONTROL Attribution] {#attribution}
+
+
+>[!CONTEXTUALHELP]
+>id="models_attribution_breakdownbychannel"
+>title="Uppdelning efter kanal"
+>abstract="**[!UICONTROL Breakdown by channel]** är en uppdelning efter kanaltyp för definierade kontaktytor, baserat på kundupplevelsehändelsens schema. Välj ![Mer](https://spectrum.adobe.com/static/icons/workflow_18/Smock_MoreSmallList_18_N.svg) och **[!UICONTROL Breakdown by touchpoint]** om du vill visa en uppdelning efter kontaktyta."
+
+
+>[!CONTEXTUALHELP]
+>id="models_attribution_breakdownbytouchpointposition"
+>title="Uppdelning efter kontaktytsposition"
+>abstract="Den här visualiseringen visar en uppdelning av konverteringar utifrån kontaktytans och kontaktytpunktens position över alla konverteringsbanor. Visualiseringen jämför om en kontaktyta ger bättre position än återstående positioner och andra kontaktytor på en position. Observera att summan av procentandelen för en attribueringsmodell för alla kontaktytor och positioner är lika med 100. Positionerna nybörjare, påverkare och finisher definieras enligt följande:<ul><li>**Starter**: Anger om kontaktytan är den första beröringen i en konverteringsbana.</li><li>**Spelare**: Anger om kontaktytan varken är den första eller sista beröringen som leder till konvertering.</li><li>**Closer**: Anger om kontaktytan är den sista kontakten före konvertering.</li></ul>"
+
+
 
 >[!NOTE]
 >
@@ -252,19 +272,36 @@ För varje konverteringsbana ser du:
 
 ## [!UICONTROL Diagnostics] {#diagnostics}
 
-
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_modelassessment"
 >title="Modellbedömningsdiagram"
 >abstract="Modellbedömningsvisualiseringar bryts ned på faktiska kontra förväntade eller kvarvarande konverteringar."
->additional-url="https://experienceleague.adobe.com/sv/docs/mix-modeler/using/overview" text="Mix Modeler - översikt"
->additional-url="https://video.tv.adobe.com/v/3440798/?captions=swe&learn=on&enablevpops" text="Mix Modeler demo"
+>additional-url="https://experienceleague.adobe.com/en/docs/mix-modeler/using/overview" text="Mix Modeler - översikt"
+>additional-url="https://video.tv.adobe.com/v/3440794/?learn=on&enablevpops" text="Mix Modeler demo"
+
+
+>[!CONTEXTUALHELP]
+>id="models_diagnostics_modeltrainingfitmetrics"
+>title="Mätvärden för modellpassning"
+>abstract="Visar en översikt över flera modeller av passningsvärden för utbildning."
 
 
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_pathstouched"
 >title="Bana rörda"
 >abstract="Perfekta banor är den procentandel av banorna som uppnår konvertering och den procentandel av banorna som inte uppnår konvertering för varje kontaktyta."
+
+
+>[!CONTEXTUALHELP]
+>id="models_diagnostics_efficiencymeasure"
+>title="Effektivitetsmått"
+>abstract="Det effektivitetsmått som genereras av den algoritmiska attribueringsmodellen anger den relativa vikten av en kontaktyta för konvertering oberoende av kontaktytans volym. Detta mäts på en skala från 1 till 5. Observera att högre kontaktytpunkter inte garanterar högre effektivitetsmått."
+
+
+>[!CONTEXTUALHELP]
+>id="models_diagnostics_totalvolume"
+>title="Total volym"
+>abstract="Den totala volymen är det sammanlagda antalet gånger som en kontaktyta berördes av en användare, inklusive kontaktytor som visas på en bana och som uppnår konvertering, samt banor som inte leder till konvertering."
 
 
 >[!CONTEXTUALHELP]

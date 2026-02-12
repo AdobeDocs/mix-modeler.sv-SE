@@ -3,7 +3,7 @@ title: Modellinsikter
 description: Lär dig mer om din modell, som historisk översikt, modellinsikter och modellkvalitet i Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 0a6ed07585f4e2d324159f649efedf2ec6d1b40b
+source-git-commit: 95cc236a70db0226293f97389343dbcb75c3d203
 workflow-type: tm+mt
 source-wordcount: '2827'
 ht-degree: 0%
@@ -78,7 +78,7 @@ En donutvisualisering som visar hur bidraget distribueras av olika kanaler. Den 
 
 
 >[!CONTEXTUALHELP]
->id="models_insights_marketingperformancesummary"
+>id="models_insights_undefinedchannels"
 >title="Odefinierade kanaler"
 >abstract="Odefinierade kanaler ingår, men har inga tilldelningar."
 
@@ -286,8 +286,8 @@ För varje konverteringsbana ser du:
 >id="models_diagnostics_modelassessment"
 >title="Modellbedömningsdiagram"
 >abstract="Modellbedömningsvisualiseringar bryts ned på faktiska kontra förväntade eller kvarvarande konverteringar."
->additional-url="https://experienceleague.adobe.com/sv/docs/mix-modeler/using/overview" text="Mix Modeler - översikt"
->additional-url="https://video.tv.adobe.com/v/3440798/?captions=swe&learn=on&enablevpops" text="Mix Modeler demo"
+>additional-url="https://experienceleague.adobe.com/en/docs/mix-modeler/using/overview" text="Mix Modeler - översikt"
+>additional-url="https://video.tv.adobe.com/v/3440794/?learn=on&enablevpops" text="Mix Modeler demo"
 
 
 >[!CONTEXTUALHELP]

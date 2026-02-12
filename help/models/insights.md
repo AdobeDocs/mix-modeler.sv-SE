@@ -3,9 +3,9 @@ title: Modellinsikter
 description: Lär dig mer om din modell, som historisk översikt, modellinsikter och modellkvalitet i Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 95cc236a70db0226293f97389343dbcb75c3d203
+source-git-commit: 7526706a710bf9277ddaa48c8b7b07fb321eda34
 workflow-type: tm+mt
-source-wordcount: '2827'
+source-wordcount: '2844'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Om modellavvikelse upptäcks på modellen visas en **[!UICONTROL Model drift det
 
 ![Dialogrutan för modellavdrift har identifierats](/help/assets/model-drift-dialog.png)
 
-## [!UICONTROL Model insights]
+## Modellinsikter
 
 På fliken Modellinsikter visas visualiseringar för [Bidrag per datum och basmedia](#contribution-by-date-and-base-media), [Bidrag per kanal](#contribution-by-channel), [Sammanfattning av marknadsföringsprestanda](#marketing-performance-summary) och [Marginalkurvor](#marginal-response-curves). Fliken innehåller även en [tabell för sammanställning av kontaktpunkter](#touchppint-breakdown).
 
@@ -140,7 +140,7 @@ Om du vill hämta en CSV-fil som representerar matrisen väljer du ![Hämta](/he
 
 
 
-## **[!UICONTROL Factors]** [!BADGE beta] {#factors}
+## Faktorer {#factors}
 
 >[!CONTEXTUALHELP]
 >id="models_factors_factorcontributionbreakdown"
@@ -162,7 +162,7 @@ Om du vill hämta en CSV-fil som innehåller data för tabellen väljer du ![Hä
 
 Om inga data är tillgängliga visas meddelandet ![TableAndChart](/help/assets/icons/TableAndChart.svg) **[!UICONTROL No data is available, you may need to retrain your model, or change the date range to view insights]**.
 
-## [!UICONTROL Attribution] {#attribution}
+## Tillskrivning {#attribution}
 
 
 >[!CONTEXTUALHELP]
@@ -207,13 +207,13 @@ Mix Modeler Multi-Touch-attribuering i korthet anpassar sig efter Mix Modeler ö
 
 Fliken Attribution består av följande visualiseringar:
 
-### [!UICONTROL Overview]
+### Översikt
 
 Visualiseringen av [!UICONTROL Overview] visar, för de valda attribueringsmodellerna, konverteringssummor och procentandelar. Om du väljer flera modeller läggs ytterligare cirklar till i visualiseringen, där var och en har en egen färg som motsvarar teckenförklaringen.
 
 Om du vill visa ett popup-fönster med information om en attribueringsmodell håller du pekaren över någon av cirklarna i visualiseringen.
 
-### [!UICONTROL Trends]
+### Trender
 
 Visualiseringen [!UICONTROL Daily trends], [!UICONTROL Weekly trends] eller [!UICONTROL Monthly trends] visar konverteringstrender per dag, vecka eller månad för de valda attribueringsmodellerna.
 
@@ -221,7 +221,7 @@ Välj punkt genom att välja **[!UICONTROL Daily trends]**, **[!UICONTROL Weekly
 
 Om du vill se information för du markören över dataraden för en viss attribueringsmodell och visar en portfölj som visar det totala antalet konverteringar för dessa data.
 
-### [!UICONTROL Breakdown]
+### Uppdelning
 
 Visualiseringen [!UICONTROL Breakdown] är en uppdelning efter kanal eller kontaktyta av konverteringarna för var och en av de valda attribueringsmodellerna. Den här visualiseringen kan vara till hjälp när du ska fatta beslut om effektiviteten för varje kanal eller kontaktyta.
 
@@ -229,7 +229,7 @@ Om du vill välja nedbrytningstyp väljer du **[!UICONTROL Breakdown by channel]
 
 Håll markören över något av diagramelementen om du vill se detaljer.
 
-### [!UICONTROL Top campaigns]
+### Populära kampanjer
 
 I visualiseringen av de populäraste kampanjerna visas en tabell med de främsta kampanjerna med kolumner för Campaign-namn, Channel-typ, Media-typ och inkrementella konverteringar. Den här visualiseringen kan hjälpa ert team att informera om effektiviteten hos en viss kampanj för en viss kanal och ge er insikter om vilka kampanjer ni bör investera i ytterligare.
 
@@ -249,7 +249,7 @@ I den utökade dialogrutan för de bästa kampanjerna visas samma tabell med ext
 Välj **[!UICONTROL Close]** om du vill stänga den utökade dialogrutan för de bästa kampanjerna.
 
 
-### [!UICONTROL Breakdown by touchpoint position]
+### Uppdelning efter kontaktytsposition
 
 Visualiseringen av [!UICONTROL Breakdown by touchpoint position] är en uppdelning av konverteringar av attribut efter position för kontaktytan och kontaktytan över alla konverteringssökvägar. I det här diagrammet kan du jämföra om en kontaktyta bidrar bättre på en position än återstående positioner och andra kontaktytor på en position.
 
@@ -267,7 +267,7 @@ Positionerna [!UICONTROL Starter], [!UICONTROL Player] och [!UICONTROL Closer] d
 | [!UICONTROL Closer] | Den här positionen anger om kontaktytan är den sista kontakten före konvertering. |
 
 
-### [!UICONTROL Top conversion paths]
+### De vanligaste konverteringsbanorna
 
 Visualiseringen [!UICONTROL Top conversion paths] visar de fem populäraste konverteringssökvägarna baserat på de valda attribueringsmodellerna.
 
@@ -280,14 +280,14 @@ För varje konverteringsbana ser du:
 * summan av dessa procentsatser för kanalattribueringsmodellen.
 
 
-## [!UICONTROL Diagnostics] {#diagnostics}
+## Diagnostik {#diagnostics}
 
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_modelassessment"
 >title="Modellbedömningsdiagram"
 >abstract="Modellbedömningsvisualiseringar bryts ned på faktiska kontra förväntade eller kvarvarande konverteringar."
->additional-url="https://experienceleague.adobe.com/sv/docs/mix-modeler/using/overview" text="Mix Modeler - översikt"
->additional-url="https://video.tv.adobe.com/v/3440798/?captions=swe&learn=on&enablevpops" text="Mix Modeler demo"
+>additional-url="https://experienceleague.adobe.com/en/docs/mix-modeler/using/overview" text="Mix Modeler - översikt"
+>additional-url="https://video.tv.adobe.com/v/3440794/?learn=on&enablevpops" text="Mix Modeler demo"
 
 
 >[!CONTEXTUALHELP]
@@ -417,7 +417,7 @@ Så här kan du välja en alternativ volymbaserad kanal som ska visas för visua
 * Välj en kanal från **[!UICONTROL Channels]**.
 
 
-## **[!UICONTROL Edit]**
+## Redigera
 
 Du kan redigera namn, beskrivning och schemaläggning av utbildning och poängsättning för modellen.
 

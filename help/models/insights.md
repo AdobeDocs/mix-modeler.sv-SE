@@ -3,12 +3,13 @@ title: Modellinsikter
 description: Lär dig mer om din modell, som historisk översikt, modellinsikter och modellkvalitet i Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 7526706a710bf9277ddaa48c8b7b07fb321eda34
+source-git-commit: 595dc75ee9159a92d893310d5e414f955655be98
 workflow-type: tm+mt
-source-wordcount: '2844'
+source-wordcount: '2839'
 ht-degree: 0%
 
 ---
+
 
 # Modellinsikter
 
@@ -47,7 +48,7 @@ Om modellavvikelse upptäcks på modellen visas en **[!UICONTROL Model drift det
 
 ![Dialogrutan för modellavdrift har identifierats](/help/assets/model-drift-dialog.png)
 
-## Modellinsikter
+## Modellinsikter {#model-insights-section}
 
 På fliken Modellinsikter visas visualiseringar för [Bidrag per datum och basmedia](#contribution-by-date-and-base-media), [Bidrag per kanal](#contribution-by-channel), [Sammanfattning av marknadsföringsprestanda](#marketing-performance-summary) och [Marginalkurvor](#marginal-response-curves). Fliken innehåller även en [tabell för sammanställning av kontaktpunkter](#touchppint-breakdown).
 
@@ -76,12 +77,10 @@ En donutvisualisering som visar hur bidraget distribueras av olika kanaler. Den 
 
 ### Sammanfattning av marknadsföringsprestanda {#marketing-performance-summary}
 
-
 >[!CONTEXTUALHELP]
 >id="models_insights_undefinedchannels"
 >title="Odefinierade kanaler"
 >abstract="Odefinierade kanaler ingår, men har inga tilldelningar."
-
 
 En vågrät stolpgrafivisualisering som visar ROI- eller CPA-prestanda för var och en av kanalerna. Den här visualiseringen visar på lönsamheten/CPA för era marknadsföringsinvesteringar. Kanalerna rangordnas i fallande ordning baserat på ROI/CPA. Visualiseringen hjälper till att identifiera vilka kanaler som är mest effektiva och vilka som kan behöva optimeras.
 
@@ -164,7 +163,6 @@ Om inga data är tillgängliga visas meddelandet ![TableAndChart](/help/assets/i
 
 ## Tillskrivning {#attribution}
 
-
 >[!CONTEXTUALHELP]
 >id="models_attribution_breakdownbychannel"
 >title="Uppdelning efter kanal"
@@ -181,7 +179,6 @@ Om inga data är tillgängliga visas meddelandet ![TableAndChart](/help/assets/i
 >[!NOTE]
 >
 >Fliken Attribution är bara tillgänglig för MTA-aktiverade modeller.
-
 
 På fliken [!UICONTROL Attribution] kan du förstå effekten av kontaktytor och marknadsföringskampanjer som har data på händelsenivå.  Se [Skapa modell](build.md).
 
@@ -286,8 +283,6 @@ För varje konverteringsbana ser du:
 >id="models_diagnostics_modelassessment"
 >title="Modellbedömningsdiagram"
 >abstract="Modellbedömningsvisualiseringar bryts ned på faktiska kontra förväntade eller kvarvarande konverteringar."
->additional-url="https://experienceleague.adobe.com/sv/docs/mix-modeler/using/overview" text="Mix Modeler - översikt"
->additional-url="https://video.tv.adobe.com/v/3440798/?captions=swe&learn=on&enablevpops" text="Mix Modeler demo"
 
 
 >[!CONTEXTUALHELP]
@@ -382,7 +377,7 @@ Om modellavvikelse upptäcks visas ett **[!UICONTROL Model drift detected]**-med
 Välj **[!UICONTROL Hide]** om du vill dölja meddelandet. Meddelandet visas igen nästa dag eller vid nästa inloggning.
 
 
-## [!UICONTROL Historical overview]
+## Historisk översikt
 
 Fliken Historisk översikt visar visualiseringar för:
 

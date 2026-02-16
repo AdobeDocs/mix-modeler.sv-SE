@@ -3,9 +3,9 @@ title: Modellinsikter
 description: Lär dig mer om din modell, som historisk översikt, modellinsikter och modellkvalitet i Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 595dc75ee9159a92d893310d5e414f955655be98
+source-git-commit: fe998df0b26f0cef448471147191032751f0c41e
 workflow-type: tm+mt
-source-wordcount: '2839'
+source-wordcount: '2772'
 ht-degree: 0%
 
 ---
@@ -172,7 +172,7 @@ Om inga data är tillgängliga visas meddelandet ![TableAndChart](/help/assets/i
 >[!CONTEXTUALHELP]
 >id="models_attribution_breakdownbytouchpointposition"
 >title="Uppdelning efter kontaktytsposition"
->abstract="Den här visualiseringen visar en uppdelning av konverteringar utifrån kontaktytans och kontaktytpunktens position över alla konverteringsbanor. Visualiseringen jämför om en kontaktyta ger bättre position än återstående positioner och andra kontaktytor på en position. Observera att summan av procentandelen för en attribueringsmodell för alla kontaktytor och positioner är lika med 100. Positionerna nybörjare, påverkare och finisher definieras enligt följande:<ul><li>**Starter**: Anger om kontaktytan är den första beröringen i en konverteringsbana.</li><li>**Spelare**: Anger om kontaktytan varken är den första eller sista beröringen som leder till konvertering.</li><li>**Closer**: Anger om kontaktytan är den sista kontakten före konvertering.</li></ul>"
+>abstract="Den här visualiseringen visar en uppdelning av konverteringar utifrån kontaktytans och kontaktytpunktens position över alla konverteringsbanor. I visualiseringen jämförs om en kontaktyta bidrar bättre till en position än vad som finns på återstående positioner och andra kontaktytor på en position."
 
 
 
@@ -312,7 +312,7 @@ För varje konverteringsbana ser du:
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_modeldateinfo"
 >title="Modelldatum den"
->abstract="Data för det här registret genereras endast för specifika tidsperioder.  Datumet **[!UICONTROL As of]** anger när data genererades och baseras på data från startDate till endDate."
+>abstract="Data för det här registret genereras endast för specifika tidsperioder.  Datumet **[!UICONTROL As of]** anger när data genererades och baseras på data från angivet datum fram till ett år tillbaka."
 
 
 Fliken **[!UICONTROL Diagnostics]** visar visualiseringar för:

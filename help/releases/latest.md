@@ -4,10 +4,10 @@ description: Versionsinformation för den senaste Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: b19ce70c5ba990b6b720fdf80ef68b5cf7aef07c
+source-git-commit: 011b9b83569925ca9ff4f1ee472288473fbe8502
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 3%
+source-wordcount: '317'
+ht-degree: 4%
 
 ---
 
@@ -18,6 +18,11 @@ ht-degree: 3%
 Versionsinformationen innehåller den senaste utgåvan av Mix Modeler. Mix Modeler-releaser fungerar enligt en kontinuerlig leveransmodell, vilket möjliggör en ungefärlig månadsvis publiceringsgräns. Versionsinformationen uppdateras därför, så kontrollera dem regelbundet.
 
 
+## Februari 2026
+
+| Funktion | Beskrivning | [Startar](#release-strategy) | [Allmän tillgänglighet](#release-strategy) |
+|---|---|---|---|
+| **[!UICONTROL Granular incrementality reporting]** | Definiera harmoniserade fält så att du kan fördjupa dig i modellrapporteringen med [detaljerade insikter, rapportfält](/help/models/build.md#granular-insights-reporting-fields), i stället för att behöva skapa separata modeller. | 18 februari 2026 | 18 februari 2026 |
 
 ## Januari 2026
 

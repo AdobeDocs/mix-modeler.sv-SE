@@ -1,11 +1,12 @@
 ---
-title: Skapa modeller
-description: Lär dig skapa modeller i Mix Modeler.
+title: Skapa modeller i Mix Modeler
+description: Lär dig hur du bygger modeller i Mix Modeler, inklusive hur du konfigurerar, konfigurerar och anger avancerade alternativ för modellen.
 feature: Models
+solution: Mix Modeler
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: 51a8449f41ec7488e23b15e8f1a280de60b7e7fa
+source-git-commit: 011b9b83569925ca9ff4f1ee472288473fbe8502
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1276'
 ht-degree: 0%
 
 ---
@@ -18,9 +19,9 @@ I gränssnittet ![Models](/help/assets/icons/FileData.svg) **[!UICONTROL Models]
 
 ## Inställningar
 
-Du definierar namn och beskrivning i steget **[!UICONTROL Setup]**:
+Du definierar ett namn och en beskrivning i **[!UICONTROL Setup]**-steget:
 
-1. Ange modellen **[!UICONTROL Name]**, till exempel `Demo model`. Ange en **[!UICONTROL Description]**, till exempel `Demo model to explore AI featues of Mix Modeler`.
+1. Ange modellen **[!UICONTROL Name]**, till exempel `Demo model`. Ange en **[!UICONTROL Description]**, till exempel `Demo model to explore AI features of Mix Modeler`.
 
    ![Modellnamn och beskrivning](/help/assets/model-name-description.png)
 
@@ -31,7 +32,7 @@ Du definierar namn och beskrivning i steget **[!UICONTROL Setup]**:
 >[!CONTEXTUALHELP]
 >id="model_marketingtouchpoints_select"
 >title="Marknadsföringskontaktytor"
->abstract="Marknadsföringskontaktytorna är marknadshändelser på mottagarnivå, individ- och cookienivå som används för att utvärdera effekten av marknadsinvesteringar på numeriska eller intäktsbaserade konverteringar.<br/><br/>Du kan inte konfigurera modellen med kontaktytor som har överlappande data och det måste finnas minst en kontaktyta med utgifter."
+>abstract="Marknadsföringskontaktytorna är marknadshändelser på mottagarnivå, individ- och cookienivå som används för att utvärdera effekten av marknadsinvesteringar på numeriska eller intäktsbaserade konverteringar.<br/><br/>Du kan inte konfigurera modellen med kontaktytor som har överlappande data och det måste finnas minst en kontaktyta med utgift."
 
 Du konfigurerar modellen i steget **[!UICONTROL Configure]**. Konfiguration innefattar definition av konverteringsmål, kontaktytor för marknadsföring, den stödberättigade datapopulationen, externa och interna faktorer, med mera.
 
@@ -83,7 +84,7 @@ Du konfigurerar modellen i steget **[!UICONTROL Configure]**. Konfiguration inne
 
    * Välj ![Lägg till](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add eligible population]** om du vill lägga till en giltig dataifyllningsbehållare.
 
-   * Om du vill ta bort en giltig dataifyllningsbehållare i behållaren väljer du ![Mer](/help/assets/icons/More.svg) och sedan **[!UICONTROL Remove marketing touchpoint]** på snabbmenyn.
+   * Om du vill ta bort en giltig dataifyllningsbehållare i behållaren väljer du ![Mer](/help/assets/icons/More.svg) och sedan **[!UICONTROL Remove container]** på snabbmenyn.
 
    * Välj **And** och **Or** mellan behållare om du vill skapa mer komplexa definitioner för den giltiga datapifyllningen.
 
@@ -163,35 +164,62 @@ Du kan ange avancerade inställningar i steget **[!UICONTROL Advanced]**. I det 
    1. Använd **[!UICONTROL Clear all]** vid behov för att rensa alla indatavärden för kolumnerna **[!UICONTROL Contribution proportion]** och **[!UICONTROL Level of confidence]**.
 
 
-## Schema
+## Ange alternativ
 
-Du kan schemalägga utbildning och inspelning för din modell i steget **[!UICONTROL Schedule]**.
-
-1. I avsnittet **[!UICONTROL Schedule]** kan du schemalägga modellutbildning och poängsättning.
-
-   ![Schemamodell](../assets/model-schedule.png)
-
-   Så här schemalägger du betygsättning och utbildning:
-
-   1. Aktivera **[!UICONTROL Enable scheduled model scoring and training]**.
-   1. Välj en **[!UICONTROL Scoring frequency]**:
-
-      * **[!UICONTROL Daily]**: Ange en giltig tid (till exempel `05:22 pm`) eller använd ![Klocka](/help/assets/icons/Clock.svg).
-      * **[!UICONTROL Weekly]**: Välj en veckodag och ange en giltig tid (till exempel `05:22 pm`) eller använd ![Klocka](/help/assets/icons/Clock.svg).
-      * **[!UICONTROL Monthly]**: Välj en dag i månaden i listrutan Kör på varje och ange en giltig tid (till exempel `05:22 pm`) eller använd ![Klocka](/help/assets/icons/Clock.svg).
-
-   1. Välj en **[!UICONTROL Training frequency]** i listrutan: **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]** eller **[!UICONTROL None]**.
-
-1. I avsnittet **[!UICONTROL Define training window]** väljer du mellan:
-
-   ![Modell - Definiera utbildningsfönster](/help/assets/model-define-training-window.png)
-
-   * **[!UICONTROL Have Mix Modeler select a helpful training window]** och
-
-   * **[!UICONTROL Manually input a training window]**. Ange antalet år i **[!UICONTROL Include events the following years prior to a conversion]** när du väljer det här alternativet.
+Du kan [schemalägga utbildning och poängsättning](#schedule), [definiera utbildningsfönstret](#training-window) och ange [detaljerade insikter, rapportfält](#granular-insights-reporting-fields) för modellen i steget **[!UICONTROL Set options]**.
 
 
-1. Välj **[!UICONTROL Finish]** för att slutföra modellkonfigurationen.
+### Schema
+
+I avsnittet **[!UICONTROL Schedule]** kan du schemalägga modellutbildning och poängsättning.
+
+![Schemamodell](../assets/model-schedule.png)
+
+Så här schemalägger du betygsättning och utbildning:
+
+1. Aktivera **[!UICONTROL Enable scheduled model scoring and training]**.
+1. Välj en **[!UICONTROL Scoring frequency]**:
+
+   * **[!UICONTROL Daily]**: Ange en giltig tid (till exempel `05:22 pm`) eller använd ![Klocka](/help/assets/icons/Clock.svg).
+   * **[!UICONTROL Weekly]**: Välj en veckodag och ange en giltig tid (till exempel `05:22 pm`) eller använd ![Klocka](/help/assets/icons/Clock.svg).
+   * **[!UICONTROL Monthly]**: Välj en dag i månaden i listrutan Kör på varje och ange en giltig tid (till exempel `05:22 pm`) eller använd ![Klocka](/help/assets/icons/Clock.svg).
+
+1. Välj en **[!UICONTROL Training frequency]** i listrutan: **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]** eller **[!UICONTROL None]**.
+
+
+### Utbildningsfönster
+
+I avsnittet **[!UICONTROL Define training window]** väljer du mellan:
+
+![Modell - Definiera utbildningsfönster](/help/assets/model-define-training-window.png)
+
+* **[!UICONTROL Have Mix Modeler select a helpful training window]** och
+
+* **[!UICONTROL Manually input a training window]**. Ange antalet år i **[!UICONTROL Include events the following years prior to a conversion]** när du väljer det här alternativet.
+
+
+### Rapporteringsfält för detaljerade insikter
+
+Avsnittet **[!UICONTROL Granular insights reporting fields]** använder rapportfunktionen för detaljerad inkrementalitet. Med den här funktionen kan du välja harmoniserade fält för indelning av konverteringar och poäng för inkrementalitet.
+
+![Definiera detaljerade insikter, rapportfält](/help/assets/granular-insights-reporting-fields.png)
+
+Du definierar dessa harmoniserade fält så att du kan gå nedåt i modellrapporteringen med hjälp av detaljerade rapportkolumner i stället för att behöva skapa separata modeller.
+
+Du kan till exempel skapa en modell som fokuserar på intäkter, men du är också intresserad av kampanjernas, medietyperna, regionerna och trafikkällornas prestanda. Utan den detaljerade inkrementalitetsrapporteringen skulle du behöva skapa fyra separata modeller. Med den detaljerade funktionen för inkrementalitetsrapportering kan ni dela upp intäktsmodellen för kampanjer, medietyper, regioner och trafikkällor.
+
+1. Välj ett eller flera harmoniserade fält från **[!UICONTROL _Välj harmoniserade fält_]** under **[!UICONTROL Includes]**. De valda harmoniserade fälten läggs till på panelen.
+1. Välj **[!UICONTROL *Harmoniserat fält *]**![CrossSize100](/help/assets/icons/CrossSize100.svg) om du vill ta bort ett harmoniserat fält från behållaren med de valda harmoniserade fälten.
+1. Välj **[!UICONTROL Clear all]** om du vill ta bort alla markerade harmoniserade fält.
+
+De valda harmoniserade fälten för detaljerad tillväxtrapportering är tillgängliga som en del av Experience Platform [schema](/help/ingest-data/schemas.md) och [datamängd](/help/ingest-data/datasets.md) som är ett resultat av att modellen bedömts. Rapporteringsfälten för detaljerade insikter finns i objekten **[!UICONTROL conversionPassthrough]** och **[!UICONTROL touchpointPassthrough]**.
+
+![Skärmbild av objekten conversionPassthrough och touchPointPassthrough i ett schema för en modell som har aktiverats för detaljerad rapportering om inkrementalitet](/help/assets/schema-granular-insights-reporting.png)
+
+
+## Slutför
+
+* Välj **[!UICONTROL Finish]** för att slutföra modellkonfigurationen.
 
    * I dialogrutan **[!UICONTROL Create instance?]** väljer du **[!UICONTROL Ok]** för att utlösa den första uppsättningen kurser och poäng direkt. Din modell visas med statusen ![StatusOrange](/help/assets/icons/StatusOrange.svg) **[!UICONTROL Awaiting training]**.
 
@@ -199,6 +227,7 @@ Du kan schemalägga utbildning och inspelning för din modell i steget **[!UICON
 
    * Om mer konfiguration behövs, förklarar en röd kontur och text vilken ytterligare konfiguration som krävs.
 
-   Välj **[!UICONTROL Back]** om du vill gå tillbaka till föregående steg.
+* Välj **[!UICONTROL Back]** om du vill gå tillbaka till föregående steg.
 
-   Välj **[!UICONTROL Cancel]** om du vill avbryta modellkonfigurationen.
+* Välj **[!UICONTROL Cancel]** om du vill avbryta modellkonfigurationen.
+

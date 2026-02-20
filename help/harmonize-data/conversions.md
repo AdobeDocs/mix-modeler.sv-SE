@@ -59,7 +59,7 @@ Om du vill lägga till en konvertering går du till ![DataSearch](/help/assets/i
 
       1. Välj ett värde för operatorn ![Chevron](/help/assets/icons/ChevronDown.svg), till exempel **[!UICONTROL is]**.
 
-      1. Välj ett värde från **[!UICONTROL *Välj värde *]**&#x200B;eller ange ett värde, till exempel **[!UICONTROL Store]**.
+      1. Välj ett värde från **[!UICONTROL *Välj värde *]**eller ange ett värde, till exempel **[!UICONTROL Store]**.
 
    1. Välj ett harmoniserat fält från **[!UICONTROL Conversion metric for analysis]**, till exempel **[!UICONTROL Orders]**.
 

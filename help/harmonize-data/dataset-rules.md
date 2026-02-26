@@ -3,9 +3,9 @@ title: Datauppsättningsregler
 description: Lär dig hur du definierar datauppsättningsregler som ska användas som en del av att harmonisera data i Mix Modeler.
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: 5468e0aaf37bf2dca8912199ea26e5f8d9069cb5
+source-git-commit: 9987c845414fa5a3abda201d55f7b1ed6e211780
 workflow-type: tm+mt
-source-wordcount: '1728'
+source-wordcount: '2102'
 ht-degree: 0%
 
 ---
@@ -44,17 +44,17 @@ Tabellkolumnerna anger information om datauppsättningsreglerna:
 
 ### Skapa en datauppsättningsregel
 
-Om du vill skapa en datauppsättningsregel väljer du ![&#x200B; i guiden &#x200B;](/help/assets/icons/DataCheck.svg) i **[!UICONTROL Harmonized data]** **[!UICONTROL Dataset rules]** > **[!UICONTROL Create a dataset rule]** i Mix Modeler-gränssnittet **[!UICONTROL Dataset rules configuration]** DataSearch .
+Om du vill skapa en datauppsättningsregel väljer du ![ i guiden ](/help/assets/icons/DataCheck.svg) i **[!UICONTROL Harmonized data]** **[!UICONTROL Dataset rules]** > **[!UICONTROL Create a dataset rule]** i Mix Modeler-gränssnittet **[!UICONTROL Dataset rules configuration]** DataSearch .
 
 På skärmen **[!UICONTROL Create]**
 
-1. I **[!UICONTROL Dataset details]** väljer du en datauppsättning från **[!UICONTROL Select dataset]** för att starta konfigurationen. I listan kategoriseras datauppsättningar i **[!UICONTROL Consumer Experience Events]**, **[!UICONTROL Adobe Analytics]**, **[!UICONTROL Experience Event]** och **[!UICONTROL Summary]**.
+1. I **[!UICONTROL Dataset details]** väljer du en datauppsättning från **[!UICONTROL Select dataset]** för att starta konfigurationen. I listan kategoriseras datauppsättningar i **[!UICONTROL Summary]**, **[!UICONTROL Adobe Analytics]**, **[!UICONTROL Experience Event]**, **[!UICONTROL Factors]** och **[!UICONTROL Consumer Experience Events]**.
 
 1. Välj en dag för **[!UICONTROL Start of the week]**.
 
 1. Välj **[!UICONTROL Daily]**, **[!UICONTROL Weekly]**, **[!UICONTROL Monthly]** eller **[!UICONTROL Yearly]** för **[!UICONTROL Granularity]**.
 
-1. När du har valt en datauppsättning i kategorin **[!UICONTROL Summary]** väljer du **[!UICONTROL Aggregation]** eller **[!UICONTROL Replacement]** för **[!UICONTROL Data restatement is by]**.
+1. När du har valt en datauppsättning i kategorin **[!UICONTROL Summary]** eller **[!UICONTROL Factors]** väljer du **[!UICONTROL Aggregation]** eller **[!UICONTROL Replacement]** för **[!UICONTROL Data restatement is by]**.
 
    Att rapportera data från utgivare är mycket viktigt för marknadsföringsanalytiker, eftersom det ofta innebär betydande utgifter, och förändringar i rapporteringsdata kan leda till mycket olika insikter och investeringsplaner. Dessutom behöver marknadsföringsanalytiker korrekta data för att få fram rätt insikter och lägga fram övertygande förslag för att få intressenternas förtroende. Men dessa utgivare, som Google och Facebook, skriver ofta om eller tar bort rapporteringsdata när de sammanställer deras data. Tidsperioden för de flesta ändringar är inom 7 dagar från den rapporterade medieprestandan. Ytterligare förändringar i data är möjliga inom 30 dagar. Efter 30 dagar betraktas böcker som stängda och data fullständiga.
 
@@ -62,25 +62,23 @@ På skärmen **[!UICONTROL Create]**
 
    Du kan skicka omräknade rader med sammanfattningsdata som inkrementella rader i en Experience Platform-datamängd och harmoniseringstjänsten uppdaterar den harmoniserade datamängden med dessa omräknade data. På samma sätt kan du även ta bort rader med sammanfattningsdata som måste återspeglas i harmoniseringstjänsten.
 
-1. I avsnittet **[!UICONTROL Map to harmonized fields]**:
+1. I avsnittet **[!UICONTROL Map to harmonized fields]** väljer du ett harmoniserat fält från **[!UICONTROL Standard harmonized field]**. Om du snabbt vill [skapa ett nytt harmoniserat fält](/help/harmonize-data/fields.md#add-a-harmonized-field) väljer du **[!UICONTROL Create new]**.
 
-   1. Välj ett harmoniserat fält från **[!UICONTROL Standard harmonized field]**.
-
-   1. När det valda harmoniserade fältet är av typen mätvärde:
+   * När det valda harmoniserade fältet är av typen mätvärde:
 
       1. Välj **[!UICONTROL Count]** eller **[!UICONTROL Sum]** från **[!UICONTROL Mapping type]**.
 
-      1. Välj ett **[!UICONTROL *AEP-datamängdsfält *]**&#x200B;som du vill att det harmoniserade fältet ska mappas till som standard.
+      1. Välj ett **[!UICONTROL *AEP-datamängdsfält *]**som du vill att det harmoniserade fältet ska mappas till som standard.
 
-   1. När det markerade fältet är av typen dimension:
+   * När det markerade fältet är av typen dimension:
 
       1. Välj **[!UICONTROL Map Into]** eller **[!UICONTROL Case]** från **[!UICONTROL Mapping type]**.
 
-      1. När du har valt **[!UICONTROL Map Into]** väljer du **[!UICONTROL Field]** och **[!UICONTROL *AEP-datamängdsfält *]**&#x200B;eller **[!UICONTROL Value]**&#x200B;och ett standardvärde som mappar det harmoniserade fältet som standard till datamängdsfältet eller det angivna värdet.
+      1. När du har valt **[!UICONTROL Map Into]** väljer du **[!UICONTROL Field]** och **[!UICONTROL *AEP-datamängdsfält *]**eller **[!UICONTROL Value]**och ett standardvärde som mappar det harmoniserade fältet som standard till datamängdsfältet eller det angivna värdet.
 
-      1. När du väljer **[!UICONTROL Case]** väljer du **[!UICONTROL Field]** och **[!UICONTROL *AEP-datamängdsfält *]**&#x200B;eller **[!UICONTROL Value]**&#x200B;och ett standardvärde för att mappa det harmoniserade fältet som standard till datamängdsfältet eller det angivna värdet.
+      1. När du väljer **[!UICONTROL Case]** väljer du **[!UICONTROL Field]** och **[!UICONTROL *AEP-datamängdsfält *]**eller **[!UICONTROL Value]**och ett standardvärde för att mappa det harmoniserade fältet som standard till datamängdsfältet eller det angivna värdet.
 
-         1. Om du vill ange värden explicit definierar du ett eller flera fall som består av ett eller flera villkor. Varje villkor kan kontrollera om det finns ett specifikt **[!UICONTROL *AEP-datamängdsfält *]**, om det är **[!UICONTROL Exists]**&#x200B;eller **[!UICONTROL Not Exists]**&#x200B;eller om det är **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**&#x200B;eller **[!UICONTROL Ends With]**&#x200B;ett värde som anges vid&#x200B;**[!UICONTROL * Ange indatavärde *]**.
+         1. Om du vill ange värden explicit definierar du ett eller flera fall som består av ett eller flera villkor. Varje villkor kan kontrollera om det finns ett specifikt **[!UICONTROL *AEP-datamängdsfält *]**, om det är **[!UICONTROL Exists]**eller **[!UICONTROL Not Exists]**eller om det är **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**eller **[!UICONTROL Ends With]**ett värde som anges vid**[!UICONTROL * Ange indatavärde *]**.
 
          1. Om du vill lägga till ytterligare ett ärende väljer du ![Lägg till](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add case]** och väljer ![Lägg till](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add condition]**.
 
@@ -90,7 +88,7 @@ På skärmen **[!UICONTROL Create]**
 
          1. Om du vill ange resultatvärdet för ett ärende anger du värdet på **[!UICONTROL Then]**.
 
-      Exemplet nedan
+     Exemplet nedan:
 
       * använder en **[!UICONTROL Map Into]** **[!UICONTROL Mapping type]** för att mappa det **[!UICONTROL Channel Type At Source]** harmoniserade fältet till fältet **[!UICONTROL channel_type]** från datamängden **[!DNL Luma Transactions]**.
 
@@ -101,15 +99,6 @@ På skärmen **[!UICONTROL Create]**
 
         ![Datauppsättningsregelhändelse](/help/assets/dataset-create-event.png)
 
-      När du mappar ett standardiserat, harmoniserat fält från en sammanfattningsdatauppsättning försöker Mix Modeler att ta fram motsvarande Experience Platform-datamängdsfält. När det lyckades:
-
-      * Om fältet är av typen dimension markeras **[!UICONTROL Map into]** som **[!UICONTROL Mapping type]**.
-      * Om fältet är av måtttyp markeras **[!UICONTROL Sum]** som **[!UICONTROL Mapping type]**.
-      * **[!UICONTROL Field]** har valts som mappningstyp för **[!UICONTROL Default]**.
-      * Motsvarande Experience Platform-datamängdsfält infogas automatiskt för *AEP-datamängdsfält*.
-
-      Du kan ändra vilket som helst av de föreslagna värdena om de är felaktiga eller inte stöder ditt specifika användningssätt.
-
 1. Välj ![Lägg till](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add field]** om du vill definiera ytterligare fält.
 
 När du är klar väljer du **[!UICONTROL Save as draft]** om du vill spara ett utkast av regeln eller **[!UICONTROL Save]** om du vill spara och aktivera regeln. Välj **[!UICONTROL Cancel]** om du vill avbryta regelkonfigurationen.
@@ -119,7 +108,82 @@ När du är klar väljer du **[!UICONTROL Save as draft]** om du vill spara ett 
 >Den dedikerade **[!UICONTROL Map to harmonized fields]**-upplevelsen för regler för sammanfattningsdatauppsättningar är föråldrad. Alla datauppsättningsregler använder nu liknande **[!UICONTROL Map to harmonized fields]**-upplevelse, oavsett datamängdstyp. För sammanfattningsdatauppsättningar för vilka du har definierat regler med hjälp av den föråldrade **[!UICONTROL Map to harmonized fields]**-upplevelsen kanske du vill verifiera dessa regler mot den generiska **[!UICONTROL Map to harmonized field]**-upplevelsen.
 >
 
+#### Sammanfattningsdatamängder
 
+När du mappar ett standardiserat, harmoniserat fält från en sammanfattningsdatauppsättning försöker Mix Modeler att ta fram motsvarande Experience Platform-datamängdsfält. När det lyckades:
+
+* Om fältet är av typen dimension markeras **[!UICONTROL Map into]** som **[!UICONTROL Mapping type]**.
+* Om fältet är av måtttyp markeras **[!UICONTROL Sum]** som **[!UICONTROL Mapping type]**.
+* **[!UICONTROL Field]** har valts som mappningstyp för **[!UICONTROL Default]**.
+* Motsvarande Experience Platform-datamängdsfält infogas automatiskt för *AEP-datamängdsfält*.
+
+Du kan ändra vilket som helst av de föreslagna värdena om de är felaktiga eller inte stöder ditt specifika användningssätt.
+
+
+#### Faktordatamängder
+
+Du mappar harmoniserade fält till fält i en faktordatauppsättning, så att du kan [lägga till faktorer som en del av modellkonfigurationen](/help/models/build.md).
+
+När du mappar harmoniserade fält till fält i en faktordatauppsättning gäller följande:
+
+##### Faktornamn
+
+När du mappar ett standardfält för harmoniserad faktor från en faktordatamängd och fakturor innehåller en enda faktor, använder du **[!UICONTROL Map into]** som **[!UICONTROL Mapping type]** och anger ett standardvärde för det **[!UICONTROL Factor Name]** harmoniserade fältet.
+
+![Datauppsättningsregel - mappa datauppsättning med en faktor](../assets/dataset-create-rule-factor-single.png)
+
+Om faktordatauppsättningen innehåller flera faktorer använder du **[!UICONTROL Case As]** som **[!UICONTROL Mapping Type]** för att definiera en mappning mellan det harmoniserade fältet Faktornamn och varje distinkt faktornamn.
+
+![Datauppsättningsregel - mappa datauppsättning med en faktor](../assets/dataset-create-rule-factor-multiple.png)
+
+
+##### Typ av faktor
+
+Det här fältet är valfritt i faktordatauppsättningen och schemat. Om **[!UICONTROL Factor type]** definieras i faktordatauppsättningen och schemat och anger antingen **[!UICONTROL Internal]** eller **[!UICONTROL External]** används det angivna värdet. Om inget värde anges används standardvärdet **[!UICONTROL Internal]**.
+
+##### Värdetyp
+
+Det här fältet är valfritt i faktordatauppsättningen och schemat. Om **[!UICONTROL Value type]** definieras i faktordatauppsättningen och schemat och anger antingen **[!UICONTROL Actual]** eller **[!UICONTROL Forecasted]** används det angivna värdet. Om inget värde anges används standardvärdet **[!UICONTROL Actual]**.
+
+
+##### Kornighet
+
+Du kan definiera en datauppsättningsregel för granulariteten för en faktordatauppsättning när alla faktorer i faktordatauppsättningen har samma källgranularitet.
+
+Så snart faktablad har harmoniserats överensstämmer alla datauppsättningar med den högsta detaljnivån i den harmoniserade datauppsättningen.
+
+
+##### Faktorvärde
+
+För det **[!UICONTROL Factor value]** harmoniserade fältet använder du en av aggregeringsoperatorerna som **[!UICONTROL Mapping Type]**. När flera faktorer definieras i en faktordatauppsättning tillämpas den aggregerade operatorn på alla faktorer.
+
+
+##### Exempel
+
+* Du har en faktordatauppsättning med följande exempeldata:
+
+  | Tidsstämpel | Faktornamn | Faktorvärde |
+  |---|---|---:|
+  | 13 mars 2025 | _defindesp500 | 10 |
+  | 13 mars 2025 | cpi | 20 |
+  | 14 mars 2025 | _defindesp500 | 30 |
+  | 14 mars 2025 | cpi | 40 |
+  | 15 mars 2025 | _defindesp500 | 50 |
+  | 15 mars 2025 | cpi | 60 |
+
+
+* Och du definierar följande datauppsättningsregler för **[!UICONTROL Factor Name]**, **[!UICONTROL Factor Value]** och **[!UICONTROL Granularity]**:
+
+  ![Datauppsättningsregler - exempel på faktorer](../assets/dataset-create-rule-factor-example.png)
+
+* Då resulterar detta i följande harmoniserade data:
+
+  | Faktornamn | Faktorvärde | Typ av faktor | Värdetyp |
+  |---|---:|---|---|
+  | CPI | 20 | Intern | Faktisk |
+  | S&amp;P 500 | 10 | Intern | Faktisk |
+
+  Eftersom inga datauppsättningsregler har definierats för **[!UICONTROL Factor Type]** och **[!UICONTROL Value Type]** används standardvärdena.
 
 ### Redigera en datauppsättningsregel
 

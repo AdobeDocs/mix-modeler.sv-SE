@@ -4,7 +4,7 @@ description: Senaste versionsinformation för Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 95b38fd12554e7ad223434c056d870a561fd9c68
+source-git-commit: 7581053507bd1a6a07b2f3853f454631ecee8cec
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 0%
@@ -41,3 +41,4 @@ Versionsinformationen innehåller den senaste utgåvan av Mix Modeler. Mix Model
 * **Begränsad testning**: En fasversion börjar med att testas av interna Adobe-användare. Den görs sedan tillgänglig för en liten grupp kundkonton för att säkerställa att funktionen uppfyller kundernas behov och förväntningar.
 
 * **Början av utrullning**: utrullningen av en fasversion börjar med den begränsade testfasen. Versionen skalas sedan från 0 % till 100 % för kunder under ett par månader. Utfasad utrullning sker på Experience Cloud-organisationsnivå, så att alla berättigade användare i en organisation får samma upplevelse.
+

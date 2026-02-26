@@ -1,13 +1,13 @@
 ---
 title: Mix Modeler Guide
-description: Lär dig hur du mäter kampanjer och optimerar planeringen enhetligt i alla kanaler med Mix Modeler.
-short-description: Lär dig hur du mäter kampanjer och optimerar planeringen enhetligt i alla kanaler med Mix Modeler.
+description: Lär dig hur ni mäter kampanjer och optimerar planeringen på ett enhetligt sätt i alla kanaler med Mix Modeler.
+short-description: Lär dig hur ni mäter kampanjer och optimerar planeringen på ett enhetligt sätt i alla kanaler med Mix Modeler.
 feature: Harmonized Data, Models, Plans
 exl-id: 3427c338-f2a0-416b-bb4c-d8fef929c38a
-source-git-commit: f12eea7454d1c81b347dc4960f5c491d81725f7d
+source-git-commit: 7581053507bd1a6a07b2f3853f454631ecee8cec
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 14%
+source-wordcount: '236'
+ht-degree: 0%
 
 ---
 
@@ -74,7 +74,8 @@ Den här tekniska handboken ger självhjälp för Adobe **Mix Modeler**. Mix Mod
     </td>
         <td>
       <img src="assets/Learn.svg" width="35px"><br/>
-      <strong>Självstudiekurser</strong><br/><a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/overview.html?lang=sv-SE">Översikt</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/use-cases.html?lang=sv-SE">Användningsexempel</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-workflow.html?lang=sv-SE">Användararbetsflöde</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-interface-tour.html?lang=sv-SE">Demo av användargränssnittet</a>
+      <strong>Självstudiekurser</strong><br/><a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/overview.html?lang=en">Översikt</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/use-cases.html?lang=en">Användningsexempel</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-workflow.html?lang=en">Användararbetsflöde</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-interface-tour.html?lang=en">Demo av användargränssnittet</a>
     </td>
   </tr>
 </table>
+

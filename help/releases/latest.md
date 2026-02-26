@@ -4,16 +4,16 @@ description: Versionsinformation för den senaste Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 011b9b83569925ca9ff4f1ee472288473fbe8502
+source-git-commit: 0a5fdbe90c4a32de45f4f2756f080dc265f5fbb7
 workflow-type: tm+mt
-source-wordcount: '317'
-ht-degree: 4%
+source-wordcount: '361'
+ht-degree: 3%
 
 ---
 
 # Aktuella versionsinformation för Mix Modeler
 
-**Senast uppdaterad**: 13 januari 2026.
+**Senast uppdaterad**: 26 februari 2026.
 
 Versionsinformationen innehåller den senaste utgåvan av Mix Modeler. Mix Modeler-releaser fungerar enligt en kontinuerlig leveransmodell, vilket möjliggör en ungefärlig månadsvis publiceringsgräns. Versionsinformationen uppdateras därför, så kontrollera dem regelbundet.
 
@@ -22,6 +22,7 @@ Versionsinformationen innehåller den senaste utgåvan av Mix Modeler. Mix Model
 
 | Funktion | Beskrivning | [Startar](#release-strategy) | [Allmän tillgänglighet](#release-strategy) |
 |---|---|---|---|
+| **Arbetsflöde för harmoniserade faktorer** | Faktorer hanteras nu som en del av ett [harmoniserat faktorarbetsflöde](/help/harmonize-data/overview.md#factors). Detta förenklar hur du [definierar faktordata](/help/ingest-data/schemas.md#factor-standard-fields-field-group), [hanterar interna och externa faktorer som en del av datauppsättningsreglerna](/help/harmonize-data/dataset-rules.md#factor-datasets) och hur du använder faktordata i [modeller](/help/models/build.md#configure). | 25 februari 2026 | 25 februari 2026 |
 | **[!UICONTROL Granular incrementality reporting]** | Definiera harmoniserade fält så att du kan fördjupa dig i modellrapporteringen med [detaljerade insikter, rapportfält](/help/models/build.md#granular-insights-reporting-fields), i stället för att behöva skapa separata modeller. | 18 februari 2026 | 18 februari 2026 |
 
 ## Januari 2026

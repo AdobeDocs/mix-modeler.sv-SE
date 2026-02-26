@@ -44,7 +44,7 @@ Tabellkolumnerna anger information om datauppsättningsreglerna:
 
 ### Skapa en datauppsättningsregel
 
-Om du vill skapa en datauppsättningsregel väljer du ![ i guiden ](/help/assets/icons/DataCheck.svg) i **[!UICONTROL Harmonized data]** **[!UICONTROL Dataset rules]** > **[!UICONTROL Create a dataset rule]** i Mix Modeler-gränssnittet **[!UICONTROL Dataset rules configuration]** DataSearch .
+Om du vill skapa en datauppsättningsregel väljer du ![&#x200B; i guiden &#x200B;](/help/assets/icons/DataCheck.svg) i **[!UICONTROL Harmonized data]** **[!UICONTROL Dataset rules]** > **[!UICONTROL Create a dataset rule]** i Mix Modeler-gränssnittet **[!UICONTROL Dataset rules configuration]** DataSearch .
 
 På skärmen **[!UICONTROL Create]**
 
@@ -68,17 +68,17 @@ På skärmen **[!UICONTROL Create]**
 
       1. Välj **[!UICONTROL Count]** eller **[!UICONTROL Sum]** från **[!UICONTROL Mapping type]**.
 
-      1. Välj ett **[!UICONTROL *AEP-datamängdsfält *]**som du vill att det harmoniserade fältet ska mappas till som standard.
+      1. Välj ett **[!UICONTROL *AEP-datamängdsfält *]**&#x200B;som du vill att det harmoniserade fältet ska mappas till som standard.
 
    * När det markerade fältet är av typen dimension:
 
       1. Välj **[!UICONTROL Map Into]** eller **[!UICONTROL Case]** från **[!UICONTROL Mapping type]**.
 
-      1. När du har valt **[!UICONTROL Map Into]** väljer du **[!UICONTROL Field]** och **[!UICONTROL *AEP-datamängdsfält *]**eller **[!UICONTROL Value]**och ett standardvärde som mappar det harmoniserade fältet som standard till datamängdsfältet eller det angivna värdet.
+      1. När du har valt **[!UICONTROL Map Into]** väljer du **[!UICONTROL Field]** och **[!UICONTROL *AEP-datamängdsfält *]**&#x200B;eller **[!UICONTROL Value]**&#x200B;och ett standardvärde som mappar det harmoniserade fältet som standard till datamängdsfältet eller det angivna värdet.
 
-      1. När du väljer **[!UICONTROL Case]** väljer du **[!UICONTROL Field]** och **[!UICONTROL *AEP-datamängdsfält *]**eller **[!UICONTROL Value]**och ett standardvärde för att mappa det harmoniserade fältet som standard till datamängdsfältet eller det angivna värdet.
+      1. När du väljer **[!UICONTROL Case]** väljer du **[!UICONTROL Field]** och **[!UICONTROL *AEP-datamängdsfält *]**&#x200B;eller **[!UICONTROL Value]**&#x200B;och ett standardvärde för att mappa det harmoniserade fältet som standard till datamängdsfältet eller det angivna värdet.
 
-         1. Om du vill ange värden explicit definierar du ett eller flera fall som består av ett eller flera villkor. Varje villkor kan kontrollera om det finns ett specifikt **[!UICONTROL *AEP-datamängdsfält *]**, om det är **[!UICONTROL Exists]**eller **[!UICONTROL Not Exists]**eller om det är **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**eller **[!UICONTROL Ends With]**ett värde som anges vid**[!UICONTROL * Ange indatavärde *]**.
+         1. Om du vill ange värden explicit definierar du ett eller flera fall som består av ett eller flera villkor. Varje villkor kan kontrollera om det finns ett specifikt **[!UICONTROL *AEP-datamängdsfält *]**, om det är **[!UICONTROL Exists]**&#x200B;eller **[!UICONTROL Not Exists]**&#x200B;eller om det är **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**&#x200B;eller **[!UICONTROL Ends With]**&#x200B;ett värde som anges vid&#x200B;**[!UICONTROL * Ange indatavärde *]**.
 
          1. Om du vill lägga till ytterligare ett ärende väljer du ![Lägg till](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add case]** och väljer ![Lägg till](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add condition]**.
 

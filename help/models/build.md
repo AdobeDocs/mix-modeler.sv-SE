@@ -4,9 +4,9 @@ description: Lär dig hur du bygger modeller i Mix Modeler, inklusive hur du kon
 feature: Models
 solution: Mix Modeler
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: 011b9b83569925ca9ff4f1ee472288473fbe8502
+source-git-commit: 56682fb57d6ca99fbf5d355ae487af2b31a72319
 workflow-type: tm+mt
-source-wordcount: '1276'
+source-wordcount: '1194'
 ht-degree: 0%
 
 ---
@@ -88,45 +88,23 @@ Du konfigurerar modellen i steget **[!UICONTROL Configure]**. Konfiguration inne
 
    * Välj **And** och **Or** mellan behållare om du vill skapa mer komplexa definitioner för den giltiga datapifyllningen.
 
+1. Du kan hantera datauppsättningar som innehåller interna eller externa faktorer i avsnittet **[!UICONTROL Factor dataset]**.
 
-1. Om du vill lägga till datauppsättningar som innehåller externa faktorer i modellen använder du en eller flera behållare i avsnittet **[!UICONTROL External factors dataset]**. Ett exempel på externa faktorer är S&amp;P-index.
+   ![Modell - Faktordatamängdssteg](../assets/model-factors-dataset-step.png)
 
-   ![Modell - datamängd för externa faktorer](/help/assets/model-external-factors-dataset-step.png)
+   * Om du vill lägga till en faktordatauppsättning väljer du **[!UICONTROL Add Factor]**. Du kan lägga till högst 30 faktorer i en modell.
 
-   * För varje behållare:
+      1. Välj en **[!UICONTROL Factor dataset]** i listrutan. De tillgängliga faktorerna är de faktorer som du har definierat ett harmoniserat fält för i [datauppsättningsreglerna](/help/harmonize-data/dataset-rules.md#create-a-dataset-rule).
+Baserat på den valda datauppsättningen är **[!UICONTROL Factor type**] antingen **[!UICONTROL Internal]** eller **[!UICONTROL External]**.
 
-      1. Ange en **[!UICONTROL External factor name]**, till exempel `External Factors`.
+      1. Välj **[!UICONTROL Impact on conversion]** i listrutan. Tillgängliga alternativ är: **[!UICONTROL Auto]**, **[!UICONTROL Positive]** eller **[!UICONTROL Negative]**. Standardalternativet är **[!UICONTROL Auto]**, vilket gör att modellen kan avgöra faktordatauppsättningens påverkan.
 
-      1. Välj en datauppsättning i listrutan **[!UICONTROL Dataset]**. Du kan välja ![Data](/help/assets/icons/Data.svg) för att hantera datamängder. Mer information finns i [Datauppsättningar](../ingest-data/datasets.md).
-
-      1. Välj ett alternativ i listrutan **[!UICONTROL Impact on conversion]**: **[!UICONTROL Auto select]**, **[!UICONTROL Positive]** eller **[!UICONTROL Negative]**. Standardalternativet är **[!UICONTROL Auto select]**, vilket gör att modellen kan avgöra påverkan. Du kan åsidosätta standardinställningen.
-
-   * Om du vill lägga till ytterligare en datauppsättningsbehållare för externa faktorer väljer du ![Lägg till](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add external factor]**.
-
-   * Välj ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) om du vill ta bort en datauppsättningsbehållare för externa faktorer.
+   * Om du vill ta bort en faktordatauppsättning väljer du ![CrossSize200](/help/assets/icons/CrossSize400.svg).
 
 
 
 
-1. Om du vill lägga till datauppsättningar som innehåller interna faktorer i modellen använder du en eller flera behållare i avsnittet **[!UICONTROL Internal factors dataset]**. Ett exempel på interna faktorer är marknadsföringsdata för e-post.
-
-   ![Modell - datauppsättning för interna faktorer](/help/assets/model-internal-factors-dataset-step.png)
-
-   * För varje behållare:
-
-      1. Ange en **[!UICONTROL Internal factor name]**, till exempel `Email Marketing Data`.
-
-      1. Välj en datauppsättning från **[!UICONTROL _Välj en datauppsättning_]**. Du kan välja ![Data](/help/assets/icons/Data.svg) för att hantera datamängder. Mer information finns i [Datauppsättningar](../ingest-data/datasets.md).
-
-      1. Välj ett alternativ i listrutan **[!UICONTROL Impact on conversion]**: **[!UICONTROL Auto select]**, **[!UICONTROL Positive]** eller **[!UICONTROL Negative]**.
-
-   * Om du vill lägga till ytterligare en datauppsättningsbehållare för interna faktorer väljer du ![Lägg till](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add internal factor]**.
-
-   * Välj ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) om du vill ta bort en datauppsättningsbehållare för interna faktorer.
-
-
-
-1. Ange ett värde mellan `1` och `52` i **[!UICONTROL Give contribution credit to touchpoints occurring within]** ... **[!UICONTROL weeks prior to the conversion]** om du vill definiera uppslagsfönstret för modellen.
+1. Ange ett värde mellan `1` och `52` i **[!UICONTROL Give contribution credit to touchpoints occurring within]** ... **[!UICONTROL weeks prior to the conversion]** i avsnittet **[!UICONTROL Define lookback window]** om du vill definiera uppslagsfönstret för modellen.
 
 1. Välj **[!UICONTROL Next]** om du vill fortsätta till nästa steg. Om mer konfiguration behövs, förklarar en röd kontur och text vilken ytterligare konfiguration som krävs. <br/>Välj **[!UICONTROL Back]** om du vill gå tillbaka till föregående steg. <br/>Välj **[!UICONTROL Cancel]** om du vill avbryta modellkonfigurationen.
 

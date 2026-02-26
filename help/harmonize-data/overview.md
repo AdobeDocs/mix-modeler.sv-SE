@@ -3,9 +3,9 @@ title: Översikt över harmoniserade datauppsättningar
 description: Lär dig att harmonisera data i Mix Modeler.
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: 83ccceb5f8b73157048ed17b190194de4ed05c4f
+source-git-commit: 23cb7cefe3d1dabfdb8484ad150c38d785841e3b
 workflow-type: tm+mt
-source-wordcount: '1347'
+source-wordcount: '1369'
 ht-degree: 3%
 
 ---
@@ -132,7 +132,7 @@ Du vill skapa en harmoniserad datauppsättning med en granularitet som är inst�
 Om du vill skapa en harmoniserad datauppsättning, som i det förenklade [exemplet](#an-example-of-harmonized-data), måste du följa dessa steg:
 
 1. Definiera ytterligare [harmoniserade fält](fields.md) som du vill använda utöver de globala harmoniserade fält som redan är tillgängliga.
-1. Konfigurera [datauppsättningsregler](dataset-rules.md) för att mappa fält från dina aggregerade data eller upplevelsehändelsedatamängder till harmoniserade fält.
+1. Konfigurera [datauppsättningsregler](dataset-rules.md) för att mappa fält från din sammanställning (faktor eller sammanfattning) eller upplevelsehändelsedatamängder till harmoniserade fält.
 1. Definiera [kontaktytor för marknadsföring](marketing-touchpoints.md) med hjälp av standardfälten och de ytterligare harmoniserade fälten som du har definierat.
 1. Definiera [konverteringar](conversions.md) med hjälp av standardfälten och de ytterligare harmoniserade fälten som du har definierat.
 
@@ -149,7 +149,7 @@ Om du vill se harmoniserade data i Mix Modeler gränssnitt:
 
    1. Om du vill ändra de harmoniserade fältkolumnerna som visas för den harmoniserade datatabellen använder du ![Inställningar](/help/assets/icons/Setting.svg) för att öppna dialogrutan **[!UICONTROL Column settings]**.
 
-      1. Välj ![SelectBox](/help/assets/icons/SelectBox.svg) en eller flera kolumner från **[!UICONTROL AVAILABLE COLUMNS]** och använd ![Sparron till höger](/help/assets/icons/ChevronRight.svg) för att lägga till de här kolumnerna i **[!UICONTROL SELECTED COLUMNS]**.
+      1. Välj ![SelectBox](/help/assets/icons/SelectBox.svg) en eller flera kolumner från **[!UICONTROL AVAILABLE COLUMNS]** och använd ![Sparron till höger](/help/assets/icons/ChevronRight.svg) för att lägga till de här kolumnerna i **[!UICONTROL SELECTED COLUMNS]**. Alla standardiserade harmoniserade fält som du har definierat (inklusive fält som relaterar till faktordatamängder, som **[!UICONTROL Factor Name]**, **[!UICONTROL Factor Value]**, **[!UICONTROL Factor Type]** och **[!UICONTROL Factor Value Type]**) är tillgängliga.
 
       1. Välj ![SelectBox](/help/assets/icons/SelectBox.svg) en eller flera kolumner från **[!UICONTROL SELECTED COLUMNS]** och använd ![Sparron till vänster](/help/assets/icons/ChevronLeft.svg) för att ta bort de markerade kolumnerna och returnera kolumnerna till **[!UICONTROL AVAILABLE COLUMNS]**.
 

@@ -1,13 +1,13 @@
 ---
 title: Visa den aktuella versionsinformationen för Mix Modeler
-description: Versionsinformation för den senaste Mix Modeler
+description: Senaste versionsinformation för Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 0a5fdbe90c4a32de45f4f2756f080dc265f5fbb7
+source-git-commit: 95b38fd12554e7ad223434c056d870a561fd9c68
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 3%
+source-wordcount: '387'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +16,6 @@ ht-degree: 3%
 **Senast uppdaterad**: 26 februari 2026.
 
 Versionsinformationen innehåller den senaste utgåvan av Mix Modeler. Mix Modeler-releaser fungerar enligt en kontinuerlig leveransmodell, vilket möjliggör en ungefärlig månadsvis publiceringsgräns. Versionsinformationen uppdateras därför, så kontrollera dem regelbundet.
-
 
 ## Februari 2026
 

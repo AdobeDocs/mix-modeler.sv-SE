@@ -3,10 +3,10 @@ title: Granskningsloggar
 description: Lär dig hur du får åtkomst till granskningsloggar från Mix Modeler.
 feature: Administration
 exl-id: aa65aac5-bea4-43ff-b0d0-9e8a6a97d3ca
-source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
+source-git-commit: e6f24c96e873804b37011a1afafb7012d999fc1b
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 1%
+source-wordcount: '488'
+ht-degree: 0%
 
 ---
 
@@ -14,7 +14,8 @@ ht-degree: 1%
 
 För att öka insynen i och synligheten för aktiviteter som utförs i systemet, hämtas användaraktiviteter i Mix Modeler-arbetsflödet in i Experience Platform granskningsloggar för att förstå användardrivna ändringar i Mix Modeler-kategorier. Loggarna utgör en verifieringskedja som kan hjälpa dig med felsökningsproblem och som kan hjälpa ditt företag att effektivt följa företagets policyer för datahantering och lagstadgade krav.
 
-<!-- DO WE HAVE TO ADD THIS
+<!-- 
+DO WE HAVE TO ADD THIS
 If you are subject to the Health Insurance Portability and Accountability Act (HIPAA) and create, receive, maintain, or transmit permitted sensitive personal data through Mix Modeler, you are responsible for executing a BAA with Adobe and licensing Healthcare Shield.
 -->
 
@@ -29,26 +30,26 @@ Så här inspekterar du granskningsloggen i Mix Modeler-gränssnittet:
    | Kategori | Åtgärd | Status |
    |---|---|---|
    | Mix Modeler-datauppsättningsregel | Skapa | Tillåt eller Neka |
-   | Mix Modeler-datauppsättningsregel | Uppdatering | Tillåt eller Neka |
+   | Mix Modeler-datauppsättningsregel | Uppdatera | Tillåt eller Neka |
    | Mix Modeler-datauppsättningsregel | Ta bort | Tillåt eller Neka |
    | Mix Modeler Field | Skapa | Tillåt eller Neka |
-   | Mix Modeler Field | Uppdatering | Tillåt eller Neka |
+   | Mix Modeler Field | Uppdatera | Tillåt eller Neka |
    | Mix Modeler Field | Ta bort | Tillåt eller Neka |
    | Mix Modeler Marketing Touchpoint | Skapa | Tillåt eller Neka |
-   | Mix Modeler Marketing Touchpoint | Uppdatering | Tillåt eller Neka |
+   | Mix Modeler Marketing Touchpoint | Uppdatera | Tillåt eller Neka |
    | Mix Modeler Marketing Touchpoint | Ta bort | Tillåt eller Neka |
    | Mix Modeler Conversion | Skapa | Tillåt eller Neka |
-   | Mix Modeler Conversion | Uppdatering | Tillåt eller Neka |
+   | Mix Modeler Conversion | Uppdatera | Tillåt eller Neka |
    | Mix Modeler Conversion | Ta bort | Tillåt eller Neka |
    | Mix Modeler Model | Skapa | Tillåt eller Neka |
-   | Mix Modeler Model | Uppdatering | Tillåt eller Neka |
+   | Mix Modeler Model | Uppdatera | Tillåt eller Neka |
    | Mix Modeler Model | Ta bort | Tillåt eller Neka |
    | Mix Modeler Model | Rescore | Tillåt eller Neka |
    | Mix Modeler Model | Klona | Tillåt eller Neka |
    | Mix Modeler Model | Tåg/regn | Tillåt eller Neka |
    | Mix Modeler Model | Hämta/spara metadata | Tillåt eller Neka |
    | Mix Modeler Plan | Skapa | Tillåt eller Neka |
-   | Mix Modeler Plan | Uppdatering | Tillåt eller Neka |
+   | Mix Modeler Plan | Uppdatera | Tillåt eller Neka |
    | Mix Modeler Plan | Ändra associerad modell | Tillåt eller Neka |
    | Mix Modeler Data Harmonization | Utlösarsynkronisering | Tillåt eller Neka |
 
@@ -67,4 +68,4 @@ Så här inspekterar du granskningsloggen i Mix Modeler-gränssnittet:
 
 När funktionen är aktiverad för din organisation samlas granskningsloggarna automatiskt in när aktiviteten inträffar. Du behöver inte aktivera granskningsloggen manuellt.
 
-Om du vill visa och exportera granskningsloggar måste du ha beviljats åtkomstkontrollbehörighet för granskningsloggar. Mer information om hur du hanterar enskilda behörigheter för Mix Modeler-funktioner finns i [åtkomstkontrollsdokumentationen](https://experienceleague.adobe.com/sv/docs/experience-platform/access-control/home).
+Om du vill visa och exportera granskningsloggar måste du ha beviljats åtkomstkontrollbehörighet för granskningsloggar. Mer information om hur du hanterar enskilda behörigheter för Mix Modeler-funktioner finns i [åtkomstkontrollsdokumentationen](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home).

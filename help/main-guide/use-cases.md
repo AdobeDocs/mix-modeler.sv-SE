@@ -3,10 +3,10 @@ title: Användningsexempel för Mix Modeler
 description: Användningsexempel från Mix Modeler.
 feature: Schemas, Datasets, Conversions, Harmonized Data, Marketing Touch Points, Models, Plans
 exl-id: cc82abec-d0ce-44bf-ad7e-fc379a394185
-source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
+source-git-commit: e6f24c96e873804b37011a1afafb7012d999fc1b
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 0%
+source-wordcount: '641'
+ht-degree: 1%
 
 ---
 
@@ -34,9 +34,9 @@ Den stegbaserade metoden för det här användningsexemplet är:
 
 | Steg | Information |
 |---|---|
-| Ingest | Identifiera och importera datakällor under vanliga scheman. <br/>Använd befintliga investeringar i Adobe Analytics eller Customer Journey Analytics för snabb distribution. |
+| Ingest | Identifiera och importera datakällor under vanliga scheman. <br/>Använd redan gjorda investeringar i Adobe Analytics eller Customer Journey Analytics för snabb driftsättning. |
 | Konfigurera | Konfigurera flexibla modeller med hjälp av ett AI-as-Service-ramverk för dina specifika affärsmål<br/>Säkerställ automatiskt enhetlighet mellan kontaktyta och sammanfattningsnivå med dubbelriktad överföringsutbildning. |
-| Analysera | Få en tydlig förståelse för avkastningen på den övergripande marknadsföringen och de enskilda kanalerna/delkanalerna.<br/>Ta reda på vilka kontaktytor som är bäst för inkrementella konverteringar. |
+| Analysera | Förstå tydligt avkastningen på den totala marknadsföringen och enskilda kanaler/underkanaler.<br/>Förstå tydligt vilka kontaktytor som är bäst för inkrementella konverteringar. |
 
 {style="table-layout:auto"}
 
@@ -73,9 +73,9 @@ Den stegbaserade metoden för det här användningsexemplet är:
 
 | Steg | Information |
 |---|---|
-| Konfigurera | Anpassa enkelt mätmodeller efter era affärsmål.<br/>Definiera parametrar med några få klick, ingen kodning krävs: t.ex. kanaler, geografiska platser, säljcykler, grupper, interna och externa affärsfaktorer, med mera. |
+| Konfigurera | Anpassa enkelt mätmodeller efter era affärsmål.<br/>Definiera parametrar med några klick, utan kodning: t.ex. kanaler, geografiska platser, säljcykler, eftersläpningar, interna och externa affärsfaktorer, med mera. |
 | Tåg | Tåget konfigurerade AI/ML-modeller vidare för att lära sig det bästa sättet att få indata, vilket ger de mest exakta resultaten. |
-| Optimera | Få automatiserade, optimerade budgetallokeringar baserade på modellprognoser.<br/>Utveckla och jämför flera budgetscenarier med bara några klick med ett intuitivt användargränssnitt. |
+| Optimera | Få automatiserade, optimerade budgetallokeringar baserade på modellprognoser.<br/>Utveckla och jämför flera budgetscenarier med några få klick med ett intuitivt användargränssnitt. |
 
 {style="table-layout:auto"}
 
@@ -90,7 +90,8 @@ Implementeringen av den här användningen kan ha följande effekt:
 
 +++
 
-<!-- This use case is not supported with initial release
+<!--
+This use case is not supported with initial release
 
 ## Make data-driven inflight optimizations
 
@@ -154,7 +155,7 @@ Den stegbaserade metoden för det här användningsexemplet är:
 | Steg | Information |
 |---|---|
 | Modell | Konfigurera och utbilda en AI/ML-modell för att få enhetliga MTA-poäng och MMM-aggregeringsresultat. |
-| Analysera | Exportera inkrementella poängpoäng till Customer Journey Analytics eller externa BI-verktyg.<br/>Utför detaljerad analys och bygg avancerade instrumentpaneler med hjälp av poäng. |
+| Analysera | Exportera inkrementella poängpoäng till Customer Journey Analytics eller externa BI-verktyg.<br/>Utför en detaljerad analys och bygg avancerade instrumentpaneler med hjälp av poäng för kontaktytor. |
 | Åtgärd | Skapa och aktivera lookalike till populära konsumentsegment med Real-Time Customer Data Platform.<br/>Utveckla datadrivna marknadsföringsstrategier efter kundsegment för framtida kampanjer. |
 
 {style="table-layout:auto"}

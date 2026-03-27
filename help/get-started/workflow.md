@@ -3,9 +3,9 @@ title: Mix Modeler arbetsflöde
 description: Förstå det typiska arbetsflödet för Mix Modeler.
 feature: Ingest Data, Plans, Harmonized Data, Models
 exl-id: 200ff846-5d78-4b25-a425-bfd558b88c88
-source-git-commit: bdb5992ba1e6a4e5aa546b6ffb8e9673ed69be22
+source-git-commit: e6f24c96e873804b37011a1afafb7012d999fc1b
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '238'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 I den här videon visas en introduktion till användararbetsflödet i Mix Modeler.
 
->[!VIDEO](https://video.tv.adobe.com/v/3440207/?learn=on&captions=swe)
+>[!VIDEO](https://video.tv.adobe.com/v/3424854/?learn=on)
 
 
 Ett typiskt arbetsflöde i Mix Modeler består av följande:
@@ -35,7 +35,8 @@ Ett typiskt arbetsflöde i Mix Modeler består av följande:
 En översikt över hur indata kan flöda in i Mix Modeler och hur Mix Modeler kan producera utdata för sitt eget gränssnitt men även för andra lösningar, som Customer Journey Analytics, visas nedan.
 
 ![Mix Modeler input output data flow](../assets/mm-input-output.png)
-<!---
+
+<!--
 The detailed data-oriented flowchart below illustrates how:
 
 * harmonized data is based on:
@@ -52,5 +53,4 @@ The detailed data-oriented flowchart below illustrates how:
 * mult-touch attribution event scores can potentially be fed back into Experience Platform data lake for use in subsequent model configuration, training and scoring.
 
 ![Comprehensive workflow](/help/assets/comprehensive-workflow.svg)
-
 -->

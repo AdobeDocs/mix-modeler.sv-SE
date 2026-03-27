@@ -14,7 +14,7 @@ ht-degree: 0%
 
 I den här videon visas en introduktion till användararbetsflödet i Mix Modeler.
 
->[!VIDEO](https://video.tv.adobe.com/v/3424854/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3440207/?captions=swe&learn=on)
 
 
 Ett typiskt arbetsflöde i Mix Modeler består av följande:

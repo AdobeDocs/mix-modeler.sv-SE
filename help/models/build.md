@@ -4,9 +4,9 @@ description: Lär dig hur du bygger modeller i Mix Modeler, inklusive hur du kon
 feature: Models
 solution: Mix Modeler
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: 56682fb57d6ca99fbf5d355ae487af2b31a72319
+source-git-commit: efe31b517c1a6be518101fa8266b020348241b98
 workflow-type: tm+mt
-source-wordcount: '1194'
+source-wordcount: '1275'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,8 @@ Du definierar ett namn och en beskrivning i **[!UICONTROL Setup]**-steget:
 >[!CONTEXTUALHELP]
 >id="model_marketingtouchpoints_select"
 >title="Marknadsföringskontaktytor"
->abstract="Marknadsföringskontaktytorna är marknadshändelser på mottagarnivå, individ- och cookienivå som används för att utvärdera effekten av marknadsinvesteringar på numeriska eller intäktsbaserade konverteringar.<br/><br/>Du kan inte konfigurera modellen med kontaktytor som har överlappande data och det måste finnas minst en kontaktyta med utgift."
+>abstract="Marknadsföringskontaktytorna är marknadshändelser på mottagarnivå, individ och cookie-nivå som används för att utvärdera effekten av marknadsinvesteringar på numeriska eller intäktsbaserade konverteringar.<br/><br/>Du kan inte konfigurera modellen med kontaktytor som har överlappande data och det måste finnas minst en kontaktyta med utgiften."
+
 
 Du konfigurerar modellen i steget **[!UICONTROL Configure]**. Konfiguration innefattar definition av konverteringsmål, kontaktytor för marknadsföring, den stödberättigade datapopulationen, externa och interna faktorer, med mera.
 
@@ -110,6 +111,11 @@ Baserat på den valda datauppsättningen är **[!UICONTROL Factor type**] anting
 
 
 ## Avancerat
+
+>[!CONTEXTUALHELP]
+>id="model_advanced_channeladstock"
+>title="Kanaladstock"
+>abstract="Lägg in domänexpertis, experimentella resultat eller tidigare kanalanalyser direkt i modellkonfigurationen. Adstock-konfigurationen hjälper modellen att anpassa sig efter verkliga förväntningar och förbättrar tolkningsförmågan och förtroendet för resultatet. Det totala antalet uppslagsveckor plus fördröjningsveckor per kanal begränsas till en åttondel av det konfigurerade utbildningsfönstret. Den här begränsningen tillåter tillräckligt med data för att modellen ska kunna lära sig annonseffekter."
 
 Du kan ange avancerade inställningar i steget **[!UICONTROL Advanced]**. I det här steget kan du aktivera din modell för multitouch-attribuering (MTA).
 

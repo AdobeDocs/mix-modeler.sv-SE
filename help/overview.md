@@ -4,7 +4,7 @@ description: Lär dig hur ni mäter kampanjer och optimerar planeringen på ett 
 short-description: Lär dig hur ni mäter kampanjer och optimerar planeringen på ett enhetligt sätt i alla kanaler med Mix Modeler.
 feature: Harmonized Data, Models, Plans
 exl-id: 3427c338-f2a0-416b-bb4c-d8fef929c38a
-source-git-commit: 7581053507bd1a6a07b2f3853f454631ecee8cec
+source-git-commit: be8ff78c9f286356e9335b81f11a4efb07e39956
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
@@ -74,8 +74,7 @@ Den här tekniska handboken ger självhjälp för Adobe **Mix Modeler**. Mix Mod
     </td>
         <td>
       <img src="assets/Learn.svg" width="35px"><br/>
-      <strong>Självstudiekurser</strong><br/><a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/overview.html?lang=sv-SE">Översikt</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/use-cases.html?lang=sv-SE">Användningsexempel</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-workflow.html?lang=sv-SE">Användararbetsflöde</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-interface-tour.html?lang=sv-SE">Demo av användargränssnittet</a>
+      <strong>Självstudiekurser</strong><br/><a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/overview.html?lang=en">Översikt</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/use-cases.html?lang=en">Användningsexempel</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-workflow.html?lang=en">Användararbetsflöde</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-interface-tour.html?lang=en">Demo av användargränssnittet</a>
     </td>
   </tr>
 </table>
-

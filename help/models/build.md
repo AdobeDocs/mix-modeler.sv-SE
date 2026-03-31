@@ -1,12 +1,12 @@
 ---
-title: Skapa modeller i Mix Modeler
-description: Lär dig hur du bygger modeller i Mix Modeler, inklusive hur du konfigurerar, konfigurerar och anger avancerade alternativ för modellen.
+title: Bygg modeller i Mix Modeler
+description: Lär dig hur du bygger modeller i Mix Modeler, inklusive hur du konfigurerar, konfigurerar och anger avancerade alternativ för modellen. som konverteringsmål, kontaktytor, adstock och schemaläggning.
 feature: Models
 solution: Mix Modeler
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: efe31b517c1a6be518101fa8266b020348241b98
+source-git-commit: dd7a7260464b27b8ef257004b1c2a64d70ffe122
 workflow-type: tm+mt
-source-wordcount: '1275'
+source-wordcount: '1557'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Gränssnittet ger ett stegvis guidat modellkonfigurationsflöde när du vill skapa anpassade AI-baserade modeller.
 
-I gränssnittet ![Models](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** i Mix Modeler väljer du **[!UICONTROL Open model canvas]**.
+Välj **[!UICONTROL Open model canvas]** i gränssnittet ![Models](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** i [!DNL Mix Modeler].
 
 ## Inställningar
 
@@ -27,7 +27,7 @@ Du definierar ett namn och en beskrivning i **[!UICONTROL Setup]**-steget:
 
 1. Välj **[!UICONTROL Next]** om du vill fortsätta till nästa steg. Välj **[!UICONTROL Cancel]** om du vill avbryta modellkonfigurationen.
 
-## Konfigurera{#configure}
+## Konfigurera {#configure}
 
 >[!CONTEXTUALHELP]
 >id="model_marketingtouchpoints_select"
@@ -41,7 +41,7 @@ Du konfigurerar modellen i steget **[!UICONTROL Configure]**. Konfiguration inne
 
    ![Modell - konverteringssteg](/help/assets/model-conversion-step.png)
 
-   1. Välj en konvertering i listrutan **[!UICONTROL Conversion]**. De tillgängliga konverteringarna är konverteringen som du definierade som en del av [Konverteringar](../harmonize-data/conversions.md) i [!UICONTROL Harmonized datasets]. Exempel: **[!UICONTROL Online Conversion]**.
+   1. Välj en konvertering i listrutan **[!UICONTROL Conversion]**. De tillgängliga konverteringarna är de konverteringar som du har definierat som en del av [Konverteringar](../harmonize-data/conversions.md) i [!UICONTROL Harmonized datasets]. Exempel: **[!UICONTROL Online Conversion]**.
 
    1. Du kan välja ![LinkOutLight](/help/assets/icons/LinkOutLight.svg) **[!UICONTROL Create a conversion]** om du vill skapa en konvertering direkt från modellkonfigurationen.
 
@@ -96,61 +96,96 @@ Du konfigurerar modellen i steget **[!UICONTROL Configure]**. Konfiguration inne
    * Om du vill lägga till en faktordatauppsättning väljer du **[!UICONTROL Add Factor]**. Du kan lägga till högst 30 faktorer i en modell.
 
       1. Välj en **[!UICONTROL Factor dataset]** i listrutan. De tillgängliga faktorerna är de faktorer som du har definierat ett harmoniserat fält för i [datauppsättningsreglerna](/help/harmonize-data/dataset-rules.md#create-a-dataset-rule).
-Baserat på den valda datauppsättningen är **[!UICONTROL Factor type**] antingen **[!UICONTROL Internal]** eller **[!UICONTROL External]**.
+Baserat på den valda datauppsättningen är **[!UICONTROL Factor type]** antingen **[!UICONTROL Internal]** eller **[!UICONTROL External]**.
 
       1. Välj **[!UICONTROL Impact on conversion]** i listrutan. Tillgängliga alternativ är: **[!UICONTROL Auto]**, **[!UICONTROL Positive]** eller **[!UICONTROL Negative]**. Standardalternativet är **[!UICONTROL Auto]**, vilket gör att modellen kan avgöra faktordatauppsättningens påverkan.
 
    * Om du vill ta bort en faktordatauppsättning väljer du ![CrossSize200](/help/assets/icons/CrossSize400.svg).
 
 
-
-
 1. Ange ett värde mellan `1` och `52` i **[!UICONTROL Give contribution credit to touchpoints occurring within]** ... **[!UICONTROL weeks prior to the conversion]** i avsnittet **[!UICONTROL Define lookback window]** om du vill definiera uppslagsfönstret för modellen.
+
+1. Om du vill definiera utbildningsfönstret för en modell väljer du på **[!UICONTROL Define training window]** var du vill starta poängkonverteringar.
+
+   ![Modell - Definiera utbildningsfönster](/help/assets/model-define-training-window.png)
+
+   Du kan välja mellan:
+
+   * **[!UICONTROL Have Mix Modeler select a helpful training window]** och
+
+   * **[!UICONTROL Manually input a training window]**. Ange antalet år i **[!UICONTROL Include events the following years prior to a conversion]** när du väljer det här alternativet.
+
+   Den här inmatningen krävs för en modell. Antalet år avgör hur mycket av kanalens adstock som du kan konfigurera i steget **[!UICONTROL Advanced]** begränsas.
 
 1. Välj **[!UICONTROL Next]** om du vill fortsätta till nästa steg. Om mer konfiguration behövs, förklarar en röd kontur och text vilken ytterligare konfiguration som krävs. <br/>Välj **[!UICONTROL Back]** om du vill gå tillbaka till föregående steg. <br/>Välj **[!UICONTROL Cancel]** om du vill avbryta modellkonfigurationen.
 
 
-## Avancerat
+## Avancerat {#advanced}
 
 >[!CONTEXTUALHELP]
 >id="model_advanced_channeladstock"
 >title="Kanaladstock"
->abstract="Lägg in domänexpertis, experimentella resultat eller tidigare kanalanalyser direkt i modellkonfigurationen. Adstock-konfigurationen hjälper modellen att anpassa sig efter verkliga förväntningar och förbättrar tolkningsförmågan och förtroendet för resultatet. Det totala antalet uppslagsveckor plus fördröjningsveckor per kanal begränsas till en åttondel av det konfigurerade utbildningsfönstret. Den här begränsningen tillåter tillräckligt med data för att modellen ska kunna lära sig annonseffekter."
+>abstract="Lägg in domänexpertis, experimentella resultat eller tidigare kanalanalyser direkt i modellkonfigurationen. Adstock-konfigurationen hjälper modellen att anpassa sig efter verkliga förväntningar och förbättrar tolkningsförmågan och förtroendet för resultatet. Det totala antalet uppslagsveckor plus fördröjningsveckor per kanal begränsas till en åttondel av det konfigurerade utbildningsfönstret. Den här begränsningen tillåter tillräckligt med data för att modellen ska kunna lära sig adstock-effekterna."
 
-Du kan ange avancerade inställningar i steget **[!UICONTROL Advanced]**. I det här steget kan du aktivera din modell för multitouch-attribuering (MTA).
+Du kan ange avancerade inställningar i steget **[!UICONTROL Advanced]**. I det här steget kan du definiera [utgiftsresurs](#spend-share), aktivera modellen för [multi-touch-attribution (MTA)](#mta), definiera [tidigare kunskap](#prior-knowledge) och definiera [kanaladstock](#channel-adstock).
 
-1. I avsnittet **[!UICONTROL Spend share]**:
+### Utgiftsresurs
 
-   * Aktivera **[!UICONTROL Allow spend share]** om du vill använda tidigare investeringsförhållanden för marknadsföring för att informera modellen när marknadsföringsdata är begränsade. Den här inställningen rekommenderas, särskilt i följande scenarier:
-      * En kanal har inte tillräckligt många observationer (t.ex. låg frekvens av utgifter, visningar eller klick).
-      * Du modellerar spiky men regular och potentiellt högspenderade media (som TV för vissa varumärken), där data kan vara glesa.
+I avsnittet **[!UICONTROL Spend share]**:
 
-     >[!NOTE]
-     >
-     >För engångsinvesteringar (t.ex. en Super Bowl-annons) bör du överväga att lägga in dessa data som en faktor i stället för att förlita dig på kostnadsandelen.
-     >
+* Aktivera **[!UICONTROL Allow spend share]** om du vill använda tidigare investeringsförhållanden för marknadsföring för att informera modellen när marknadsföringsdata är begränsade. Den här inställningen rekommenderas, särskilt i följande scenarier:
+   * En kanal har inte tillräckligt många observationer (t.ex. låg frekvens av utgifter, visningar eller klick).
+   * Du modellerar spiky men regular och potentiellt högspenderade media (som TV för vissa varumärken), där data kan vara glesa.
+
+  >[!NOTE]
+  >
+  >För engångsinvesteringar (t.ex. en Super Bowl-annons) kan ni lägga in dessa data som en faktor i stället för att förlita er på utgiftsdelen.
+  >
+
+### MTA
+
+I avsnittet **[!UICONTROL MTA enabled]**:
+
+* Aktivera **[!UICONTROL MTA enabled]** om du vill aktivera MTA-funktioner för modellen. Om du har aktiverat MTA finns multitouch-attribueringsinsikter tillgängliga efter att du har utbildat och betygsatt modellen. Se fliken [Attribution](insights.md#attribution) i [Model insights](insights.md).
 
 
-1. I avsnittet **[!UICONTROL MTA enabled]**:
+### Tidigare kunskap
 
-   * Aktivera **[!UICONTROL MTA enabled]** om du vill aktivera MTA-funktioner för modellen. Om du har aktiverat MTA finns multitouch-attribueringsinsikter tillgängliga efter att du har utbildat och betygsatt modellen. Se fliken [Attribution](insights.md#attribution) i [Model insights](insights.md).
+I avsnittet **[!UICONTROL Prior knowledge]**:
 
-1. I avsnittet **[!UICONTROL Prior knowledge]**:
+![Modell - tidigare kunskap](/help/assets/model-prior-knowledge-step.png)
 
-   ![Modell - tidigare kunskap](/help/assets/model-prior-knowledge-step.png)
+1. Välj **[!UICONTROL Rule type]**, som är standard **[!UICONTROL Absolute values]**.
 
-   1. Välj **[!UICONTROL Rule type]**, som är standard **[!UICONTROL Absolute values]**.
+1. Ange procentsatser för bidrag för någon av kanalerna som listas under **[!UICONTROL Name]**, med kolumnen **[!UICONTROL Contribution proportion]**.
 
-   1. Ange procentsatser för bidrag för någon av kanalerna som listas under **[!UICONTROL Name]**, med kolumnen **[!UICONTROL Contribution proportion]**.
+1. Om det är lämpligt kan du lägga till **[!UICONTROL Level of confidence]** procent för varje kanal.
 
-   1. Om det är lämpligt kan du lägga till **[!UICONTROL Level of confidence]** procent för varje kanal.
+1. Använd **[!UICONTROL Clear all]** vid behov för att rensa alla indatavärden för kolumnerna **[!UICONTROL Contribution proportion]** och **[!UICONTROL Level of confidence]**.
 
-   1. Använd **[!UICONTROL Clear all]** vid behov för att rensa alla indatavärden för kolumnerna **[!UICONTROL Contribution proportion]** och **[!UICONTROL Level of confidence]**.
+
+### Kanaladstock
+
+I avsnittet **[!UICONTROL Channel adstock]** kan du definiera enskilda adstock-lookback (överföringar eller dekorationseffekter) och fördröjning (fördröjd svarstid) för varje kanal (marknadsföringskanal) som du har definierat i modellen.
+
+Den här kanalens adstock-konfiguration ger detaljerad kontroll över hur olika marknadsföringskanaler påverkar affärsresultatet över tid. Du kan också använda systemstandardvärden och en konfiguration som passar alla.
+
+Kanalkonfigurationen hjälper dig att fånga kanalspecifika nyanser. Exempel: den långvariga effekten av tv-kampanjer, den kortvariga effekten av betalsökningar eller fördröjningen mellan påverkarutgifter och observerbara konverteringar. Experimentera med parametrar för snabb sökning och fördröjning för att skapa mer korrekta, skräddarsydda och pålitliga insikter. I slutändan kan en kanalkonfiguration leda till exaktare budgetallokeringar och bättre affärsbeslut.
+
+![Kanaldata](/help/assets/channel-ad-stock.png)
+
+Så här konfigurerar du kanaldata:
+
+* Definiera ett **[!UICONTROL Lag (weeks)]**-, **[!UICONTROL Min Lookback (weeks)]**- och **[!UICONTROL Max Lookback (weeks)]**-värde för varje kanal (**[!UICONTROL Name]**). För varje värde:
+
+   * Använd ![Lägg till](/help/assets/icons/Add.svg) om du vill öka ett värde, ![Subtrahera](/help/assets/icons/Subtract.svg) om du vill minska ett värde eller ange ett värde manuellt.
+
+  Det totala antalet fördröjningsveckor plus maximala uppslagsveckor per kanal begränsas till en åttondel av det konfigurerade utbildningsfönstret. Den här begränsningen tillåter tillräckligt med data för att modellen ska kunna lära sig adstock-effekterna. För ett tvåårigt utbildningsfönster är det maximala antalet **[!UICONTROL Lag (weeks)]** och **[!UICONTROL Lookback (weeks)]** för en kanal till exempel 13 veckor. Den här ändpunkten används när du definierar värdena.
 
 
 ## Ange alternativ
 
-Du kan [schemalägga utbildning och poängsättning](#schedule), [definiera utbildningsfönstret](#training-window) och ange [detaljerade insikter, rapportfält](#granular-insights-reporting-fields) för modellen i steget **[!UICONTROL Set options]**.
+Du kan [schemalägga utbildning och poängsättning](#schedule) och ange [detaljerade insikter, rapportfält](#granular-insights-reporting-fields) för modellen i steget **[!UICONTROL Set options]**.
 
 
 ### Schema
@@ -159,7 +194,7 @@ I avsnittet **[!UICONTROL Schedule]** kan du schemalägga modellutbildning och p
 
 ![Schemamodell](../assets/model-schedule.png)
 
-Så här schemalägger du betygsättning och utbildning:
+Så här schemalägger du poäng och utbildning för modeller:
 
 1. Aktivera **[!UICONTROL Enable scheduled model scoring and training]**.
 1. Välj en **[!UICONTROL Scoring frequency]**:
@@ -171,20 +206,9 @@ Så här schemalägger du betygsättning och utbildning:
 1. Välj en **[!UICONTROL Training frequency]** i listrutan: **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]** eller **[!UICONTROL None]**.
 
 
-### Utbildningsfönster
-
-I avsnittet **[!UICONTROL Define training window]** väljer du mellan:
-
-![Modell - Definiera utbildningsfönster](/help/assets/model-define-training-window.png)
-
-* **[!UICONTROL Have Mix Modeler select a helpful training window]** och
-
-* **[!UICONTROL Manually input a training window]**. Ange antalet år i **[!UICONTROL Include events the following years prior to a conversion]** när du väljer det här alternativet.
-
-
 ### Rapporteringsfält för detaljerade insikter
 
-Avsnittet **[!UICONTROL Granular insights reporting fields]** använder rapportfunktionen för detaljerad inkrementalitet. Med den här funktionen kan du välja harmoniserade fält för indelning av konverteringar och poäng för inkrementalitet.
+Avsnittet **[!UICONTROL Granular insights reporting fields]** använder rapportfunktionen för detaljerad inkrementalitet. Med den här funktionen kan du välja harmoniserade fält för att bryta ned poängen för konvertering och kontaktpunktsökning.
 
 ![Definiera detaljerade insikter, rapportfält](/help/assets/granular-insights-reporting-fields.png)
 

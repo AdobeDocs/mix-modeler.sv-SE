@@ -3,9 +3,9 @@ title: Modellinsikter
 description: Lär dig mer om din modell, som historisk översikt, modellinsikter och modellkvalitet i Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: fe998df0b26f0cef448471147191032751f0c41e
+source-git-commit: be10a2fff940db4effe8f5d23aa7404e6d77ac74
 workflow-type: tm+mt
-source-wordcount: '2772'
+source-wordcount: '2999'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Varje visualisering i modellinsikter har utformats för att hjälpa er att:
 
 Dessa insikter hjälper er sedan att ge stöd åt resursprioritering och resurstilldelning.
 
-Så här visar du modellinsikter i gränssnittet ![Models](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** i Mix Modeler:
+Om du vill visa modellinsikter går du till gränssnittet ![Models](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** i [!DNL Mix Modeler]:
 
 1. I tabellen **[!UICONTROL Models]** markerar du namnet på en modell som har **[!UICONTROL Last run status]** av ![StatusGreen](/help/assets/icons/StatusGreen.svg) **[!UICONTROL Success]**.
 
@@ -32,8 +32,8 @@ Så här visar du modellinsikter i gränssnittet ![Models](/help/assets/icons/Fi
 Följande flikar är tillgängliga:
 
 * [Modellinsikter](#model-insights)
-* [Kanalsynergi](#channel-synergy)
-* [Faktorer](#factors-beta) [!BADGE beta]
+* [Kanalanalys](#channel-analysis)
+* [Faktorer](#factors) [!BADGE beta]
 * [Attribution](#attribution) (endast för MTA-aktiverade modeller)
 * [Diagnostik](#diagnostics)
 * [Historisk översikt](#historical-overview).
@@ -50,7 +50,7 @@ Om modellavvikelse upptäcks på modellen visas en **[!UICONTROL Model drift det
 
 ## Modellinsikter {#model-insights-section}
 
-På fliken Modellinsikter visas visualiseringar för [Bidrag per datum och basmedia](#contribution-by-date-and-base-media), [Bidrag per kanal](#contribution-by-channel), [Sammanfattning av marknadsföringsprestanda](#marketing-performance-summary) och [Marginalkurvor](#marginal-response-curves). Fliken innehåller även en [tabell för sammanställning av kontaktpunkter](#touchppint-breakdown).
+Fliken **[!UICONTROL Model insights]** visar visualiseringar för [Bidrag efter datum och basmedia](#contribution-by-date-and-base-media), [Bidrag efter kanal](#contribution-by-channel), [Sammanfattning av marknadsföringsprestanda](#marketing-performance-summary) och [Marginalkurvor](#marginal-response-curves). Fliken innehåller även en [tabell för sammanställning av kontaktpunkter](#touchpoint-breakdown).
 
 ![Modell - Modellinsikter](/help/assets/model-insights-insights.png)
 
@@ -121,22 +121,67 @@ Om du vill välja en viss kanal eller alla kanaler väljer du den i listrutan **
 Välj ![Hämta](/help/assets/icons/Download.svg) **[!UICONTROL Download CSV]** om du vill hämta innehållet i Touchpoint-tabellen.
 
 
-## Kanalsynergi
+## Kanalanalys
 
-På fliken **[!UICONTROL Channel synergy]** hjälper visualiseringen av **[!UICONTROL Channel synergies]** dig att identifiera hur marknadsföringskanaler interagerar för att skapa multimediala effekter, utöver deras individuella bidrag.
+På fliken **[!UICONTROL Channel analysis]** visas visualisering för **[!UICONTROL Channel synergies]** och **[kanaladstock]**.
+
+
+### Kanalsynergier
+
+Kanalsynergivisualiseringen hjälper er att identifiera hur marknadsföringskanalerna interagerar för att skapa multimediala effekter, utöver deras individuella bidrag.
 
 Heatmap-matrisen ger en visuell representation av synergisvärdena mellan par av utgiftskanaler. Den här matrisen hjälper marknadsförare att förstå hur kanaler interagerar för att öka prestandan. För varje modell normaliseras synergisvärdena från 0 till 10. Dessa värden kvantifierar *nästa dollarsynergi*, som beräknar hur effektivt två kanaler fungerar tillsammans när var och en får ytterligare en dollar av utgifterna på de aktuella nivåerna.
 
 Detta nästa dollarsystem ger ett realistiskt mått på relativ synergistyrka, eftersom ramverket står för faktiska utgiftsförhållanden i utbildningsdata och därmed möjliggör mer välgrundade optimeringsbeslut.
 
-![Planera kanalsynergier](/help/assets/model-channel-synergies.png)
 
-Om du vill hämta en CSV-fil som representerar matrisen väljer du ![Hämta](/help/assets/icons/Download.svg) **[!UICONTROL Download]**.
+>[!BEGINTABS]
+
+>[!TAB Visa färre synergier]
+
+![Planera kanalsynergier](/help/assets/model-channel-synergies-less.png)
+
+>[!TAB Visa alla synergier]
+
+![Planera kanalsynergier](/help/assets/model-channel-synergies-all.png)
+
+>[!ENDTABS]
+
+
+* Om du vill visa alla synergier väljer du **[!UICONTROL Show all]**.
+
+* Välj **[!UICONTROL Show less]** om du vill välja färre synergier
+
+* Om du vill visa detaljer om en synergi håller du pekaren över en cell i visualiseringen.
+
+* Om du vill hämta en CSV-fil som representerar matrisen väljer du ![Hämta](/help/assets/icons/Download.svg) **[!UICONTROL Download]**.
 
 >[!NOTE]
 >
 >Om fliken **[!UICONTROL Channel synergy]** inte är synlig för en befintlig modell måste du träna om modellen för att aktivera funktioner och visualisering.
 
+
+### Kanaladstock
+
+Kanalen-adstock-visualiseringar visar en visualisering för varje konfigurerad kanaladstock. Tack vare visualiseringarna kan ni förstå hur effekten av marknadsföringsbudgeten för varje kanal kvarstår och minskar över tid och utöver den ursprungliga exponeringen. Visualiseringen ger en realistisk bild av kanalöverföringar genom att införliva tidsdynamik som hämtats från modellen.
+
+Varje enskilt diagram representerar en enda marknadsföringskanal och visar sin adstock-kurva. Den kurvan visar hur effekten av en exponeringsenhet överförs till framtida perioder. Kurvan visar i vilken takt påverkan på konverteringen minskar och hjälper marknadsförarna att jämföra hur länge olika kanaler fortfarande påverkar resultatet efter den initiala investeringen.
+
+Kanaler med långsammare minskningskurvor (längre svans) visar på varaktig effekt över tiden. Kanaler med branta bortfall reflekterar mer omedelbara kortlivade effekter. Den maximala uppslagsperioden som är konfigurerad för den kanalen avgör längden på varje kurva.
+
+>[!BEGINTABS]
+
+>[!TAB Visa alla data]
+
+![Planera kanalsynergier](/help/assets/model-channel-adstock-all.png)
+
+>[!TAB Visa valt lager]
+
+![Planera kanalsynergier](/help/assets/model-channel-adstock-selected.png)
+
+>[!ENDTABS]
+
+* Om du vill visa adstock-visualiseringar för **[!UICONTROL All channels]** eller en adstock-visualisering för en enskild kanal (till exempel **[!UICONTROL Paid Social Facebook]**) väljer du i listrutan **[!UICONTROL Channel]** .
 
 
 ## Faktorer {#factors}
@@ -144,7 +189,7 @@ Om du vill hämta en CSV-fil som representerar matrisen väljer du ![Hämta](/he
 >[!CONTEXTUALHELP]
 >id="models_factors_factorcontributionbreakdown"
 >title="Uppdelning av faktorbidrag"
->abstract="Uppdelningen av faktorbidrag visar andelen baskonverteringar som kan tillskrivas de olika faktorer som ingår i modellen.<br/><br/>Ren bas representerar de underliggande konverteringarna som inträffar oberoende av marknadsföringens kontaktytor och faktorer som ingår i modellen. Det omfattar konverteringar som styrs av varumärken, upprepade köp, ekologisk efterfrågan och långsiktiga marknadstrender och säsongsvariation."
+>abstract="Uppdelningen av faktorbidrag visar andelen baskonverteringar som kan tillskrivas de olika faktorerna i modellen.<br/><br/>Ren bas representerar de underliggande konverteringarna som inträffar oberoende av de marknadsföringskontaktytor och faktorer som ingår i modellen. Det omfattar konverteringar som styrs av varumärken, upprepade köp, ekologisk efterfrågan och långsiktiga marknadstrender och säsongsvariation."
 
 
 Fliken Faktorer [!BADGE beta] visar externa faktorrelaterade insikter.
@@ -172,7 +217,7 @@ Om inga data är tillgängliga visas meddelandet ![TableAndChart](/help/assets/i
 >[!CONTEXTUALHELP]
 >id="models_attribution_breakdownbytouchpointposition"
 >title="Uppdelning efter kontaktytsposition"
->abstract="Den här visualiseringen visar en uppdelning av konverteringar utifrån kontaktytans och kontaktytpunktens position över alla konverteringsbanor. I visualiseringen jämförs om en kontaktyta bidrar bättre till en position än vad som finns på återstående positioner och andra kontaktytor på en position."
+>abstract="Den här visualiseringen visar en uppdelning av konverteringar utifrån kontaktytans och kontaktytpunktens position över alla konverteringsbanor. Visualiseringen jämför om en kontaktyta bidrar bättre på en position än vid återstående positioner och andra kontaktytor på en position."
 
 
 
@@ -184,7 +229,7 @@ På fliken [!UICONTROL Attribution] kan du förstå effekten av kontaktytor och 
 
 Följande attribueringsmodeller stöds:
 
-* Baserat på den valda modellen i Mix Modeler:
+* Baserat på den valda modellen i [!DNL Mix Modeler]:
    * Algoritmisk - påverkad
    * Algoritmisk - inkrementell
 * Regelbaserad:
@@ -194,13 +239,13 @@ Följande attribueringsmodeller stöds:
    * Linjär
    * Ushape
 
-Se [Multi-touch-attribuering](../get-started/about.md#multi-touch-attribution) för en introduktion om multitouch-attribueringsfunktionen i Mix Modeler.
+Se [Multi-touch-attribuering](../get-started/about.md#multi-touch-attribution) för en introduktion om multitouch-attribueringsfunktionen i [!DNL Mix Modeler].
 
 Välj en eller flera attribueringsmodeller i listrutan **[!UICONTROL Attribution Model]**. De valda attribueringsmodellerna gäller för alla visualiseringar på fliken Attribution.
 
 ![Attribution](/help/assets/model-insights-attribution.png)
 
-Mix Modeler Multi-Touch-attribuering i korthet anpassar sig efter Mix Modeler övergripande poäng och ROI. Dessa bakgrundsmusik är också tillgängliga som datauppsättningar i Experience Platform.
+Mix Modeler Multi-Touch-attribuering i granulat-händelseresultat justeras efter de övergripande [!DNL Mix Modeler] poängen och avkastningen på investeringen. Dessa bakgrundsmusik är också tillgängliga som datauppsättningar i Experience Platform.
 
 Fliken Attribution består av följande visualiseringar:
 
@@ -234,7 +279,7 @@ Om du vill sortera tabellen i stigande eller fallande ordning ↓ för Kanal, Me
 
 Om du vill expandera tabellen i en separat dialogruta väljer du **[!UICONTROL Expand]** från ![Mer](/help/assets/icons/More.svg).
 
-I den utökade dialogrutan för de bästa kampanjerna visas samma tabell med extra kolumner för
+I den utökade dialogrutan **[!UICONTROL Top campaigns]** visas samma tabell med extra kolumner för:
 
 * Inkrementella konverteringar
 * Påverkade konverteringar
@@ -300,19 +345,19 @@ För varje konverteringsbana ser du:
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_efficiencymeasure"
 >title="Effektivitetsmått"
->abstract="Det effektivitetsmått som genereras av den algoritmiska attribueringsmodellen anger den relativa vikten av en kontaktyta för konvertering oberoende av kontaktytans volym. Detta mäts på en skala från 1 till 5. Observera att högre kontaktytpunkter inte garanterar högre effektivitetsmått."
+>abstract="Det effektivitetsmått som genereras av den algoritmiska attribueringsmodellen anger den relativa vikten av en kontaktyta för konvertering oberoende av kontaktytans volym. Denna åtgärd ligger på en skala från 1 till 5. Observera att högre kontaktytpunkter inte garanterar högre effektivitetsmått."
 
 
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_totalvolume"
 >title="Total volym"
->abstract="Den totala volymen är det sammanlagda antalet gånger som en kontaktyta berördes av en användare, inklusive kontaktytor som visas på en bana och som uppnår konvertering, samt banor som inte leder till konvertering."
+>abstract="Den totala volymen är det sammanlagda antalet gånger en användare vidrör en kontaktyta. Det omfattar även kontaktytor som visas på en bana som både uppnår banor och banor som inte leder till konvertering."
 
 
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_modeldateinfo"
 >title="Modelldatum den"
->abstract="Data för det här registret genereras endast för specifika tidsperioder.  Datumet **[!UICONTROL As of]** anger när data genererades och baseras på data från angivet datum fram till ett år tillbaka."
+>abstract="Data för det här registret genereras endast för specifika tidsperioder.  Datumet **[!UICONTROL As of]** anger när data genererades och baseras på data från det angivna datumet fram till ett år tillbaka."
 
 
 Fliken **[!UICONTROL Diagnostics]** visar visualiseringar för:
@@ -347,7 +392,7 @@ Om du vill dela upp visualiseringen väljer du något av följande alternativ i 
    * **[!UICONTROL Training sMAPE]** (symmetriskt medelvärde för absolut procentfel): Mäter medelprocentfel för utbildningsdata. Lägre värden ger bättre precision.
    * **[!UICONTROL Training RMSE]** (Rot Mean-kvadrat-fel): Mäter genomsnittligt procentfel för utbildningsdata. Utjämnar större fel mer än MAPE. Lägre RMSE ger bättre prediktiv precision men är känsligt för avvikelser.
    * **[!UICONTROL Out-of-sample sMAPE]**: Utvärderar procentfel för osynliga data, balanserar över- och underprognoser. Hjälper till att utvärdera generalisering. För närvarande utvärderar Mix Modeler ett procentfel med hjälp av sista kvartalet av utbildningsdata som en utelämningsuppsättning.
-   * **[!UICONTROL Out-of-sample RMSE]**: Utvärderar procentfel för osynliga data, balanserar över- och underprognoser. Hjälper till att utvärdera generalisering. För närvarande utvärderar Mix Modeler ett procentfel med hjälp av sista kvartalet av utbildningsdata som en utelämningsuppsättning. RMSE penaliserar större fel mer än MAPE.
+   * **[!UICONTROL Out-of-sample RMSE]**: Utvärderar procentfel för osynliga data, balanserar över- och underprognoser. Hjälper till att utvärdera generalisering. För närvarande utvärderar [!DNL Mix Modeler] ett procentfel när det sista kvartalet av utbildningsdata används som en utelämningsuppsättning. RMSE penaliserar större fel mer än MAPE.
 
 
 * **[!UICONTROL Touchpoint effectiveness]**-tabellen, som representerar resultatet av AI-algoritmisk modell för attribuering.
@@ -367,7 +412,7 @@ Om du vill dela upp visualiseringen väljer du något av följande alternativ i 
 
 >[!AVAILABILITY]
 >
->Funktionerna som beskrivs i det här avsnittet är i den begränsade testfasen av releasen och är kanske inte tillgängliga än i din miljö. Den här anteckningen tas bort när funktionen är allmänt tillgänglig. Mer information om Mix Modeler finns i [Mix Modeler funktionsreleaser](/help/releases/latest.md).
+>Funktionerna som beskrivs i det här avsnittet är i den begränsade testfasen av releasen och är kanske inte tillgängliga än i din miljö. Den här anteckningen tas bort när funktionen är allmänt tillgänglig. Mer information om [!DNL Mix Modeler]-versionsprocessen finns i [Mix Modeler-funktionsreleaser](/help/releases/latest.md).
 >
 
 Om modellavvikelse upptäcks visas ett **[!UICONTROL Model drift detected]**-meddelande högst upp.
@@ -398,7 +443,7 @@ Den här visualiseringen representerar utgiftsfördelningen i olika kanaler inom
 
 Den här visualiseringen representerar utgiftsfördelningen över betalda kontaktytor för varje kvartal inom det angivna datumintervallet. Visualiseringen gör det möjligt att förstå vilka kontaktytor som prioriteras inom specifika kanaler och kvartal. Visualiseringen hjälper till att identifiera mönster och trender för kanalanvändning, särskilt kanaler med låga och sällan använda resurser över tid.
 
-Så här kan du välja en alternativ utgiftsbaserad kanal att visa för den här visualiseringen:
+Så här visar du en alternativ utgiftsbaserad kanal för den här visualiseringen:
 
 * Välj en kanal från **[!UICONTROL Channels]**.
 
@@ -407,7 +452,7 @@ Så här kan du välja en alternativ utgiftsbaserad kanal att visa för den här
 
 Den här visualiseringen representerar volymfördelningen över alla kontaktytor för varje kvartal inom det angivna datumintervallet.
 
-Så här kan du välja en alternativ volymbaserad kanal som ska visas för visualiseringen:
+Så här visar du en alternativ volymbaserad kanal för den här visualiseringen:
 
 * Välj en kanal från **[!UICONTROL Channels]**.
 

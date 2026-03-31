@@ -4,9 +4,9 @@ description: Senaste versionsinformation för Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 7581053507bd1a6a07b2f3853f454631ecee8cec
+source-git-commit: dd7a7260464b27b8ef257004b1c2a64d70ffe122
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '435'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,12 @@ ht-degree: 0%
 **Senast uppdaterad**: 26 februari 2026.
 
 Versionsinformationen innehåller den senaste utgåvan av Mix Modeler. Mix Modeler-releaser fungerar enligt en kontinuerlig leveransmodell, vilket möjliggör en ungefärlig månadsvis publiceringsgräns. Versionsinformationen uppdateras därför, så kontrollera dem regelbundet.
+
+## Mars 2026
+
+| Funktion | Beskrivning | [Startar](#release-strategy) | [Allmän tillgänglighet](#release-strategy) |
+|---|---|---|---|
+| **Kanaldata** | Du kan inkludera domänexpertis, experimenteringsresultat eller tidigare kanalanalyser direkt i den avancerade modellkonfigurationen via [kanaladstock](/help/models/build.md#channel-adstock). Och visa [kanaladstock-insikter](/help/models/insights.md#channel-adstock) inom kanalanalysen för en modell. | 30 mars 2026 | 30 mars 2026 |
 
 ## Februari 2026
 

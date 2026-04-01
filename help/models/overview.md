@@ -3,9 +3,9 @@ title: Modeller - översikt
 description: Lär dig att skapa, utbilda, poängsätta och hantera maskininlärningsmodeller i Mix Modeler för att mäta och förutse marknadsföringsresultat.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 7836e378a0f9068fc868dcede0ab8b3e2803776a
+source-git-commit: e78380c2f735c1658a8d4d69353c7953ceb9c8c3
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1082'
 ht-degree: 0%
 
 ---
@@ -119,7 +119,7 @@ Du kan snabbt duplicera en modell.
 
 1. Välj ![Mer](/help/assets/icons/More.svg) för en modell och välj **[!UICONTROL Duplicate]** på snabbmenyn.
 
-Du omdirigeras till stegen för att skapa en ny modell, med ett föreslaget namn bestående av den ursprungliga modellens namn som bifogas med **[!UICONTROL (Copy)] (_n_)**.
+Du omdirigeras till stegen för att skapa en ny modell, med ett föreslaget namn bestående av den ursprungliga modellens namn som bifogas med **[!UICONTROL (Copy)](_n_)**.
 
 ### Redigera
 
@@ -151,9 +151,8 @@ Du kan redigera namn, beskrivning och planering av utbildning och poängsättnin
       1. Välj **[!UICONTROL Clear all]** om du vill ta bort alla markerade harmoniserade fält.
 
      >[!IMPORTANT]
-     >Om du lägger till detaljerade insiderrapporteringsfält i en modell som skapas **före 18 februari 2026** krävs en omvärdering av modellen. Denna bedömning säkerställer att det underliggande schemat uppdateras med detaljerade insikter i rapporteringsfält.
-     >
-     >Rekommenderat tillvägagångssätt är att duplicera en sådan modell. Inkludera även detaljerade insikter i rapporteringsfält när du skapar den duplicerade modellen.
+     >Alla modeller med MTA som skapats före 12 januari 2026 bör dupliceras för att möjliggöra detaljerade modellinsikter.<br/>
+     >Omvärdering krävs för alla befintliga modeller för att återspegla de uppdaterade granulära dimensionerna i poängdata.
      >
 
 1. Välj **[!UICONTROL Save]**.
@@ -178,5 +177,5 @@ Så här tar du bort flera modeller:
 
 1. Markera flera modeller.
 1. Välj ![Ta bort](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** från det blå åtgärdsfältet för att ta bort modellerna.
-1. Välj **[!UICONTROL Delete]** i bekräftelsedialogrutan för **[!UICONTROL Delete *x *modeller]**&#x200B;om du vill ta bort modellerna. Välj **[!UICONTROL Cancel]**&#x200B;om du vill avbryta.
+1. Välj **[!UICONTROL Delete]** i bekräftelsedialogrutan för **[!UICONTROL Delete *x *modeller]**om du vill ta bort modellerna. Välj **[!UICONTROL Cancel]**om du vill avbryta.
 

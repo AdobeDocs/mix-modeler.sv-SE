@@ -3,9 +3,9 @@ title: Modellinsikter
 description: Lär dig mer om din modell, som historisk översikt, modellinsikter och modellkvalitet i Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: be10a2fff940db4effe8f5d23aa7404e6d77ac74
+source-git-commit: 7836e378a0f9068fc868dcede0ab8b3e2803776a
 workflow-type: tm+mt
-source-wordcount: '2999'
+source-wordcount: '2896'
 ht-degree: 0%
 
 ---
@@ -189,7 +189,7 @@ Kanaler med långsammare minskningskurvor (längre svans) visar på varaktig eff
 >[!CONTEXTUALHELP]
 >id="models_factors_factorcontributionbreakdown"
 >title="Uppdelning av faktorbidrag"
->abstract="Uppdelningen av faktorbidrag visar andelen baskonverteringar som kan tillskrivas de olika faktorerna i modellen.<br/><br/>Ren bas representerar de underliggande konverteringarna som inträffar oberoende av de marknadsföringskontaktytor och faktorer som ingår i modellen. Det omfattar konverteringar som styrs av varumärken, upprepade köp, ekologisk efterfrågan och långsiktiga marknadstrender och säsongsvariation."
+>abstract="Uppdelningen av faktorbidrag visar andelen baskonverteringar som kan tillskrivas de olika faktorer som ingår i modellen.<br/><br/>Ren bas representerar de underliggande konverteringarna som inträffar oberoende av marknadsföringens kontaktytor och faktorer som ingår i modellen. Det omfattar konverteringar som styrs av varumärken, upprepade köp, ekologisk efterfrågan och långsiktiga marknadstrender och säsongsvariation."
 
 
 Fliken Faktorer [!BADGE beta] visar externa faktorrelaterade insikter.
@@ -456,27 +456,3 @@ Så här visar du en alternativ volymbaserad kanal för den här visualiseringen
 
 * Välj en kanal från **[!UICONTROL Channels]**.
 
-
-## Redigera
-
-Du kan redigera namn, beskrivning och schemaläggning av utbildning och poängsättning för modellen.
-
-1. Välj ![Redigera](/help/assets/icons/Edit.svg) Redigera
-
-1. I dialogrutan **[!UICONTROL Edit model]**:
-
-   * Ange en ny **[!UICONTROL Name]** och **[!UICONTROL Description]**.
-
-   * Aktivera **[!UICONTROL Status]** om du vill aktivera schemaläggning. Du kan bara aktivera schemaläggning för modeller som är tränade och poängsatta.
-
-      1. Välj en **[!UICONTROL Scoring frequency]**:
-
-         * **[!UICONTROL Daily]**: Ange en giltig tid (till exempel `05:22 pm`) eller använd ![Klocka](/help/assets/icons/Clock.svg).
-         * **[!UICONTROL Weekly]**: Välj en veckodag och ange en giltig tid (till exempel `05:22 pm`) eller använd ![Klocka](/help/assets/icons/Clock.svg).
-         * **[!UICONTROL Monthly]**: Välj en dag i månaden i listrutan Kör på varje och ange en giltig tid (till exempel `05:22 pm`) eller använd ![Klocka](/help/assets/icons/Clock.svg).
-
-      1. Välj en **[!UICONTROL Training frequency]** i listrutan: **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]** eller **[!UICONTROL None]**.
-
-     ![Redigera en modell](../assets/model-edit.png)
-
-1. Välj **[!UICONTROL Save]**.

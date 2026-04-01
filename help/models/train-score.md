@@ -2,7 +2,8 @@
 title: Tåg- och poängmodeller
 description: Lär dig att utbilda och poängsätta modeller.
 feature: Models
-source-git-commit: 6855d19347b7f6f1477a6265310df5950b8463c9
+exl-id: c4fbe13e-4548-421b-ba90-274fc42f4be2
+source-git-commit: 7836e378a0f9068fc868dcede0ab8b3e2803776a
 workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 0%
@@ -55,15 +56,14 @@ Så här poängterar du en modell eller anger om den:
 
    I dialogrutan **[!UICONTROL Score marketing data]** väljer du alternativet att:
 
-   * **[!UICONTROL Score new marketing data from *mm/dd/yyyy *]**&#x200B;om du vill poängsätta modellen stegvis med nya marknadsföringsdata, eller
+   * **[!UICONTROL Score new marketing data from *mm/dd/yyyy *]**om du vill poängsätta modellen stegvis med nya marknadsföringsdata, eller
    * **[!UICONTROL Score specific date range of marketing data]** om du vill upprepa för ett visst datumintervall.
 Ange datumintervall. Du kan använda ![kalendern](/help/assets/icons/Calendar.svg) för att välja ett datumintervall.
 
    ![Posta om en modell](../assets/rescore-model.png)
 
-1. Välj **[!UICONTROL Score]**. När du ändrar skala på en modell med ett visst dataområde visas en **[!UICONTROL Existing model is replaced]**-dialogruta där du uppmanas att bekräfta att du vill ersätta modellen med nya poäng för det valda datumintervallet. Bekräfta genom att välja **[!UICONTROL Replace model]**.
+1. Välj **[!UICONTROL Score]**. När du omklassificerar en modell med ett visst dataområde visas en **[!UICONTROL Existing model is replaced]**-dialogruta där du uppmanas att bekräfta att du vill ersätta modellen med nya poäng för det valda datumintervallet. Bekräfta genom att välja **[!UICONTROL Replace model]**.
 
 >[!IMPORTANT]
 >
 >Omkodning av en modell ändrar inte planer som redan har skapats baserat på den omfärgade modellen. Om du vill använda den nya omgjorda modellen i en plan måste du skapa en ny plan.
-

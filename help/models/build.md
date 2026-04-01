@@ -4,9 +4,9 @@ description: Lär dig hur du bygger modeller i Mix Modeler, inklusive hur du kon
 feature: Models
 solution: Mix Modeler
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: dd7a7260464b27b8ef257004b1c2a64d70ffe122
+source-git-commit: 7836e378a0f9068fc868dcede0ab8b3e2803776a
 workflow-type: tm+mt
-source-wordcount: '1557'
+source-wordcount: '1570'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Du definierar ett namn och en beskrivning i **[!UICONTROL Setup]**-steget:
 >[!CONTEXTUALHELP]
 >id="model_marketingtouchpoints_select"
 >title="Marknadsföringskontaktytor"
->abstract="Marknadsföringskontaktytorna är marknadshändelser på mottagarnivå, individ och cookie-nivå som används för att utvärdera effekten av marknadsinvesteringar på numeriska eller intäktsbaserade konverteringar.<br/><br/>Du kan inte konfigurera modellen med kontaktytor som har överlappande data och det måste finnas minst en kontaktyta med utgiften."
+>abstract="Marknadsföringskontaktytorna är marknadshändelser på mottagarnivå, individ- och cookienivå som används för att utvärdera effekten av marknadsinvesteringar på numeriska eller intäktsbaserade konverteringar.<br/><br/>Du kan inte konfigurera modellen med kontaktytor som har överlappande data och det måste finnas minst en kontaktyta med utgift."
 
 
 Du konfigurerar modellen i steget **[!UICONTROL Configure]**. Konfiguration innefattar definition av konverteringsmål, kontaktytor för marknadsföring, den stödberättigade datapopulationen, externa och interna faktorer, med mera.
@@ -199,9 +199,9 @@ Så här schemalägger du poäng och utbildning för modeller:
 1. Aktivera **[!UICONTROL Enable scheduled model scoring and training]**.
 1. Välj en **[!UICONTROL Scoring frequency]**:
 
-   * **[!UICONTROL Daily]**: Ange en giltig tid (till exempel `05:22 pm`) eller använd ![Klocka](/help/assets/icons/Clock.svg).
-   * **[!UICONTROL Weekly]**: Välj en veckodag och ange en giltig tid (till exempel `05:22 pm`) eller använd ![Klocka](/help/assets/icons/Clock.svg).
-   * **[!UICONTROL Monthly]**: Välj en dag i månaden i listrutan Kör på varje och ange en giltig tid (till exempel `05:22 pm`) eller använd ![Klocka](/help/assets/icons/Clock.svg).
+   * **[!UICONTROL Daily]**: Ange en giltig tid (till exempel `05:22 pm`) eller använd ![Klocka](/help/assets/icons/Clock.svg) för att definiera tiden.
+   * **[!UICONTROL Weekly]**: Välj en veckodag och ange en giltig tid (till exempel `05:22 pm`) eller använd ![Klocka](/help/assets/icons/Clock.svg) för att definiera tiden.
+   * **[!UICONTROL Monthly]**: Välj en dag i månaden i listrutan Kör på varje och ange en giltig tid (till exempel `05:22 pm`) eller använd ![Klocka](/help/assets/icons/Clock.svg) för att definiera tiden.
 
 1. Välj en **[!UICONTROL Training frequency]** i listrutan: **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]** eller **[!UICONTROL None]**.
 

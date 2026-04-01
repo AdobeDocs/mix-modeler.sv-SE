@@ -1,11 +1,11 @@
 ---
-title: Översikt över modeller
-description: Lär dig hur du bygger och använder modeller i Mix Modeler.
+title: Modeller - översikt
+description: Lär dig att skapa, utbilda, poängsätta och hantera maskininlärningsmodeller i Mix Modeler för att mäta och förutse marknadsföringsresultat.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 2775c5a3779f6731f7f3143f6ed21db2993c0955
+source-git-commit: 7836e378a0f9068fc868dcede0ab8b3e2803776a
 workflow-type: tm+mt
-source-wordcount: '962'
+source-wordcount: '1108'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Med modellfunktionerna i Mix Modeler kan du konfigurera, utbilda och poängsätta modeller som är specifika för dina affärsmål. Utbildningen och poängsättningen stöder AI-drivet överföringslärande mellan multitouch-attribuering och modellering av marknadsföringsmixar.
 
-Modellerna bygger på de harmoniserade data som du skapar som en del av Mix Modeler arbetsflöde.
+Modellerna bygger på de harmoniserade data som du skapar som en del av programarbetsflödet.
 
 En modell i Mix Modeler är en maskininlärningsmodell som används för att mäta och förutsäga ett specifikt resultat baserat på en marknadsförares investeringar. Marknadsföringskontaktytor och data på sammanfattningsnivå kan användas som indata. Med Mix Modeler kan ni skapa olika typer av modeller baserade på olika uppsättningar av variabler, dimensioner och resultat, som intäkter, sålda enheter, leads.
 
@@ -32,8 +32,7 @@ En modell kan även innehålla:
 * Tidigare kunskap om marknadsbidrag från andra källor, som tidigare erfarenheter från intressenter, stegvis testning och andra modeller.
 * Utgiftsandel, som använder relativ utgiftsresurs som proxy när marknadsföringsdata är glesare.
 
-När en modell skapas för första gången kommer man omedelbart igång med utbildningen och poängprocessen. När den inledande kursen och poängsättningen är klara finns modellinsikter att granska. En modell kan därefter omskolas. Dessutom kan data läggas till i modellen, vilket kräver att du anger om modellen manuellt. Omutbildning och ompoängtering är en repetitiv process i takt med att nya resultat och ny information kommer fram och justeringar behövs för att skapa en modell som passar era affärsmål bäst.
-
+När en modell skapas för första gången kommer man omedelbart igång med utbildningen och poängprocessen. När den inledande kursen och poängsättningen är klara finns modellinsikter att granska. En modell kan därefter omskolas. Dessutom kan data läggas till i modellen, vilket kräver att du anger om modellen manuellt. Omskolning och omskolning är en repetitiv process när nya resultat och ny information kommer fram och justeringar behövs för att få en modell som passar era affärsmål bäst.
 
 ## Skapa modeller
 
@@ -43,7 +42,7 @@ Om du vill skapa en modell använder du Mix Modeler steg-för-steg-guidade model
 
 Om du vill visa en tabell över de aktuella modellerna i Mix Modeler-gränssnittet:
 
-1. Välj ![FileData](/help/assets/icons2/FileData.svg) **[!UICONTROL Models]** i den vänstra listen.
+1. Välj ![FileDataS2](/help/assets/icons2/FileData.svg) **[!UICONTROL Models]** i den vänstra listen.
 
 1. En tabell över de aktuella modellerna visas.
 
@@ -58,7 +57,7 @@ Om du vill visa en tabell över de aktuella modellerna i Mix Modeler-gränssnitt
    | **[!UICONTROL Last run]** | Datum och tid för modellens senaste utbildning. |
    | **[!UICONTROL Status]** | Modellens status. |
 
-   Om du vill sortera tabellen i en kolumn i stigande ![ArrowMoveUp](/help/assets/icons2/ArrowMoveUp.svg)- eller fallande ![ArrowMoveDown](/help/assets/icons2/ArrowMoveDown.svg)ordning, markerar du kolumnens rubrik.
+   Om du vill sortera tabellen i en kolumn i stigande ![ArrowMoveUpS2](/help/assets/icons2/ArrowMoveUp.svg)- eller fallande ![ArrowMoveDownS2](/help/assets/icons2/ArrowMoveDown.svg)-ordning markerar du kolumnens rubrik.
 
    Om du vill sortera eller ändra storlek på kolumnen **[!UICONTROL Name]** väljer du **[!UICONTROL Name]** ![KranNed](/help/assets/icons/ChevronDown.svg). Välj **[!UICONTROL Sort ascending]**, **[!UICONTROL Sort descending]** eller **[!UICONTROL Resize column]** på snabbmenyn. Du kan också hovra över kolumnavgränsaren för att ändra storlek på kolumnen **[!UICONTROL Name]**.
 
@@ -98,18 +97,16 @@ Funktionen för modellinsikter är bara tillgänglig på framgångsrika, utbilda
 
 Så här visar du insikter om en modell:
 
-1. Välj ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** i den vänstra listen.
-
+1. Välj ![FileData](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** i den vänstra listen.
 1. Markera modellnamnet.
 
 Du omdirigeras till [Modellinsikter](insights.md).
-
 
 ### Visa detaljer
 
 Så här visar du mer information om en modell:
 
-1. Välj ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** i den vänstra listen.
+1. Välj ![FileData](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** i den vänstra listen.
 
 1. Välj ![Info](/help/assets/icons/Info.svg) för en modell om du vill visa ett popup-fönster med information.
 
@@ -118,55 +115,62 @@ Så här visar du mer information om en modell:
 
 Du kan snabbt duplicera en modell.
 
-1. Välj ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** i den vänstra listen.
+1. Välj ![FileData](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** i den vänstra listen.
 
 1. Välj ![Mer](/help/assets/icons/More.svg) för en modell och välj **[!UICONTROL Duplicate]** på snabbmenyn.
 
-Du omdirigeras till stegen för att skapa en ny modell, med ett föreslaget namn bestående av den ursprungliga modellens namn som bifogas med **[!UICONTROL (Copy)] (_n_)**.
+Du omdirigeras till stegen för att skapa en ny modell, med ett föreslaget namn bestående av den ursprungliga modellens namn som bifogas med **[!UICONTROL (Copy)](_n_)**.
 
 ### Redigera
 
 Du kan redigera namn, beskrivning och planering av utbildning och poängsättning för en modell.
 
-1. Välj ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** i den vänstra listen.
+1. Välj ![FileData](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** i den vänstra listen.
 
 1. Välj ![Mer](/help/assets/icons/More.svg) för en modell och välj **[!UICONTROL Edit]** på snabbmenyn.
 
    I dialogrutan **[!UICONTROL Edit model]**:
 
+   ![Redigera en modell](../assets/model-edit.png)
+
    * Ange en ny **[!UICONTROL Name]** och **[!UICONTROL Description]**.
 
-   * Aktivera **[!UICONTROL Status]** om du vill aktivera schemaläggning. Du kan bara aktivera schemaläggning för modeller som är tränade och poängsatta.
+   * Aktivera **[!UICONTROL Enable schedule model training and scoring]** om du vill aktivera schemaläggning. Du kan bara aktivera schemaläggning för modeller som är tränade och poängsatta.
 
       1. Välj en **[!UICONTROL Scoring frequency]**:
 
-         * **[!UICONTROL Daily]**: Ange en giltig tid (till exempel `05:22 pm`) eller använd ![Klocka](/help/assets/icons/Clock.svg).
-         * **[!UICONTROL Weekly]**: Välj en veckodag och ange en giltig tid (till exempel `05:22 pm`) eller använd ![Klocka](/help/assets/icons/Clock.svg).
-         * **[!UICONTROL Monthly]**: Välj en dag i månaden i listrutan Kör på varje och ange en giltig tid (till exempel `05:22 pm`) eller använd ![Klocka](/help/assets/icons/Clock.svg).
+         * **[!UICONTROL Daily]**: Ange en giltig tid (till exempel `10:00 am`) eller använd ![Klocka](/help/assets/icons/Clock.svg) för att definiera tiden.
+         * **[!UICONTROL Weekly]**: Välj en veckodag och ange en giltig tid (till exempel `10:00 am`) eller använd ![Klocka](/help/assets/icons/Clock.svg) för att definiera tiden.
+         * **[!UICONTROL Monthly]**: Välj en dag i månaden i listrutan Kör på varje och ange en giltig tid (till exempel `10:00 am`) eller använd ![Klocka](/help/assets/icons/Clock.svg) för att definiera tiden.
 
       1. Välj en **[!UICONTROL Training frequency]** i listrutan: **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]** eller **[!UICONTROL None]**.
 
-     ![Redigera en modell](../assets/model-edit.png)
+   * Så här uppdaterar du [detaljerade insikter, rapportfält](/help/models/build.md#granular-insights-reporting-fields), i avsnittet **[!UICONTROL Granular Insights Reporting Fields]**:
+      1. Välj ett eller flera harmoniserade fält från **[!UICONTROL _Välj harmoniserade fält_]** under **[!UICONTROL Includes]**. De valda harmoniserade fälten läggs till på panelen.
+      1. Välj **[!UICONTROL *Harmoniserat fält *]**![CrossSize100](/help/assets/icons/CrossSize100.svg) om du vill ta bort ett harmoniserat fält från behållaren med de valda harmoniserade fälten.
+      1. Välj **[!UICONTROL Clear all]** om du vill ta bort alla markerade harmoniserade fält.
+
+     >[!IMPORTANT]
+     >Om du lägger till detaljerade insiderrapporteringsfält i en modell som skapas **före 18 februari 2026** krävs en omvärdering av modellen. Denna bedömning säkerställer att det underliggande schemat uppdateras med detaljerade insikter i rapporteringsfält.
+     >
+     >Rekommenderat tillvägagångssätt är att duplicera en sådan modell. Inkludera även detaljerade insikter i rapporteringsfält när du skapar den duplicerade modellen.
+     >
 
 1. Välj **[!UICONTROL Save]**.
 
-
-
 ### Tåg
 
-Överväg att träna om en modell när ni vill inkludera nya inkrementella marknadsförings- och faktordata. Mer information finns i [Utbildning och poängmodeller](train-score.md#train).
-
+Behåll en modell när ni vill inkludera nya inkrementella marknadsförings- och faktordata. Mer information finns i [Utbildning och poängmodeller](train-score.md#train).
 
 ### Poäng
 
 Ni kan stegvis poängsätta en modell baserat på nya marknadsföringsdata eller poängsätta en modell för ett visst datumintervall. Mer information finns i [Utbildning och poängmodeller](train-score.md#score).
 
-
 ### Ta bort modeller
 
 Ta bort en modell:
 
-1. Välj ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** i den vänstra listen.
+1. Välj ![FileData](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** i den vänstra listen.
 1. Välj ![Mer](/help/assets/icons/More.svg) för en modell och välj **[!UICONTROL Delete]** på snabbmenyn. Du kan också välja ![Ta bort](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** i det blå åtgärdsfältet.
 1. Välj **[!UICONTROL Delete]** i bekräftelsedialogrutan **[!UICONTROL Delete model]** om du vill ta bort modellen. Välj **[!UICONTROL Cancel]** om du vill avbryta.
 
@@ -174,5 +178,5 @@ Så här tar du bort flera modeller:
 
 1. Markera flera modeller.
 1. Välj ![Ta bort](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** från det blå åtgärdsfältet för att ta bort modellerna.
-1. Välj **[!UICONTROL Delete]** i bekräftelsedialogrutan för **[!UICONTROL Delete *x *modeller]**&#x200B;om du vill ta bort modellerna. Välj **[!UICONTROL Cancel]**&#x200B;om du vill avbryta.
+1. Välj **[!UICONTROL Delete]** i bekräftelsedialogrutan för **[!UICONTROL Delete *x *modeller]**om du vill ta bort modellerna. Välj **[!UICONTROL Cancel]**om du vill avbryta.
 

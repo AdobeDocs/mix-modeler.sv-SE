@@ -54,7 +54,7 @@ Om du vill visa en tabell över dina aktuella planer går du till Mix Modeler-gr
    | **[!UICONTROL Budget]** | Den totala budgeten för en plan. |
    | **[!UICONTROL Plan target]** | Målmåttet som har definierats för en målbaserad plan. |
    | **[!UICONTROL Forecasted return]** | Den [prognostiserade avkastningen](/help/main-guide/glossary.md) för en plan |
-   | **[!UICONTROL Forecasted ROI]** | Den [prognostiserade avkastningen ](/help/main-guide/glossary.md) för en plan. |
+   | **[!UICONTROL Forecasted ROI]** | Den [prognostiserade avkastningen &#x200B;](/help/main-guide/glossary.md) för en plan. |
    | **[!UICONTROL Forecasted conversion]** | Den [prognostiserade konverteringen](/help/main-guide/glossary.md) för en plan |
    | **[!UICONTROL Forecasted CPA]** | [Prognostiserat CPA](/help/main-guide/glossary.md)för en plan |
    | **[!UICONTROL Status]** | Status för en plan:<br/>![StatusOrange](/help/assets/icons/StatusOrange.svg) **[!UICONTROL Failed]**,<br/>![StatusBlue](/help/assets/icons/StatusBlue.svg) **[!UICONTROL Processing]** eller<br/>![StatusGreen](/help/assets/icons/StatusGreen.svg) **[!UICONTROL Complete]**. |
@@ -85,7 +85,7 @@ Så här duplicerar du en plan:
 - Välj ![Mer](/help/assets/icons/More.svg) för en plan. Välj **[!UICONTROL Duplicate]** på snabbmenyn.
 - Du kan också välja en plan i tabellen ![SelectBox](/help/assets/icons/SelectBox.svg) och välja ![Kopiera](/help/assets/icons/Copy.svg) **[!UICONTROL Duplicate]** i det blå åtgärdsfältet.
 
-En ny plan, med ett namn som består av den ursprungliga planens namn som har lagts till med **[!UICONTROL (Copy)](_n_)**, skapas. Du omdirigeras automatiskt till [Planskapande](build.md) för att tillhandahålla uppdaterad information om den kopierade planen.
+En ny plan, med ett namn som består av den ursprungliga planens namn som har lagts till med **[!UICONTROL (Copy)] (_n_)**, skapas. Du omdirigeras automatiskt till [Planskapande](build.md) för att tillhandahålla uppdaterad information om den kopierade planen.
 
 - Information (som Beskrivning, Budget med mera) från den ursprungliga planen kopieras över.
 - Budgetbegränsningar från den ursprungliga planen kopieras till den nya planen.
@@ -116,6 +116,6 @@ Så här tar du bort flera planer:
 
 1. Välj flera planer.
 1. Välj ![Ta bort](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** i det blå åtgärdsfältet för att ta bort planerna.
-1. Välj **[!UICONTROL Delete]** i bekräftelsedialogrutan för **[!UICONTROL Delete *x *-planer]**om du vill ta bort planerna. Välj **[!UICONTROL Cancel]**om du vill avbryta.
+1. Välj **[!UICONTROL Delete]** i bekräftelsedialogrutan för **[!UICONTROL Delete *x *-planer]**&#x200B;om du vill ta bort planerna. Välj **[!UICONTROL Cancel]**&#x200B;om du vill avbryta.
 
 

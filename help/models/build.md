@@ -4,9 +4,9 @@ description: Lär dig hur du bygger modeller i Mix Modeler, inklusive hur du kon
 feature: Models
 solution: Mix Modeler
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: 7836e378a0f9068fc868dcede0ab8b3e2803776a
+source-git-commit: 3a8c82d30e97e875e129c931dcd2578fa39f05a5
 workflow-type: tm+mt
-source-wordcount: '1570'
+source-wordcount: '1578'
 ht-degree: 0%
 
 ---
@@ -181,6 +181,10 @@ Så här konfigurerar du kanaldata:
    * Använd ![Lägg till](/help/assets/icons/Add.svg) om du vill öka ett värde, ![Subtrahera](/help/assets/icons/Subtract.svg) om du vill minska ett värde eller ange ett värde manuellt.
 
   Det totala antalet fördröjningsveckor plus maximala uppslagsveckor per kanal begränsas till en åttondel av det konfigurerade utbildningsfönstret. Den här begränsningen tillåter tillräckligt med data för att modellen ska kunna lära sig adstock-effekterna. För ett tvåårigt utbildningsfönster är det maximala antalet **[!UICONTROL Lag (weeks)]** och **[!UICONTROL Lookback (weeks)]** för en kanal till exempel 13 veckor. Den här ändpunkten används när du definierar värdena.
+
+* Så här återställer du alla kanaldata till standardvärden:
+
+   * Välj **[!UICONTROL Reset to defaults]**.
 
 
 ## Ange alternativ
